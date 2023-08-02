@@ -363,8 +363,8 @@ rkJggg=="/></svg></a><button data-bs-toggle="collapse" class="navbar-toggler" da
                 var url = 'https://api.github.com/repos/' + owner + '/' + repo + '/git/trees/main?recursive=1';
 
                 var headers = {
-                    'Authorization': 'token ' + token,
-                    'Accept': 'application/vnd.github.v3+json'
+                    'Authorization': 'Bearer ' + token,
+                    'X-GitHub-Api-Version': '2022-11-28'
                 };
 
                 $.ajax({
