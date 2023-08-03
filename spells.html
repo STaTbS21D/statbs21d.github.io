@@ -1,5 +1,6 @@
 <!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"><title  id="page-title">STaTbS21D - Selected Spells</title><meta name="description" content="Synoptic Edition of Book of the Dead Spell Sources from the 21st Dynasty (STaTbS21D) is a Digital Humanities project on Egyptology, provides edited and digitalized Book of the Dead spell sources from the end of the New Kingdom and the beginning of the Third Intermediate Period (particularly the 21st Dynasty) for the Egyptological community and the general public."><link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i&amp;display=swap"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.css">
 <link  id="page-css" rel="stylesheet" href="assets/css/styles.min.css"><script src="assets/js/jquery-3.6.3.js?h=84e399b8f2181ccd73394fdeddff1638"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
 </head>
 
 <body>
@@ -357,7 +358,10 @@ rkJggg=="/></svg></a><button data-bs-toggle="collapse" class="navbar-toggler" da
         $(document).ready(function() {
             var owner = 'STaTBS21D';
             var repo = 'Book_of_the_Dead_Sources';
-            var token = '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'; // Optional: Use a GitHub personal access token for authenticated requests
+            var token = 'U2FsdGVkX1/o/4PlzavsXrZ3oQmKr/WA8zHuMWQwZfxTPcwWjWOrWLSxxFQ9REd10KY3i3R8T0rvI8NY1oMIbBvTmnngNWxH8hrHYlEe4VLQgssCbY5Af+DxFkwB7MkIXswSZItuoayQeKIvcKATGg=='; 
+			var password = 'senerpaitui';
+			var decryptedBytes = CryptoJS.AES.decrypt(token, password);
+			token = decryptedBytes.toString(CryptoJS.enc.Utf8);
 
             function getRootFolders() {
                 var url = 'https://api.github.com/repos/' + owner + '/' + repo + '/git/trees/main?recursive=1';
