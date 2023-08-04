@@ -22,7 +22,7 @@
 <li id="navItem2" class="nav-item" style="font-size: 18px;"><a class="nav-link" data-bss-hover-animate="flash" href="sources.html" style="font-size: 18px;">BD Sources</a></li>
 <li id="navItem3" class="nav-item" style="font-size: 18px;"><a class="nav-link" data-bss-hover-animate="flash" href="spells.html" style="font-size: 18px;">Selected Spells</a></li>
 <li id="navItem4" class="nav-item" style="font-size: 18px;"><a class="nav-link" data-bss-hover-animate="flash" href="news.html" style="font-size: 18px;">News Feed</a></li>
-<li id="navItem5" class="nav-item" style="font-size: 18px;"><a class="nav-link" data-bss-hover-animate="flash" href="refferences.html" style="font-size: 18px;">Refferences</a></li>
+<li id="navItem5" class="nav-item" style="font-size: 18px;"><a class="nav-link" data-bss-hover-animate="flash" href="references.html" style="font-size: 18px;">References</a></li>
 </ul></div></div></nav>
 
 <main class="page landing-page">
@@ -48,167 +48,9 @@
   <path fill-rule="evenodd" clip-rule="evenodd" d="M6 2C4.34315 2 3 3.34315 3 5V19C3 20.6569 4.34315 22 6 22H18C19.6569 22 21 20.6569 21 19V9C21 5.13401 17.866 2 14 2H6ZM6 4H13V9H19V19C19 19.5523 18.5523 20 18 20H6C5.44772 20 5 19.5523 5 19V5C5 4.44772 5.44772 4 6 4ZM15 4.10002C16.6113 4.4271 17.9413 5.52906 18.584 7H15V4.10002Z" fill="currentColor"></path>
 </svg><h4>Final outputs</h4><p style="font-size: 16px;">•<span style="color: black;">Digital transcriptions (in JSesh</span><br><span style="color: black;">*.gly&nbsp;files &amp; Unicode *.md files) available in Open Access via Github (regular basis) and&nbsp; Zenodo&nbsp;(end of project). </span><br>•<span style="color: black;">Journal articles and other publications&nbsp;from parallel lines of research.</span><br>•<span style="color: black;">Synoptic edition in book format (SAT or TbT series).&nbsp;</span><br></p></div></div></div></section>
 
-<section class="clean-block about-us dark" style="margin: 0px;"><div class="container" data-aos="zoom-in-down" data-aos-duration="1500"><div class="block-heading"><h2 class="text-info" style="text-align: center;">Staff</h2></div><div class="row justify-content-center"><div class="col-sm-6 col-lg-4"><div class="card text-center clean-card"><img class="card-img-top w-100 d-block" src="assets/img/Sener3.png" style="width: 250px;"><div class="card-body info" style="padding: 7px;"><h4 class="card-title">Ivan Rodríguez López</h4><p class="card-text" style="font-weight: bold;">Project Director<br>Group for the Study and Promotion<br>of Egyptology in Cuba</p><div class="icons"><a href="https://twitter.com/Senerpaitui" target="_blank"><i class="icon-social-twitter"></i></a><a href="https://www.facebook.com/senerpaitui" target="_blank"><i class="icon-social-facebook"></i></a><a href="https://github.com/STaTbS21D" target="_blank"><i class="icon-social-github"></i></a></div></div></div></div></div></div></section>
+<section class="clean-block about-us dark" style="margin: 0px;"><div class="container" data-aos="zoom-in-down" data-aos-duration="1500"><div class="block-heading"><h2 class="text-info" style="text-align: center;">Project Team</h2></div><div class="row justify-content-center"><div class="col-sm-6 col-lg-4"><div class="card text-center clean-card"><img class="card-img-top w-100 d-block" src="assets/img/Sener3.png" style="width: 250px;"><div class="card-body info" style="padding: 7px;"><h4 class="card-title">Ivan Rodríguez López</h4><p class="card-text" style="font-weight: bold;">Project Director<br>Group for the Study and Promotion<br>of Egyptology in Cuba</p><div class="icons"><a href="https://twitter.com/Senerpaitui" target="_blank"><i class="icon-social-twitter"></i></a><a href="https://www.facebook.com/senerpaitui" target="_blank"><i class="icon-social-facebook"></i></a><a href="https://github.com/STaTbS21D" target="_blank"><i class="icon-social-github"></i></a></div></div></div></div></div></div></section>
 
 </main>
-
-<script>
-/*
-		var urli = new URLSearchParams(window.location.search);
-        var source = urli.get('id');
-		
-        // Content Arrays
-        var contentArray = [
-            { title: 'STaTbS21D - Book of the Dead Sources', htmlFile: 'sources.html', cssFile: 'assets/css/styles.min.css', jsFile: 'assets/js/script.min.js' },
-            { title: 'STaTbS21D - Selected Spells', htmlFile: 'spells.html', cssFile: 'assets/css/styles.min.css', jsFile: 'assets/js/script.min.js' },
-            { title: 'STaTbS21D - Project News', htmlFile: 'feed.html', cssFile: 'assets/css/styles.min.css', jsFile: 'assets/js/script.min.js' },
-			{ title: 'STaTbS21D - Refferences', htmlFile: 'refferences.html', cssFile: 'assets/css/styles.min.css', jsFile: 'assets/js/script.min.js' },
-			{ title: 'STaTbS21D - ' + source, htmlFile: 'unicodefile.html', cssFile: 'assets/css/styles.min.css', jsFile: 'assets/js/script.min.js' }
-        ];
-
-        var defaultContent = {
-            title: 'STaTbS21D - Synoptic Edition of Book of the Dead Spell Sources from the 21st Dynasty',
-            htmlFile: 'default.html',
-            cssFile: 'assets/css/styles.min.css',
-            jsFile: 'assets/js/script.min.js'
-        };
-
-        // Load Content
-        $(document).ready(function() {
-            var urli = new URLSearchParams(window.location.search);
-            var requestedContent = urli.get('p');
-
-            if (!requestedContent || !isValidContent(requestedContent)) {
-                loadContent(defaultContent);
-            } else {
-                var matchedContent = contentArray.find(function(content) {
-                    return content.title === requestedContent;//htmlFile + '.html' === requestedContent;
-                });
-
-                loadContent(matchedContent);
-            }
-        });
-
-        // Helper Function: Check if the requested content is valid
-        function isValidContent(requestedContent) {
-            var contentTitles = contentArray.map(function(content) {
-                return content.title;
-            });
-
-            return contentTitles.includes(requestedContent);
-        }
-
-        // Helper Function: Load Content
-        function loadContent(content) {
-            // Update Page Title
-            $('title').text(content.title);
-
-            // Update CSS and JS Files
-           // $('link[rel="stylesheet"]').attr('href', content.cssFile);
-           // $('script[src^="content"]').remove();
-           // $('<script>').attr('src', content.jsFile).appendTo('head');
-
-            // Update Navigation Bar
-            $('.navbar-nav li a').removeClass('active');
-            $('#navItem' + (contentArray.indexOf(content) + 1) + ' a').addClass('active');
-			
-			//$('#navBar li a.active').click(function(){ $(this).removeClass('active');});
-			
-			//$('#navBar li a:not(.active)').click(function(){ $(this).addClass('active');});
-
-            // Load HTML Content
-            $('#contentContainer').load(content.htmlFile);
-			
-			
-        }   */
-		/*
-		// Array with content data
-const contentData = [
-	{  //1
-		title: 'STaTbS21D - Synoptic Edition of Book of the Dead Spell Sources from the 21st Dynasty',
-		urlParam: "home",
-        htmlFile: 'default.html',
-        cssFile: 'assets/css/styles.min.css',
-        jsFile: 'assets/js/script.min.js',
-		content: "<h1>Welcome to the Home Page</h1>"
-    },
-	{ //2
-		title: 'STaTbS21D - Book of the Dead Sources',
-		urlParam: "sources",		
-		htmlFile: 'sources.html', 
-		cssFile: 'assets/css/styles.min.css', 
-		jsFile: 'assets/js/script.min.js' 
-	},
-    { //3
-		title: 'STaTbS21D - Selected Spells', 
-		urlParam: "spells",
-		htmlFile: 'spells.html', 
-		cssFile: 'assets/css/styles.min.css', 
-		jsFile: 'assets/js/script.min.js' 
-	},
-    { //4
-		title: 'STaTbS21D - Project News', 
-		urlParam: "news",
-		htmlFile: 'feed.html', 
-		cssFile: 'assets/css/styles.min.css', 
-		jsFile: 'assets/js/script.min.js' 
-	},
-	{ //5
-		title: 'STaTbS21D - Refferences', 
-		urlParam: "ref",
-		htmlFile: 'refferences.html', 
-		cssFile: 'assets/css/styles.min.css', 
-		jsFile: 'assets/js/script.min.js' 
-	},
-	{ //6
-		title: 'STaTbS21D - ' + source, 
-		urlParam: "unicode",
-		htmlFile: 'unicodefile.html', 
-		cssFile: 'assets/css/styles.min.css', 
-		jsFile: 'assets/js/script.min.js' 
-	}
-];
-
-// Get the URL parameter
-const urlParams = new URLSearchParams(window.location.search);
-const currentParam = urlParams.get("page");
-
-// Find the corresponding content object based on the URL parameter
-const currentContent = contentData.find(content => content.urlParam === currentParam);
-
-// Set the title and linked CSS file
-if (currentContent) {
-  document.getElementById("page-title").innerText = currentContent.title;
-  document.getElementById("page-css").href = currentContent.cssFile;
-
-  // Load the content
-  document.getElementById("content").innerHTML = currentContent.content;
-  
-  // Load HTML Content
-            //$('#content').load(currentContent.content);
-
-  // Load the linked JS file
-  const script = document.createElement("script");
-  script.src = currentContent.jsFile;
-  document.body.appendChild(script);
-}
-
-// Generate the navigation bar
-const navigation = document.getElementById("navigation");
-for (const content of contentData) {
-  const navItem = document.createElement("a");
-  navItem.href = ?page=${content.urlParam};
-  navItem.innerText = content.title;
-
-  // Apply active class to the current page link
-  if (content.urlParam === currentParam) {
-    navItem.classList.add("active");
-  }
-
-  navigation.appendChild(navItem);
-} */
-
-    </script>
 
 
 <footer class="page-footer dark"><div class="container blockquote" align="right"><div class="d-block"><div class="row-cols-auto"><a href="https://github.com/STaTbS21D/Book_of_the_Dead_Sources" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-8 0 512 512" width="1em" height="1em" fill="white" style="font-size: 70px;">

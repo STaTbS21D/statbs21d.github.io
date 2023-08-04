@@ -26,27 +26,24 @@
 <li id="navItem2" class="nav-item" style="font-size: 18px;"><a class="nav-link" data-bss-hover-animate="flash" href="sources.html" style="font-size: 18px;">BD Sources</a></li>
 <li id="navItem3" class="nav-item" style="font-size: 18px;"><a class="nav-link" data-bss-hover-animate="flash" href="spells.html" style="font-size: 18px;">Selected Spells</a></li>
 <li id="navItem4" class="nav-item" style="font-size: 18px;"><a class="nav-link" data-bss-hover-animate="flash" href="news.html" style="font-size: 18px;">News Feed</a></li>
-<li id="navItem5" class="nav-item" style="font-size: 18px;"><a class="nav-link active" data-bss-hover-animate="flash" href="refferences.html" style="font-size: 18px;">Refferences</a></li>
+<li id="navItem5" class="nav-item" style="font-size: 18px;"><a class="nav-link active" data-bss-hover-animate="flash" href="references.html" style="font-size: 18px;">References</a></li>
 </ul></div></div></nav>
 
 <main class="page testimonials">
 <section class="clean-block clean-testimonials dark">
 <div class="container">
 <div class="block-heading">
-<h2 class="text-info">Refferences</h2>
+<h2 class="text-info">References</h2>
 </div>
 
 <div class="row">
 	<div id="libraryContent" class="block-content">
-	
-	<p><a href="https://github.com/BLE-LTER/Zotero-JavaScript-Search-Client"
-            rel="noopener">Zotero-JavaScript-Search-Client</a></p>
-      
+	     
       <form id="zoteroSearchForm" name="zoteroSearchForm">
-         <input class="search-input" name="q" placeholder="Enter search term" type="text">
-         <input type="submit" value="Search">
+         <div class="input-group"><input class="form-control row-cols-1 p-1" name="q" placeholder="Enter search term" type="text" autocomplete="off">
+         <input class="btn btn-light btn-lg" type="submit" value="Search"> </div>
       </form>
-
+<br>
       <div class="loading" id="loading-div">
          <div align="center"><img src="assets/img/loading.gif" /></div>
       </div>
@@ -54,11 +51,15 @@
       <div class="resultCount" id="resultCount"></div>
       <div id="searchResults"></div>
       <div class="pagination" id="paginationBot"></div>
-	  
-		 
+	  <br>
+	  <div align="right">Powered by: <a class="btn btn-sm btn-light" href="https://github.com/BLE-LTER/Zotero-JavaScript-Search-Client"
+            rel="noopener" target="_blank">Zotero-JavaScript-Search-Client</a></div>
+	  <br>
+	  <br>
+		 <div align="center"><a id="zotero" class="btn btn-outline-primary btn-lg" type="link" target="blank" href="https://www.zotero.org/groups/5136201/statbs21d">Open in Zotero Library</a></div>
 	</div>
 	
-	<div align="center"><a id="zotero" class="btn btn-outline-primary btn-lg" type="link" target="blank" href="https://www.zotero.org/groups/5136201/statbs21d">Open in Zotero Library</a></div>
+	
 		
 </div>
 </div>

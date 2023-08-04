@@ -92,7 +92,7 @@ function showResultCount(query, total, limitPerPage, currentStartIndex, domEleme
    if (total > 1) {
       s = "s";
    }
-   var found = "<p>Found " + total + " result" + s;
+   var found = "<p>Found " + total + " reference" + s;
    if (query != "" && query != null) {
       query = escapeHtml(query);
       var forQuery = ' for <span class="result-query">' + query + '</span>';
