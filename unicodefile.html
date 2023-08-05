@@ -1,5 +1,7 @@
 <!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"><title  id="page-title">STaTbS21D - Spell Coding</title><meta name="description" content="Synoptic Edition of Book of the Dead Spell Sources from the 21st Dynasty (STaTbS21D) is a Digital Humanities project on Egyptology, provides edited and digitalized Book of the Dead spell sources from the end of the New Kingdom and the beginning of the Third Intermediate Period (particularly the 21st Dynasty) for the Egyptological community and the general public."><link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i&amp;display=swap"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.css">
-<link  id="page-css" rel="stylesheet" href="assets/css/styles.min.css"><script src="/assets/js/jquery-3.6.3.js?h=84e399b8f2181ccd73394fdeddff1638"></script>
+<link  id="page-css" rel="stylesheet" href="assets/css/styles.min.css">
+<script src="assets/js/jquery-3.6.3.js?h=84e399b8f2181ccd73394fdeddff1638"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
 </head>
 
 <body>
@@ -26,14 +28,144 @@
 </ul></div></div></nav>
 
 <main class="page faq-page">
+
 <section class="clean-block clean-faq dark">
-<div class="container">
-<div class="block-heading"><h2 class="text-info">{Unicode File Name}</h2><p>Edited by: {Name}</p></div>
-<div class="block-content">
-	<div align="center"><img src="assets/img/loading.gif" /></div>
+
+<div id="markdownContent" class="container">
+
+		<div id="loader" align="center"><br><br><div class="block-content"><img src="assets/img/loading.gif" /></div></div>
+
 </div>
-</div></section>
+
+</section>
+
 </main>
+
+<script>
+        $(document).ready(function () {
+		
+			const urlParams = new URLSearchParams(window.location.search);
+			const TM = 'TM ' + urlParams.get("id");  
+			const Spell = 'Spell ' + urlParams.get("spell");  
+			var githubURL = 'https://raw.githubusercontent.com/STaTbS21D/Book_of_the_Dead_Sources/main/' + Spell + '/Unicode/';
+			
+			
+			var owner = 'STaTBS21D';
+            var repo = 'Book_of_the_Dead_Sources';
+            var token = 'U2FsdGVkX1/o/4PlzavsXrZ3oQmKr/WA8zHuMWQwZfxTPcwWjWOrWLSxxFQ9REd10KY3i3R8T0rvI8NY1oMIbBvTmnngNWxH8hrHYlEe4VLQgssCbY5Af+DxFkwB7MkIXswSZItuoayQeKIvcKATGg=='; 
+			var password = 'senerpaitui';
+			var decryptedBytes = CryptoJS.AES.decrypt(token, password);
+			token = decryptedBytes.toString(CryptoJS.enc.Utf8);
+			
+			
+			
+			function getUnicodeFile() {
+			
+                var url = 'https://api.github.com/repos/' + owner + '/' + repo + '/git/trees/main?recursive=1';
+				
+				var unicodefile = '';
+
+                var headers = {
+                    'Authorization': 'Bearer ' + token,
+                    'X-GitHub-Api-Version': '2022-11-28'
+                };
+
+                $.ajax({
+                    url: url,
+                    headers: headers,
+                    success: function(response) {
+                        var folderList = {};
+						
+			// Loop through the repository contents
+                        $.each(response.tree, function(index, item) {
+                            if (item.type === 'blob') {
+                                var path = item.path;
+								
+                                if (path.includes('Unicode/')) {
+                                    var rootFolder = getRootFolder(path);
+
+                                    if (rootFolder) {
+                                        if (!folderList[rootFolder]) {
+                                            folderList[rootFolder] = [];
+                                        }
+
+                                        folderList[rootFolder].push(path);
+                                    }
+                                }
+                            }
+                        });
+						
+						var fileName = '';
+						
+						$.each(folderList, function(folder, files) {
+						
+							$.each(files, function(index, file) {
+							
+								if($.startsWith(file, TM))
+								{
+									fileName = file;
+									return false;
+								}
+                                
+                            });
+						
+						});
+						
+						return fileName;
+						
+					}
+					
+					unicodefile = response;
+						
+				});
+				
+				return unicodefile;
+						
+			}
+						
+			githubURL += getUnicodeFile();
+
+            // Fetch the content of the Markdown file
+            $.ajax({
+                url: githubURL,
+                success: function (data) {
+                    var htmlContent = parseMarkdown(data);
+                    $('#markdownContent').html(htmlContent);
+					if(htmlContent){ document.getElementById('loader').style.display = "none";}
+                }
+            });
+
+            // Parse the Markdown content and format it
+            function parseMarkdown(mdContent) {
+                var lines = mdContent.split('\n');
+                var htmlContent = '<div class="block-heading">';
+
+                for (var i = 0; i < lines.length; i++) {
+                    var line = lines[i];
+
+                    if (line.startsWith('##')) {
+                        // Level 2 heading, wrap in <h4> tags
+                        htmlContent += '<h4>' + line.substring(2).trim() + '</h4>';
+                    } else if (line.startsWith('#')) {
+                        // Level 1 heading, wrap in <h2> tags
+                        htmlContent += '<h2 class="text-info">' + line.substring(1).trim() + '</h2></div><div class="block-content">';
+                    } else {
+                        // Normal text line
+                        htmlContent += line;
+                    }
+
+                    // Append line break after each line
+                    //htmlContent += '<br>';
+                }
+				
+				htmlContent += '</div>';
+				
+                return htmlContent;
+            }
+			
+        });
+		
+</script>
 
 <footer class="page-footer dark"><div class="container blockquote" align="right"><div class="d-block"><div class="row-cols-auto"><a href="https://github.com/STaTbS21D/Book_of_the_Dead_Sources" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-8 0 512 512" width="1em" height="1em" fill="white" style="font-size: 70px;">
     <path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path>
@@ -51,4 +183,5 @@
   <g id="_2324734055568">
    <path class="fil0" d="M3668.88 210.19l0.44 -0.61c-9.09,-4.98 -18.36,-9.63 -27.8,-13.9 -0.03,-0.02 -0.07,-0.03 -0.11,-0.05 9.31,4.54 18.47,9.41 27.46,14.56zm-320.84 -32.68c-6.87,2.32 -13.64,4.89 -20.28,7.75 -33.83,14.56 -62.8,35.92 -82.64,67.27 -21.07,33.3 -28.23,72.18 -28.23,111.11l0 0.64c0,35.71 4.76,81.43 27.55,110.68 18.47,23.71 40.91,41.72 69.44,51.55 44.21,15.23 92.77,25.05 138.79,32.93l9.29 1.73c3.78,0.32 7.54,0.92 11.22,1.81 35.99,6.59 72.89,14.75 107.47,26.65 34.61,11.92 65.22,30.98 89.63,58.38 28.84,32.37 40.08,73.45 40.08,116.13l0 0.64c0,64.53 -27.89,118.43 -81.59,154.44 -13.98,9.37 -28.88,17.02 -44.39,23.22 4.7,-1.66 9.34,-3.44 13.93,-5.34 34.97,-14.53 65.36,-35.61 86.57,-67.38 21.53,-32.25 28.9,-69.85 28.9,-108.14l0 -1.06c0,-34.47 -4.75,-76.23 -25.52,-105.06 -17.3,-24.01 -38.89,-42.42 -66.32,-53.84 -40.05,-16.67 -84.1,-27.93 -126.51,-36.63 -0.15,-0.03 -0.31,-0.07 -0.46,-0.1l-1.61 -0.14 -2.48 -0.41c-2.98,-0.5 -5.93,-1.06 -8.89,-1.66l-1.36 -0.28 -1.34 -0.33c-0.26,-0.06 -0.51,-0.13 -0.76,-0.19 -2.23,-0.35 -4.43,-0.76 -6.64,-1.26 -38.72,-7.54 -78.7,-16.16 -116.24,-28.27 -34.46,-11.12 -65.63,-29.12 -91.15,-54.95 -31.24,-31.61 -44.17,-72.87 -44.17,-116.74l0 -0.64c0,-63.39 25.17,-117.9 76.91,-155.18 15.82,-11.4 32.92,-20.37 50.83,-27.33zm-60.48 763.38c-0.75,-0.27 -1.51,-0.54 -2.27,-0.81 -29.31,-10.52 -57.03,-24.25 -83.01,-40.86l-1.44 1.77c10.93,6.78 22.21,13.03 33.79,18.73 17.12,8.43 34.82,15.41 52.93,21.16zm866.59 -772.59l-4.48 0 0 785.63 4.48 0 0 -785.63zm775.08 371.3c-3.52,-14.45 -8.67,-28.45 -15.9,-41.52 -5.69,-10.3 -12.36,-19.42 -19.99,-27.49 17.42,20.47 28.99,43.93 35.88,69.01zm-1562.84 1164.35l-4.48 0 0 785.63 4.48 0 0 -785.63zm471.72 609.7l0 -609.7 -4.48 0 0 785.63 4.48 0 0 -175.93zm257.02 183.07c19.89,-2.92 39.15,-8.97 56.61,-19.64 24.54,-15.02 41.3,-36.13 52.97,-62.24 16.02,-35.84 20.89,-77.41 20.89,-116.33l0 -141.17c0,-39.59 -4.76,-82.12 -20.57,-118.78 -11.09,-25.73 -27.15,-47.5 -51.05,-62.61 -19.3,-12.2 -41.05,-18.2 -63.4,-20.4 30.48,9.21 57.96,25.87 80.42,51.33 37.03,41.99 49.91,96.29 49.91,151.09l0 140.53c0,54.52 -13.04,108.4 -50.41,149.74 -21.31,23.57 -47.02,39.3 -75.36,48.48zm885.9 -750.88l0.44 -0.61c-9.09,-4.98 -18.36,-9.63 -27.8,-13.9 -0.03,-0.02 -0.07,-0.03 -0.11,-0.05 9.31,4.54 18.47,9.41 27.46,14.56zm-320.84 -32.68c-6.87,2.32 -13.64,4.89 -20.28,7.75 -33.83,14.56 -62.8,35.92 -82.64,67.27 -21.07,33.3 -28.23,72.18 -28.23,111.11l0 0.64c0,35.71 4.76,81.43 27.55,110.68 18.47,23.71 40.91,41.72 69.44,51.55 44.21,15.23 92.77,25.05 138.79,32.93l9.29 1.73c3.78,0.32 7.54,0.92 11.22,1.81 35.99,6.59 72.89,14.75 107.47,26.65 34.61,11.92 65.22,30.98 89.63,58.38 28.84,32.37 40.08,73.45 40.08,116.13l0 0.64c0,64.53 -27.89,118.43 -81.59,154.44 -13.98,9.37 -28.88,17.02 -44.39,23.22 4.7,-1.66 9.34,-3.44 13.93,-5.34 34.97,-14.53 65.36,-35.61 86.57,-67.38 21.53,-32.25 28.9,-69.85 28.9,-108.14l0 -1.06c0,-34.47 -4.75,-76.23 -25.52,-105.06 -17.3,-24.01 -38.89,-42.42 -66.32,-53.84 -40.05,-16.67 -84.1,-27.93 -126.51,-36.63 -0.15,-0.03 -0.31,-0.07 -0.46,-0.1l-1.61 -0.14 -2.48 -0.41c-2.98,-0.5 -5.93,-1.06 -8.89,-1.66l-1.36 -0.28 -1.34 -0.33c-0.26,-0.06 -0.51,-0.13 -0.76,-0.19 -2.23,-0.35 -4.43,-0.76 -6.64,-1.26 -38.72,-7.54 -78.7,-16.16 -116.24,-28.27 -34.46,-11.12 -65.63,-29.12 -91.15,-54.95 -31.24,-31.61 -44.17,-72.87 -44.17,-116.74l0 -0.64c0,-63.39 25.17,-117.9 76.91,-155.18 15.82,-11.4 32.92,-20.37 50.83,-27.33zm-60.48 763.38c-0.75,-0.27 -1.51,-0.54 -2.27,-0.81 -29.31,-10.52 -57.03,-24.25 -83.01,-40.86l-1.44 1.77c10.93,6.78 22.21,13.03 33.79,18.73 17.12,8.43 34.82,15.41 52.93,21.16zm-1402.23 1519.9l0 11.24 320.74 -435.98c19.69,-26.77 35.9,-55.7 47.74,-86.77 9.53,-25.02 16.02,-51.68 16.02,-78.57l0 -0.64c0,-33.71 -5.43,-68.32 -22.16,-98.03 -14.24,-25.28 -34.57,-43.06 -60.65,-55.67 -17.43,-8.42 -36.25,-13.92 -55.49,-17.28 28.56,6.73 55.17,19.53 77.49,40.6 36.18,34.19 51.22,79.99 51.22,129.09l0 1.28c0,32.7 -7.69,64.89 -19.62,95.2 -12.65,32.15 -30.18,62.04 -50.88,89.65l-304.4 405.87zm121.94 -756.64c-10.41,3.24 -20.58,7.38 -30.42,12.56 -27.89,14.68 -49.4,35.84 -66.14,62.52 -7.93,12.64 -14.45,26.02 -19.78,39.88l4.78 0c9.99,-28.58 25.55,-54.72 48.33,-76.44 18.72,-17.85 40.1,-30.47 63.24,-38.52zm649.41 785.43l0 -785.63 -4.69 0 0 785.63 4.69 0zm352.29 0l0 -785.63 -4.69 0 0 785.63 4.69 0zm326.01 -11.89c19.11,-4.85 37.72,-11.4 55.41,-20.05 39.65,-19.38 70.4,-47.17 91.85,-85.77 24.71,-44.45 32.79,-96.01 32.79,-146.31l0 -257.4c0,-50.37 -8.04,-102 -32.79,-146.52 -21.4,-38.51 -52.13,-66.45 -91.56,-85.83 -19.76,-9.72 -40.76,-16.79 -62.33,-21.75 38.33,10.44 74.04,28.6 104.31,57.2 53.76,50.79 74.68,119.09 74.68,191.79l0 267.42c0,72.69 -20.93,140.99 -74.68,191.79 -28.52,26.95 -61.86,44.69 -97.68,55.43z"/>
   </g></g></svg>
-</div></div></div><div class="footer-copyright"><p>© 2023 STaTbS21D</p></div></footer><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.js"></script><script src="assets/js/script.min.js"></script></body></html>
+</div></div></div><div class="footer-copyright"><p>© 2023 Senerpaitui</p></div></footer><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.js"></script><script src="assets/js/script.min.js"></script>
+</body></html>
