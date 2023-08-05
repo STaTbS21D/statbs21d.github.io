@@ -42,11 +42,11 @@
 </main>
 
 <script>
-        $(document).ready(function () {
+       $(document).ready(function () {
 		
 			const urlParams = new URLSearchParams(window.location.search);
-			const TM = 'TM ' + urlParams.get("id");  
-			const Spell = 'Spell ' + urlParams.get("spell");  
+			const TM = 'TM ' + urlParams.get("id");  // TM '135240'
+			const Spell = 'Spell ' + urlParams.get("spell");  // Spell '194'
 			var githubURL = 'https://raw.githubusercontent.com/STaTbS21D/Book_of_the_Dead_Sources/main/' + Spell + '/Unicode/';
 			
 			
@@ -57,17 +57,15 @@
 			var decryptedBytes = CryptoJS.AES.decrypt(token, password);
 			token = decryptedBytes.toString(CryptoJS.enc.Utf8);
 			
-			
+			var unicodefile = '';
 			
 			function getUnicodeFile() {
 			
                 var url = 'https://api.github.com/repos/' + owner + '/' + repo + '/git/trees/main?recursive=1';
-				
-				var unicodefile = '';
 
                 var headers = {
                     'Authorization': 'Bearer ' + token,
-                    'X-GitHub-Api-Version': '2022-11-28'
+					 'X-GitHub-Api-Version': '2022-11-28'
                 };
 
                 $.ajax({
@@ -82,7 +80,7 @@
                                 var path = item.path;
 								
                                 if (path.includes('Unicode/')) {
-                                    var rootFolder = getRootFolder(path);
+                                    var rootFolder = Spell; 
 
                                     if (rootFolder) {
                                         if (!folderList[rootFolder]) {
@@ -101,39 +99,49 @@
 						
 							$.each(files, function(index, file) {
 							
-								if($.startsWith(file, TM))
+							var segments = file.split('/');
+							var ind = segments.indexOf(Spell);
+							var unicodef = '';
+
+							if (ind !== -1 && segments.length > ind + 1) {
+								unicodef = segments[ind + 2];
+							
+								if(unicodef.startsWith(TM))
 								{
-									fileName = file;
-									return false;
+									unicodefile = unicodef;
+									return false;									
 								}
-                                
+							}								
+                               
                             });
-						
+							
 						});
 						
-						return fileName;
-						
-					}
-					
-					unicodefile = response;
-						
-				});
+				githubURL += unicodefile;
 				
-				return unicodefile;
-						
+				// Fetch the content of the Markdown file
+			   $.ajax({
+					url: githubURL,
+					success: function (data) {
+						var htmlContent = parseMarkdown(data);
+						$('#markdownContent').html(htmlContent);
+						//if(htmlContent){ document.getElementById('loader').style.display = "none";}
+						}
+				});  
 			}
-						
-			githubURL += getUnicodeFile();
+		});
+	}
+			
+			function getRootFolder(filePath) {
+                var segments = filePath.split('/');
+                var index = segments.indexOf('Unicode');
 
-            // Fetch the content of the Markdown file
-            $.ajax({
-                url: githubURL,
-                success: function (data) {
-                    var htmlContent = parseMarkdown(data);
-                    $('#markdownContent').html(htmlContent);
-					if(htmlContent){ document.getElementById('loader').style.display = "none";}
+                if (index !== -1 && segments.length > index + 1) {
+					return segments[index + 1];
                 }
-            });
+
+                return null;
+            }
 
             // Parse the Markdown content and format it
             function parseMarkdown(mdContent) {
@@ -149,19 +157,20 @@
                     } else if (line.startsWith('#')) {
                         // Level 1 heading, wrap in <h2> tags
                         htmlContent += '<h2 class="text-info">' + line.substring(1).trim() + '</h2></div><div class="block-content">';
-                    } else {
+                    } 				
+					else {
                         // Normal text line
                         htmlContent += line;
                     }
 
-                    // Append line break after each line
-                    //htmlContent += '<br>';
                 }
 				
 				htmlContent += '</div>';
 				
                 return htmlContent;
             }
+		
+			getUnicodeFile();
 			
         });
 		
