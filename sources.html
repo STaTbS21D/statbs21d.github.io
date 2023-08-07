@@ -138,9 +138,7 @@
 						  var fileSeparator = file.indexOf(' - ');
 						  var TMnumber = file.substr(0, fileSeparator);
 						  var papyrus = file.substr(fileSeparator + 2);
-						  var spell = folders[0]; //  REVISAR AQUÍ!!!!!!!!!!
-						  $('.block-heading').append(spell);
-						  
+						  var spell = folders[0]; //  REVISAR AQUÍ!!!!!!!!!!						  
 						 						  
 						  var row = $('<tr>').append($('<td>').html(papyrus + ' <a href="https://totenbuch.awk.nrw.de/objekt/tm' + TMnumber + '" target="_blank"><sup alt="Totenbuch Projekt reference">[TbP]</sup></a> <a href="https://trismegistos.org/text/' + TMnumber + '" target="_blank"><sup alt="Trismegistos reference">[TM]</sup></a>')).append($('<td>').html('<a class="btn btn-light" href="spells.html#sp' + spell + '">Spell ' + spell + '</a>'));
 						  
