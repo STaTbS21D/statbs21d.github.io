@@ -114,12 +114,6 @@
 								{
 									unicodefile = unicodef;
 									
-									var fileSeparator = unicodef.indexOf(' - ');
-									var papyrus = unicodef.substring(fileSeparator + 2);
-									papyrus = papyrus.substring(-3);
-												  
-									var newTitle = 'STaTbS21D - ' +  papyrus;
-									document.title = newTitle;
 									return false;									
 								}
 							}								
@@ -168,6 +162,9 @@
                     } else if (line.startsWith('#')) {
                         // Level 1 heading, wrap in <h2> tags
                         htmlContent += '<h2 class="text-info">' + line.substring(1).trim() + '</h2></div><div class="block-content">';
+						
+									var newTitle = 'STaTbS21D - ' +  line.substring(1).trim();
+									document.title = newTitle;
                     } 				
 					else {
                         // Normal text line

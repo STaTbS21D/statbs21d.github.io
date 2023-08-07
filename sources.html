@@ -45,9 +45,9 @@
 </main>
 
 <script>
-        $(document).ready(function () {
+$(document).ready(function () {
     
-			var owner = 'STaTBS21D';
+		var owner = 'STaTBS21D';
 			var repo = 'Book_of_the_Dead_Sources';
 			var token = 'U2FsdGVkX1/o/4PlzavsXrZ3oQmKr/WA8zHuMWQwZfxTPcwWjWOrWLSxxFQ9REd10KY3i3R8T0rvI8NY1oMIbBvTmnngNWxH8hrHYlEe4VLQgssCbY5Af+DxFkwB7MkIXswSZItuoayQeKIvcKATGg=='; 
 			var password = 'senerpaitui';
@@ -55,7 +55,7 @@
 			token = decryptedBytes.toString(CryptoJS.enc.Utf8);
 			
 			
-		function fetchFiles() {
+		//function fetchFiles() {
 			 
 			var apiEndpoint = 'https://api.github.com/repos/' + owner + '/' + repo + '/git/trees/main?recursive=1';
 			
@@ -69,174 +69,123 @@
 			  url: apiEndpoint,
 			  //dataType: 'json',
 			  headers: headers,
-			  success: function(data) {
-				processFiles(data);
+			  success: function(response) {
+				//processFiles(data, '');
+						var folderList = {};
+						var rootSpell = {};
+						var ind = '';
+				
+						$.each(response.tree, function(index, item) {
+                            if (item.type === 'blob') {
+                                var path = item.path; //$('.block-heading').append(path);
+								
+                                if (path.includes('Unicode/')) {
+                                    var rootFolder = getRootFolder(path); 
+										ind = rootFolder;
+
+                                    if (rootFolder) {
+									
+                                        if (!folderList[rootFolder]) {
+										
+                                            folderList[rootFolder] = []; 
+											rootSpell[rootFolder] = [];
+                                        }
+
+										folderList[rootFolder].push(rootFolder); 
+										rootSpell[rootFolder].push(getSpellFolder(path)); 
+                                    }
+                                }
+                            }
+                        });
+						
+						
+						var table = $('<table>');
+						var headerRow = $('<thead>').$('<tr>').append($('<th>').text('Book of the Dead Spell Source')).append($('<th>').text('Available Spells'));
+						table.append(headerRow);
+
+
+						var uniqueFiles = []; // array to store unique file names
+						var uniqueFileSpellPairs = [];
+						
+						$.each(folderList[ind], function(i, fileName) {
+						//for (var i = 0; i < folderList[ind].length; i++) {
+						  //var fileName = folderList[ind][i];  //$('.block-heading').append(fileName); 
+						  var spellFolder = rootSpell[ind][i];
+						  
+						  
+						  var fileSeparator = fileName.indexOf(' - ');
+						  var TMnumber = fileName.substr(0, fileSeparator);
+						  TMnumber = TMnumber.substring(3);
+						  var papyrus = fileName.substr(fileSeparator + 2);
+						  papyrus = papyrus.slice(0, -3);
+						  var spell = spellFolder.substring(6);
+						  
+						  
+						  // check if file name and spell folder pair is already in the uniqueFileSpellPairs array
+						  var pair = fileName + spellFolder;
+						  var pairIndex = uniqueFileSpellPairs.indexOf(pair);
+						  if (pairIndex !== -1) {
+							// find the row for the file name and append the spell folder
+							var row = table.find('tr').eq(pairIndex);
+							
+							var spellFoldersText = row.find('td:last').text();
+							if (!spellFoldersText.includes(spellFolder)) {
+							  spellFoldersText += ' <a class="btn btn-light" href="spells.html#sp' + spell + '">' + spellFolder + '</a>';
+							  row.find('td:last').html(spellFoldersText);
+							}
+						  } else {
+							// add a new row for the file name and spell folder pair
+							var row = $('<tbody>').$('<tr>').append($('<td>').html(papyrus + ' <a href="https://totenbuch.awk.nrw.de/objekt/tm' + TMnumber + '" target="_blank"><sup alt="Totenbuch Projekt reference">[TbP]</sup></a> <a href="https://trismegistos.org/text/' + TMnumber + '" target="_blank"><sup alt="Trismegistos reference">[TM]</sup></a>')).append($('<td>').html('<a class="btn btn-light" href="spells.html#sp' + spell + '">' + spellFolder + '</a>'));
+							
+							// add the file name and spell folder pair to the uniqueFileSpellPairs array
+							uniqueFileSpellPairs.push(pair);
+							
+							// add the new row to the table
+							table.append(row);
+						  		  	
+							}							
+						}); //LOOP ORIGIN ARRAYS
+									
+						
+			  
+						$('#fileListBody').html(table);
+										
 			  },
 			  error: function() {
-				console.log('Error fetching files from GitHub repository.');
+				$('#fileListBody').html('Error fetching files from GitHub repository.');
 			  }
-			});
-		  }
-
-		  // Function to process fetched files and print the table
-		  function processFiles(files) {
-			var uniqueFiles = {};
-			var spellFiles = {};
-
-			//files.forEach(function(file) {
-			$.each(files, function(index, file) {
-			  var fileName = file.name;
-			  var filePath = file.path;
-
-			  if (file.type === 'file' && fileName.endsWith('.md') && filePath.includes('/Unicode/')) {
-				var spellNumber = filePath.match(/Spell (\d+)/)[1];
-				var spellFolder = 'Spell ' + spellNumber;
-
-				if (!(fileName in uniqueFiles)) {
-				  uniqueFiles[fileName] = [];
-				}
-				if (!(spellFolder in spellFiles)) {
-				  spellFiles[spellFolder] = [];
-				}
-
-				uniqueFiles[fileName].push(spellFolder);
-				spellFiles[spellFolder].push(fileName);
-			  }
+			 			  
 			});
 
-			printTable(uniqueFiles, spellFiles);
-		  }
-
-		  // Function to print the table with file names and Spell folders
-		  function printTable(uniqueFiles, spellFiles) {
-			var table = $('<table>').addClass('file-table');
-			var headerRow = $('<tr>').append('<th>Book of the Dead Spell Source</th>').append('<th>Available Spells</th>');
-			table.append(headerRow);
-
-			//Object.entries(uniqueFiles).forEach(function([fileName, spellFolders]) {
-			
-		/*	$.each(Object.entries(uniqueFiles), function([fileName, spellFolders]) {
-				var fileSeparator = fileName.indexOf(' - ');
-				var TMnumber =  fileName.substr(0, fileSeparator);
-				TMnumber =  TMnumber.substring(3);
-				var papyrus = fileName.substr(fileSeparator + 2);
-				var spell = spellFolders.substring(6);
-							
-				var row = $('<tr>').append('<td>' + papyrus +  '<a href="https://totenbuch.awk.nrw.de/objekt/tm' + TMnumber + '" target="_blank"><sup alt="Totenbuch Projekt reference">[TbP]</sup></a> <a href="https://trismegistos.org/text/' + TMnumber + '" target="_blank"><sup alt="Trismegistos reference">[TM]</sup></a></td>');
 				
-				var htmlSp = '<a href="spell.html#sp' + spell + '">' + spellFolders + '</a>';
-				var spellFoldersText = htmlSp.join(' | ');
-				row.append('<td>' + spellFoldersText + '</td>');
-				table.append(row);
-			}); */
-			
-			$.each(uniqueFiles, function(fileName, spellFolders) {
-			  var fileSeparator = fileName.indexOf(' - ');
-			  var TMnumber = fileName.substr(0, fileSeparator);
-			  TMnumber = TMnumber.substring(3);
-			  var papyrus = fileName.substr(fileSeparator + 2);
-			  var spell = spellFolders[0].substring(6);
-
-			  var row = $('<tr>').append('<td>' + papyrus + '<a href="https://totenbuch.awk.nrw.de/objekt/tm' + TMnumber + '" target="_blank"><sup alt="Totenbuch Projekt reference">[TbP]</sup></a> <a href="https://trismegistos.org/text/' + TMnumber + '" target="_blank"><sup alt="Trismegistos reference">[TM]</sup></a></td>');
-
-			  var htmlSp = [];
-			  $.each(spellFolders, function(index, spellFolder) {
-				htmlSp.push('<a href="spell.html#sp' + spellFolder.substring(6) + '">' + spellFolder + '</a>');
-			  });
-			  var spellFoldersText = htmlSp.join(' | ');
-			  row.append('<td>' + spellFoldersText + '</td>');
-			  table.append(row);
-			});
-
-			$('#fileListBody').html(table);
-		  }
-
-		  // Fetch files from the GitHub repository root directory
-		  fetchFiles();
-
-
-	/*
-    var unicodeFolderName = 'Unicode';
-
-    // Desired folder name pattern for 'Spell #' folders
-    var spellFolderPattern = /^Spell \d+$/;
-
-    // Function to retrieve the repository contents and generate the file list
-    function generateFileList() {
-        $.get(apiEndpoint, function (response) {
-            var files = {}; // Object to store unique file names as keys and Spell folders as values
-
-            // Loop through the repository contents
-            $.each(response, function (index, item) {
-                if (item.type === 'file') {
-                    var filePath = item.path;
-
-                    // Check if the file is inside a 'Unicode' folder
-                    if (filePath.includes(unicodeFolderName)) {
-                        var spellFolder = getParentSpellFolder(filePath);
-
-                        if (spellFolder) {
-                            var fileName = getFileName(filePath);
-
-                            // Store the file name as key and add the spell folder to the corresponding value
-                            if (!files[fileName]) {
-                                files[fileName] = [];
-                            }
-                            files[fileName].push(spellFolder);
-                        }
-                    }
-                }
-            });
-
-            // Generate the table rows for the file list
-            var html = '';
-            $.each(files, function (fileName, spellFolders) {
-                				
-				fileSeparator = fileName.indexOf(' - ');
-				TMnumber =  fileName.substr(0, fileSeparator);
-				shortFileName = fileName.substr(fileSeparator + 1);
-				shortFileName = shortFileName.slice(0, -3);
 				
-                spellFoldersHtml = spellFoldersHtml.slice(0, -2); // Remove the trailing comma and space
-				
-				var spellFoldersHtml = '';
-                spellFolders.forEach(function (spellFolderName) {
-                    spellFoldersHtml += '<a class="btn btn-outline-light" href="unicodefile.html?id=' + TMnumber + '&spell=' + spellFolderName +'">' + spellFolderName + '</a> ';
-                });
+				function getRootFolder(filePath) {
+							var segments = filePath.split('/');
+							var index = segments.indexOf('Unicode');
 
-                html += '<tr>';
-                html += '<td>' + shortFileName + ' <a href="https://totenbuch.awk.nrw.de/objekt/tm' + TMnumber + '" target="blank"><sup>[TbP]</sup></a></td>';
-                html += '<td>' + spellFoldersHtml + '</td>';
-                html += '</tr>';
-            });
+							if (index !== -1 && segments.length > index + 1) {
+								return segments[index + 1];
+							}
 
-            // Append the generated table rows to the body of the file list table
-            $('#fileListBody').html(html);
-        })
+							return null;
+						}
+						
+						function getSpellFolder(filePath) {
+							var segments = filePath.split('/');
+							var index = segments.indexOf('Unicode');
 
-;
-    }
+							if (index !== -1 && segments.length > index + 1) {
+								return segments[index - 1];
+							}
 
-    // Function to get the parent 'Spell #' folder name from a given file path
-    function getParentSpellFolder(filePath) {
-        var pathComponents = filePath.split('/');
-        var parentFolderIndex = pathComponents.indexOf(unicodeFolderName) - 1;
-
-        if (pathComponents[parentFolderIndex].match(spellFolderPattern)) {
-            return pathComponents[parentFolderIndex];
-        }
-
-        return null;
-    }
-
-    // Function to get the file name from a given file path
-    function getFileName(filePath) {
-        return filePath.split('/').pop();
-    }
-
-    // Call the function to generate the file list
-    generateFileList();
-	if(generateFileList()) { document.getElementById('loader').style.display = "none";} */
+							return null;
+						}
+						
+						function getFileNameWithoutExtension(filePath) {
+							var fileName = filePath.split('/').pop();
+							return fileName.substring(0, fileName.lastIndexOf('.'));
+						}
+						
 	
 });
 </script>
