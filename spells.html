@@ -64,7 +64,7 @@
                         });
 
                         // Generate the table rows for the folder list
-                        var html = '<table class="table"><thead><tr><th>Spell</th><th>Available transcripts</th></tr></thead>';
+                        var html = '<table class="table"><thead><tr><th>Spell</th><th>Available transcripts</th></tr></thead><tbody>';
                         $.each(folderList, function(folder, files) {
                             
 							
@@ -91,10 +91,10 @@
 							
                             fileUrlsHtml += '</ul>';
 							html += '<td>' + fileUrlsHtml + '</td>';
-							html += '</tr><tbody></tbody></table>';
+							html += '</tr>';
 							}); 
                             });
-
+						html += '</tbody></table>';
 						document.getElementById('loader').style.display = "none";	
                         $('#folderListBody').html(html);
                     },
