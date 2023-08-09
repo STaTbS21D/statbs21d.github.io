@@ -98,7 +98,8 @@
 									
 									return false;									
 								}
-							}								
+							}				
+							$('#markdownContent').html('<div align="center">Spell ' + Spell + ' is not available for the given source (TM ' + TM + ').</div>');							
                                
                             });
 							
@@ -208,6 +209,7 @@
 <footer id="footer" class="page-footer dark"></footer>
 
 <script>
+const pag = '#nunicodefile';
 $(document).ready(function () {
 $('#nav-bar').load('nav.html');
 $('#footer').load('footer.html');

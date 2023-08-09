@@ -12,24 +12,11 @@
 
 <section class="clean-block clean-faq dark"><div class="container"><div class="block-heading"><h2 class="text-info">Selected Spells</h2></div>
 
-<div class="block-content">
-<div class="faq-item">
-<div class="answer">
-<table class="table">
-            <thead>
-                <tr>
-                    <th>Spell</th>
-                    <th>Available transcripts</th>
-                </tr>
-            </thead>
-            <tbody id="folderListBody">
-                <!-- Content will be dynamically generated here --><table><div id="loader" align="center"><img src="assets/img/loading.gif" /></div></table>
-            </tbody>
-        </table>
-</div></div>
+<div id="folderListBody" class="block-content">
+			   <!-- Content will be dynamically generated here --><table><div id="loader" align="center"><img src="assets/img/loading.gif" /></div></table>
+</div>
 
-
-</div></div></section></main>
+</div></section></main>
 <script>
         $(document).ready(function() {
             var owner = 'STaTBS21D';
@@ -77,7 +64,7 @@
                         });
 
                         // Generate the table rows for the folder list
-                        var html = '';
+                        var html = '<table class="table"><thead><tr><th>Spell</th><th>Available transcripts</th></tr></thead>';
                         $.each(folderList, function(folder, files) {
                             
 							
@@ -104,13 +91,16 @@
 							
                             fileUrlsHtml += '</ul>';
 							html += '<td>' + fileUrlsHtml + '</td>';
-							html += '</tr>';
+							html += '</tr><tbody></tbody></table>';
 							}); 
                             });
 
 						document.getElementById('loader').style.display = "none";	
                         $('#folderListBody').html(html);
-                    }
+                    },
+				error: function() {
+				$('#folderListBody').html('<div align="center">Error fetching files from GitHub repository.</div>');
+			  }
                 });
             }
 
@@ -150,6 +140,7 @@
 <footer id="footer" class="page-footer dark"></footer>
 
 <script>
+const pag = '#nspells';
 $(document).ready(function () {
 $('#nav-bar').load('nav.html');
 $('#footer').load('footer.html');

@@ -131,7 +131,7 @@
 										
 			  },
 			  error: function() {
-				$('#fileListBody').html('Error fetching files from GitHub repository.');
+				$('#fileListBody').html('<div align="center">Error fetching files from GitHub repository.</div>');
 			  }
 			 			  
 			});
@@ -170,6 +170,7 @@
 <footer id="footer" class="page-footer dark"></footer>
 
 <script>
+const pag = '#nsources';
 $(document).ready(function () {
 $('#nav-bar').load('nav.html');
 $('#footer').load('footer.html');
