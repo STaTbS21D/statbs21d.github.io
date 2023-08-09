@@ -169,23 +169,6 @@
             }
 		
 			function stripURLs(text) {
-/*
-					//var regexA =   /((?:https?|ftp):\/\/[^\s]+)/g;    // /\[([\s\S]*?)\]\((.*?)\)/gi;
-					var regexB =   /\[(.*?)\]\((.*?)\)/g;  //     
-								
-					// /(https?|ftp):\/\/[^\s]+/g
-				/*	var replacedText = text.replace(regexA, function(match, p1, p2) {
-					  return '<a href="' + p2 + '">' + p1 + '</a>';
-					}); */  
-					
-	/*
-					replacedText = text.replace(regexB, '<a href="$2">$1</a>');
-					return replacedText;
-					
-				*/	
-				//	var regexA =   /((?:https?|ftp):\/\/[^\s]+)/g; 
-					
-				//	replacedText = text.replace(regexA, '<a href="$2">$1</a>');
 				
 				var replacedText = text.replace(/\[(.*?)\]\((.*?)\)/g, function(match, p1, p2) {
 				  if (/^(http|https):\/\//.test(p1)) {
@@ -196,7 +179,6 @@
 				});
 				
 					return replacedText;
-				
 				
 			}
 			
