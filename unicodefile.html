@@ -98,8 +98,8 @@
 									
 									return false;									
 								}
-							}				
-							$('#markdownContent').html('<div align="center">Spell ' + Spell + ' is not available for the given source (TM ' + TM + ').</div>');							
+							}
+								
                                
                             });
 							
@@ -114,9 +114,16 @@
 						var htmlContent = parseMarkdown(data);
 						$('#markdownContent').html(htmlContent);
 						//if(htmlContent){ document.getElementById('loader').style.display = "none";}
-						}
+						},
+						error: function() {
+						$('#markdownContent').html('<section class="clean-block"><br><br><div class="block-content" align="center">' + Spell + ' is not available for the given source (' + TM + ').</div></section>');
+			  }
+						
 				});  
-			}
+			},
+			  error: function() {
+				$('#fileListBody').html('<section class="clean-block"><div class="block-content"><div align="center">Error fetching files from GitHub repository.</div></div></section>');
+			  }
 		});
 	}
 			
@@ -151,7 +158,7 @@
                     } 				
 					else {
                         // Normal text line
-                        htmlContent += line;
+                        htmlContent += stripURLs(line); //stripURLs();
                     }
 
                 }
@@ -161,19 +168,39 @@
                 return htmlContent;
             }
 		
-			function stripURLs() {
-			
-				$('.container').each(function() {
-					var text = $(this).html();
-					var regexA = /\[([\s\S]*?)\]\((.*?)\)/gi;
-					var regexB = /((?:https?|ftp):\/\/[^\s]+)/g; // /(https?|ftp):\/\/[^\s]+/g
-					var replacedText = text.replace(regexA, function(match, p1, p2) {
+			function stripURLs(text) {
+/*
+					//var regexA =   /((?:https?|ftp):\/\/[^\s]+)/g;    // /\[([\s\S]*?)\]\((.*?)\)/gi;
+					var regexB =   /\[(.*?)\]\((.*?)\)/g;  //     
+								
+					// /(https?|ftp):\/\/[^\s]+/g
+				/*	var replacedText = text.replace(regexA, function(match, p1, p2) {
 					  return '<a href="' + p2 + '">' + p1 + '</a>';
-					});
-					replacedText = replacedText.replace(regexB, '<a href="$1">$1</a>');
-					$(this).html(replacedText);
-				  });
+					}); */  
+					
+	/*
+					replacedText = text.replace(regexB, '<a href="$2">$1</a>');
+					return replacedText;
+					
+				*/	
+				//	var regexA =   /((?:https?|ftp):\/\/[^\s]+)/g; 
+					
+				//	replacedText = text.replace(regexA, '<a href="$2">$1</a>');
+				
+				var replacedText = text.replace(/\[(.*?)\]\((.*?)\)/g, function(match, p1, p2) {
+				  if (/^(http|https):\/\//.test(p1)) {
+					return match; // leave striped URL link untouched
+				  } else {
+					return '<a href="' + p2 + '">' + p1 + '</a>'; // convert [Link Text](URL) to web link
+				  }
+				});
+				
+					return replacedText;
+				
+				
 			}
+			
+						
 			
 			function numberHieroLines() {
 			  
@@ -200,7 +227,9 @@
 		
 			getUnicodeFile();
 			
-			if(getUnicodeFile()) { stripURLs(); numberHieroLines(); }
+			//if(getUnicodeFile()) { 
+			numberHieroLines(); 
+			//}
 			
         });
 		
