@@ -141,31 +141,35 @@
             // Parse the Markdown content and format it
             function parseMarkdown(mdContent) {
                 var lines = mdContent.split('\n');
-                var htmlContent = '<div class="block-heading">';
+			  var htmlContent = '<div class="block-heading">';
+			  var lineNumber = 0;
 
-                for (var i = 0; i < lines.length; i++) {
-                    var line = lines[i];
+			  for (var i = 0; i < lines.length; i++) {
+				var line = lines[i];
 
-                    if (line.startsWith('##')) {
-                        // Level 2 heading, wrap in <h4> tags
-                        htmlContent += '<h4>' + line.substring(2).trim() + '</h4>';
-                    } else if (line.startsWith('#')) {
-                        // Level 1 heading, wrap in <h2> tags
-                        htmlContent += '<h2 class="text-info">' + line.substring(1).trim() + '</h2></div><div class="block-content">';
-						
-									var newTitle = 'STaTbS21D - ' +  line.substring(1).trim();
-									document.title = newTitle;
-                    } 				
-					else {
-                        // Normal text line
-                        htmlContent += stripURLs(line); //stripURLs();
-                    }
+				if (line.startsWith('##')) {
+				  // Level 2 heading, wrap in <h4> tags
+				  htmlContent += '<h4>' + line.substring(2).trim() + '</h4>';
+				} else if (line.startsWith('#')) {
+				  // Level 1 heading, wrap in <h2> tags
+				  htmlContent += '<h2 class="text-info">' + line.substring(1).trim() + '</h2></div><div class="block-content">';
+				  var newTitle = 'STaTbS21D - ' +  line.substring(1).trim();
+				  document.title = newTitle;
+				} else {
+				  // Normal text line
+				 // if (line.trim() !== '') {
+					if(line.length > 4 && line.endsWith('<br>')) {
+					  lineNumber++;
+					  htmlContent += "<span style='font-size:30px'><sup>" + lineNumber + "</sup>|</span>" + line.trim(); //+ "<br>"; //.substring(0, line.length-4)
+					} else {
+					  htmlContent += stripURLs(line);//htmlContent += line.trim() + "<br>";
+					}
+				  //}
+				}
+			  }
 
-                }
-				
-				htmlContent += '</div>';
-				
-                return htmlContent;
+			  htmlContent += '</div>';
+			  return htmlContent;
             }
 		
 			function stripURLs(text) {
@@ -181,38 +185,11 @@
 					return replacedText;
 				
 			}
-			
-						
-			
-			function numberHieroLines() {
-			  
-			  $('hiero').each(function() {
-				var lines = $(this).html().split('<br>');
-				var numberedText = "";
-				var lineNumber = 0;
-
-				for (var i = 0; i < lines.length; i++) {
-				  if (lines[i].trim() !== '') {
-					lineNumber++;
-					numberedText += "<sup>" + lineNumber + "</sup>| " + lines[i].trim();
-					if (i !== lines.length - 1) {
-					  numberedText += "<br>";
-					}
-				  }
-				}
-
-				$(this).html(numberedText);
-			  });
-			  
-			}
 
 		
 			getUnicodeFile();
 			
-			//if(getUnicodeFile()) { 
-			numberHieroLines(); 
-			//}
-			
+						
         });
 		
 </script>
