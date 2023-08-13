@@ -16,16 +16,17 @@
 		<h2 class="text-info">Book of the Dead Sources</h2>
 	</div>
 	
-<div class="row">
+<!--div class="row"-->
 <div class="block-content">	
 <div class="faq-item">
-    <h4 class="question">Sources Eligibility</h4>
+    <h4>Sources Eligibility</h4>
     <div class="answer">
         <p>The process of selection of the sources is aided by the <em>Totenbuch Projekt</em> database. For the moment, only sources on papyrus from the Theban area (like papyrus Havana) are included, whether from the 21<sup>st</sup> Dynasty (to be incorporated in the synoptic edition) or the Ramesside Period (in order to trace the spell transmission). A source with more matches in the spell list should make the final selection to include in the synoptic edition, yet less represented sources could also contain valuable information on editorial practice, a fact that will be taken into account once all the material is successfully downloaded from the database and properly catalogued.</p>
+		<p><a id="btn-toggle" role="button" class="btn btn-outline-dark btn-sm" data-toggle="collapsediv" data-target="#tb-table">+ Sources <svg xmlns="http://www.w3.org/2000/svg" style="fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 5713.07 2092.53" width="2em" height="2em" fill="currentColor"><path d="M656.74 1562.38c124.59,-88.28 274.79,-157.8 380.25,-274.22 147.47,-162.81 135.47,-175.67 312.22,-307.76 112.31,267.82 61.24,334.55 293.23,560.25 326.48,317.62 954.12,282.06 1323.45,46.47 214.34,-136.72 209.37,-297.61 341.62,-484.06l982.92 449.05c-339.51,166.77 -1381.84,289.07 -1799.88,299.21 -694.6,16.86 -1179.71,-197.31 -1833.82,-288.94zm955.57 -689.41c439.98,-94.07 1031.76,-47.35 1445.12,137.37 -95,670.34 -1375.23,800.73 -1445.12,-137.37zm-1572.02 925.02c155.59,68.85 558.16,-2.11 788.78,14.83 306.26,22.51 394.78,80.42 667.88,156.6 900.33,251.13 1930.23,76.34 2829.38,-152.59 838.33,-213.44 1145.6,142.65 1386.75,-70.49l-13.21 -125.31c-168.59,-106.42 -604.46,-109.78 -830.02,-158.06 -524.72,-112.3 -1380.73,-604.83 -2083,-784.73 -1454.67,-372.62 -1619.78,207.57 -2103.48,609.87 -372.7,309.99 -821.19,135.53 -643.07,509.87z"/><path d="M48.7 1152.85c305.94,149.09 867.79,-538.4 1137.3,-708.96 1383.61,-875.63 4045.08,1149.26 4375.79,905.86 154.85,-231.33 -323.32,-297.27 -520.44,-375.63 -776.33,-308.57 -1252.45,-682.57 -2205.05,-875.1 -568.41,-114.88 -1224.73,-187.37 -1736.5,118.5 -202.08,120.78 -370.49,322.92 -548.51,476.9 -121.53,105.13 -570.39,282.86 -502.58,458.43z"/></svg></a></p>
     </div>
 </div>
 
-<div style="margin-left:25%">
+<div id="tb-table" class="collapsediv" style="margin-left:25%">
 <table class="table" style="max-width: 60%">
  <thead>
  <tr style="height:2.25pt">
@@ -116,11 +117,12 @@
  </tr>
 </tbody>
 </table>
+<p>Source: <em>Totenbuch Projekt</em>.</p>
 </div>
 
 	<!--div class="block-content"-->	
 	<div class="faq-item"><br>
-	<h4 class="question">Available Sources</h4>
+	<h4>Available Sources</h4>
 	<div class="answer">
         <p>The list of sources will be populated in the following list as soon as they are incorporated to <em>GitHub</em> repository.</p>
     </div>
@@ -128,7 +130,7 @@
 			   <!-- Content will be dynamically generated here --><table><div align="center"><img src="assets/img/loading.gif" /></div></table>
 		</div>	
 	</div></div>
-</div></div>
+<!--/div--></div>
 </section>
 
 </main>
@@ -238,7 +240,7 @@
 										
 			  },
 			  error: function() {
-				$('#fileListBody').html('<div align="center">Error fetching files from GitHub repository.</div>');
+				$('#fileListBody').html('<div align="center"><p class="text-bg-danger small" style="width:60%;border-radius: 18px;text-align: center">Error fetching files from GitHub repository.</p></div>');
 			  }
 			 			  
 			});
@@ -284,5 +286,5 @@ $('#footer').load('footer.html');
 });
 </script>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.js"></script><script src="assets/js/script.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.js"></script><script src="assets/js/script.min.js"></script><script src="assets/bootstrap/js/bootstrap-collapse.js"></script>
 </body></html>

@@ -289,7 +289,8 @@ function successCallback(headers, response) {
 // Function to call if CORS request fails
 function errorCallback() {
    showLoading(false);
-   alert("There was an error making the request.");
+   $('#searchResults').html('<div align="center"><p class="text-bg-danger small" style="width:60%;border-radius: 18px;text-align: center">Error connecting to Zotero library.</p></div>');
+   //alert("There was an error making the request.");
 }
 
 

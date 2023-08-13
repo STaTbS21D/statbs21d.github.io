@@ -116,13 +116,13 @@
 						//if(htmlContent){ document.getElementById('loader').style.display = "none";}
 						},
 						error: function() {
-						$('#markdownContent').html('<section class="clean-block"><br><br><div class="block-content" align="center">' + Spell + ' is not available for the given source (' + TM + ').</div></section>');
+						$('#markdownContent').html('<section class="clean-block"><br><br><div class="block-content" align="center"><p class="text-bg-danger small" style="width:60%;border-radius: 18px;text-align: center">' + Spell + ' is not available for the given source (' + TM + ').</p></div></section>');
 			  }
 						
 				});  
 			},
 			  error: function() {
-				$('#fileListBody').html('<section class="clean-block"><div class="block-content"><div align="center">Error fetching files from GitHub repository.</div></div></section>');
+				$('#fileListBody').html('<section class="clean-block"><div class="block-content"><div align="center"><p class="text-bg-danger small" style="width:60%;border-radius: 18px;text-align: center">Error fetching files from GitHub repository.</p></div></div></section>');
 			  }
 		});
 	}
