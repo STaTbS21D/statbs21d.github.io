@@ -26,9 +26,9 @@
  /* COLLAPSE PUBLIC CLASS DEFINITION
   * ================================ */
 
-  var Collapse = function (element, options) {
+  var Collapsediv = function (element, options) {
     this.$element = $(element)
-    this.options = $.extend({}, $.fn.collapse.defaults, options)
+    this.options = $.extend({}, $.fn.collapsediv.defaults, options)
 
     if (this.options.parent) {
       this.$parent = $(this.options.parent)
@@ -37,9 +37,9 @@
     this.options.toggle && this.toggle()
   }
 
-  Collapse.prototype = {
+  Collapsediv.prototype = {
 
-    constructor: Collapse
+    constructor: Collapsediv
 
   , dimension: function () {
       var hasWidth = this.$element.hasClass('width')
@@ -61,7 +61,7 @@
       if (actives && actives.length) {
         hasData = actives.data('collapsediv')
         if (hasData && hasData.transitioning) return
-        actives.collapse('hide')
+        actives.collapsediv('hide')
         hasData || actives.data('collapsediv', null)
       }
 
@@ -123,21 +123,21 @@
  /* COLLAPSIBLE PLUGIN DEFINITION
   * ============================== */
 
-  $.fn.collapse = function (option) {
+  $.fn.collapsediv = function (option) {
     return this.each(function () {
       var $this = $(this)
         , data = $this.data('collapsediv')
         , options = typeof option == 'object' && option
-      if (!data) $this.data('collapsediv', (data = new Collapse(this, options)))
+      if (!data) $this.data('collapsediv', (data = new Collapsediv(this, options)))
       if (typeof option == 'string') data[option]()
     })
   }
 
-  $.fn.collapse.defaults = {
+  $.fn.collapsediv.defaults = {
     toggle: true
   }
 
-  $.fn.collapse.Constructor = Collapse
+  $.fn.collapsediv.Constructor = Collapsediv
 
 
  /* COLLAPSIBLE DATA-API
@@ -150,7 +150,7 @@
         || (href = $this.attr('href')) && href.replace(/.*(?=#[^\s]+$)/, '') //strip for ie7
       , option = $(target).data('collapsediv') ? 'toggle' : $this.data()
     $this[$(target).hasClass('in') ? 'addClass' : 'removeClass']('collapsed')
-    $(target).collapse(option)
+    $(target).collapsediv(option)
   })
 
 }(window.jQuery);
