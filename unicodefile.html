@@ -155,16 +155,24 @@
 				  htmlContent += '<h2 class="text-info">' + line.substring(1).trim() + '</h2></div><div class="block-content">';
 				  var newTitle = 'STaTbS21D - ' +  line.substring(1).trim();
 				  document.title = newTitle;
+				} else if(line.startsWith('http')){
+					//Plain unstripped URL
+					var regex =   /((?:https?|ftp):\/\/[^\s]+)/g; 
+					//var plainUrlRegex = /(https?:\/\/[^\s]+)/g;
+					htmlContent += line.replace(regex, '<a href="$1" target="_blank">$1</a>');
+				
 				} else {
 				  // Normal text line
-				 // if (line.trim() !== '') {
-					if(line.length > 4 && line.endsWith('<br>')) {
-					  lineNumber++;
-					  htmlContent += "<span style='font-size:30px'><sup>" + lineNumber + "</sup>|</span>" + line.trim(); //+ "<br>"; //.substring(0, line.length-4)
-					} else {
-					  htmlContent += stripURLs(line);//htmlContent += line.trim() + "<br>";
+					if(line.startsWith('</hiero>') && line.endsWith('<br>')){
+						htmlContent += line.trim();
 					}
-				  //}
+					if(line.length > 12 && line.endsWith('<br>')) {
+					  lineNumber++;
+					  htmlContent += "<span class='hiero'><sup>" + lineNumber + "</sup>|</span>" + line.trim(); 
+					} else {
+					  htmlContent += stripURLs(line.trim());
+					}
+				  
 				}
 			  }
 
@@ -176,12 +184,12 @@
 				
 				var replacedText = text.replace(/\[(.*?)\]\((.*?)\)/g, function(match, p1, p2) {
 				  if (/^(http|https):\/\//.test(p1)) {
-					return match; // leave striped URL link untouched
+					return match; 
 				  } else {
-					return '<a href="' + p2 + '">' + p1 + '</a>'; // convert [Link Text](URL) to web link
+					return '<a href="' + p2 + '" target="_blank">' + p1 + '</a>'; 
 				  }
 				});
-				
+							
 					return replacedText;
 				
 			}
