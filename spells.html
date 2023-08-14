@@ -401,8 +401,86 @@
             getRootFolders();
 			if(getRootFolders()) { document.getElementById('loader').style.display = "none";}
 			
-			$('#dw-jsesh').click(downloadGH(event));
-			$('#dw-unicode').click(downloadGH(event));
+			$('#dw-jsesh').click(function(event){
+				event.preventDefault();
+				
+				var token = 'U2FsdGVkX1/o/4PlzavsXrZ3oQmKr/WA8zHuMWQwZfxTPcwWjWOrWLSxxFQ9REd10KY3i3R8T0rvI8NY1oMIbBvTmnngNWxH8hrHYlEe4VLQgssCbY5Af+DxFkwB7MkIXswSZItuoayQeKIvcKATGg=='; 
+					var password = 'senerpaitui';
+					var decryptedBytes = CryptoJS.AES.decrypt(token, password);
+					token = decryptedBytes.toString(CryptoJS.enc.Utf8);
+				
+				 var headers = {
+							'Authorization': 'Bearer ' + token,
+							'Accept': 'application/vnd.github.v3.raw' /*,
+							'Origin': window.location.origin */
+						};
+
+				var fileUrl = $(this).attr('href');
+				
+				$.ajax({
+				  url: fileUrl,
+				 /* type: 'HEAD', */
+				  headers: headers,
+				  success: function(data, status, xhr) {
+					if (xhr.getResponseHeader('Access-Control-Allow-Origin') === '*'
+						|| xhr.getResponseHeader('Access-Control-Allow-Origin') === 'https://raw.githubusercontent.com') {
+					 
+					  var link = document.createElement('a');
+					  link.href = fileUrl;
+					  link.download = fileUrl.substring(fileUrl.lastIndexOf('/') + 1);
+
+					  document.body.appendChild(link);
+					  link.click();
+					  document.body.removeChild(link);
+					} else {
+					  console.error('Download not allowed by CORS');
+					}
+				  },
+				  error: function(xhr, status, error) {
+					console.error('Error verifying CORS:', error);
+				  }
+				});
+			});
+			 $('#dw-unicode').click(function(event){
+				event.preventDefault();
+				
+				var token = 'U2FsdGVkX1/o/4PlzavsXrZ3oQmKr/WA8zHuMWQwZfxTPcwWjWOrWLSxxFQ9REd10KY3i3R8T0rvI8NY1oMIbBvTmnngNWxH8hrHYlEe4VLQgssCbY5Af+DxFkwB7MkIXswSZItuoayQeKIvcKATGg=='; 
+					var password = 'senerpaitui';
+					var decryptedBytes = CryptoJS.AES.decrypt(token, password);
+					token = decryptedBytes.toString(CryptoJS.enc.Utf8);
+				
+				 var headers = {
+							'Authorization': 'Bearer ' + token,
+							'Accept': 'application/vnd.github.v3.raw' /*,
+							'Origin': window.location.origin */
+						};
+
+				var fileUrl = $(this).attr('href');
+				
+				$.ajax({
+				  url: fileUrl,
+				 /* type: 'HEAD', */
+				  headers: headers,
+				  success: function(data, status, xhr) {
+					if (xhr.getResponseHeader('Access-Control-Allow-Origin') === '*'
+						|| xhr.getResponseHeader('Access-Control-Allow-Origin') === 'https://raw.githubusercontent.com') {
+					 
+					  var link = document.createElement('a');
+					  link.href = fileUrl;
+					  link.download = fileUrl.substring(fileUrl.lastIndexOf('/') + 1);
+
+					  document.body.appendChild(link);
+					  link.click();
+					  document.body.removeChild(link);
+					} else {
+					  console.error('Download not allowed by CORS');
+					}
+				  },
+				  error: function(xhr, status, error) {
+					console.error('Error verifying CORS:', error);
+				  }
+				});
+			});
 			 
 			 
 			 function downloadGH(event) {
