@@ -149,7 +149,7 @@
 
 				if (line.startsWith('##')) {
 				  // Level 2 heading, wrap in <h4> tags
-				  htmlContent += '<h4>' + line.substring(2).trim() + '</h4>';
+				  htmlContent += '<h4 class="unicode">' + line.substring(2).trim() + '</h4>';
 				} else if (line.startsWith('#')) {
 				  // Level 1 heading, wrap in <h2> tags
 				  htmlContent += '<h2 class="text-info">' + line.substring(1).trim() + '</h2></div><div class="block-content">';
