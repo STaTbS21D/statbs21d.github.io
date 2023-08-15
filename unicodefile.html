@@ -163,7 +163,7 @@
 				
 				} else {
 				  // Normal text line
-					if(line.startsWith('</hiero>') && line.endsWith('<br>')){
+					if(line.startsWith('<br>') && line.endsWith('</hiero>')){
 						htmlContent += line.trim();
 					}
 					if(line.length > 12 && line.endsWith('<br>')) {
