@@ -8,11 +8,10 @@
 
 <body>
 
-<nav id="nav-bar" class="navbar navbar-light navbar-expand-lg sticky-top bg-white clean-navbar" style="position: fixed;overflow: hidden;display: inline;width:100%;top: 0"></nav>
-<!--nav id="nav-bar" class="navbar navbar-light navbar-expand-lg sticky-top bg-white clean-navbar" style="position: relative;overflow: visible;display: inline;"></nav-->
+<nav id="nav-bar" class="navbar navbar-light navbar-expand-lg sticky-top bg-white clean-navbar" style="position: fixed;overflow: hidden;display: inline;width:100%;;max-height:120px"></nav>
 
 <div class="foreground">
-	<div class="col" id="statbs21d-nav" data-aos="slide-down" data-aos-delay="800" data-aos-duration="1000"><img id="statbs21d-icon" class="statbs21d-icon" src="assets/img/clicko.png" style="width:80px;fill:#fff;color:#fff"></div>
+	<div class="col" id="statbs21d-nav" data-aos="slide-down" data-aos-delay="800" data-aos-duration="1000"><img id="statbs21d-icon" class="statbs21d-icon" src="assets/img/clicko.png" style="width:120px;fill:#fff;color:#fff"></div>
 	<div id="iframe-container"></div>
 </div>
 
@@ -30,8 +29,10 @@ $('html').css('overflow-y', 'hidden');
 	
 	$('nav').on('hover', function(){
 	$(this).css('transition', 'transform 2s ease-out');
-	$(this).css('transform', 'translateY(0)');;
-	//$(this).css('position', 'fixed');
+	$(this).css('transform', 'translateY(0)');
+	
+	$('#statbs21d-nav').css('transition', 'transform 2s ease-out');
+    $('#statbs21d-nav').css('transform', 'translateY(-200%)');
 	});
 		
 
@@ -92,8 +93,8 @@ $(window).on('mousemove', function(event) {
       // Use a CSS transition to slide the navigation bar back down into view
       $('nav').css('transition', 'transform 2s ease-out');
       $('nav').css('transform', 'translateY(0)');
-	  //$('#statbs21d-nav').css('transition', 'transform 2s ease-out');
-	  //$('#statbs21d-nav').css('transform', 'translateY(-200%)');
+	  $('#statbs21d-nav').css('transition', 'transform 2s ease-out');
+	  $('#statbs21d-nav').css('transform', 'translateY(-200%)');
     } else {
       // Use a CSS transition to slide the navigation bar up and out of view
       $('nav').css('transition', 'transform 2s ease-out');
@@ -105,6 +106,17 @@ $(window).on('mousemove', function(event) {
 
 
 }); 
+
+
+$('#statbs21d-icon').on('click', function() { 
+
+	$('nav').css('transition', 'transform 2s ease-out');
+	$('nav').css('transform', 'translateY(0)');
+	
+	$('#statbs21d-nav').css('transition', 'transform 2s ease-out');
+    $('#statbs21d-nav').css('transform', 'translateY(-200%)');
+
+});
 
 </script>
 <script src="assets/js/aos.js"></script>
