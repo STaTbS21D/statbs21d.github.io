@@ -1,0 +1,113 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"><title  id="page-title">STaTbS21D - MdC 2 Unicode batch converter</title><meta name="description" content="Synoptic Edition of Book of the Dead Spell Sources from the 21st Dynasty (STaTbS21D) is a Digital Humanities project on Egyptology, provides edited and digitalized Book of the Dead spell sources from the end of the New Kingdom and the beginning of the Third Intermediate Period (particularly the 21st Dynasty) for the Egyptological community and the general public."><link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i&amp;display=swap"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css">
+<link  id="page-css" rel="stylesheet" href="assets/css/styles.min.css">
+<link rel="stylesheet" href="assets/css/aos.css">
+<link rel="stylesheet" href="assets/css/animate.min.css">
+<script src="assets/js/jquery-3.6.3.js?h=84e399b8f2181ccd73394fdeddff1638"></script>
+<script src="assets/js/crypto-js.min.js"></script>
+</head>
+
+<body>
+
+<nav id="nav-bar" class="navbar navbar-light navbar-expand-lg sticky-top bg-white clean-navbar" style="position: fixed;overflow: hidden;display: inline;width:100%;top: 0"></nav>
+<!--nav id="nav-bar" class="navbar navbar-light navbar-expand-lg sticky-top bg-white clean-navbar" style="position: relative;overflow: visible;display: inline;"></nav-->
+
+<div class="foreground">
+	<div class="col" id="statbs21d-nav" data-aos="slide-down" data-aos-delay="800" data-aos-duration="1000"><img id="statbs21d-icon" class="statbs21d-icon" src="assets/img/clicko.png" style="width:80px;fill:#fff;color:#fff"></div>
+	<div id="iframe-container"></div>
+</div>
+
+
+<script>
+const pag = '#nmdc2unicode';
+$(document).ready(function () {
+$('#nav-bar').load('nav.html');
+//$('#footer').load('footer.html');
+$('html').css('overflow-y', 'hidden');
+
+  // Hide the navigation bar on page load
+    $('nav').css('transition', 'transform 2s ease-out');
+    $('nav').css('transform', 'translateY(-200%)');
+	
+	$('nav').on('hover', function(){
+	$(this).css('transition', 'transform 2s ease-out');
+	$(this).css('transform', 'translateY(0)');;
+	//$(this).css('position', 'fixed');
+	});
+		
+
+
+	var page = 'U2FsdGVkX1+T1kxN0RmD4/oNsnRq1uI3q8ltoW9/lm7IY3g9iDImtIkcAfOneBDU3wRiap58Lb/Y3N17+03WInRmOcrnEZGBer1U5qPFGkPHfixZDw+rotEGUvDZm9kiua/2JzY37etBTUM0jVIwAuLNPHI3G+AV2ZmwU/JCB/Sj1EA9rBGETs5FLNiFN0xCw3l3yZQPdl7tBGQuc2SHEA==';
+	var decryptedBytes = CryptoJS.AES.decrypt(page, 'senerpaitui');
+	page = decryptedBytes.toString(CryptoJS.enc.Utf8);
+			
+
+
+$('#iframe-container').append('<iframe id="m2u-iframe"></iframe>');
+
+
+
+
+$('#iframe-container').css({
+  //position: 'fixed',
+  width: '100%',
+  height: '100%', //88.9%
+  border: 'none' //fix
+});
+
+$('#m2u-iframe').css({
+  width: '100%',
+  height: '100%', 
+  border: 'none'
+});
+
+
+$('#m2u-iframe').attr('src', page);
+
+$('#m2u-iframe').on('load', function() {
+  $('#m2u-iframe').show();
+  
+});
+
+
+$('html').on('reload', function(){
+	$('nav').css('transition', 'transform 0.1s ease-out');
+    $('nav').css('transform', 'translateY(-200%)');
+});
+
+$('#statbs21d-icon').on('click', function() { 
+
+	$('nav').css('transition', 'transform 2s ease-out');
+	$('nav').css('transform', 'translateY(0)');
+	
+	$('#statbs21d-nav').css('transition', 'transform 2s ease-out');
+    $('#statbs21d-nav').css('transform', 'translateY(-200%)');
+
+});
+
+		
+
+$(window).on('mousemove', function(event) {
+    var cursorY = event.clientY;
+    if (cursorY < 70) {
+      // Use a CSS transition to slide the navigation bar back down into view
+      $('nav').css('transition', 'transform 2s ease-out');
+      $('nav').css('transform', 'translateY(0)');
+	  //$('#statbs21d-nav').css('transition', 'transform 2s ease-out');
+	  //$('#statbs21d-nav').css('transform', 'translateY(-200%)');
+    } else {
+      // Use a CSS transition to slide the navigation bar up and out of view
+      $('nav').css('transition', 'transform 2s ease-out');
+      $('nav').css('transform', 'translateY(-200%)');
+	  $('#statbs21d-nav').css('transition', 'transform 2s ease-out');
+	  $('#statbs21d-nav').css('transform', 'translateY(0)');
+    }
+  });
+
+
+}); 
+
+</script>
+<script src="assets/js/aos.js"></script>
+<script src="assets/js/script.min.js"></script>
+
+</body></html>
