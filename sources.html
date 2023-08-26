@@ -26,12 +26,12 @@
     </div>
 </div>
 
-<div id="tb-table" class="collapsediv" style="margin-left:25%">
-<table class="table" style="max-width: 60%">
+<div id="tb-table" class="collapsediv" style="margin-left:20%">
+<table class="table" style="max-width: 70%">
  <thead>
  <tr style="height:2.25pt">
   <td width="50%" rowspan="2">
-  <p><span><b><span>Source (RAM | 21D)</span></b></span><span></span></p>
+  <p><b><span>Source <span class="data-table dating-ram">RAM</span>  <span class="data-table dating-21d">21D</span></span></b></p>
   </td>
   <td width="50%" colspan="2">
   <p align="center"><span><b><span>Location</span></b></span></p>
@@ -54,11 +54,11 @@
   <td>
   <p><span><span>Papyri</span></span></p>
   </td>
-  <td class="table-info">
-  <p align="center"><span>41</span> | <span style="background-color: #0584f9">161</span></p>
+  <td>
+  <p align="center"><span class="data-table dating-ram">41</span>  <span class="data-table dating-21d" style="background-color: #d8ebf9">161</span></p>
   </td>
   <td>
-  <p align="center"><span>174 | 307</span></p>
+  <p align="center"><span class="data-table dating-ram">174</span>  <span class="data-table dating-21d">307</span></p>
   </td>
  </tr>
  <tr>
@@ -67,10 +67,10 @@
   bandages</span><span></span></p>
   </td>
   <td>
-  <p align="center"><span>1 | 2</span></p>
+  <p align="center"><span class="data-table dating-ram">1</span>  <span class="data-table dating-21d">2</span></p>
   </td>
   <td>
-  <p align="center"><span>3 | 2</span></p>
+  <p align="center"><span class="data-table dating-ram">3</span>  <span class="data-table dating-21d">2</span></p>
   </td>
  </tr>
  <tr>
@@ -78,10 +78,10 @@
   <p><span>Coffins</span></p>
   </td>
   <td>
-  <p align="center"><span>4 | 67</span></p>
+  <p align="center"><span class="data-table dating-ram">4</span>  <span class="data-table dating-21d">67</span></p>
   </td>
   <td>
-  <p align="center"><span>5 | 98</span></p>
+  <p align="center"><span class="data-table dating-ram">5</span>  <span class="data-table dating-21d">98</span></p>
   </td>
  </tr>
  <tr>
@@ -89,19 +89,19 @@
   <p><span>Tombs</span></p>
   </td>
   <td>
-  <p align="center"><span>119 | 0</span></p>
+  <p align="center"><span class="data-table dating-ram">119</span>  <span class="data-table dating-21d">0</span></p>
   </td>
   <td>
-  <p align="center"><span>130 | 0</span></p>
+  <p align="center"><span class="data-table dating-ram">130</span>  <span class="data-table dating-21d">0</span></p>
   </td>
  </tr>
  <tr>
   <td>
   <p><span><span>Other</span></span></p>
   </td>
-  <td><p align="center"><span>11 | 0</span></p></td>
+  <td><p align="center"><span class="data-table dating-ram">11</span>  <span class="data-table dating-21d">0</span></p></td>
   <td>
-  <p align="center"><span>54 | 7</span></p>
+  <p align="center"><span class="data-table dating-ram">54</span>  <span class="data-table dating-21d">7</span></p>
   </td>
  </tr>
  <tr>
@@ -109,10 +109,10 @@
   <p><b><span>Total</span></b><span></span></p>
   </td>
   <td>
-  <p align="center"><b><span>176 | 230</span></b></p>
+  <p align="center"><b><span class="data-table dating-ram">176</span>  <span class="data-table dating-21d">230</span></b></p>
   </td>
   <td>
-  <p align="center"><b><span>366 | 414</span></b></p>
+  <p align="center"><b><span class="data-table dating-ram">366</span>  <span class="data-table dating-21d">414</span></b></p>
   </td>
  </tr>
 </tbody>
@@ -197,29 +197,24 @@
 												
 						var file_folder = [];
 						
-						// Iterate through both arrays
 						$.each(folderList, function(i, fileName) {
 							  var folder = rootSpell[i];
 
-							  // Check if the file name already exists in the third array
 							  var existingFile = file_folder.find(function(item) {
 								return item[0] === fileName;
 							  });
 
 							  if (existingFile) {
-								// If it does, add the corresponding spell folder to the nested array for that file
 								existingFile.push(folder);
 							  } else {
-								// If it doesn't, create a new nested array for that file and add the corresponding spell folder
 								file_folder.push([i + ' - ' + fileName, folder]);
 							  }
 							});
 						
 						
-						// Iterate through the third array to print it in a tabular fashion with jquery
-						var table = $('<table class="table" >');
-						var headerRow = $('<tr>').append($('<th>').text('Book of the Dead Spell Source')).append($('<th>').text('Available Spells'));
-						table.append(headerRow);
+						var table = '<table class="table">';
+						var headerRow = '<thead><tr><th colspan="2" style="width: 50%">Book of the Dead Spell Source</th><th style="width: 50%">Available Spells</th></tr></thead><tbody>';
+						table += headerRow;
 						
 						
 						for (var i = 0; i < file_folder.length; i++) {
@@ -229,12 +224,23 @@
 						  var fileSeparator = file.indexOf(' - ');
 						  var TMnumber = file.substr(0, fileSeparator);
 						  var papyrus = file.substr(fileSeparator + 2);
-						  var spell = folders[0]; //  REVISAR AQUÍ!!!!!!!!!!						  
+						  var spell = folders[0]; 				
+
+						  var dating = ""; var dateclass = "";
+						  if(papyrus.endsWith('[Ramesside]')) {
+							papyrus = papyrus.replace('[Ramesside]', ''); 
+							dating = "Ramesside"; dateclass = "dating-ram";
+						  } else if(papyrus.endsWith('[Ramesside - 21D]')) {
+							papyrus = papyrus.replace('[Ramesside - 21D]', '');
+							dating = "Ramesside / 21<sup>st</sup> Dyn."; dateclass = "dating-ram21d";
+						  } else {dating = "21<sup>st</sup> Dynasty"; dateclass = "dating-21d";}
 						 						  
-						  var row = $('<tr>').append($('<td>').html(papyrus + ' <a href="https://totenbuch.awk.nrw.de/objekt/tm' + TMnumber + '" target="_blank"><sup alt="Totenbuch Projekt reference">[TbP]</sup></a> <a href="https://trismegistos.org/text/' + TMnumber + '" target="_blank"><sup alt="Trismegistos reference">[TM]</sup></a>')).append($('<td>').html('<a class="btn btn-light" href="spells.html#sp' + spell + '">Spell ' + spell + '</a>'));
+						  var row = '<tr><td>' + papyrus + ' <a class="tbp-link" href="https://totenbuch.awk.nrw.de/objekt/tm' + TMnumber + '" target="_blank" alt="Totenbuch Projekt reference">[TbP]</a> <a class="tm-link" href="https://trismegistos.org/text/' + TMnumber + '" target="_blank" alt="Trismegistos reference">[TM]</a></td><td><span class="data-table ' + dateclass + '">' + dating + '</span></td><td><a class="btn btn-light" href="spells.html#sp' + spell + '">Spell ' + spell + '</a></td></tr>';
 						  
-						  table.append(row);
+						  table += row;
 						}
+						
+						table += '</tbody></table>';
 			  
 						$('#fileListBody').html(table);
 										
