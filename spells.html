@@ -277,7 +277,7 @@
 	<div>
         <p>The list of spell witnesses will be populated in the following list as soon as they are incorporated to <em>GitHub</em> repository.</p>
     </div>
-<div id="folderListBody">
+<div id="folderListBody" class="table-responsive-md">
 			   <!-- Content will be dynamically generated here --><table><div id="loader" align="center"><img src="assets/img/loading.gif" /></div></table>
 </div></div>
 </div>
@@ -324,7 +324,7 @@
 						});
 						
                         // Generate the table rows for the folder list
-                        var html = '<table class="table"><thead><tr><th>Spell</th><th>Available transcripts</th></tr></thead><tbody>';
+                        var html = '<table class="table table-striped"><thead><tr><th>Spell</th><th>Available transcripts</th></tr></thead><tbody>';
 					
 						spellSet.forEach(function(spell) {
 							  var files = folderList[spell];
@@ -335,7 +335,7 @@
 							  html += '<td id="sp' + Spnumber + '" rowspan="' + rowspan + '">' + spell + ' <a class="tbp-link" href="https://totenbuch.awk.nrw.de/spruch/' + Spnumber + '" target="_blank">[TbP]</a></td>';
 							
 							
-							html += '<td><ul>';		
+							html += '<td><ul class="source">';		
 							
 							files.forEach(function(file) {
 							
