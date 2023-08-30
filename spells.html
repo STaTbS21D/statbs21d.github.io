@@ -22,8 +22,8 @@
     </div>
 </div>
 
-<div id="tb-table" class="collapsediv" style="margin-left:15%">
-<table class="table" style="max-width: 80%">
+<div id="tb-table" class="collapsediv table-responsive-sm" style="margin-left:15%">
+<table class="table table-striped" style="max-width: 80%">
 <thead>
  <tr>
   <td width="25%">
@@ -44,7 +44,7 @@
 <tbody>
  <tr>
   <td>
-  <p><span>1/1B</span></p>
+  <p><span id="s1">1/1B</span></p>
   </td>
   <td>
   <p align="center"><span>39</span></p>
@@ -58,7 +58,7 @@
  </tr>
  <tr>
   <td>
-  <p><span>23</span></p>
+  <p><span id="s23">23</span></p>
   </td>
   <td>
   <p align="center"><span>38</span></p>
@@ -72,7 +72,7 @@
  </tr>
  <tr>
   <td>
-  <p><span>58</span></p>
+  <p><span id="s58">58</span></p>
   </td>
   <td>
   <p align="center"><span>4</span></p>
@@ -86,7 +86,7 @@
  </tr>
  <tr>
   <td>
-  <p><span>64</span></p>
+  <p><span id="s64">64</span></p>
   </td>
   <td>
   <p align="center"><span>21</span></p>
@@ -100,7 +100,7 @@
  </tr>
  <tr>
   <td>
-  <p><span>90</span></p>
+  <p><span id="s90">90</span></p>
   </td>
   <td>
   <p align="center"><span>6</span></p>
@@ -114,7 +114,7 @@
  </tr>
  <tr>
   <td>
-  <p><span>99B</span></p>
+  <p><span id="s99">99B</span></p>
   </td>
   <td>
   <p align="center"><span>22</span></p>
@@ -128,7 +128,7 @@
  </tr>
  <tr>
   <td>
-  <p><span>100/129</span></p>
+  <p><span id="s100">100/129</span></p>
   </td>
   <td>
   <p align="center"><span>20</span></p>
@@ -142,7 +142,7 @@
  </tr>
  <tr>
   <td>
-  <p><span>110</span></p>
+  <p><span id="s110">110</span></p>
   </td>
   <td>
   <p align="center"><span>12</span></p>
@@ -156,7 +156,7 @@
  </tr>
  <tr>
   <td>
-  <p><span>138</span></p>
+  <p><span id="s138">138</span></p>
   </td>
   <td>
   <p align="center"><span>14</span></p>
@@ -170,7 +170,7 @@
  </tr>
  <tr>
   <td>
-  <p><span>148</span></p>
+  <p><span id="s148">148</span></p>
   </td>
   <td>
   <p align="center"><span>23</span></p>
@@ -184,7 +184,7 @@
  </tr>
  <tr>
   <td>
-  <p><span>149</span></p>
+  <p><span id="s149">149</span></p>
   </td>
   <td>
   <p align="center"><span>26</span></p>
@@ -198,7 +198,7 @@
  </tr>
  <tr>
   <td>
-  <p><span>153</span></p>
+  <p><span id="s153">153</span></p>
   </td>
   <td>
   <p align="center"><span>13</span></p>
@@ -212,7 +212,7 @@
  </tr>
  <tr>
   <td>
-  <p><span>168</span></p>
+  <p><span id="s168">168</span></p>
   </td>
   <td>
   <p align="center"><span>5</span></p>
@@ -226,7 +226,7 @@
  </tr>
  <tr>
   <td>
-  <p><span>185</span></p>
+  <p><span id="s185">185</span></p>
   </td>
   <td>
   <p align="center"><span>2</span></p>
@@ -240,7 +240,7 @@
  </tr>
  <tr>
   <td>
-  <p><span>186</span></p>
+  <p><span id="s186">186</span></p>
   </td>
   <td>
   <p align="center"><span>5</span></p>
@@ -254,7 +254,7 @@
  </tr>
  <tr>
   <td>
-  <p><span>194</span></p>
+  <p><span id="s194">194</span></p>
   </td>
   <td>
   <p align="center"><span>5</span></p>
@@ -325,12 +325,24 @@
 						
                         // Generate the table rows for the folder list
                         var html = '<table class="table table-striped"><thead><tr><th>Spell</th><th>Available transcripts</th></tr></thead><tbody>';
-					
+						var ctr = "a";
 						spellSet.forEach(function(spell) {
 							  var files = folderList[spell];
 							  var rowspan = files.length;						
 							  var Spnumber =  spell.substring(6);
-								
+							  
+							  // Check if button has already been appended
+							  if ($('#s' + Spnumber + ' .chevron').length === 0) {
+								if (ctr == "a") {
+								  $('#s' + Spnumber).append(' <a class="chevron" href="#sp' + Spnumber + '" role="button" alt="Witnesses available"><i class="icon-arrow-down-circle"></i></a>');
+								  ctr = "b";
+								} else {
+								  // Append other button style
+								  $('#s' + Spnumber).append(' <a class="btn2" href="#sp' + Spnumber + '" alt="Witnesses available"><i class="icon-arrow-down-circle"></i></a>');
+								  ctr = "a";
+								}
+							  }
+							  
 							  html += '<tr>';	
 							  html += '<td id="sp' + Spnumber + '" rowspan="' + rowspan + '">' + spell + ' <a class="tbp-link" href="https://totenbuch.awk.nrw.de/spruch/' + Spnumber + '" target="_blank">[TbP]</a></td>';
 							
