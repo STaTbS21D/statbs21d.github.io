@@ -59,6 +59,7 @@ $(document).ready(function() {
 			const TM = 'TM ' + urlParams.get("id");  // TM '135240'
 			const Spell = 'Spell ' + urlParams.get("spell");  // Spell '194'
 			var githubURL = 'https://raw.githubusercontent.com/STaTbS21D/Book_of_the_Dead_Sources/main/' + Spell + '/Unicode/';
+			var URLi = 'https://raw.githubusercontent.com/STaTbS21D/Book_of_the_Dead_Sources/main/' + Spell;
 			
 			
 			var owner = 'STaTBS21D';
@@ -238,7 +239,7 @@ $(document).ready(function() {
 		
 		
 		
-		function download(obj) {
+		function downloadFile(obj) {
 		
 		var source = obj.getAttribute('data-link');
 
