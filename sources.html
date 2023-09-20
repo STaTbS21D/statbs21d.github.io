@@ -246,7 +246,7 @@ $(document).ready(function() {
 						
 						
 						var table = '<table class="table table-striped">';
-						var headerRow = '<thead><tr><th colspan="2" style="width: 50%">Book of the Dead Spell Source</th><th style="width: 50%">Available Spells</th></tr></thead><tbody>';
+						var headerRow = '<thead><tr><th colspan="2" style="width: 55%">Book of the Dead Spell Source</th><th style="width: 45%">Available Spells</th></tr></thead><tbody>';
 						table += headerRow;
 						
 						
@@ -268,7 +268,7 @@ $(document).ready(function() {
 							dating = "Ramesside / 21<sup>st</sup> Dyn."; dateclass = "dating-ram21d";
 						  } else {dating = "21<sup>st</sup> Dynasty"; dateclass = "dating-21d";}
 						 						  
-						  var row = '<tr><td>' + papyrus + ' <a class="tbp-link" href="https://totenbuch.awk.nrw.de/objekt/tm' + TMnumber + '" target="_blank" alt="Totenbuch Projekt reference">[TbP]</a> <a class="tm-link" href="https://trismegistos.org/text/' + TMnumber + '" target="_blank" alt="Trismegistos reference">[TM]</a> <a class="ref-link" href="references.html?q=' + TMnumber + '" target="_blank" alt="Bibliography">[Ref]</a></td><td><span class="data-table ' + dateclass + '">' + dating + '</span></td><td><a class="btn btn-light" href="spells.html#s' + spell + '">Spell ' + spell + '</a></td></tr>';
+						  var row = '<tr><td>' + papyrus + ' <a class="tbp-link" href="https://totenbuch.awk.nrw.de/objekt/tm' + TMnumber + '" target="_blank" alt="Totenbuch Projekt reference">[TbP]</a> <a class="tm-link" href="https://trismegistos.org/text/' + TMnumber + '" target="_blank" alt="Trismegistos reference">[TM]</a> <a class="ref-link" href="references.html?q=TM ' + TMnumber + '" target="_blank" alt="Bibliography">[Ref]</a></td><td><span class="data-table ' + dateclass + '">' + dating + '</span></td><td><a class="btn btn-light" href="spells.html#s' + spell + '">Spell ' + spell + '</a></td></tr>';
 						  
 						  table += row;
 						}
