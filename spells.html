@@ -385,13 +385,13 @@ $(document).ready(function() {
 								  ctr = "b";
 								} else {
 								  // Append other button style
-								  $('#s' + Spnumber).append(' <a class="btn2" href="#sp' + Spnumber + '" alt="Witnesses available"><i class="icon-arrow-down-circle"></i></a>');
+								  //$('#s' + Spnumber).append(' <a class="btn2" href="#sp' + Spnumber + '" alt="Witnesses available"><i class="icon-arrow-down-circle"></i></a>');
 								  ctr = "a";
 								}
 							  }
 							  
 							  html += '<tr>';	
-							  html += '<td id="sp' + Spnumber + '" rowspan="' + rowspan + '">' + spell + ' <a class="tbp-link" href="https://totenbuch.awk.nrw.de/spruch/' + Spnumber + '" target="_blank">[TbP]</a> <a class="ref-link" href="references.html?q=' + spell + '" target="_blank" alt="Bibliography">[Ref]</a></td>';
+							  html += '<td id="sp' + Spnumber + '">' + spell + ' <a class="tbp-link" href="https://totenbuch.awk.nrw.de/spruch/' + Spnumber + '" target="_blank">[TbP]</a> <a class="ref-link" href="references.html?q=' + spell + '" target="_blank" alt="Bibliography">[Ref]</a></td>';
 							
 							
 							html += '<td><ul class="source">';		
