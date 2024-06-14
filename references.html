@@ -32,7 +32,7 @@
 	<div id="libraryContent" class="block-content">
 	     
       <form id="zoteroSearchForm" name="zoteroSearchForm">
-         <div class="input-group"><input class="form-control row-cols-1 p-1" name="q" placeholder="Enter search term" type="text" autocomplete="off">
+         <div class="input-group"><input id="q" name="q" type="hidden"><input id="w" class="form-control row-cols-1 p-1" name="w" placeholder="Enter search term" type="text" autocomplete="off">
          <input class="btn btn-outline-primary" type="submit" value="Search"> </div>
       </form>
 <br>
@@ -64,6 +64,31 @@
 		
 </div>
 </div>
+<script>
+
+document.getElementById('w').addEventListener('input', function() {
+	document.getElementById('q').value = this.value;	
+	
+   var query = document.getElementById('q').value || "";
+   var itemTypeParam = getParameterByName("itemType") || "-attachment || note";
+   var expanded = Boolean(getParameterByName("expanded"));
+   var pageStart = getParameterByName("start") || 0;
+   var sortParam = getParameterByName("sort") || "date";
+
+   document.forms.zoteroSearchForm.q.value = query;
+   var itemType = setSelectValue("itemType", itemTypeParam);
+   var sort = setSelectValue("visibleSort", sortParam);
+   var sortHiddenInput = document.getElementById("sort");
+   if (sortHiddenInput) {
+      document.forms.zoteroSearchForm.sort.value = sort;
+   }
+
+   initForm("zoteroSearchForm", expanded);
+
+   searchZotero(query, itemType, sort, pageStart);
+	
+});
+</script>
 </section>
 </main>
 
