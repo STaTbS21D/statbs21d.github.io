@@ -200,7 +200,7 @@ $(document).ready(function() {
 					if(line.startsWith('<br>') && line.endsWith('</hiero>')){
 						htmlContent += line.trim();
 					}
-					if((line.length > 12 && line.endsWith('<br>')) || (line.length > 12 && line.endsWith('<br></hiero>'))) {
+					if((line.length > 4 && line.endsWith('<br>')) || (line.length > 12 && line.endsWith('<br></hiero>'))) { //4 is 12
 					  lineNumber++;
 					  htmlContent += "<span class='hiero'><sup>" + lineNumber + "</sup>|</span>" + line.trim(); 
 					} else {
