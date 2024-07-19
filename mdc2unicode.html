@@ -134,6 +134,57 @@ $('#statbs21d-icon').on('click', function() {
 
 });
 
+
+$(document).ready(function() {
+  // Check if the user has already seen the message in the last month
+  var lastViewed = getCookie('lastViewed');
+  if (!lastViewed) {
+    // Show the personalized message
+	setTimeout(() => {
+            $("#srv").slideToggle().removeClass("d-none"); $('#personalizedMessage').show();
+        }, 3000);
+    
+  }
+
+  // Handle accept button click
+  $('#acceptButton').click(function() {
+    // Perform action when user accepts the message
+    // For example, redirect to a special offer page
+	window.location.target = '_blank';
+    window.location.href = 'https://www.egiptologia.cu/mdc2unicode';
+  });
+
+  // Handle dismiss button click
+  $('#dismissButton').click(function() {
+    // Hide the message and set a cookie to prevent showing it again for a month
+    $('#srv').slideToggle();//hide();
+    setCookie('lastViewed', 'true', 30); // Set cookie to expire in 30 days
+  });
+});
+
+// Function to set a cookie
+function setCookie(name, value, days) {
+  var expires = "";
+  if (days) {
+    var date = new Date();
+    date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+    expires = "; expires=" + date.toUTCString();
+  }
+  document.cookie = name + "=" + value + expires + "; path=/";
+}
+
+// Function to get a cookie value
+function getCookie(name) {
+  var nameEQ = name + "=";
+  var ca = document.cookie.split(';');
+  for (var i = 0; i < ca.length; i++) {
+    var c = ca[i];
+    while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+    if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+  }
+  return null;
+}
+
 </script>
 <script src="assets/js/aos.js"></script>
 <script src="assets/js/script.min.js"></script>
