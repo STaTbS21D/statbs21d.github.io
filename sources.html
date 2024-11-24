@@ -194,101 +194,73 @@ $(document).ready(function() {
 			  headers: headers,
 			  success: function(response) {
 				
-						var folderList = {};
-						var rootSpell = {};
-						var ind = '';
-				
-						$.each(response.tree, function(index, item) {
-                            if (item.type === 'blob') {
-                                var path = item.path; 
-								
-                                if (path.includes('Unicode/')) {
-                                    var rootFolder = getRootFolder(path); 
-										ind = rootFolder;
+					var folderList = {};
+					var rootSpell = {};
+					var ind = '';
 
-                                    if (rootFolder) { 
-									
-										  var fileSeparator = rootFolder.indexOf(' - ');
-										  var TMnumber = rootFolder.substr(0, fileSeparator);
-										  TMnumber = TMnumber.substring(3);
-										  var papyrus = rootFolder.substr(fileSeparator + 2);
-										  papyrus = papyrus.slice(0, -3);
-										  var spell = getSpellFolder(path).substring(6);
-									
-                                        if (!folderList[TMnumber]) {
-										
-                                            folderList[TMnumber] = []; 
-											rootSpell[TMnumber] = [];
-                                        }
+					$.each(response.tree, function(index, item) {
+					  if (item.type === 'blob') {
+						var path = item.path;
 
-										folderList[TMnumber].push(papyrus); 
-										rootSpell[TMnumber].push(spell); 
-                                    }
-                                }
-                            }
-                        });
-												
-						var file_folder = [];
-						
-						$.each(folderList, function(i, fileName) {
-							  var folder = rootSpell[i];
+						if (path.includes('Unicode/')) {
+						  var rootFolder = getRootFolder(path);
+						  ind = rootFolder;
 
-							  var existingFile = file_folder.find(function(item) {
-								return item[0] === fileName;
-							  });
+						  if (rootFolder) {
+							var fileSeparator = rootFolder.indexOf(' - ');
+							var TMnumber = rootFolder.substr(0, fileSeparator);
+							TMnumber = TMnumber.substring(3);
+							var papyrus = rootFolder.substr(fileSeparator + 2);
+							papyrus = papyrus.slice(0, -3);
+							var spell = getSpellFolder(path).substring(6);
 
-							  if (existingFile) {
-								existingFile.push(folder);
-							  } else {
-								file_folder.push([i + ' - ' + fileName, folder]);
-							  }
-							});
-						
-						
-						var table = '<table class="table table-striped">';
-						var headerRow = '<thead><tr><th colspan="2" style="width: 55%">Book of the Dead Spell Source</th><th style="width: 45%">Available Spells</th></tr></thead><tbody>';
-						table += headerRow;
-
-						for (var i = 0; i < file_folder.length; i++) {
-							var file = file_folder[i][0];
-							var folders = file_folder[i].slice(1);
-
-							var fileSeparator = file.indexOf(' - ');
-							var TMnumber = file.substr(0, fileSeparator);
-							var papyrus = file.substr(fileSeparator + 2);
-
-							var dating = "";
-							var dateclass = "";
-							if (papyrus.endsWith('[Ramesside]')) {
-								papyrus = papyrus.replace('[Ramesside]', '');
-								dating = "Ramesside";
-								dateclass = "dating-ram";
-							} else if (papyrus.endsWith('[Ramesside - 21D]')) {
-								papyrus = papyrus.replace('[Ramesside - 21D]', '');
-								dating = "Ramesside / 21<sup>st</sup> Dyn.";
-								dateclass = "dating-ram21d";
-							} else {
-								dating = "21<sup>st</sup> Dynasty";
-								dateclass = "dating-21d";
+							if (!folderList[TMnumber]) {
+							  folderList[TMnumber] = papyrus;
+							  rootSpell[TMnumber] = [];
 							}
 
-							var row = '<tr><td>' + papyrus + ' <a class="tbp-link" href="https://totenbuch.awk.nrw.de/objekt/tm' + TMnumber + '" target="_blank" alt="Totenbuch Projekt reference">[TbP]</a> <a class="tm-link" href="https://trismegistos.org/text/' + TMnumber + '" target="_blank" alt="Trismegistos reference">[TM]</a> <a class="ref-link" href="references.html?q=TM ' + TMnumber + '" target="_blank" alt="Bibliography">[Ref]</a></td><td><span class="data-table ' + dateclass + '">' + dating + '</span></td><td>';
-
-							var spell = folders[0];
-							var spellElements = spell.slice(',');
-
-							// Construct rows for each element
-							for (const element of spellElements) {
-								row += '<a class="btn btn-light" href="spells.html#s' + element + '">Spell ' + element + '</a> ';
-							}
-
-							row += '</td></tr>';
-							table += row;
+							rootSpell[TMnumber].push(spell);
+						  }
 						}
+					  }
+					});
 
-						table += '</tbody></table>';
+					var table = '<table class="table table-striped">';
+					var headerRow = '<thead><tr><th colspan="2" style="width: 55%">Book of the Dead Spell Source</th><th style="width: 45%">Available Spells</th></tr></thead><tbody>';
+					table += headerRow;
 
-						$('#fileListBody').html(table);
+					$.each(folderList, function(TMnumber, papyrus) {
+					  var spells = rootSpell[TMnumber];
+					  var dating = "";
+					  var dateclass = "";
+
+					  if (papyrus.endsWith('[Ramesside]')) {
+						papyrus = papyrus.replace('[Ramesside]', '');
+						dating = "Ramesside";
+						dateclass = "dating-ram";
+					  } else if (papyrus.endsWith('[Ramesside - 21D]')) {
+						papyrus = papyrus.replace('[Ramesside - 21D]', '');
+						dating = "Ramesside / 21<sup>st</sup> Dyn.";
+						dateclass = "dating-ram21d";
+					  } else {
+						dating = "21<sup>st</sup> Dynasty";
+						dateclass = "dating-21d";
+					  }
+
+					  var row = '<tr><td>' + papyrus + ' <a class="tbp-link" href="https://totenbuch.awk.nrw.de/objekt/tm' + TMnumber + '" target="_blank" alt="Totenbuch Projekt reference">[TbP]</a> <a class="tm-link" href="https://trismegistos.org/text/' + TMnumber + '" target="_blank" alt="Trismegistos reference">[TM]</a> <a class="ref-link" href="references.html?q=TM ' + TMnumber + '" target="_blank" alt="Bibliography">[Ref]</a></td><td><span class="data-table ' + dateclass + '">' + dating + '</span></td><td>';
+
+					  // Construct rows for each spell
+					  for (const spell of spells) {
+						row += '<a class="btn btn-light" href="spells.html#s' + spell + '">Spell ' + spell + '</a> ';
+					  }
+
+					  row += '</td></tr>';
+					  table += row;
+					});
+
+					table += '</tbody></table>';
+
+					$('#fileListBody').html(table);
 
 										
 			  },
