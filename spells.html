@@ -373,7 +373,17 @@ $(document).ready(function() {
                         // Generate the table rows for the folder list
                         var html = '<table class="table table-striped"><thead><tr><th>Spell</th><th>Available transcripts</th></tr></thead><tbody>';
 						var ctr = "a";
-						spellSet.forEach(function(spell) {
+						
+						var spellArray = Array.from(spellSet);
+
+						// Sort the spells based on Spnumber
+						spellArray.sort(function(a, b) {
+							var numA = parseInt(a.substring(6), 10);
+							var numB = parseInt(b.substring(6), 10);
+							return numA - numB;  // Sort in ascending order
+						});
+						
+						spellArray.forEach(function(spell) { //spellSet.
 							  var files = folderList[spell];
 							  var rowspan = files.length;						
 							  var Spnumber =  spell.substring(6);
