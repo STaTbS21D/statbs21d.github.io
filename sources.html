@@ -231,6 +231,10 @@ $(document).ready(function() {
 
 					$.each(folderList, function(TMnumber, papyrus) {
 					  var spells = rootSpell[TMnumber];
+					  // Sort spells numerically
+						spells.sort(function(a, b) {
+							return parseInt(a) - parseInt(b);
+						});
 					  var dating = "";
 					  var dateclass = "";
 
