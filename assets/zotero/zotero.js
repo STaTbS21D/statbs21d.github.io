@@ -442,6 +442,7 @@ window.onload = function () {
 
    initForm("zoteroSearchForm", expanded);
 	
-	if(tag == '') searchZotero(query, itemType, sort, pageStart);
-	else searchTag(tag, itemType, sort, pageStart);
+	//if(tag == '') 
+		searchZotero(query, itemType, sort, pageStart);
+	//else searchTag(tag, itemType, sort, pageStart);
 };
