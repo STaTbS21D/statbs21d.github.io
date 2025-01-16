@@ -323,20 +323,6 @@ function searchZotero(query, itemType, sort, start) {
    makeCorsRequest(url, successCallback, errorCallback);
 }
 
-// Passes search URL and callbacks to CORS function
-function searchTag(tag, itemType, sort, start) {
-   var zotId = (ZOTERO_CONFIG["zotIdType"] === "group") ? "groups/" + ZOTERO_CONFIG["zotId"] : "users/" + ZOTERO_CONFIG["zotId"];
-   var collection = (ZOTERO_CONFIG["collectionKey"] === "") ? "" : "/collections/" + ZOTERO_CONFIG["collectionKey"];
-   var base = "https://api.zotero.org/" + zotId + collection + "/items/top?tag=" + tag;
-   var style = (ZOTERO_CONFIG["style"] === "") ? "" : "&style=" + encodeStyle(ZOTERO_CONFIG["style"]);
-   var params = "&q=" + encodeURI(query) + "&itemType=" + itemType +
-      "&sort=" + sort + "&start=" + start + ZOTERO_CONFIG["filterTags"];
-   var limit = "&limit=" + ZOTERO_CONFIG["limit"];
-   var url = base; //+ params + style + limit;
-   showUrl(url);
-   showLoading(true);
-   makeCorsRequest(url, successCallback, errorCallback);
-}
 
 function initCollapsible(expanded) {
    // Handles collapsible sections
@@ -426,7 +412,6 @@ function setSelectValue(elId, desiredValue) {
 // When the window loads, read query parameters and perform search
 window.onload = function () {
    var query = getParameterByName("q") || "";
-   var tag = getParameterByName("t");
    var itemTypeParam = getParameterByName("itemType") || "-attachment || note";
    var expanded = Boolean(getParameterByName("expanded"));
    var pageStart = getParameterByName("start") || 0;
@@ -441,8 +426,6 @@ window.onload = function () {
    }
 
    initForm("zoteroSearchForm", expanded);
-	
-	//if(tag == '') 
-		searchZotero(query, itemType, sort, pageStart);
-	//else searchTag(tag, itemType, sort, pageStart);
+
+   searchZotero(query, itemType, sort, pageStart);
 };
