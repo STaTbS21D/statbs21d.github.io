@@ -320,23 +320,7 @@ $(document).ready(function() {
 const pag = '#nsources';
 $(document).ready(function () {
 $('#nav-bar').load('nav.html');
-$('#footer').load('footer.html');
-
-const idArray = [134391, 104, 106]; // Example array of IDs
-
-function checkIds() {
-        $('#dataTable tr').each(function() {
-            const rowId = parseInt($(this).data('id'));
-            if (idArray.includes(rowId)) {
-                // Append a marking (for example, a checkmark) in the Status column
-                $(this).find('td:last').append('<span class="badge badge-success">✔️</span>');
-            }
-        });
-    }
-
-    // Automatically check IDs on page load
-    checkIds();    
-	
+$('#footer').load('footer.html');	
 });
 
 $('#btn-toggle').on('click', function(){
@@ -352,6 +336,26 @@ $('#btn-toggle').on('click', function(){
 	}
 
 });
+
+$(document).ready(function() {
+    // Array of ID numbers
+    const idArray = [134391, 104, 106]; // Example IDs that are in the array
+
+    // Function to check IDs and mark the rows
+    function checkIds() {
+        $('#dataTable tr').each(function() {
+            const rowId = parseInt($(this).data('id'));
+            if (idArray.includes(rowId)) {
+                // Append a marking (for example, a checkmark) in the Status column
+                $(this).find('td:last').append('<span class="badge badge-success">✔️</span>');
+            }
+        });
+    }
+
+    // Automatically check IDs on page load
+    checkIds();
+});
+
 </script>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.js"></script><script src="assets/js/script.min.js"></script><script src="assets/bootstrap/js/bootstrap-collapse.js"></script>
