@@ -233,7 +233,7 @@ $(document).ready(function() {
 					});
 
 					var table = '<table class="table table-striped">';
-					var headerRow = '<thead><tr><th colspan="2" style="width: 55%">Book of the Dead Spell Source</th><th style="width: 45%">Available Spells</th></tr></thead><tbody>';
+					var headerRow = '<thead><tr><th colspan="2" style="width: 55%">Book of the Dead Spell Source</th><th style="width: 45%">Available Spells</th></tr></thead><tbody id="dataTable">';
 					table += headerRow;
 
 					$.each(folderList, function(TMnumber, papyrus) {
@@ -324,13 +324,18 @@ $('#footer').load('footer.html');
 
 const idArray = [134391, 104, 106]; // Example array of IDs
 
-    $('table tbody tr').each(function() {
-        const rowId = parseInt($(this).data('id'));
+function checkIds() {
+        $('#dataTable tr').each(function() {
+            const rowId = parseInt($(this).data('id'));
+            if (idArray.includes(rowId)) {
+                // Append a marking (for example, a checkmark) in the Status column
+                $(this).find('td:last').append('<span class="badge badge-success">✔️</span>');
+            }
+        });
+    }
 
-        if ($.inArray(rowId, idArray) !== -1) {
-            $(this).addClass('marked');
-        }
-    });
+    // Automatically check IDs on page load
+    checkIds();    
 	
 });
 
