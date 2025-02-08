@@ -64,11 +64,28 @@
 		
 </div>
 </div>
-<script>/*
-var tag = ''; 
-window.onload = function () {
-   tag = getParameterByName("t");
-   } */
+<script>
+
+$(document).ready(function() {
+            // Function to get URL parameter
+            function getUrlParameter(name) {
+                const urlParams = new URLSearchParams(window.location.search);
+                return urlParams.get(name);
+            }
+
+            // Example usage
+            const paramT = 'tag'; // Replace 'tag' with your parameter name
+			const paramP = 'p';
+            const paramValueT = getUrlParameter(paramT);
+			const paramValueP = getUrlParameter(paramP);
+
+            if (paramValueP == 'tags') {
+				$('#libraryContent').html('<div align="center"><img src="assets/img/loading.gif" /></div>');
+                $('#libraryContent').load('https://mdc2unicode.x10.bz/zot.php?p=' + paramValueP + '&tag=' + encodeURIComponent(paramValueT));
+        } 
+		});
+
+
 document.getElementById('w').addEventListener('input', function() {
 	document.getElementById('q').value = this.value;	
 	

@@ -268,7 +268,7 @@ const completedPapyri = [134426, 134699, 134519, 134391];
 						dateclass = "dating-21d";
 					  }
 
-					  var row = '<tr id="row-' + TMnumber + '" class="table-row"><td>' + papyrus + ' <a class="tbp-link" href="https://totenbuch.awk.nrw.de/objekt/tm' + TMnumber + '" target="_blank" alt="Totenbuch Projekt reference">[TbP]</a> <a class="tm-link" href="https://trismegistos.org/text/' + TMnumber + '" target="_blank" alt="Trismegistos reference">[TM]</a> <a class="ref-link" href="references.html?q=TM ' + TMnumber + '" target="_blank" alt="Bibliography">[Ref]</a></td><td><span class="data-table ' + dateclass + '">' + dating + '</span></td><td>';
+					  var row = '<tr id="row-' + TMnumber + '" class="table-row"><td>' + papyrus + ' <a class="tbp-link" href="https://totenbuch.awk.nrw.de/objekt/tm' + TMnumber + '" target="_blank" alt="Totenbuch Projekt reference">[TbP]</a> <a class="tm-link" href="https://trismegistos.org/text/' + TMnumber + '" target="_blank" alt="Trismegistos reference">[TM]</a> <a class="ref-link" href="references.html?p=tags&tag=TM ' + TMnumber + '" target="_blank" alt="Bibliography">[Ref]</a></td><td><span class="data-table ' + dateclass + '">' + dating + '</span></td><td>';
 
 					  // Construct rows for each spell
 					  for (const spell of spells) {
