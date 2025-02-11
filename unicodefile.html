@@ -8,7 +8,7 @@
 <meta property="og:image:height" content="600">
 <meta property="og:description" content="Synoptic Edition of Book of the Dead Spell Sources from the 21st Dynasty (STaTbS21D) is a Digital Humanities project on Egyptology, provides edited and digitalized Book of the Dead spell sources from the end of the New Kingdom and the beginning of the Third Intermediate Period (particularly the 21st Dynasty) for the Egyptological community and the general public." />
 <link rel="prefetch" href="nav.html"><link rel="prefetch" href="footer.html">
-<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i&amp;display=swap"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css">
+<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i&amp;display=swap"><link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css"><link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
 <link href="https://db.onlinewebfonts.com/c/0c5e6f133b0b25edfed47aca4ab57676?family=Segoe+UI+Historic" rel="stylesheet"> 
 <!--link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -291,6 +291,131 @@ $(document).ready(function () {
 $('#nav-bar').load('nav.html');
 $('#footer').load('footer.html');
 });
+
+
+$(document).ready(function () {
+
+const urlP = new URLSearchParams(window.location.search);
+			const TM = urlP.get("id");
+			const Sp = urlP.get("spell");
+const xmlUrl = "xmldb/tm" + TM + ".xml"; 
+
+	
+      $.ajax({
+        url: xmlUrl,
+        dataType: "xml", 
+        success: function(xmlDoc) {
+		
+          $(xmlDoc).find("objekt").each(function() {  
+            
+			var name = $(this).find("besitzer name").not("besitzer verwandt name").text(); 
+			name = name.replace(/-\s/g, '-'); name = name.replace(/-\)\s/g, ')-');
+			name = name.replace(/I/g, 'i͗');
+			var nameTitle = $(this).find("besitzer titel").not("besitzer verwandt titel").text();
+			nameTitle = nameTitle.replace(/-\s/g, '-'); nameTitle = nameTitle.replace(/-\)\s/g, ')-'); nameTitle = nameTitle.replace(/I/g, 'i͗');
+			
+			var father = $(this).find("besitzer verwandt[rel='Vater'] name").text(); 
+			father = father.replace(/-\s/g, '-'); father = father.replace(/-\)\s/g, ')-');
+			father = father.replace(/I/g, 'i͗'); 
+			var fatherTitle = $(this).find("besitzer verwandt[rel='Vater'] titel").text();
+			fatherTitle = fatherTitle.replace(/-\s/g, '-'); fatherTitle = fatherTitle.replace(/-\)\s/g, ')-'); fatherTitle = fatherTitle.replace(/I/g, 'i͗');
+			
+			var mother = $(this).find("besitzer verwandt[rel='Mutter'] name").text(); 
+			mother = mother.replace(/-\s/g, '-'); mother = mother.replace(/-\)\s/g, ')-');
+			mother = mother.replace(/I/g, 'i͗'); 
+			var motherTitle = $(this).find("besitzer verwandt[rel='Mutter'] titel").text();motherTitle = motherTitle.replace(/-\s/g, '-'); motherTitle = motherTitle.replace(/-\)\s/g, ')-'); motherTitle = motherTitle.replace(/I/g, 'i͗');
+			
+			var wife = $(this).find("besitzer verwandt[rel='Ehefrau'] name").text(); 
+			wife = wife.replace(/-\s/g, '-'); wife = wife.replace(/-\)\s/g, ')-');
+			wife = wife.replace(/I/g, 'i͗'); 
+			var wifeTitle = $(this).find("besitzer verwandt[rel='Ehefrau'] titel").text();
+			wifeTitle = wifeTitle.replace(/-\s/g, '-'); wifeTitle = wifeTitle.replace(/-\)\s/g, ')-'); wifeTitle = wifeTitle.replace(/I/g, 'i͗');
+			
+			var son = $(this).find("besitzer verwandt[rel='Sohn'] name").text(); 
+			son = son.replace(/-\s/g, '-'); son = son.replace(/-\)\s/g, ')-');
+			son = son.replace(/I/g, 'i͗'); 
+			var sonTitle = $(this).find("besitzer verwandt[rel='Sohn'] titel").text();
+			sonTitle = sonTitle.replace(/-\s/g, '-'); sonTitle = sonTitle.replace(/-\)\s/g, ')-'); sonTitle = sonTitle.replace(/I/g, 'i͗');
+			
+			var daugther = $(this).find("besitzer verwandt[rel='Tochter'] name").text(); 
+			daugther = daugther.replace(/-\s/g, '-'); daugther = daugther.replace(/-\)\s/g, ')-');
+			daugther = daugther.replace(/I/g, 'i͗'); 
+			var daugtherTitle = $(this).find("besitzer verwandt[rel='Tochter'] titel").text();
+			daugtherTitle = daugtherTitle.replace(/-\s/g, '-'); daugtherTitle = daugtherTitle.replace(/-\)\s/g, ')-'); daugtherTitle = daugtherTitle.replace(/I/g, 'i͗');
+			
+			let spells = [];
+			let currentSpellList = "";
+			let lastWasLineBreak = false;
+
+			var sequence = $(this).find('teilobjekt inhalt sprueche > *').each(function() {  
+			
+				const tagName = this.tagName;
+
+				if (tagName === 's') {
+				const text = $(this).text();
+				if (currentSpellList !== "") {
+					currentSpellList += " - "; 
+				}
+				currentSpellList += text;
+				lastWasLineBreak = false; 
+
+			} else if (tagName === 'l') {
+				if (!lastWasLineBreak) {
+					if(currentSpellList !== "") {
+					   spells.push(currentSpellList);
+					}
+					currentSpellList = "[...]";
+					lastWasLineBreak = true;
+				}
+			}
+		});
+
+			if (currentSpellList !== "") {
+			spells.push(currentSpellList);
+		}
+
+		let joinedSpells = spells.join(' - ');
+		joinedSpells = joinedSpells.replace(/\[\.\.\.\] -/g, '[...]'); 
+		joinedSpells = joinedSpells.replace(/ - \[\.\.\.\]/g, ' - [...] - '); 
+		joinedSpells = joinedSpells.trim();
+		if (joinedSpells.endsWith('-')) {
+			joinedSpells = joinedSpells.slice(0, joinedSpells.length - 1).trim();
+		}
+			
+			sequence = joinedSpells;
+			
+			var highlightedSequence = sequence.replace(new RegExp(Sp, 'g'), '<a class="btn-light" href="spells.html#s'+Sp+'"><span style="color:#69b0e5;font-size:1.2em"><strong>' + Sp + '</strong></span></a>');
+			
+			
+			var ftext = '';
+			if(name != '') ftext = `<i class='fa fa-user icon'></i> Owner (N): ${name.toLowerCase()}`;
+			if(nameTitle != '') ftext += `  Titles: ${nameTitle.toLowerCase()}`;
+			ftext += '<div style="padding-left:20px">'; if(wife != '' || father != '' || mother != '' || son != '' || daugther != '') {ftext += '<i class="fa fa-group icon"></i> Family: '; }
+			if(wife != '') ftext += `<br> Wife (W): ${wife.toLowerCase()}`; 
+			if(wifeTitle != '') ftext += `  Titles: ${wifeTitle.toLowerCase()}`;
+			if(father != '') ftext += `<br> Father (F): ${father.toLowerCase()}`;
+			if(fatherTitle != '') ftext += `  Titles: ${fatherTitle.toLowerCase()}`;
+			if(mother != '') ftext += `<br> Mother (M): ${mother.toLowerCase()}`;
+			if(motherTitle != '') ftext += `  Titles: ${motherTitle.toLowerCase()}`;
+			if(son != '') ftext += `<br> Son (S): ${son.toLowerCase()}`;
+			if(sonTitle != '') ftext += `  Titles: ${sonTitle.toLowerCase()}`;
+			if(daugther != '') ftext += `<br> Daugther (D): ${daugther.toLowerCase()}`;
+			if(daugtherTitle != '') ftext += `  Titles: ${daugtherTitle.toLowerCase()}`;
+			ftext += '</div>';
+            const $paragraph = $("<p class='block-content'>");
+            $paragraph.html(`<h4 class='unicode'><em>Totenbuch Projekt</em> Info for TM ${TM}</h4> ${ftext} <i class='fa fa-list icon'></i> Spell Sequence:  ${highlightedSequence} `);
+            $("#markdownContent").append($paragraph); 			
+			});
+        },
+        error: function(jqXHR, textStatus, errorThrown) {
+          console.error("Error loading XML:", textStatus, errorThrown);
+          // $("#markdownContent").append('<div align="center"><p class="text-bg-danger small" style="width:60%;border-radius: 18px;text-align: center">Error loading XML data from Totenbuch-Projekt database.</p></div>'); // Display error message
+        }
+      });
+	  
+	  
+});
+
 </script>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.js"></script><script src="assets/bootstrap/js/bootstrap-dropdown.js"></script><script src="assets/js/script.min.js"></script>
