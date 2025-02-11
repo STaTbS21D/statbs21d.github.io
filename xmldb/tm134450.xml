@@ -1,0 +1,114 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134450" id="1266" v:revision="10278" v:key="153a8c5b96e2826" v:path="/db/totenbuch/objects/tm134450.xml">
+          <admin wer="TB-Projekt" wann="2012-01-01"/>
+          <anmerkungen>Raum 29 bas 21 r. 4</anmerkungen>
+          <standort>
+                    <land>EG</land>
+                    <ort>Kairo</ort>
+                    <institution>Ägyptisches Museum</institution>
+          </standort>
+          <herkunft>
+                    <region>Theben</region>
+                    <ort>Cachette von Deir el-Bahari (Bab el-Gasus), 1891</ort>
+          </herkunft>
+          <besitzer>
+                    <name ranke="I, 400.20 (?)">Drp</name>
+          </besitzer>
+          <datierung>
+                    <periode>3. Zwischenzeit</periode>
+                    <detail>21. Dynastie</detail>
+                    <jahr>späte 21. Dynastie</jahr>
+          </datierung>
+          <form>
+                    <objektgruppe>Papyrus</objektgruppe>
+                    <material>Papyrus</material>
+                    <gesamtmasse>
+                              <beschreibung>Einzelmaße vgl. Zettel</beschreibung>
+                              <laenge>261</laenge>
+                              <hoehe>24</hoehe>
+                    </gesamtmasse>
+                    <schrift>Hieratisch</schrift>
+                    <vignettenstil>farbig</vignettenstil>
+                    <vignettenkommentar>nur A.d.O.</vignettenkommentar>
+          </form>
+          <bibliografie>
+                    <bibl bibl-id="bibl-2742">
+                              <title>Backes, in: SAT 14, 2009</title>
+                              <pages>19</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-2289">
+                              <title>G. Daressy, in: ASAE 8 (1907)</title>
+                              <pages>32</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-926">
+                              <title>A. Niwinski, Studies on the Illustrated Theban Funerary Papyri
+                                        of the 11th and 10th Centuries B.C., OBO 86,
+                                        Fribourg/Göttingen 1989</title>
+                              <pages>266 (Cairo 39)</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-1359">
+                              <title>G. Lenzo Marchese, in: BSEG 26, 2004</title>
+                              <pages>43-62</pages>
+                    </bibl>
+          </bibliografie>
+          <teilobjekt id="1266-1">
+                    <objektname>P. Kairo CG 40018 (J.E. 95860, S.R. IV 960)</objektname>
+                    <inhalt>
+                              <sequenz>A.d.O. + Isis + Nephthys - Tb 1 - 130 - 136/136A - 134
+                                        +Rubrum - 64 +Rubrum - 133 +Rubrum - 136/136A +Rubrum - 134
+                                        +Rubrum</sequenz>
+                              <sprueche>
+                                        <start/>
+                                        <s>VA.d.O.</s>
+                                        <s>1</s>
+                                        <s>130</s>
+                                        <s>136/136A</s>
+                                        <s>134</s>
+                                        <s>64</s>
+                                        <s>133</s>
+                                        <s>136/136A</s>
+                                        <s>134</s>
+                                        <end/>
+                              </sprueche>
+                    </inhalt>
+                    <abbildungen>
+                              <fotos>vorhanden / vollständig</fotos>
+                              <kommentar>Film 1</kommentar>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_CG_40018_A.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_CG_40018_B.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_CG_40018_C.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_CG_40018_D.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_CG_40018_E.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_CG_40018_F.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_CG_40018_G.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_CG_40018_H.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_CG_40018_I.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_CG_40018_J.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_CG_40018_K.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_CG_40018_L.tif"/>
+                              </abbildung>
+                    </abbildungen>
+          </teilobjekt>
+</objekt>

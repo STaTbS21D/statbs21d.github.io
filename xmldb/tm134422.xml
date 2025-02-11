@@ -1,0 +1,102 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134422" id="1238" v:revision="10250" v:key="153a8c5aff5280a" v:path="/db/totenbuch/objects/tm134422.xml">
+          <admin wer="TB-Projekt" wann="2012-01-01"/>
+          <standort>
+                    <land>CH</land>
+                    <ort>Cologny (Kanton Genf)</ort>
+                    <institution>Bibliotheca Bodmeriana, Fondation Martin Bodmer</institution>
+          </standort>
+          <herkunft>
+                    <region>Theben</region>
+                    <anmerkungen>erschlossen</anmerkungen>
+          </herkunft>
+          <besitzer geschlecht="M">
+                    <name ranke="I, 185.27">Nb- nṯrw</name>
+                    <titel>i͗t- nṯr n Imn</titel>
+          </besitzer>
+          <datierung>
+                    <periode>3. Zwischenzeit</periode>
+                    <detail>21. Dynastie</detail>
+                    <jahr>Mitte 21. Dynastie</jahr>
+          </datierung>
+          <form>
+                    <objektgruppe>Papyrus</objektgruppe>
+                    <material>Papyrus</material>
+                    <gesamtmasse>
+                              <hoehe>24</hoehe>
+                    </gesamtmasse>
+                    <schrift>Hieratisch</schrift>
+                    <vignettenstil>Strichzeichnung</vignettenstil>
+          </form>
+          <bibliografie>
+                    <bibl bibl-id="bibl-198">
+                              <title>M. Valloggia, Le Papyrus Bodmer 103: un abrégé du Livre des
+                                        Morts de la Troisième Période Intermédiare, in: CRIPEL 13,
+                                        1991</title>
+                              <pages>129-36, 3 Taf.</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-1361">
+                              <title>G. Lenzo, in: BIFAO 102, 2002</title>
+                              <pages>267-283</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-1359">
+                              <title>G. Lenzo Marchese, in: BSEG 26, 2004</title>
+                              <pages>43-62</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-2799">
+                              <title>Auktionskat. Antiquités - Objets d’art. Collection de Feu
+                                        M.-Ant. W.M. Mensing, Amsterdam 23 - 25 Novembre
+                                        1937</title>
+                              <pages>11, III Nr. 83</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-196">
+                              <title>M. Valloggia, Les manuscrits hiératiques et hieroglyphiques de
+                                        la Bibliotheca Bodmeriana, in: J.L. Chapaz/S. Vuilleumier
+                                        (Hgg.), Sortir au jour. Art égyptien de la Fondation Martin
+                                        Bodmer, CSEG 7, Genf 2001</title>
+                              <pages>135-145</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-210">
+                              <title>M. Ullmann/St. Wimmer, Das Totenbuch des Wabpriesters
+                                        Jmn-m-jp.t (Pap.Fischer), in: D. Kessler et al. (Hgg.),
+                                        Texte - Theben - Tonfragmente, FS Burkard, ÄAT 76, Wiesbaden
+                                        2009</title>
+                              <pages>414-420</pages>
+                    </bibl>
+          </bibliografie>
+          <teilobjekt id="1238-1">
+                    <objektname>P. Cologny CIII</objektname>
+                    <inhalt>
+                              <sequenz>A.d. Re-Harachte - Tb 23 - Verklärungstext - 25 - 26 - 6 -
+                                        162 - Spruch damit ein Mann an jeglichen Ort gehen kann, den
+                                        er liebt - 61 - 28</sequenz>
+                              <sprueche>
+                                        <start/>
+                                        <s>A.d. Re-Harachte</s>
+                                        <s>23</s>
+                                        <s>Verklärung</s>
+                                        <s>25</s>
+                                        <s>26</s>
+                                        <s>6</s>
+                                        <s>162</s>
+                                        <s>Ausserordentliches Textgut</s>
+                                        <s>61</s>
+                                        <s>28</s>
+                                        <end/>
+                              </sprueche>
+                    </inhalt>
+                    <objektmasse>Länge: 100,2 cm</objektmasse>
+                    <abbildungen>
+                              <fotos>vorhanden / vollständig</fotos>
+                              <kommentar>siehe Publikation</kommentar>
+                              <abbildung rechte="com">
+                                        <datei name="Cologny_CIII_A.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Cologny_CIII_B.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Cologny_CIII_C.tif"/>
+                              </abbildung>
+                    </abbildungen>
+          </teilobjekt>
+</objekt>

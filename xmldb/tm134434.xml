@@ -1,0 +1,92 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134434" id="1250" v:revision="10262" v:key="153a8c5b4022816" v:path="/db/totenbuch/objects/tm134434.xml">
+          <admin wer="TB-Projekt" wann="2012-01-01"/>
+          <anmerkungen>vgl. J. 29704 (?); Sarg od. Mumie?</anmerkungen>
+          <standort>
+                    <land>EG</land>
+                    <ort>Kairo</ort>
+                    <institution>Ägyptisches Museum</institution>
+          </standort>
+          <herkunft>
+                    <region>Theben</region>
+                    <ort>Cachette von Deir el-Bahari (Bab el-Gasus), 1891</ort>
+          </herkunft>
+          <besitzer geschlecht="F">
+                    <name ranke="I, 158.15">Mrt- Imn</name>
+                    <titel>nb.t- pr šmꜥ.t n Imn</titel>
+          </besitzer>
+          <datierung>
+                    <periode>3. Zwischenzeit</periode>
+                    <detail>21. Dynastie</detail>
+                    <jahr>späte 21. Dynastie</jahr>
+          </datierung>
+          <form>
+                    <objektgruppe>Papyrus</objektgruppe>
+                    <material>Papyrus</material>
+                    <gesamtmasse>
+                              <beschreibung>4 Kartons</beschreibung>
+                    </gesamtmasse>
+                    <schrift>Hieratisch</schrift>
+                    <vignettenstil>farbig</vignettenstil>
+          </form>
+          <bibliografie>
+                    <bibl bibl-id="bibl-926">
+                              <title>A. Niwinski, Studies on the Illustrated Theban Funerary Papyri
+                                        of the 11th and 10th Centuries B.C., OBO 86,
+                                        Fribourg/Göttingen 1989</title>
+                              <pages>Taf. 3a+b</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-1359">
+                              <title>G. Lenzo Marchese, in: BSEG 26, 2004</title>
+                              <pages>43-62, bes. 55, fig. 3</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-1361">
+                              <title>G. Lenzo, in: BIFAO 102, 2002</title>
+                              <pages>267-283</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-839">
+                              <title>M. Perraud, in: Totenbuch-Forschungen. Gesammelte Beiträge des
+                                        2. Internationalen Totenbuch-Symposiums, Bonn 25. - 29.
+                                        September 2005, SAT 11</title>
+                              <pages>291-292, Nr. 15</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-1357">
+                              <title>G. Lenzo Marchese, Rez. zu I. Munro, Ein Ritualbuch für
+                                        Goldamulette und Totenbuch des Month-em-hat, in: JAOS 125.2,
+                                        2005</title>
+                              <pages>278-279</pages>
+                    </bibl>
+          </bibliografie>
+          <teilobjekt id="1250-1">
+                    <objektname>P. Kairo CG 40027 (S.R. IV 999)</objektname>
+                    <inhalt>
+                              <sequenz>A.d.O. - Tb 190 - 148 - 135 - 1B/172(Pleyte) - 180 - 166
+                                        (Naville) - 101 - 155 + Rubrum - 156 + Rubrum -
+                                        Amulettspruch - A.d.O.</sequenz>
+                              <sprueche>
+                                        <start/>
+                                        <s>VA.d.O.</s>
+                                        <s>190</s>
+                                        <s>148</s>
+                                        <s>135</s>
+                                        <s>172 (Pleyte)/1B</s>
+                                        <s>180</s>
+                                        <s>166</s>
+                                        <s>101</s>
+                                        <s>155</s>
+                                        <s>156</s>
+                                        <s>Ausserordentliches Textgut</s>
+                                        <s>VA.d.O.</s>
+                                        <end/>
+                              </sprueche>
+                    </inhalt>
+                    <abbildungen>
+                              <fotos>vorhanden / unvollständig</fotos>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_CG_40027_A.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_CG_40027_B.tif"/>
+                              </abbildung>
+                    </abbildungen>
+          </teilobjekt>
+</objekt>

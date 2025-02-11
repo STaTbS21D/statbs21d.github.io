@@ -1,0 +1,97 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134370" id="1185" v:revision="10198" v:key="153a8c59eae27d6" v:path="/db/totenbuch/objects/tm134370.xml">
+  <admin wer="TB-Projekt" wann="2012-01-01"/>
+  <standort>
+    <land>IT</land>
+    <ort>Mailand</ort>
+    <institution>Castello Sforzesco</institution>
+  </standort>
+  <herkunft>
+    <region>Theben</region>
+  </herkunft>
+  <besitzer geschlecht="M">
+    <name ranke="I, 119.13">Pꜣ- šd</name>
+    <titel>sš</titel>
+    <verwandt rel="Ehefrau">
+      <name>[...]ḫꜣ[...]</name>
+      <titel>nb.t- pr </titel>
+    </verwandt>
+  </besitzer>
+  <datierung>
+    <periode>Neues Reich</periode>
+    <detail>19. Dynastie</detail>
+  </datierung>
+  <form>
+    <objektgruppe>Papyrus</objektgruppe>
+    <material>Papyrus</material>
+    <gesamtmasse>
+      <hoehe>40</hoehe>
+    </gesamtmasse>
+    <schrift>Hieroglyphisch</schrift>
+    <vignettenstil>farbig</vignettenstil>
+  </form>
+  <bibliografie>
+    <bibl bibl-id="bibl-1294">
+      <title>G. Lise, La collezione raccolta egizia, Castello Sforzesco, Mailand 1974</title>
+      <pages>31-33, Fig. 13</pages>
+    </bibl>
+    <bibl bibl-id="bibl-1293">
+      <title>G. Lise, Musei e Gallerie di Milano. Museo Archeologico: raccolta egizia, Mailand
+        1979</title>
+      <pages>68, Taf. 80 (mit weiterer Lit.)</pages>
+    </bibl>
+    <bibl bibl-id="bibl-1292">
+      <title>G. Lise, La collezione egizia, Castello Sforzesco, Mailand 1988</title>
+      <pages>80, 82 (Abb. 38)</pages>
+    </bibl>
+    <bibl bibl-id="bibl-2308">
+      <title>F. Crevatin, Il Libro dei Morti di Ga- syb, in: (Centro Culturale Egittologico Claudia
+        Dolzani Trieste) Quaderni Digitali 2, 2004</title>
+      <pages>1-13</pages>
+    </bibl>
+    <bibl bibl-id="bibl-2306">
+      <title>F. Crevatin, Il libro dei morti di Ptahmose (Papiro Busca, Milano) ed altri documenti
+        egiziani antichi, Pisa/Rom 2008</title>
+      <pages>65-71</pages>
+    </bibl>
+    <bibl bibl-id="bibl-979">
+      <title>E. Naville, Das ägyptische Totenbuch der XVIII. bis XX. Dynastie, Graz 1971</title>
+      <pages>86 (If)</pages>
+    </bibl>
+    <bibl bibl-id="bibl-2675">
+      <title>M. Bellion</title>
+      <pages>91</pages>
+    </bibl>
+    <bibl bibl-id="bibl-1036">
+      <title>I. Munro, Untersuchungen zu den Totenbuch-Papyri der 18. Dynastie, London 1987</title>
+      <pages>298</pages>
+    </bibl>
+  </bibliografie>
+  <teilobjekt id="1185-1">
+    <objektname>P. Mailand 1025</objektname>
+    <inhalt>
+      <sequenz>/// Tb 17 - 18 /// 148 - 125A ///</sequenz>
+      <sprueche>
+        <l/>
+        <s>17</s>
+        <s>18</s>
+        <l/>
+        <s>148</s>
+        <s>125</s>
+        <l/>
+      </sprueche>
+    </inhalt>
+    <objektmasse>Länge: 65 cm</objektmasse>
+    <abbildungen>
+      <fotos>vorhanden / vollständig</fotos>
+      <abbildung rechte="com">
+        <datei name="Mailand_CS_1025_001.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Mailand_CS_1025_002.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Mailand_CS_1025_003.tif"/>
+      </abbildung>
+    </abbildungen>
+  </teilobjekt>
+</objekt>

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+  <script>
+    $(document).ready(function() {
+
+		const urlParams = new URLSearchParams(window.location.href.split('?')[1]);
+		const tbx = urlParams.get('tm');
+	
+        xmlUrl = "xmldb/tm" + tbx + ".xml"; 
+         //https://gitlab.dh.uni-koeln.de/cceh/totenbuch/-/blob/master/app/objects/
+		 //https://totenbuch.awk.nrw.de/db/totenbuch/objects/
+
+      $.ajax({
+        url: xmlUrl,
+        dataType: "xml", 
+        success: function(xmlDoc) {
+         
+          $(xmlDoc).find("objekt").each(function() {  
+            
+			const trlChars = {
+				'i͗': 'i',
+				'- ': '-',
+				'-) ': ')-',				};
+			
+			function transliteration(transl)
+			{
+				if (trlChars.hasOwnProperty(transl)) {
+					return trlChars[transl];
+				} else { return transl; }
+			}
+			
+            var name = $(this).find("besitzer name").not("besitzer verwandt name").text(); 
+			name = name.replace(/-\s/g, '-'); name = name.replace(/-\)\s/g, ')-');
+			name = name.replace(/I/g, 'i͗');
+			var nameTitle = $(this).find("besitzer titel").not("besitzer verwandt titel").text();
+			nameTitle = nameTitle.replace(/-\s/g, '-'); nameTitle = nameTitle.replace(/-\)\s/g, ')-'); nameTitle = nameTitle.replace(/I/g, 'i͗');
+			
+			var father = $(this).find("besitzer verwandt[rel='Vater'] name").text(); 
+			father = father.replace(/-\s/g, '-'); father = father.replace(/-\)\s/g, ')-');
+			father = father.replace(/I/g, 'i͗'); 
+			var fatherTitle = $(this).find("besitzer verwandt[rel='Vater'] titel").text();
+			fatherTitle = fatherTitle.replace(/-\s/g, '-'); fatherTitle = fatherTitle.replace(/-\)\s/g, ')-'); fatherTitle = fatherTitle.replace(/I/g, 'i͗');
+			
+			var mother = $(this).find("besitzer verwandt[rel='Mutter'] name").text(); 
+			mother = mother.replace(/-\s/g, '-'); mother = mother.replace(/-\)\s/g, ')-');
+			mother = mother.replace(/I/g, 'i͗'); 
+			var motherTitle = $(this).find("besitzer verwandt[rel='Mutter'] titel").text();motherTitle = motherTitle.replace(/-\s/g, '-'); motherTitle = motherTitle.replace(/-\)\s/g, ')-'); motherTitle = motherTitle.replace(/I/g, 'i͗');
+			
+			var wife = $(this).find("besitzer verwandt[rel='Ehefrau'] name").text(); 
+			wife = wife.replace(/-\s/g, '-'); wife = wife.replace(/-\)\s/g, ')-');
+			wife = wife.replace(/I/g, 'i͗'); 
+			var wifeTitle = $(this).find("besitzer verwandt[rel='Ehefrau'] titel").text();
+			wifeTitle = wifeTitle.replace(/-\s/g, '-'); wifeTitle = wifeTitle.replace(/-\)\s/g, ')-'); wifeTitle = wifeTitle.replace(/I/g, 'i͗');
+			
+			var son = $(this).find("besitzer verwandt[rel='Sohn'] name").text(); 
+			son = son.replace(/-\s/g, '-'); son = son.replace(/-\)\s/g, ')-');
+			son = son.replace(/I/g, 'i͗'); 
+			var sonTitle = $(this).find("besitzer verwandt[rel='Sohn'] titel").text();
+			sonTitle = sonTitle.replace(/-\s/g, '-'); sonTitle = sonTitle.replace(/-\)\s/g, ')-'); sonTitle = sonTitle.replace(/I/g, 'i͗');
+			
+			var daugther = $(this).find("besitzer verwandt[rel='Tochter'] name").text(); 
+			daugther = daugther.replace(/-\s/g, '-'); daugther = daugther.replace(/-\)\s/g, ')-');
+			daugther = daugther.replace(/I/g, 'i͗'); 
+			var daugtherTitle = $(this).find("besitzer verwandt[rel='Tochter'] titel").text();
+			daugtherTitle = daugtherTitle.replace(/-\s/g, '-'); daugtherTitle = daugtherTitle.replace(/-\)\s/g, ')-'); daugtherTitle = daugtherTitle.replace(/I/g, 'i͗');
+			
+			var group = $(this).find("form objektgruppe").text();			
+			
+			const trScr = {
+				Hieroglyphisch: 'Hieroglyphic', 
+				Hieratisch: 'Hieratic',
+				farbig: 'colored',
+				Strichzeichnung: 'line drawing',
+				reliefiert: 'reliefed',
+				'19.-20. Dynastie': 'Ramesside Period',
+				'21. Dynastie': '21<sup>st</sup> Dynasty',
+				'21.-22. Dynastie': '21-22 Dynasties'
+				//Vignette(n) vorhanden: 'vignette(s) present',
+				};
+				
+			function translateScript(script) {
+			if (trScr.hasOwnProperty(script)) {
+				return trScr[script];
+			} else {
+				return script;
+			}
+		}
+		
+			const dating = $(this).find("datierung detail").map(function() {
+			  var mydate = translateScript($(this).text())
+			  return mydate;			  
+			}).get().join(' / ');
+			
+			const script = $(this).find("form schrift").map(function() {
+			  var myscr = translateScript($(this).text())
+			  return myscr;			  
+			}).get().join(' / ');
+			
+			const vignettes = $(this).find("form vignettenstil").map(function() {
+			  var myv = translateScript($(this).text())
+			  return myv;			  
+			}).get().join(' / ');
+			
+            const trCities = {
+				Kairo: 'Cairo', 
+				Havanna: 'Havana',
+				Wien: 'Viena',
+				Mailand: 'Milan'
+			};
+			
+			function translateCities(city) {
+			if (trCities.hasOwnProperty(city)) {
+				return trCities[city];
+			} else {
+				return city;
+			}
+		}
+            
+			const location = $(this).find("standort institution").map(function() {
+			  return $(this).text();
+			}).get().join(' / ');
+			
+			const city = $(this).find("standort ort").map(function() {
+			  var mycity = translateCities($(this).text())
+			  return mycity;
+			  
+			}).get().join(' / ');
+
+			const country = $(this).find("standort land").map(function() {
+			  return $(this).text();
+			}).get().join(' / ');
+			
+			var origin = $(this).find("herkunft region").text();
+			if(origin == 'Theben') origin = "Thebes";
+			if(origin == 'unbekannt') origin = "unknown";
+			
+			
+			let spells = [];
+			let currentSpellList = "";
+			let lastWasLineBreak = false;
+
+			var sequence = $(this).find('teilobjekt inhalt sprueche > *').each(function() {  
+			
+				const tagName = this.tagName;
+
+				if (tagName === 's') {
+				const text = $(this).text();
+				if (currentSpellList !== "") {
+					currentSpellList += " - "; 
+				}
+				currentSpellList += text;
+				lastWasLineBreak = false; 
+
+			} else if (tagName === 'l') {
+				if (!lastWasLineBreak) {
+					if(currentSpellList !== "") {
+					   spells.push(currentSpellList);
+					}
+					currentSpellList = "[...]";
+					lastWasLineBreak = true;
+				}
+			}
+		});
+
+			if (currentSpellList !== "") {
+			spells.push(currentSpellList);
+		}
+
+		let joinedSpells = spells.join(' - ');
+		joinedSpells = joinedSpells.replace(/\[\.\.\.\] -/g, '[...]'); 
+		joinedSpells = joinedSpells.replace(/ - \[\.\.\.\]/g, ' - [...] - '); 
+		joinedSpells = joinedSpells.trim();
+		if (joinedSpells.endsWith('-')) {
+			joinedSpells = joinedSpells.slice(0, joinedSpells.length - 1).trim();
+		}
+			
+			sequence = joinedSpells;
+			
+			
+			var ftext = '';
+			if(name != '') ftext = `<i class='fa fa-user icon'></i> Owner (N): ${name.toLowerCase()}`;
+			if(nameTitle != '') ftext += `  Titles: ${nameTitle.toLowerCase()}`;
+			ftext += '<div style="padding-left:20px">'; if(wife != '' || father != '' || mother != '' || son != '' || daugther != '') {ftext += '<i class="fa fa-group icon"></i> Family: '; }
+			if(wife != '') ftext += `<br> Wife (W): ${wife.toLowerCase()}`; 
+			if(wifeTitle != '') ftext += `  Titles: ${wifeTitle.toLowerCase()}`;
+			if(father != '') ftext += `<br> Father (F): ${father.toLowerCase()}`;
+			if(fatherTitle != '') ftext += `  Titles: ${fatherTitle.toLowerCase()}`;
+			if(mother != '') ftext += `<br> Mother (M): ${mother.toLowerCase()}`;
+			if(motherTitle != '') ftext += `  Titles: ${motherTitle.toLowerCase()}`;
+			if(son != '') ftext += `<br> Son (S): ${son.toLowerCase()}`;
+			if(sonTitle != '') ftext += `  Titles: ${sonTitle.toLowerCase()}`;
+			if(daugther != '') ftext += `<br> Daugther (D): ${daugther.toLowerCase()}`;
+			if(daugtherTitle != '') ftext += `  Titles: ${daugtherTitle.toLowerCase()}`;
+			ftext += '</div>';
+            const $paragraph = $("<p class='content'>");
+            $paragraph.html(`${ftext} <i class='icon-layers icon'></i> Source: ${group} <br> <div style="padding-left:20px"> <i class='fa fa-pencil icon'></i> Script: ${script} <br> <i class='fa fa-photo icon'></i> Vignettes: ${vignettes} <br> <i class='fa fa-list icon'></i> Spell Sequence:  ${sequence} </div> <i class='fa fa-map-marker icon'></i> Origin: ${origin} <br> <i class='fa fa-hourglass-o icon'></i> Dating: ${dating} <br> <i class='fa fa-institution'></i> Current Location: ${location}, ${city} (${country}) `);
+            $("#TbPmodalBody").append($paragraph); 
+			$("#TbPmodalBody").append('<p style="text-align:center">Source: <a class="btn btn-sm btn-light" href="https://totenbuch.awk.nrw.de/" target="_blank"><em>Totenbuch Projekt</em></a></p>');
+			//return $paragraph;
+          });
+        },
+        error: function(jqXHR, textStatus, errorThrown) {
+          console.error("Error loading XML:", textStatus, errorThrown);
+          $("#TbPmodalBody").append('<div align="center"><p class="text-bg-danger small" style="width:60%;border-radius: 18px;text-align: center">Error loading XML data from Totenbuch-Projekt database.</p></div>'); 
+        }
+      });
+	  
+	  });   	  
+	    
+  </script>

@@ -1,0 +1,618 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134519" id="1336" v:revision="10347" v:key="153a8c5d27b286b" v:path="/db/totenbuch/objects/tm134519.xml">
+    <admin wer="TB-Projekt" wann="2012-01-01"/>
+    <anmerkungen>gefunden 1872; Geschenk von Mrs. M. Greenfield</anmerkungen>
+    <anmerkungen>Vignettenfolge weicht über längere Passagen völlig von der Sequenz der Spruchfolgen
+        ab!</anmerkungen>
+    <anmerkungen>Update 14.09.2023: Name der Besitzerin korrigiert von Nsti͗- tꜣ- nbt- tꜣwi͗ zu nsi͗- tꜣ- nbt- i͗šrw (nach Budge 1912, auf Hinweis von Ivan Rodríguez López unter Zustimmung von Rita Lucarelli)</anmerkungen>
+    <standort>
+        <land>GB</land>
+        <ort>London</ort>
+        <institution>British Museum</institution>
+    </standort>
+    <herkunft>
+        <region>Theben</region>
+        <anmerkungen>Royal Cachette von Deir el-Bahari</anmerkungen>
+    </herkunft>
+    <besitzer geschlecht="F">
+        <anmerkungen>zu den Titel vgl. Budge, Greenfield</anmerkungen>
+        <name ranke="I, 179.16 (?)">nsi͗- tꜣ- nbt- i͗šrw</name>
+        <titel>ḥr.t wr.t ḫnr.t tp.i͗t n Imn- Rꜥ nsw.t nṯr.w u.a.</titel>
+        <verwandt rel="Mutter">
+            <name>Nsi͗- Ḫnsw</name>
+        </verwandt>
+        <verwandt rel="Vater">
+            <name>Pꜣ- nḏm II</name>
+            <titel>Hoherpriester</titel>
+        </verwandt>
+    </besitzer>
+    <datierung>
+        <periode>3. Zwischenzeit</periode>
+        <detail>21.-22. Dynastie</detail>
+        <jahr>Ende 21. Dynastie - Anfang 22. Dynastie</jahr>
+    </datierung>
+    <form>
+        <objektgruppe>Papyrus</objektgruppe>
+        <material>Papyrus</material>
+        <gesamtmasse>
+            <beschreibung>Höhe schwankend (47-49 cm)</beschreibung>
+            <laenge>4053</laenge>
+            <hoehe>48</hoehe>
+        </gesamtmasse>
+        <schrift>Hieroglyphisch</schrift>
+        <schrift>Hieratisch</schrift>
+        <schriftDetails>Hieroglyphen für eine Fassung von Tb 125B</schriftDetails>
+        <vignettenstil>Strichzeichnung</vignettenstil>
+    </form>
+    <bibliografie>
+        <bibl bibl-id="bibl-2469">
+            <title>E.A.W. Budge, The Greenfield Papyrus in the BM, London 1912</title>
+        </bibl>
+        <bibl bibl-id="bibl-2064">
+            <title>R.O. Faulkner (C. Andrews [Hg.]), The Ancient Egyptian Book of the Dead, London
+                1985</title>
+            <pages>passim</pages>
+        </bibl>
+        <bibl bibl-id="bibl-717">
+            <title>St. Quirke, Ancient Egyptian Religion, London 1992</title>
+            <pages>20, fig. 10</pages>
+        </bibl>
+        <bibl bibl-id="bibl-1750">
+            <title>M. Heerma van Voss, Ein Spruch aus dem Papyrus Greenfield, Essays on Ancient
+                Egypt in Honour of Herman te Velde, Egyptological Memoirs 1 (1997)</title>
+            <pages>183-186</pages>
+        </bibl>
+        <bibl bibl-id="bibl-859">
+            <title>W.H. Peck/J.G. Ross, Ägyptische Zeichnungen aus drei Jahrtausenden, Bergisch
+                Gladbach 1979</title>
+            <pages>124-125, Nr. 55-56</pages>
+        </bibl>
+        <bibl bibl-id="bibl-272">
+            <title>J. H. Taylor, Death and the Afterlife in Ancient Egypt, London 2001</title>
+            <pages>20, fig. 7</pages>
+        </bibl>
+        <bibl bibl-id="bibl-2651">
+            <title>Die Zeit. Welt- und Kulturgeschichte, Bd. 1, Hamburg 2006</title>
+            <pages>362 (mythol. Szene)</pages>
+        </bibl>
+        <bibl bibl-id="bibl-524">
+            <title>E. Russmann/N. Strudwick/T.G.H. James (Hgg.), Temples and Tombs. Treasures of
+                Egyptian Art from The British Museum (Kat. USA), Seattle/London (?), 2006</title>
+            <pages>126, Abb. 81</pages>
+        </bibl>
+        <bibl bibl-id="bibl-230">
+            <title>F. Tiradritti, Pharaonic Renaissance. Archaism and the Sense of History,
+                Cankarjev dom, Ljubljana, 4th March - 20th July 2008, Ljubljana 2008</title>
+            <pages>89 und 196, Kat. 92</pages>
+        </bibl>
+        <bibl bibl-id="bibl-2742">
+            <title>Backes, in: SAT 14, 2009</title>
+            <pages>19, 21</pages>
+        </bibl>
+        <bibl bibl-id="bibl-2098">
+            <title>Les Portes du Ciel. Visions du monde dans l'Égypte ancienne, Paris 2009. (Katalog
+                Paris)</title>
+            <pages>29, fig. 2</pages>
+        </bibl>
+        <bibl bibl-id="bibl-274">
+            <title>J. Taylor (Hrg.), Journey through the Afterlife, Ancient Egyptian Book of the
+                Dead, London 2010</title>
+        </bibl>
+        <bibl bibl-id="bibl-1408">
+            <title>B. Leach and R.B. Parkinson, Creating borders: New insights into making the
+                Papyrus of Ani, in: BMSAES 15, 2010</title>
+            <pages>35-62</pages>
+        </bibl>
+        <bibl bibl-id="bibl-2888">
+            <title>J.P. Allen, Cross Index</title>
+            <pages>22 u. 72 (Ec)</pages>
+        </bibl>
+        <bibl bibl-id="bibl-926">
+            <title>A. Niwinski, Studies on the Illustrated Theban Funerary Papyri of the 11th and
+                10th Centuries B.C., OBO 86, Fribourg/Göttingen 1989</title>
+            <pages>338 (London 61), (mit weiterer Lit.)</pages>
+        </bibl>
+        <bibl bibl-id="bibl-2675">
+            <title>M. Bellion</title>
+            <pages>157 (mit weiterer Lit.)</pages>
+        </bibl>
+        <bibl bibl-id="bibl-1628">
+            <title>K. Jansen-Winkeln, Text u. Sprache in der 3. Zwischenzeit, ÄAT 26, Wiesbaden
+                1994</title>
+            <pages>268</pages>
+        </bibl>
+        <bibl bibl-id="bibl-716">
+            <title>St. Quirke, Owners</title>
+            <pages>50, Nr. 145 mit Anm. S. 79</pages>
+        </bibl>
+        <bibl bibl-id="bibl-40">
+            <title>Zaluskowski, Texte außerhalb d. Tb-Tradierung in pGreenfield</title>
+        </bibl>
+        <bibl bibl-id="bibl-2859">
+            <title>C. Andrews, Egyptian Mummies (Katalog British Museum), London 1984</title>
+            <pages>Abb. 2</pages>
+        </bibl>
+        <bibl bibl-id="bibl-545">
+            <title>U. Rößler-Köhler, SAT 3, 1999</title>
+            <pages>95-98</pages>
+        </bibl>
+        <bibl bibl-id="bibl-549">
+            <title>U. Rößler-Köhler, in: U. Verhoeven/E. Graefe (Hgg.), Religion und Philosophie im
+                Alten Ägypten, FS Derchain, OLA 39, Leuven 1991</title>
+            <pages>287ff</pages>
+        </bibl>
+        <bibl bibl-id="bibl-160">
+            <title>U. Verhoeven, in: RdE 43, 1992</title>
+            <pages>169-194</pages>
+        </bibl>
+        <bibl bibl-id="bibl-154">
+            <title>U. Verhoeven, Untersuchungen zur späthieratischen Buchschrift, OLA 99, Leuven
+                2001</title>
+            <pages>passim</pages>
+        </bibl>
+        <bibl bibl-id="bibl-1361">
+            <title>G. Lenzo, in: BIFAO 102, 2002</title>
+            <pages>267-283</pages>
+        </bibl>
+        <bibl bibl-id="bibl-1359">
+            <title>G. Lenzo Marchese, in: BSEG 26, 2004</title>
+            <pages>43-62</pages>
+        </bibl>
+        <bibl bibl-id="bibl-1850">
+            <title>N. Guilhou, in: Egypte Afrique &amp; Orient Nr. 43, Oktober 2006</title>
+            <pages>31-38</pages>
+        </bibl>
+        <bibl bibl-id="bibl-1120">
+            <title>H. Milde, Vignetten-Forschung, in: B. Backes/I. Munro/S. Stöhr (Hgg.),
+                Totenbuch-Forschungen. Gesammelte Beiträge des 2. Internationalen
+                Totenbuch-Symposiums, Bonn 25. - 29. September 2005, SAT 11, Wiesbaden 2006</title>
+            <pages>221-231 m. Abb. 9 (= Budge, Taf. VIII)</pages>
+        </bibl>
+        <bibl bibl-id="bibl-2224">
+            <title>L.E. Díaz-Iglesias Llanos, Commentary on Heracleopolis Magna from the theological
+                perspective (I): the image of the local lakes in the vignette of chapter 17 of the
+                Book of the dead, in: Trabajos de Egiptología 4, 2005</title>
+            <pages>31-106</pages>
+        </bibl>
+        <bibl bibl-id="bibl-694">
+            <title>Chloe Ragazzoli, The Book of the Dead of Ankhesenaset (P. BNF Egyptien 62-88).
+                Traces of workshop production or scribal experiments?, in: BMSAES 15, 2010</title>
+            <pages>225-248</pages>
+        </bibl>
+    </bibliografie>
+    <teilobjekt id="1336-1">
+        <objektname>P. London BM EA 10554 (P. Greenfield)</objektname>
+        <inhalt>
+            <sequenz>A.d.O. + Isis u. Nephthys - Tb 1V - V15 - 15V - 17V - 18 - 23 - 24 - 25 - 26 -
+                28 - 27 - 38B - 40 - 36 - 33 - 37 - 56 - 61 - 30B - 29 - 27 - 28 - 11/49 - 2 - 4 -
+                43 - 61 - 6 - 5 - 105 - 47 - 104 - 96 - 97 - 94 - 103 - 36 - 55 - 117 - 118 - 21 -
+                12/120 -122 - 31 - 10/48 - 90 - 131 - 102 - 41B - 32 - 134 - 15(Var.) - Morgenlied
+                für Atum - 99/99B - 111 - 112 - 113 - 107 - 108 - 109 - 114 - 115 - 116 - 81A - 80 -
+                87 - 88 - 76 - 53 - 91 - 44 - 93 - 50 - 188 - 15(Var.) - 141/142 - 124 - 125A - 125B
+                - 125C - 26 - 135 - 148 - 147 - 193 - Osirishymnus - 146 - 145 - Thot vor
+                Re-Harachte - 149V - V150 - V126 - 182 - 182(Var.) - Gebet an Thot - Anbetung des
+                Re-Harachte - 183a+c - TG - Re-Harachte - Hymnen - Litaneien - TG - V110 - 144V -
+                145V - mytholog. Szenen - 125B V - 101 - 141/142 - 190 - 133; Vignettenfolge: V Tb 1
+                - V17 - V18 - V21 - V23 - V38B - V75- V56 - V105 (2x) - V95 - V40 - V103 - V104 - ?
+                - V37 - V31 - V32 - V99/99B - V102 - V114 - V112(?) - V113(?) - V108 - V86 - V77 -
+                V78 - V87 - V88 - V82 - V85 - V83 - V84 - V81A - V80 - V 89 - V152(?) - V85 - V94 -
+                V99/99B - V136/136A/B - V18 - V148 - V17 - V89 - V17 - V99/99B - V148 - V17 - V89 -
+                V17 - V99/99B - V148 - Reinigungs-Szene - V145 - V140 - V136/136A/B - V149 - V150 -
+                V136/136A/B - V126 - V153A - V153B - V147 - V95 - V104 -V194 - V61 - V134 - V17
+                -V194 - V61 - V110 - V144 - mytholog. Szenen - V125B - V141</sequenz>
+            <sprueche>
+                <start/>
+                <s>VA.d.O.</s>
+                <s>1V</s>
+                <s>V15</s>
+                <s>15V</s>
+                <s>17V</s>
+                <s>18</s>
+                <s>23</s>
+                <s>24</s>
+                <s>25</s>
+                <s>26</s>
+                <s>28</s>
+                <s>27</s>
+                <s>38B</s>
+                <s>40</s>
+                <s>36</s>
+                <s>33</s>
+                <s>37</s>
+                <s>56</s>
+                <s>61</s>
+                <s>30B</s>
+                <s>29</s>
+                <s>27</s>
+                <s>28</s>
+                <s>11/49</s>
+                <s>2</s>
+                <s>4</s>
+                <s>43</s>
+                <s>61</s>
+                <s>6</s>
+                <s>5</s>
+                <s>105</s>
+                <s>47</s>
+                <s>104</s>
+                <s>96</s>
+                <s>97</s>
+                <s>94</s>
+                <s>103</s>
+                <s>36</s>
+                <s>55</s>
+                <s>117</s>
+                <s>118</s>
+                <s>21</s>
+                <s>12/120</s>
+                <s>122</s>
+                <s>31</s>
+                <s>10/48</s>
+                <s>90</s>
+                <s>131</s>
+                <s>102</s>
+                <s>41B</s>
+                <s>32</s>
+                <s>134</s>
+                <s>15</s>
+                <s>Hymnus</s>
+                <s>99/99B</s>
+                <s>111</s>
+                <s>112</s>
+                <s>113</s>
+                <s>107</s>
+                <s>108</s>
+                <s>109</s>
+                <s>114</s>
+                <s>115</s>
+                <s>116</s>
+                <s>81A</s>
+                <s>80</s>
+                <s>87</s>
+                <s>88</s>
+                <s>76</s>
+                <s>53</s>
+                <s>91</s>
+                <s>44</s>
+                <s>93</s>
+                <s>50</s>
+                <s>188</s>
+                <s>15</s>
+                <s>141</s>
+                <s>142</s>
+                <s>124</s>
+                <s>125</s>
+                <s>125</s>
+                <s>125</s>
+                <s>26</s>
+                <s>135</s>
+                <s>148</s>
+                <s>147</s>
+                <s>193</s>
+                <s>Hymnus</s>
+                <s>146</s>
+                <s>145</s>
+                <s>V?</s>
+                <s>149V</s>
+                <s>V150</s>
+                <s>V126</s>
+                <s>182</s>
+                <s>182</s>
+                <s>Gebet</s>
+                <s>A.d. Re-Harachte</s>
+                <s>183</s>
+                <s>VTG</s>
+                <s>V?</s>
+                <s>Hymnus</s>
+                <s>Ausserordentliches Textgut</s>
+                <s>VTG</s>
+                <s>V110</s>
+                <s>144V</s>
+                <s>145V</s>
+                <s>Mythologische SzenenV</s>
+                <s>125V</s>
+                <s>101</s>
+                <s>141</s>
+                <s>142</s>
+                <s>190</s>
+                <s>133</s>
+                <l/>
+                <s>V1</s>
+                <s>V17</s>
+                <s>V18</s>
+                <s>V21</s>
+                <s>V23</s>
+                <s>V38B</s>
+                <s>V75</s>
+                <s>V56</s>
+                <s>V105</s>
+                <s>V95</s>
+                <s>V40</s>
+                <s>V103</s>
+                <s>V104</s>
+                <s>?</s>
+                <s>V37</s>
+                <s>V31</s>
+                <s>V32</s>
+                <s>V99/99B</s>
+                <s>V102</s>
+                <s>V114</s>
+                <s>V112?</s>
+                <s>V113?</s>
+                <s>V108</s>
+                <s>V86</s>
+                <s>V77</s>
+                <s>V78</s>
+                <s>V87</s>
+                <s>V88</s>
+                <s>V82</s>
+                <s>V85</s>
+                <s>V83</s>
+                <s>V84</s>
+                <s>V81A</s>
+                <s>V80</s>
+                <s>V89</s>
+                <s>V152?</s>
+                <s>V85</s>
+                <s>V94</s>
+                <s>V99/99B</s>
+                <s>V136/136A</s>
+                <s>V136B</s>
+                <s>V18</s>
+                <s>V148</s>
+                <s>V17</s>
+                <s>V89</s>
+                <s>V17</s>
+                <s>V99/99B</s>
+                <s>V148</s>
+                <s>V17</s>
+                <s>V89</s>
+                <s>V17</s>
+                <s>V99/99B</s>
+                <s>V148</s>
+                <s>V?</s>
+                <s>V145</s>
+                <s>V140</s>
+                <s>V136/136A</s>
+                <s>V136B</s>
+                <s>V149</s>
+                <s>V150</s>
+                <s>V136/136A oder V136B</s>
+                <s>V126</s>
+                <s>V153A</s>
+                <s>V153B</s>
+                <s>V147</s>
+                <s>V95</s>
+                <s>V104</s>
+                <s>V194</s>
+                <s>V61</s>
+                <s>V134</s>
+                <s>V17</s>
+                <s>V194</s>
+                <s>V61</s>
+                <s>V110</s>
+                <s>V144</s>
+                <s>Mythologische SzenenV</s>
+                <s>V125</s>
+                <s>V141</s>
+                <l/>
+            </sprueche>
+        </inhalt>
+        <abbildungen>
+            <fotos>vorhanden / vollständig</fotos>
+            <kommentar>s. Großformate Mappe 12</kommentar>
+            <abbildung rechte="com">
+                <datei name="London_BM_EA_10554_10.jpg"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_EA_10554_12.jpg"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_EA_10554_16.jpg"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_EA_10554_17.jpg"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_EA_10554_18.jpg"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_EA_10554_19.jpg"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_EA_10554_20.jpg"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_EA_10554_35.jpg"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_EA_10554_37.jpg"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_EA_10554_44.jpg"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_EA_10554_56.jpg"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_EA_10554_57.jpg"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_EA_10554_58.jpg"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_EA_10554_6.jpg"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_EA_10554_63.jpg"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_EA_10554_65.jpg"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_EA_10554_69.jpg"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_EA_10554_7.jpg"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_EA_10554_74.jpg"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_EA_10554_79.jpg"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_EA_10554_81.jpg"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_EA_10554_85.jpg"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_EA_10554_89.jpg"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_EA_10554_90.jpg"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_EA_10554_91.jpg"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_EA_10554_92.jpg"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10554_001_(2).tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10554_001.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10554_002_(2).tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10554_002.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10554_003_(2).tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10554_003.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10554_004_(2).tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10554_004.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10554_005_(2).tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10554_005.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10554_006_(2).tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10554_006.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10554_007_(2).tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10554_007.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10554_008_(2).tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10554_008.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10554_009_(2).tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10554_009.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10554_010.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10554_011.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10554_012.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10554_013.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10554_014.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10554_015.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10554_016.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10554_017.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10554_018.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10554_019.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10554_020.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10554_021.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10554_022.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10554_023.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10554_024.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10554_025.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10554_026.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10554_027.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10554_028.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10554_029.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10554_030.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10554_031.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10554_032.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10554_033.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10554_034.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10554_035.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10554_036.tif"/>
+            </abbildung>
+        </abbildungen>
+    </teilobjekt>
+</objekt>

@@ -1,0 +1,138 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134532" id="1349" v:revision="10360" v:key="153a8c5d6e42878" v:path="/db/totenbuch/objects/tm134532.xml">
+  <admin wer="TB-Projekt" wann="2012-01-01"/>
+  <standort>
+    <land>GB</land>
+    <ort>London</ort>
+    <institution>British Museum</institution>
+    <provenienz>Sammlung Barker, Nr. 213, erworben 1833</provenienz>
+  </standort>
+  <herkunft>
+    <region>Theben</region>
+    <anmerkungen>erschlossen</anmerkungen>
+  </herkunft>
+  <besitzer geschlecht="M">
+    <name ranke="I, 108.3">P(ꜣ)- n- Mꜣꜥt</name>
+    <titel>i͗t- nṯr n Imn- Rꜥ nsw.t nṯr.w sš mḏꜣ.t- nṯr n pr Imn ḥr.i͗ sꜣw.ti͗ sš n pr- ḥḏ n pr Imn
+      wꜥb pr mḏꜣ.t- nṯr i͗m.i͗- rꜣ pr- ḥḏ n pr Imn sš.w pr- ḥḏ n pr Imn i͗m.i͗- rꜣ šꜣtw (?)</titel>
+  </besitzer>
+  <datierung>
+    <periode>3. Zwischenzeit</periode>
+    <detail>21. Dynastie</detail>
+    <jahr>Mitte 21. Dynastie</jahr>
+  </datierung>
+  <form>
+    <objektgruppe>Papyrus</objektgruppe>
+    <material>Papyrus</material>
+    <gesamtmasse>
+      <beschreibung>H. 43,7- 44,1 cm, L. 2,74 m</beschreibung>
+    </gesamtmasse>
+    <schrift>Hieroglyphisch</schrift>
+    <vignettenstil>farbig</vignettenstil>
+  </form>
+  <bibliografie>
+    <bibl bibl-id="bibl-397">
+      <title>A.W. Shorter, Catalogue</title>
+      <pages>6</pages>
+    </bibl>
+    <bibl bibl-id="bibl-926">
+      <title>A. Niwinski, Studies on the Illustrated Theban Funerary Papyri of the 11th and 10th
+        Centuries B.C., OBO 86, Fribourg/Göttingen 1989</title>
+      <pages>330-331 (London 38)</pages>
+    </bibl>
+    <bibl bibl-id="bibl-2675">
+      <title>M. Bellion</title>
+      <pages>56 (mit weiterer Lit.)</pages>
+    </bibl>
+    <bibl bibl-id="bibl-716">
+      <title>St. Quirke, Owners</title>
+      <pages>58, Nr. 202 mit Anm. S. 82</pages>
+    </bibl>
+    <bibl bibl-id="bibl-439">
+      <title>Chr. Seeber, Untersuchungen</title>
+      <pages>212, n. 16</pages>
+    </bibl>
+    <bibl bibl-id="bibl-916">
+      <title>A. Niwinski, in: B. Backes/M. Müller/S. Stöhr (Hgg.), Ausgestattet mit den Schriften
+        des Thot. Festschrift für Irmtraut Munro zu ihrem 65. Geburtstag, SAT 14, Wiesbaden
+        2009</title>
+      <pages>153</pages>
+    </bibl>
+  </bibliografie>
+  <teilobjekt id="1349-1">
+    <objektname>P. London BM EA 10020</objektname>
+    <inhalt>
+      <sequenz>A.d.O. + Isis + Nephthys - Tb 1V - 13/121 - 8 - 60V - ? - 33V - V36 - V81A - V 77 -
+        V83 - V86 - 89V - 138 - 148V - 30B V - TG - V126 - 125B V - V150 - V110</sequenz>
+      <sprueche>
+        <start/>
+        <s>VA.d.O.</s>
+        <s>1V</s>
+        <s>13/121</s>
+        <s>8</s>
+        <s>60V</s>
+        <s>?</s>
+        <s>33V</s>
+        <s>V36</s>
+        <s>V81A</s>
+        <s>V77</s>
+        <s>V83</s>
+        <s>V86</s>
+        <s>89V</s>
+        <s>138</s>
+        <s>148V</s>
+        <s>30BV</s>
+        <s>VTG</s>
+        <s>V126</s>
+        <s>125V</s>
+        <s>V150</s>
+        <s>V110</s>
+        <end/>
+      </sprueche>
+    </inhalt>
+    <abbildungen>
+      <fotos>vorhanden / vollständig</fotos>
+      <abbildung rechte="com">
+        <datei name="London_BM_10020_002.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="London_BM_10020_003.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="London_BM_10020_004.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="London_BM_10020_005.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="London_BM_10020_007.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="London_BM_10020_009.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="London_BM_10020_011.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="London_BM_10020_012.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="London_BM_10020_013.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="London_BM_10020_014.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="London_BM_10020_015.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="London_BM_10020_016.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="London_BM_10020_017.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="London_BM_10020_018.tif"/>
+      </abbildung>
+    </abbildungen>
+  </teilobjekt>
+</objekt>

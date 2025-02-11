@@ -1,0 +1,116 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134390" id="1206" v:revision="10218" v:key="153a8c5a54f27ea" v:path="/db/totenbuch/objects/tm134390.xml">
+  <admin wer="TB-Projekt" wann="2012-01-01"/>
+  <standort>
+    <land>DE</land>
+    <ort>Berlin</ort>
+    <institution>Ägyptisches Museum und Papyrussammlung</institution>
+  </standort>
+  <herkunft>
+    <region>Theben</region>
+  </herkunft>
+  <besitzer geschlecht="M">
+    <name ranke="I, 175.10">Ns- pꜣ- ḥr- ꜥn</name>
+    <titel>wꜥb sš ḥtp.w- nṯr n pr Imn </titel>
+  </besitzer>
+  <datierung>
+    <periode>3. Zwischenzeit</periode>
+    <detail>21. Dynastie</detail>
+    <jahr>Mitte 21. Dynastie</jahr>
+  </datierung>
+  <form>
+    <objektgruppe>Papyrus</objektgruppe>
+    <material>Papyrus</material>
+    <gesamtmasse>
+      <beschreibung>H. 41 cm, L. 143 cm</beschreibung>
+    </gesamtmasse>
+    <schrift>Hieroglyphisch</schrift>
+    <vignettenstil>farbig</vignettenstil>
+  </form>
+  <bibliografie>
+    <bibl bibl-id="bibl-979">
+      <title>E. Naville, Das ägyptische Totenbuch der XVIII. bis XX. Dynastie, Graz 1971</title>
+      <pages>Bd. I, Tf. CLXXXVIII-IX</pages>
+    </bibl>
+    <bibl bibl-id="bibl-979">
+      <title>E. Naville, Das ägyptische Totenbuch der XVIII. bis XX. Dynastie, Graz 1971</title>
+      <pages>73 (Bd)</pages>
+    </bibl>
+    <bibl bibl-id="bibl-1569">
+      <title>Kaplony-Heckel, Äg. Handschriften 3</title>
+      <pages>17, Nr. 6</pages>
+    </bibl>
+    <bibl bibl-id="bibl-807">
+      <title>A. Piankoff, The Wandering of the Soul, Bollingen Series XL: 6</title>
+      <pages>44 ff</pages>
+    </bibl>
+    <bibl bibl-id="bibl-2675">
+      <title>M. Bellion</title>
+      <pages>24</pages>
+    </bibl>
+    <bibl bibl-id="bibl-2885">
+      <title>T.G. Allen, Book of the Dead, SAOC 37</title>
+      <pages>174 - 175 (Übers.)</pages>
+    </bibl>
+    <bibl bibl-id="bibl-926">
+      <title>A. Niwinski, Studies on the Illustrated Theban Funerary Papyri of the 11th and 10th
+        Centuries B.C., OBO 86, Fribourg/Göttingen 1989</title>
+      <pages>244 (Berlin 4)</pages>
+    </bibl>
+    <bibl bibl-id="bibl-1628">
+      <title>K. Jansen-Winkeln, Text u. Sprache in der 3. Zwischenzeit, ÄAT 26, Wiesbaden
+        1994</title>
+      <pages>269</pages>
+    </bibl>
+    <bibl bibl-id="bibl-2932">
+      <title>L. Borchardt, in: ZÄS 27, 1889</title>
+      <pages>119ff</pages>
+    </bibl>
+    <bibl bibl-id="bibl-1253">
+      <title>U. Luft, in: AfP 22/23, 1973/1974</title>
+      <pages>20 (Nr. 8)</pages>
+    </bibl>
+    <bibl bibl-id="bibl-2415">
+      <title>Carrier, Livre des Morts</title>
+      <pages>713-723</pages>
+    </bibl>
+  </bibliografie>
+  <teilobjekt id="1206-1">
+    <objektname>P. Berlin P. 3006</objektname>
+    <inhalt>
+      <sequenz>A.d.O. + Isis u. Nephthys - Tb 168BV</sequenz>
+      <sprueche>
+        <start/>
+        <s>VA.d.O.</s>
+        <s>168</s>
+        <l/>
+      </sprueche>
+    </inhalt>
+    <abbildungen>
+      <fotos>vorhanden / vollständig</fotos>
+      <abbildung rechte="com">
+        <datei name="Berlin_3006_A.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Berlin_3006_B.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Berlin_3006_C.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Berlin_3006_D.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Berlin_P3006.jpg"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="pBerlin_3006_1.bmp"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="pBerlin_3006_2.bmp"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="pBerlin_3006_3.bmp"/>
+      </abbildung>
+    </abbildungen>
+  </teilobjekt>
+</objekt>

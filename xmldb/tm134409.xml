@@ -1,0 +1,70 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134409" id="1225" v:revision="10237" v:key="153a8c5ab9f27fd" v:path="/db/totenbuch/objects/tm134409.xml">
+  <admin wer="TB-Projekt" wann="2012-01-01"/>
+  <standort>
+    <land>FR</land>
+    <ort>Colmar</ort>
+    <institution>Musée d’Histoire Naturelle de Colmar</institution>
+  </standort>
+  <herkunft>
+    <region>Theben</region>
+  </herkunft>
+  <besitzer geschlecht="F">
+    <name ranke="I, 178.22">Nsi͗- Ḫnsw- pꜣ- ẖrd Ikꜣi͗w- ẖrd</name>
+    <titel>šmꜥ.t n.t Imn</titel>
+    <verwandt rel="Vater">
+      <name>Ḏd- Ḥr- i͗w- f- ꜥnḫ</name>
+      <titel>ḥr.i͗ ꜥtḫw </titel>
+    </verwandt>
+  </besitzer>
+  <datierung>
+    <periode>3. Zwischenzeit</periode>
+  </datierung>
+  <form>
+    <objektgruppe>Papyrus</objektgruppe>
+    <material>Papyrus</material>
+    <gesamtmasse>
+      <hoehe>25</hoehe>
+    </gesamtmasse>
+    <schrift>Hieratisch</schrift>
+    <vignettenstil>Strichzeichnung</vignettenstil>
+  </form>
+  <bibliografie>
+    <bibl bibl-id="bibl-1622">
+      <title>Cl. Traunecker/M. Jehl, La collection Égyptienne du Musée d’Histoire Naturelle de
+        Colmar, in: Bulletin de la Société d’Histoire Naturelle de Colmar 52, 1965-1966</title>
+      <pages>3-7</pages>
+    </bibl>
+    <bibl bibl-id="bibl-223">
+      <title>Cl. Traunecker, Les dieux de l ’Egypte, Collection Que Sais-je</title>
+      <pages>61, fig. 4</pages>
+    </bibl>
+    <bibl bibl-id="bibl-2960">
+      <title>Cl. Traunecker, La femme dans l’Egypte ancienne (Kat.Colmar 1994)</title>
+      <pages>45-47, Nr.45</pages>
+    </bibl>
+    <bibl bibl-id="bibl-709">
+      <title>St. Quirke, Rez. von A. Niwinski, Studies, in: JEA 79, 1993</title>
+      <pages>313</pages>
+    </bibl>
+  </bibliografie>
+  <teilobjekt id="1225-1">
+    <objektname>P. Colmar o.Nr.</objektname>
+    <inhalt>
+      <sequenz>A.d. Re-Harachte- Tb 23 - 30 - 5 - 51 (Var.)</sequenz>
+      <sprueche>
+        <start/>
+        <s>A.d. Re-Harachte</s>
+        <s>23</s>
+        <s>30</s>
+        <s>5</s>
+        <s>51</s>
+        <l/>
+      </sprueche>
+    </inhalt>
+    <objektmasse>Länge: 50,5 cm, auf recto</objektmasse>
+    <abbildungen>
+      <fotos>nicht vorhanden</fotos>
+      <kommentar>siehe Publikation</kommentar>
+    </abbildungen>
+  </teilobjekt>
+</objekt>

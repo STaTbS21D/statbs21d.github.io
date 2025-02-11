@@ -1,0 +1,80 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134621" id="1439" v:revision="10448" v:key="153a8c5f4cf28d0" v:path="/db/totenbuch/objects/tm134621.xml">
+  <admin wer="TB-Projekt" wann="2012-01-01"/>
+  <standort>
+    <land>VA</land>
+    <ort>Vatikanstadt</ort>
+    <institution>Museo Gregoriano Egizio</institution>
+  </standort>
+  <herkunft>
+    <region>Theben</region>
+    <anmerkungen>erschlossen nach Name und Titel</anmerkungen>
+  </herkunft>
+  <besitzer>
+    <name ranke="I, 321.18">Swti͗- ms</name>
+    <titel>i͗t- nṯr n Imn </titel>
+    <verwandt rel="Vater">
+      <name>Ḏd- tw- f</name>
+    </verwandt>
+  </besitzer>
+  <datierung>
+    <periode>3. Zwischenzeit</periode>
+    <detail>21.-22. Dynastie</detail>
+    <jahr>Ende 21. Dynastie - Anfang 22. Dynastie</jahr>
+  </datierung>
+  <form>
+    <objektgruppe>Papyrus</objektgruppe>
+    <material>Papyrus</material>
+    <gesamtmasse>
+      <laenge>69</laenge>
+      <hoehe>24,5</hoehe>
+    </gesamtmasse>
+    <schrift>Hieratisch</schrift>
+    <vignettenstil>Strichzeichnung</vignettenstil>
+    <vignettenkommentar>schwarze Innenzeichnung</vignettenkommentar>
+  </form>
+  <bibliografie>
+    <bibl bibl-id="bibl-1996">
+      <title>A. Gasse, Les papyrus hiératiques et hiéroglyphiques du Museo Gregoriano Egizio</title>
+      <pages>Nr. 12, pl. XVII-XVIII</pages>
+    </bibl>
+    <bibl bibl-id="bibl-1989">
+      <title>A. Gasse, in: B. Backes/I. Munro/S. Stöhr (Hgg.), Totenbuch-Forschungen. Gesammelte
+        Beiträge des 2. Internationalen Totenbuch-Symposiums, Bonn 25. - 29. September 2005, SAT
+        11</title>
+      <pages>55 mit Taf. 4</pages>
+    </bibl>
+    <bibl bibl-id="bibl-2675">
+      <title>M. Bellion</title>
+      <pages>317 (mit weiterer Lit.)</pages>
+    </bibl>
+    <bibl bibl-id="bibl-1361">
+      <title>G. Lenzo, in: BIFAO 102, 2002</title>
+      <pages>267-283</pages>
+    </bibl>
+  </bibliografie>
+  <teilobjekt id="1439-1">
+    <objektname>P. Vatikan 38607 (P. Vatikan 30)</objektname>
+    <inhalt>
+      <sequenz>A.d.O. - Tb 23 - 24 - 25 - 26 - 27</sequenz>
+      <sprueche>
+        <start/>
+        <s>VA.d.O.</s>
+        <s>23</s>
+        <s>24</s>
+        <s>25</s>
+        <s>26</s>
+        <s>27</s>
+        <end/>
+      </sprueche>
+    </inhalt>
+    <abbildungen>
+      <fotos>vorhanden / vollständig</fotos>
+      <abbildung rechte="com">
+        <datei name="Vatikan_38607_001.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Vatikan_38607_002.tif"/>
+      </abbildung>
+    </abbildungen>
+  </teilobjekt>
+</objekt>

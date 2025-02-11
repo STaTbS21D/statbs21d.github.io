@@ -1,0 +1,168 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134431" id="1247" v:revision="10259" v:key="153a8c5b3072813" v:path="/db/totenbuch/objects/tm134431.xml">
+  <admin wer="TB-Projekt" wann="2012-01-01"/>
+  <standort>
+    <land>EG</land>
+    <ort>Kairo</ort>
+    <institution>Ägyptisches Museum</institution>
+  </standort>
+  <herkunft>
+    <region>Theben</region>
+    <anmerkungen>Royal Cachette von Deir el-Bahari</anmerkungen>
+  </herkunft>
+  <besitzer geschlecht="F">
+    <name ranke="I, 145.7 / I, 147.21">Mꜣꜥt- kꜣ- Rꜥ (A), Mwt- m- ḥꜣt</name>
+    <titel>ḥm.t- nṯr wꜥb ꜥ.w (?) n Imn m Ipt- swt sꜣ.t nsw.t ḥm.t- nsw.t wr.t (n) nb tꜣ.wi͗</titel>
+    <verwandt rel="Vater">
+      <name>Pꜣ- nḏm I.</name>
+      <titel>Hoher Priester</titel>
+    </verwandt>
+  </besitzer>
+  <datierung>
+    <periode>3. Zwischenzeit</periode>
+    <detail>21. Dynastie</detail>
+    <jahr>1. Hälfte 21. Dynastie</jahr>
+  </datierung>
+  <form>
+    <objektgruppe>Papyrus</objektgruppe>
+    <material>Papyrus</material>
+    <gesamtmasse>
+      <beschreibung>Gesamthöhe erhalten (ohne Maßstab)</beschreibung>
+      <laenge>612</laenge>
+    </gesamtmasse>
+    <schrift>Hieroglyphisch</schrift>
+    <vignettenstil>farbig</vignettenstil>
+  </form>
+  <bibliografie>
+    <bibl bibl-id="bibl-955">
+      <title>E. Naville, Papyrus funéraires de la XXIe Dynastie, Le Papyrus hiéroglyphique de Kamara
+        et le Papyrus hiératique de Nesikhonsou au Musée du Caire I</title>
+    </bibl>
+    <bibl bibl-id="bibl-2675">
+      <title>M. Bellion</title>
+      <pages>109 (mit weiterer Lit.)</pages>
+    </bibl>
+    <bibl bibl-id="bibl-926">
+      <title>A. Niwinski, Studies on the Illustrated Theban Funerary Papyri of the 11th and 10th
+        Centuries B.C., OBO 86, Fribourg/Göttingen 1989</title>
+      <pages>268 (Cairo 43) (mit weiterer Lit.)</pages>
+    </bibl>
+    <bibl bibl-id="bibl-1628">
+      <title>K. Jansen-Winkeln, Text u. Sprache in der 3. Zwischenzeit, ÄAT 26, Wiesbaden
+        1994</title>
+      <pages>270 (mit weiterer Lit.)</pages>
+    </bibl>
+    <bibl bibl-id="bibl-1763">
+      <title>M. Heerma van Voss, in: Fs van Daelen, Kampen 1985</title>
+      <pages>113 (SD)</pages>
+    </bibl>
+    <bibl bibl-id="bibl-1235">
+      <title>B. Lüscher, Untersuchungen zu Totenbuch Spruch 151, SAT 2, Wiesbaden 1998</title>
+    </bibl>
+  </bibliografie>
+  <teilobjekt id="1247-1">
+    <objektname>P. Kairo CG 40007 (J.E. 26229, S.R. IV 980)</objektname>
+    <inhalt>
+      <sequenz>Tb 151F - Opferszene - V1 - 79 - 1 - 99/99B V - 105 - 138 - 187 - 123/139 - 144V -
+        146V - 86 + 87V - 6V - 83V - 85V - 82V - 77V - 148V - 100/129V - 125A V - 125B V - TG - 149b
+        V - 150 - V110</sequenz>
+      <sprueche>
+        <start/>
+        <s>151</s>
+        <s>V?</s>
+        <s>V1</s>
+        <s>79</s>
+        <s>1</s>
+        <s>99/99BV</s>
+        <s>105</s>
+        <s>138</s>
+        <s>187</s>
+        <s>123/139</s>
+        <s>144V</s>
+        <s>146V</s>
+        <s>86</s>
+        <s>87V</s>
+        <s>6V</s>
+        <s>83V</s>
+        <s>85V</s>
+        <s>82V</s>
+        <s>77V</s>
+        <s>148V</s>
+        <s>100/129V</s>
+        <s>125V</s>
+        <s>125V</s>
+        <s>VTG</s>
+        <s>149V</s>
+        <s>150</s>
+        <s>V110</s>
+        <end/>
+      </sprueche>
+    </inhalt>
+    <abbildungen>
+      <fotos>vorhanden / vollständig</fotos>
+      <kommentar>siehe Publikation; Kopie bei Großformaten Mappe 7</kommentar>
+      <abbildung rechte="com">
+        <datei name="Kairo_CG_40007_A.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_CG_40007_B.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_CG_40007_C.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_CG_40007_D.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_CG_40007_E.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_CG_40007_F.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_CG_40007_G.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_CG_40007_H.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_CG_40007_I.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_CG_40007_J.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_JE_26229_001.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_JE_26229_002.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_JE_26229_003.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_JE_26229_004.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_JE_26229_005.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_JE_26229_006.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_JE_26229_007.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_JE_26229_008.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_JE_26229_009.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_JE_26229_010.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_JE_26229_011.tif"/>
+      </abbildung>
+    </abbildungen>
+  </teilobjekt>
+</objekt>

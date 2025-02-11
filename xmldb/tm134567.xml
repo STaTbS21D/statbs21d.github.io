@@ -1,0 +1,199 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134567" id="1385" v:revision="10395" v:key="153a8c5e2ea289b" v:path="/db/totenbuch/objects/tm134567.xml">
+  <admin wer="TB-Projekt" wann="2012-01-01"/>
+  <anmerkungen>Swtj-ms wird in Graffito aus d. Zt. d. Smendes erw.; Name seines Sohnes ersch. in
+    Inschrift aus d. Jahr 16 von Smendes; 2 Särge u. Mumienhülle im Louvre Inv. Nos. N 2609-2611 (s.
+    Niwinski, 21st Dynasty Coffins, 166, Nr. 341).</anmerkungen>
+  <standort>
+    <land>FR</land>
+    <ort>Paris</ort>
+    <institution>Bibliothèque Nationale</institution>
+  </standort>
+  <herkunft>
+    <region>Theben</region>
+  </herkunft>
+  <besitzer geschlecht="M">
+    <name ranke="I, 321.18">Swti͗- ms</name>
+    <titel>ḥr.i͗ sš.w (n) ḥw.t- nṯr n Imn ḥr.i͗ hmw.w wꜥb ḥr.i͗ ḫꜣw.t sš.w (n) ḥw.t- nṯr m Ip.t-
+      sw.t ḥr.i͗ sꜣw.ti͗ sš.w n pr- ḥḏ n pr (n) Imn- Rꜥ nsw.t nṯr.w </titel>
+    <verwandt rel="Ehefrau">
+      <name>Ḥnw.t nṯr.w</name>
+      <titel>nb.t- pr šmꜥ.t n Imn</titel>
+    </verwandt>
+  </besitzer>
+  <datierung>
+    <periode>3. Zwischenzeit</periode>
+    <detail>21. Dynastie</detail>
+    <jahr>frühe 21. Dynastie</jahr>
+  </datierung>
+  <form>
+    <objektgruppe>Papyrus</objektgruppe>
+    <material>Papyrus</material>
+    <gesamtmasse>
+      <laenge>604</laenge>
+      <hoehe>35,5</hoehe>
+    </gesamtmasse>
+    <schrift>Hieroglyphisch</schrift>
+    <vignettenstil>Strichzeichnung</vignettenstil>
+  </form>
+  <bibliografie>
+    <bibl bibl-id="bibl-1854">
+      <title>P. Guieysse/E. Lefebure, Le Papyrus de Soutimès, Paris 1877</title>
+    </bibl>
+    <bibl bibl-id="bibl-1559">
+      <title>O. Keel, Das Recht der Bilder gesehen zu werden, OBO 122</title>
+      <pages>fig. 59</pages>
+    </bibl>
+    <bibl bibl-id="bibl-10">
+      <title>A.P. Zingarelli, in: A. Amenta et al. (Hgg.), L’aqua nell’antico Egitto, Proceedings of
+        the First International Conference for Young Egyptologists (Italy, Chianciano Terme, October
+        15-18, 2003), Rom 2005</title>
+      <pages>fig. 4 (= Keel, fig. 59)</pages>
+    </bibl>
+    <bibl bibl-id="bibl-979">
+      <title>E. Naville, Das ägyptische Totenbuch der XVIII. bis XX. Dynastie, Graz 1971</title>
+      <pages>Taf. VII, XXXIII, XXXVII, XLIII, LXXIII, XC, CI, CXVII, CCXI</pages>
+    </bibl>
+    <bibl bibl-id="bibl-979">
+      <title>E. Naville, Das ägyptische Totenbuch der XVIII. bis XX. Dynastie, Graz 1971</title>
+      <pages>100f. (Pd)</pages>
+    </bibl>
+    <bibl bibl-id="bibl-926">
+      <title>A. Niwinski, Studies on the Illustrated Theban Funerary Papyri of the 11th and 10th
+        Centuries B.C., OBO 86, Fribourg/Göttingen 1989</title>
+      <pages>350 (Paris 4)</pages>
+    </bibl>
+    <bibl bibl-id="bibl-1036">
+      <title>I. Munro, Untersuchungen zu den Totenbuch-Papyri der 18. Dynastie, London 1987</title>
+      <pages>302</pages>
+    </bibl>
+    <bibl bibl-id="bibl-2675">
+      <title>M. Bellion</title>
+      <pages>75 (mit weiterer Lit.)</pages>
+    </bibl>
+    <bibl bibl-id="bibl-1855">
+      <title>Guieysse, Rituel funéraire égyptien, chap. 64°, Etudes égyptologique 6 (1876)</title>
+      <pages>pl. I u. p. 15, 21-65</pages>
+    </bibl>
+    <bibl bibl-id="bibl-545">
+      <title>U. Rößler-Köhler, SAT 3, 1999</title>
+      <pages>77-79</pages>
+    </bibl>
+    <bibl bibl-id="bibl-277">
+      <title>M. Tarasenko, in: B. Backes/M. Müller/S. Stöhr (Hgg.), Ausgestattet mit den Schriften
+        des Thot. Festschrift für Irmtraut Munro zu ihrem 65. Geburtstag, SAT 14, Wiesbaden
+        2009</title>
+      <pages>243</pages>
+    </bibl>
+  </bibliografie>
+  <teilobjekt id="1385-1">
+    <objektname>P. Paris BN 38-45</objektname>
+    <inhalt>
+      <sequenz>A.d.O. - Tb 17 (Z.1 - 8) - 18(Z. 33 - 37) - 1 - 68 - 89V - 92V - 63A V - 105V - 42V -
+        26V - 30B V - 22V - 5V - 67 - 61V - 79V - 125A V - 125B V - 110V - 149V - 16B V</sequenz>
+      <sprueche>
+        <start/>
+        <s>VA.d.O.</s>
+        <s>17</s>
+        <s>18</s>
+        <s>1</s>
+        <s>68</s>
+        <s>89V</s>
+        <s>92V</s>
+        <s>63AV</s>
+        <s>105V</s>
+        <s>42V</s>
+        <s>26V</s>
+        <s>30BV</s>
+        <s>22V</s>
+        <s>5V</s>
+        <s>67</s>
+        <s>61V</s>
+        <s>79V</s>
+        <s>125V</s>
+        <s>125V</s>
+        <s>110V</s>
+        <s>149V</s>
+        <s>V15</s>
+        <end/>
+      </sprueche>
+    </inhalt>
+    <abbildungen>
+      <fotos>vorhanden / vollständig</fotos>
+      <abbildung rechte="com">
+        <datei name="Paris_BN_38_45_001.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_BN_38_45_002.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_BN_38_45_003.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_BN_38_45_004.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_BN_38_45_005.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_BN_38_45_006.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_BN_38_45_007.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_BN_38_45_008.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_BN_38_45_009.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_BN_38_45_010.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_BN_38_45_011.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_BN_38_45_012.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_BN_38_45_013.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_BN_38_45_014.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_BN_38_45_015.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_BN_38_45_016.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_BN_38_45_017.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_BN_38_45_018.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_BN_38_45_019.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_BN_38_45_020.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_BN_38_45_021.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_BN_38_45_022.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_BN_38_45_023.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_BN_38_45_024.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_BN_38_45_025.tif"/>
+      </abbildung>
+    </abbildungen>
+  </teilobjekt>
+</objekt>

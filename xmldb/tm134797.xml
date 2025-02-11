@@ -1,0 +1,137 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134797" id="1617" v:revision="10622" v:key="153a8c63897297e" v:path="/db/totenbuch/objects/tm134797.xml">
+          <admin wer="TB-Projekt" wann="2012-01-01"/>
+          <standort>
+                    <land>EG</land>
+                    <ort>Kairo</ort>
+                    <institution>Ägyptisches Museum</institution>
+          </standort>
+          <herkunft>
+                    <region>Theben</region>
+                    <ort>Deir el-Bahari</ort>
+          </herkunft>
+          <besitzer geschlecht="M">
+                    <name ranke="I, 412.4">Ḏd- Ḫnsw- i͗w- f- ꜥnḫ</name>
+                    <titel>i͗m.i͗- rꜣ šnw.ti͗ sš wr n Imn- Rꜥ nsw.t nṯr.w</titel>
+          </besitzer>
+          <datierung>
+                    <periode>3. Zwischenzeit</periode>
+                    <detail>21. Dynastie</detail>
+                    <jahr>späte 21. Dynastie</jahr>
+          </datierung>
+          <form>
+                    <objektgruppe>Papyrus</objektgruppe>
+                    <material>Papyrus</material>
+                    <gesamtmasse>
+                              <beschreibung>H. 16,5 cm, L. 714 cm</beschreibung>
+                    </gesamtmasse>
+                    <schrift>Hieroglyphisch</schrift>
+                    <vignettenstil>farbig</vignettenstil>
+          </form>
+          <bibliografie>
+                    <bibl bibl-id="bibl-805">
+                              <title>A. Piankoff/N. Rambova, Mythological Papyri</title>
+                              <pages>171-176, Nr. 22</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-926">
+                              <title>A. Niwinski, Studies on the Illustrated Theban Funerary Papyri
+                                        of the 11th and 10th Centuries B.C., OBO 86,
+                                        Fribourg/Göttingen 1989</title>
+                              <pages>287, Cairo 95</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-916">
+                              <title>A. Niwinski, in: B. Backes/M. Müller/S. Stöhr (Hgg.),
+                                        Ausgestattet mit den Schriften des Thot. Festschrift für
+                                        Irmtraut Munro zu ihrem 65. Geburtstag, SAT 14, Wiesbaden
+                                        2009</title>
+                              <pages>153</pages>
+                    </bibl>
+          </bibliografie>
+          <teilobjekt id="1617-1">
+                    <objektname>P. Kairo S.R. VII 10266</objektname>
+                    <inhalt>
+                              <sequenz>Mythologische Szenen - V83+V84, V81 V148, V30, V105, V85,
+                                        V134 (?) V114, V116, 112, 113 V137, V145,
+                                        Reinigungs-Szene</sequenz>
+                              <sprueche>
+                                        <start/>
+                                        <s>Mythologische SzenenV</s>
+                                        <s>V83 + V84</s>
+                                        <s>V81</s>
+                                        <s>V148</s>
+                                        <s>V30</s>
+                                        <s>V105</s>
+                                        <s>V85</s>
+                                        <s>V134?</s>
+                                        <s>V114</s>
+                                        <s>V116</s>
+                                        <s>112</s>
+                                        <s>113</s>
+                                        <s>V137</s>
+                                        <s>V145</s>
+                                        <s>V?</s>
+                                        <end/>
+                              </sprueche>
+                    </inhalt>
+                    <abbildungen>
+                              <fotos>vorhanden / vollständig</fotos>
+                              <kommentar>siehe Publikation</kommentar>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_S_R_VII_10266_A.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_S_R_VII_10266_B.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_S_R_VII_10266_C.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_S_R_VII_10266_D.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_S_R_VII_10266_E.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_S_R_VII_10266_F.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_S_R_VII_10266_G.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_S_R_VII_10266_H.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_S_R_VII_10266_I.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_S_R_VII_10266_J.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_S_R_VII_10266_K.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_S_R_VII_10266_L.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_S_R_VII_10266_M.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_S_R_VII_10266_N.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_S_R_VII_10266_O.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_S_R_VII_10266_P.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_S_R_VII_10266_Q.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_S_R_VII_10266_R.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_S_R_VII_10266_S.tif"/>
+                              </abbildung>
+                    </abbildungen>
+          </teilobjekt>
+</objekt>

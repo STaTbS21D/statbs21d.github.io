@@ -1,0 +1,104 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134391" id="1207" v:revision="10219" v:key="153a8c5a5a327eb" v:path="/db/totenbuch/objects/tm134391.xml">
+  <admin wer="TB-Projekt" wann="2012-01-01"/>
+  <standort>
+    <land>DE</land>
+    <ort>Berlin</ort>
+    <institution>Ägyptisches Museum und Papyrussammlung</institution>
+    <provenienz>Ankauf: 1842</provenienz>
+  </standort>
+  <herkunft>
+    <region>Theben</region>
+    <anmerkungen>erschlossen</anmerkungen>
+  </herkunft>
+  <besitzer geschlecht="M">
+    <name ranke="I, 67.9; II, 347">ꜥnḫ- f- n- Ḫnsw</name>
+    <titel>ḥm- nṯr n wi͗ꜣ n Imn- Rꜥ nsw.t nṯr.w </titel>
+    <verwandt rel="Mutter">
+      <name>Nsi͗- Ḫnsw- pꜣ- ẖrd / Ns- pꜣ- ẖrd</name>
+    </verwandt>
+    <verwandt rel="Vater">
+      <name>Ḏd- i͗ꜥḥ</name>
+    </verwandt>
+  </besitzer>
+  <datierung>
+    <periode>3. Zwischenzeit</periode>
+    <detail>21.-22. Dynastie</detail>
+    <jahr>späte 21. Dynastie / frühe 22. Dynastie</jahr>
+  </datierung>
+  <form>
+    <objektgruppe>Papyrus</objektgruppe>
+    <material>Papyrus</material>
+    <gesamtmasse>
+      <beschreibung>H. 25 cm, L. 129 cm</beschreibung>
+    </gesamtmasse>
+    <schrift>Hieratisch</schrift>
+    <vignettenstil>Strichzeichnung</vignettenstil>
+  </form>
+  <bibliografie>
+    <bibl bibl-id="bibl-926">
+      <title>A. Niwinski, Studies on the Illustrated Theban Funerary Papyri of the 11th and 10th
+        Centuries B.C., OBO 86, Fribourg/Göttingen 1989</title>
+      <pages>246, mit Photo Taf. 2 a - b (Berlin 10)</pages>
+    </bibl>
+    <bibl bibl-id="bibl-1663">
+      <title>M. Hussein/R. Krauspe, Vom Papyrus zum Codex, Leipzig 1970</title>
+      <pages>45, Taf. 40</pages>
+    </bibl>
+    <bibl bibl-id="bibl-1569">
+      <title>Kaplony-Heckel, Äg. Handschriften 3</title>
+      <pages>20, Nr. 13</pages>
+    </bibl>
+    <bibl bibl-id="bibl-2675">
+      <title>M. Bellion</title>
+      <pages>25</pages>
+    </bibl>
+    <bibl bibl-id="bibl-1628">
+      <title>K. Jansen-Winkeln, Text u. Sprache in der 3. Zwischenzeit, ÄAT 26, Wiesbaden
+        1994</title>
+      <pages>265</pages>
+    </bibl>
+    <bibl bibl-id="bibl-1349">
+      <title>LD VI, 123 a - b, LD Text V, 393</title>
+    </bibl>
+    <bibl bibl-id="bibl-2932">
+      <title>L. Borchardt, in: ZÄS 27, 1889</title>
+      <pages>119ff</pages>
+    </bibl>
+    <bibl bibl-id="bibl-1253">
+      <title>U. Luft, in: AfP 22/23, 1973/1974</title>
+      <pages>34 (Nr. 274)</pages>
+    </bibl>
+    <bibl bibl-id="bibl-1361">
+      <title>G. Lenzo, in: BIFAO 102, 2002</title>
+      <pages>267-283</pages>
+    </bibl>
+  </bibliografie>
+  <teilobjekt id="1207-1">
+    <objektname>P. Berlin P. 3013 A-B</objektname>
+    <inhalt>
+      <sequenz>A.d. Re-Harachte - Tb 64 - 133</sequenz>
+      <sprueche>
+        <start/>
+        <s>A.d. Re-Harachte</s>
+        <s>64</s>
+        <s>133</s>
+        <l/>
+      </sprueche>
+    </inhalt>
+    <abbildungen>
+      <fotos>vorhanden / vollständig</fotos>
+      <abbildung rechte="com">
+        <datei name="Berlin_3013_A(1).tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Berlin_3013_A.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Berlin_3013_B(1).tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Berlin_3013_B.tif"/>
+      </abbildung>
+    </abbildungen>
+  </teilobjekt>
+</objekt>

@@ -1,0 +1,206 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134453" id="1269" v:revision="10281" v:key="153a8c5ba6c2829" v:path="/db/totenbuch/objects/tm134453.xml">
+    <admin wer="TB-Projekt" wann="2012-01-01"/>
+    <anmerkungen>zur Datierung: Mumienbinden von HP Pinodjem II.; vgl. auch mytholog. Papyrus pKairo
+        (o.Nr.) Ga- yb- Bij; Besitzer des Sargensembles Kairo J.E. 29666</anmerkungen>
+    <standort>
+        <land>EG</land>
+        <ort>Kairo</ort>
+        <institution>Ägyptisches Museum</institution>
+    </standort>
+    <herkunft>
+        <region>Theben</region>
+        <ort>Cachette von Deir el-Bahari (Bab el-Gasus), 1891</ort>
+    </herkunft>
+    <besitzer geschlecht="M">
+        <name ranke="I, 121.23">Pꜣ- di͗ - Imn</name>
+        <titel>ḥm- nṯr n Imn i͗t- nṯr mri͗ ḥr.i͗- sštꜣ m p.t tꜣ dwꜣ.t </titel>
+    </besitzer>
+    <datierung>
+        <periode>3. Zwischenzeit</periode>
+        <detail>21. Dynastie</detail>
+        <jahr>Mitte 21. Dynastie</jahr>
+    </datierung>
+    <form>
+        <objektgruppe>Papyrus</objektgruppe>
+        <material>Papyrus</material>
+        <gesamtmasse>
+            <hoehe>22,5</hoehe>
+        </gesamtmasse>
+        <schrift>Hieratisch</schrift>
+        <vignettenstil>farbig</vignettenstil>
+    </form>
+    <bibliografie>
+        <bibl bibl-id="bibl-926">
+            <title>A. Niwinski, Studies on the Illustrated Theban Funerary Papyri of the 11th and
+                10th Centuries B.C., OBO 86, Fribourg/Göttingen 1989</title>
+            <pages>Taf. 11-16 sowie 131, 268 (Cairo 44)</pages>
+        </bibl>
+        <bibl bibl-id="bibl-1359">
+            <title>G. Lenzo Marchese, in: BSEG 26, 2004</title>
+            <pages>43-62, bes. 54, fig. 1 (= A. Niwinski, Studies, Taf. 11a)</pages>
+        </bibl>
+        <bibl bibl-id="bibl-545">
+            <title>U. Rößler-Köhler, SAT 3, 1999</title>
+            <pages>89-90</pages>
+        </bibl>
+        <bibl bibl-id="bibl-277">
+            <title>M. Tarasenko, in: B. Backes/M. Müller/S. Stöhr (Hgg.), Ausgestattet mit den
+                Schriften des Thot. Festschrift für Irmtraut Munro zu ihrem 65. Geburtstag, SAT 14,
+                Wiesbaden 2009</title>
+            <pages>243</pages>
+        </bibl>
+        <bibl bibl-id="bibl-694">
+            <title>Chloe Ragazzoli, The Book of the Dead of Ankhesenaset (P. BNF Egyptien 62-88).
+                Traces of workshop production or scribal experiments?, in: BMSAES 15, 2010</title>
+            <pages>225-248</pages>
+        </bibl>
+    </bibliografie>
+    <teilobjekt id="1269-1">
+        <objektname>P. Kairo J.E. 95879 (S.R. IV 981)</objektname>
+        <inhalt>
+            <sequenz>A.d.O. - Tb 17 - V136/136A - V1 - V65 - V100/129 - V136B - V136/136A - V98 -
+                V99/99B - V77 - V82 - V78 - V86 - V85 - V83 - V84 - V81A - V112 - V108 - V113 - V109
+                - V114 - V42 - V102 - V31 - V38A - V30B - V105 - V103 - V96/97 - V104 - V145 - V137A
+                - V147 - V148 - V153A - V126 - V149 - V136/136A/B - V150 - V110 -
+                Reinigungsszene</sequenz>
+            <sprueche>
+                <start/>
+                <s>VA.d.O.</s>
+                <s>17</s>
+                <s>V136/136A</s>
+                <s>V1</s>
+                <s>V65</s>
+                <s>V100/129</s>
+                <s>V136B</s>
+                <s>V136/136A</s>
+                <s>V98</s>
+                <s>V99/99B</s>
+                <s>V77</s>
+                <s>V82</s>
+                <s>V78</s>
+                <s>V86</s>
+                <s>V85</s>
+                <s>V83</s>
+                <s>V84</s>
+                <s>V81A</s>
+                <s>V112</s>
+                <s>V108</s>
+                <s>V113</s>
+                <s>V109</s>
+                <s>V114</s>
+                <s>V42</s>
+                <s>V102</s>
+                <s>V31</s>
+                <s>V38A</s>
+                <s>V30B</s>
+                <s>V105</s>
+                <s>V103</s>
+                <s>V96 oder 97</s>
+                <s>V104</s>
+                <s>V145</s>
+                <s>V137A</s>
+                <s>V147</s>
+                <s>V148</s>
+                <s>V153A</s>
+                <s>V126</s>
+                <s>V149</s>
+                <s>V136/136A</s>
+                <s>V136B</s>
+                <s>V150</s>
+                <s>V110</s>
+                <s>V?</s>
+                <end/>
+            </sprueche>
+        </inhalt>
+        <abbildungen>
+            <fotos>vorhanden / vollständig</fotos>
+            <abbildung rechte="com">
+                <datei name="Kairo_J_E_95879_1.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Kairo_J_E_95879_10.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Kairo_J_E_95879_11.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Kairo_J_E_95879_12.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Kairo_J_E_95879_13.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Kairo_J_E_95879_14.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Kairo_J_E_95879_15.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Kairo_J_E_95879_16.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Kairo_J_E_95879_17.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Kairo_J_E_95879_18.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Kairo_J_E_95879_19.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Kairo_J_E_95879_2.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Kairo_J_E_95879_20.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Kairo_J_E_95879_21.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Kairo_J_E_95879_22.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Kairo_J_E_95879_23.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Kairo_J_E_95879_24.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Kairo_J_E_95879_25.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Kairo_J_E_95879_26.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Kairo_J_E_95879_27.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Kairo_J_E_95879_28.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Kairo_J_E_95879_29.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Kairo_J_E_95879_3.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Kairo_J_E_95879_4.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Kairo_J_E_95879_5.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Kairo_J_E_95879_6.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Kairo_J_E_95879_7.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Kairo_J_E_95879_8.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Kairo_J_E_95879_9.tif"/>
+            </abbildung>
+        </abbildungen>
+    </teilobjekt>
+</objekt>

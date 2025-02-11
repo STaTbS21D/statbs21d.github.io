@@ -1,0 +1,209 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134481" id="1297" v:revision="10309" v:key="153a8c5c3cf2845" v:path="/db/totenbuch/objects/tm134481.xml">
+      <admin wer="TB-Projekt" wann="2012-01-01"/>
+      <anmerkungen>zur Datierung: Mumienbinden von HP Pinodjem II. mit Datum: "Jahr 1" (von
+            Amenemope) u. "Jahr 48 von Mencheperre"</anmerkungen>
+      <anmerkungen>Ausstellungsnummer 4885</anmerkungen>
+      <standort>
+            <land>EG</land>
+            <ort>Kairo</ort>
+            <institution>Ägyptisches Museum</institution>
+            <anmerkungen>P5 stairs W 1A</anmerkungen>
+      </standort>
+      <herkunft>
+            <region>Theben</region>
+            <ort>Cachette von Deir el-Bahari (Bab el-Gasus), 1891</ort>
+      </herkunft>
+      <besitzer geschlecht="M">
+            <name ranke="I, 86.2">Wsr- ḥꜣt- msw</name>
+            <titel>wꜥb n Imn sš pr- ḥḏ wꜥb n Mwt</titel>
+            <verwandt rel="Ehefrau">
+                  <name>Šbi͗t</name>
+                  <titel>nb.t- pr</titel>
+            </verwandt>
+      </besitzer>
+      <datierung>
+            <periode>3. Zwischenzeit</periode>
+            <detail>21. Dynastie</detail>
+            <jahr>Mitte 21. Dynastie</jahr>
+      </datierung>
+      <form>
+            <objektgruppe>Papyrus</objektgruppe>
+            <material>Papyrus</material>
+            <gesamtmasse>
+                  <laenge>520</laenge>
+                  <hoehe>33</hoehe>
+            </gesamtmasse>
+            <schrift>Hieroglyphisch</schrift>
+            <vignettenstil>farbig</vignettenstil>
+      </form>
+      <bibliografie>
+            <bibl bibl-id="bibl-926">
+                  <title>A. Niwinski, Studies on the Illustrated Theban Funerary Papyri of the 11th
+                        and 10th Centuries B.C., OBO 86, Fribourg/Göttingen 1989</title>
+                  <pages>Taf. 22b, 23a-b, 24a-c, 25a-b sowie 283 (Cairo 86) (mit weiterer
+                        Lit.)</pages>
+            </bibl>
+            <bibl bibl-id="bibl-2040">
+                  <title>H. Kischkewitz/W. Forman, Die altäg. Zeichnung, 1971</title>
+                  <pages>Abb. 45</pages>
+            </bibl>
+            <bibl bibl-id="bibl-2039">
+                  <title>H. Kischkewitz/W. Forman, Egyptian Art, Drawings and Paintings, London 2.
+                        Aufl. 1989</title>
+                  <pages>Nr. 45</pages>
+            </bibl>
+            <bibl bibl-id="bibl-439">
+                  <title>Chr. Seeber, Untersuchungen</title>
+                  <pages>Taf. 12 sowie 203</pages>
+            </bibl>
+            <bibl bibl-id="bibl-2038">
+                  <title>W. Forman/St. Quirke, Hieroglyphs and the Afterlife in Ancient Egypt,
+                        London 1996</title>
+                  <pages>139</pages>
+            </bibl>
+            <bibl bibl-id="bibl-2278">
+                  <title>R. David, Ägypten. Kunstschätze am Nil, Hamburg 1981</title>
+                  <pages>204, 205</pages>
+            </bibl>
+            <bibl bibl-id="bibl-1669">
+                  <title>P.F. Houlihan, The Animal World of the Pharaohs, London 1996</title>
+                  <pages>Taf. XXXIV</pages>
+            </bibl>
+            <bibl bibl-id="bibl-1905">
+                  <title>K. Gozdawa-Golebiowska, Chapter 146 of the Boof of the Dead of wsrh3tms SR
+                        6/10249 TR 14.7.35.7 (Cairo, Egyptian Museum Collection, in: BM 223,
+                        2009</title>
+                  <pages>53-61</pages>
+            </bibl>
+            <bibl bibl-id="bibl-1608">
+                  <title>K. Ahmed, Papyrus of WsrHAtms SR. VII.10249 TR 14.7.35.7 Cairo, Egyptian
+                        Museum, in: Centre d'archéologie méditerranéenne de l'Académie polonaise des
+                        Sciences, Etudes et Travaux XXIII (2010)</title>
+                  <pages>8-27</pages>
+            </bibl>
+            <bibl bibl-id="bibl-2675">
+                  <title>M. Bellion</title>
+                  <pages>103 (mit weiterer Lit.)</pages>
+            </bibl>
+            <bibl bibl-id="bibl-1711">
+                  <title>A.K. Heyne, in: A. Brodbeck (Hg.), Ein ägyptisches Glasperlenspiel (Fs
+                        Hornung)</title>
+                  <pages>57-68, bes. 60f. mit Anm. 21</pages>
+            </bibl>
+            <bibl bibl-id="bibl-2419">
+                  <title>M. Capasso, Il restauro dei papiri del Museo Egizio del Cairo: Seconda e
+                        terza sessione di lavoro (1998), in: M. Capasso (Hg.), Da Ercolano
+                        all’Egitto. Ricerche varie di papirologia, Papyrologica Lupiensia 7, Lecce
+                        1998</title>
+                  <pages>22-40, bes. 39</pages>
+            </bibl>
+      </bibliografie>
+      <teilobjekt id="1297-1">
+            <objektname>P. Kairo S.R. VII 10249 (TR 14/7/35/7)</objektname>
+            <inhalt>
+                  <sequenz>Adoration - Tb 145V - 148V - 125A - 125B V - 110V - 125C - TG -
+                        186V</sequenz>
+                  <sprueche>
+                        <start/>
+                        <s>VAdorationsszene</s>
+                        <s>145V</s>
+                        <s>148V</s>
+                        <s>125</s>
+                        <s>125V</s>
+                        <s>110V</s>
+                        <s>125</s>
+                        <s>VTG</s>
+                        <s>186V</s>
+                        <end/>
+                  </sprueche>
+            </inhalt>
+            <abbildungen>
+                  <fotos>vorhanden / vollständig</fotos>
+                  <kommentar>CD Kairo Jan./Febr. 2007</kommentar>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_S_R_VII_10249_1.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_S_R_VII_10249_10.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_S_R_VII_10249_11.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_S_R_VII_10249_12.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_S_R_VII_10249_13.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_S_R_VII_10249_14.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_S_R_VII_10249_15.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_S_R_VII_10249_16.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_S_R_VII_10249_17.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_S_R_VII_10249_18.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_S_R_VII_10249_19.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_S_R_VII_10249_2.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_S_R_VII_10249_20.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_S_R_VII_10249_21.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_S_R_VII_10249_22.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_S_R_VII_10249_23.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_S_R_VII_10249_24.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_S_R_VII_10249_25.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_S_R_VII_10249_26.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_S_R_VII_10249_27.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_S_R_VII_10249_28.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_S_R_VII_10249_3.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_S_R_VII_10249_4.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_S_R_VII_10249_5.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_S_R_VII_10249_6.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_S_R_VII_10249_7.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_S_R_VII_10249_8.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_S_R_VII_10249_9.tif"/>
+                  </abbildung>
+            </abbildungen>
+      </teilobjekt>
+</objekt>

@@ -1,0 +1,62 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134709" id="1527" v:revision="10535" v:key="153a8c61be72927" v:path="/db/totenbuch/objects/tm134709.xml">
+      <admin wer="TB-Projekt" wann="2012-01-01"/>
+      <anmerkungen>pCleveland 1914.725 (Amduat) nennt denselben Besitzer; unbekannte Sprüche vgl.
+            pMoskau I, 1b, 130, pNew Haven Ct YBR inv. 2755, pSydney R 402, pParis BN
+            128</anmerkungen>
+      <standort>
+            <land>US</land>
+            <ort>Cleveland (OH)</ort>
+            <institution>Museum of Art</institution>
+      </standort>
+      <herkunft>
+            <region>Theben</region>
+      </herkunft>
+      <besitzer geschlecht="M">
+            <anmerkungen>nach pCleveland 1914.725</anmerkungen>
+            <name ranke="I, 94.3">Bw- i͗rw- ḥꜥr(- Mwt)</name>
+      </besitzer>
+      <datierung>
+            <periode>3. Zwischenzeit</periode>
+            <detail>21.-22. Dynastie</detail>
+            <jahr>späte 21. - frühe 22. Dynastie</jahr>
+      </datierung>
+      <form>
+            <objektgruppe>Papyrus</objektgruppe>
+            <material>Papyrus</material>
+            <gesamtmasse>
+                  <hoehe>24,3</hoehe>
+            </gesamtmasse>
+            <schrift>Hieratisch</schrift>
+            <vignettenstil>nicht vorgesehen</vignettenstil>
+      </form>
+      <bibliografie>
+            <bibl bibl-id="bibl-2658">
+                  <title>L.M. Berman, Catalogue of Egyptian Art, The Cleveland Museum of Art,
+                        Cleveland 1999</title>
+                  <pages>377-378, Nr. 286</pages>
+            </bibl>
+      </bibliografie>
+      <teilobjekt id="1527-1">
+            <objektname>P. Cleveland 1914.733</objektname>
+            <inhalt>
+                  <sequenz>/// Tb 23 - unbekannte Sprüche ///</sequenz>
+                  <sprueche>
+                        <l/>
+                        <s>23</s>
+                        <s>?</s>
+                        <l/>
+                  </sprueche>
+            </inhalt>
+            <objektmasse>24,6 cm</objektmasse>
+            <abbildungen>
+                  <fotos>vorhanden / vollständig</fotos>
+                  <kommentar>Kopie aus Publikation</kommentar>
+                  <abbildung rechte="com">
+                        <datei name="Cleveland_1914.jpg"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Cleveland_1914_733.tif"/>
+                  </abbildung>
+            </abbildungen>
+      </teilobjekt>
+</objekt>

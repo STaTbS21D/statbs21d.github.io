@@ -1,0 +1,58 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134584" id="1402" v:revision="10412" v:key="153a8c5e88828ac" v:path="/db/totenbuch/objects/tm134584.xml">
+        <admin wer="TB-Projekt" wann="2012-01-01"/>
+        <standort>
+                <land>FR</land>
+                <ort>Paris</ort>
+                <institution>Musée du Louvre</institution>
+                <provenienz>erworben 1951 vom Baron Mallet, Château des Cites à Jouy en Josas, Seine
+                        - et - Oise</provenienz>
+        </standort>
+        <herkunft>
+                <region>unbekannt</region>
+        </herkunft>
+        <besitzer geschlecht="M">
+                <name ranke="I, 91.13">Bꜣk- n- Ḫnsw</name>
+                <titel>i͗t- nṯr n Imn ḥr.i͗ sštꜣ ꜥ.t</titel>
+        </besitzer>
+        <datierung>
+                <periode>3. Zwischenzeit</periode>
+                <detail>21. Dynastie</detail>
+                <jahr>1. Hälfte 21. Dynastie</jahr>
+        </datierung>
+        <form>
+                <objektgruppe>Papyrus</objektgruppe>
+                <material>Papyrus</material>
+                <gesamtmasse>
+                        <beschreibung>H. 34,5 cm, L. 2,11 m</beschreibung>
+                </gesamtmasse>
+                <schrift>Hieroglyphisch</schrift>
+                <vignettenstil>farbig</vignettenstil>
+        </form>
+        <bibliografie>
+                <bibl bibl-id="bibl-926">
+                        <title>A. Niwinski, Studies on the Illustrated Theban Funerary Papyri of the
+                                11th and 10th Centuries B.C., OBO 86, Fribourg/Göttingen
+                                1989</title>
+                        <pages>363 (Paris 48)</pages>
+                </bibl>
+                <bibl bibl-id="bibl-2675">
+                        <title>M. Bellion</title>
+                        <pages>222</pages>
+                </bibl>
+        </bibliografie>
+        <teilobjekt id="1402-1">
+                <objektname>P. Paris Louvre E. 17399</objektname>
+                <inhalt>
+                        <sequenz>Tb 110 - 125</sequenz>
+                        <sprueche>
+                                <l/>
+                                <s>110</s>
+                                <s>125</s>
+                                <l/>
+                        </sprueche>
+                </inhalt>
+                <abbildungen>
+                        <fotos>nicht vorhanden</fotos>
+                </abbildungen>
+        </teilobjekt>
+</objekt>

@@ -1,0 +1,94 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134459" id="1275" v:revision="10287" v:key="153a8c5bc64282f" v:path="/db/totenbuch/objects/tm134459.xml">
+          <admin wer="TB-Projekt" wann="2012-01-01"/>
+          <standort>
+                    <land>EG</land>
+                    <ort>Kairo</ort>
+                    <institution>Ägyptisches Museum</institution>
+          </standort>
+          <herkunft>
+                    <region>Theben</region>
+                    <ort>Cachette von Deir el-Bahari (Bab el-Gasus), 1891</ort>
+          </herkunft>
+          <besitzer geschlecht="M">
+                    <name ranke="I, 28.10">Imn- (m-) ḥꜣt- pꜣ- mšꜥ</name>
+                    <titel>i͗t- nṯr n Imn- Rꜥ nsw.t nṯr.w ḥm- nṯr n Ḥrw Bḥdt i͗ti͗- nṯr n Mwt ḥm-
+                              nṯr Ḥrw</titel>
+          </besitzer>
+          <datierung>
+                    <periode>3. Zwischenzeit</periode>
+                    <detail>21. Dynastie</detail>
+                    <jahr>späte 21. Dynastie</jahr>
+          </datierung>
+          <form>
+                    <objektgruppe>Papyrus</objektgruppe>
+                    <material>Papyrus</material>
+                    <gesamtmasse>
+                              <laenge>260</laenge>
+                              <hoehe>23</hoehe>
+                    </gesamtmasse>
+                    <schrift>Hieratisch</schrift>
+                    <vignettenstil>Strichzeichnung</vignettenstil>
+          </form>
+          <bibliografie>
+                    <bibl bibl-id="bibl-926">
+                              <title>A. Niwinski, Studies on the Illustrated Theban Funerary Papyri
+                                        of the 11th and 10th Centuries B.C., OBO 86,
+                                        Fribourg/Göttingen 1989</title>
+                              <pages>298 (Cairo 124)</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-1359">
+                              <title>G. Lenzo Marchese, in: BSEG 26, 2004</title>
+                              <pages>43-62</pages>
+                    </bibl>
+          </bibliografie>
+          <teilobjekt id="1275-1">
+                    <objektname>P. Kairo S.R. VII 11502</objektname>
+                    <inhalt>
+                              <sequenz>A.d.O. - Tb 26 - 30B - V Horus + V? (NN vor Thot + Maati) - ?
+                                        - V? - mytholog. Szene - Re-Hymnus - V136/136A -
+                                        149V</sequenz>
+                              <sprueche>
+                                        <start/>
+                                        <s>VA.d.O.</s>
+                                        <s>26</s>
+                                        <s>30B</s>
+                                        <s>V?</s>
+                                        <s>V?</s>
+                                        <s>?</s>
+                                        <s>V?</s>
+                                        <s>Mythologische SzenenV</s>
+                                        <s>Hymnus</s>
+                                        <s>V136/136A</s>
+                                        <s>149V</s>
+                                        <end/>
+                              </sprueche>
+                    </inhalt>
+                    <abbildungen>
+                              <fotos>vorhanden / vollständig</fotos>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_S_R_VII_11502_A.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_S_R_VII_11502_B.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_S_R_VII_11502_C.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_S_R_VII_11502_D.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_S_R_VII_11502_E.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_S_R_VII_11502_F.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_S_R_VII_11502_G.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_S_R_VII_11502_H.tif"/>
+                              </abbildung>
+                    </abbildungen>
+          </teilobjekt>
+</objekt>

@@ -1,0 +1,68 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="133569" id="157" v:revision="9481" v:key="153a8c4a6372509" v:path="/db/totenbuch/objects/tm133569.xml">
+  <admin wer="TB-Projekt" wann="2012-01-01"/>
+  <standort>
+    <land>US</land>
+    <ort>Cleveland (OH)</ort>
+    <institution>Museum of Art</institution>
+    <provenienz>J. Huntington Trust</provenienz>
+  </standort>
+  <herkunft>
+    <region>Theben</region>
+  </herkunft>
+  <besitzer geschlecht="M">
+    <name ranke="I, 91.9">Bꜣk- n- Mwt</name>
+    <titel>i͗t- nṯr n Imn</titel>
+    <verwandt rel="Vater">
+      <name>Imn- ḥtp</name>
+      <titel>sꜣb </titel>
+    </verwandt>
+  </besitzer>
+  <datierung>
+    <periode>3. Zwischenzeit</periode>
+    <detail>21.-22. Dynastie</detail>
+    <jahr>Ende 21. Dynastie - Anfang 22. Dynastie</jahr>
+  </datierung>
+  <form>
+    <objektgruppe>Papyrus</objektgruppe>
+    <material>Papyrus</material>
+    <gesamtmasse>
+      <hoehe>20,5</hoehe>
+    </gesamtmasse>
+    <schrift>Hieratisch</schrift>
+    <vignettenstil>nicht erhalten</vignettenstil>
+  </form>
+  <bibliografie>
+    <bibl bibl-id="bibl-2658">
+      <title>L.M. Berman, Catalogue of Egyptian Art, The Cleveland Museum of Art, Cleveland
+        1999</title>
+      <pages>373-374, Nr. 283</pages>
+    </bibl>
+    <bibl bibl-id="bibl-926">
+      <title>A. Niwinski, Studies on the Illustrated Theban Funerary Papyri of the 11th and 10th
+        Centuries B.C., OBO 86, Fribourg/Göttingen 1989</title>
+      <pages>305 (Cleveland A)</pages>
+    </bibl>
+  </bibliografie>
+  <teilobjekt id="157-1">
+    <objektname>P. Cleveland 1914.882</objektname>
+    <inhalt>
+      <sequenz>/// Tb 23 - 162 - 61 - 29 - 6</sequenz>
+      <sprueche>
+        <l/>
+        <s>23</s>
+        <s>162</s>
+        <s>61</s>
+        <s>29</s>
+        <s>6</s>
+        <end/>
+      </sprueche>
+    </inhalt>
+    <objektmasse>Länge: 72 cm</objektmasse>
+    <abbildungen>
+      <fotos>vorhanden / vollständig</fotos>
+      <abbildung rechte="com">
+        <datei name="Cleveland_1914_882.tif"/>
+      </abbildung>
+    </abbildungen>
+  </teilobjekt>
+</objekt>

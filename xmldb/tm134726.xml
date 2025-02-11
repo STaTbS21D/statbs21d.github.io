@@ -1,0 +1,90 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134726" id="1545" v:revision="10552" v:key="153a8c621752938" v:path="/db/totenbuch/objects/tm134726.xml">
+          <admin wer="TB-Projekt" wann="2012-01-01"/>
+          <standort>
+                    <land>EG</land>
+                    <ort>Kairo</ort>
+                    <institution>Ägyptisches Museum</institution>
+          </standort>
+          <herkunft>
+                    <region>Theben</region>
+                    <ort>Deir el-Bahari</ort>
+          </herkunft>
+          <besitzer geschlecht="M">
+                    <name ranke="I, 112.23">Pꜣ- nb- n - kmt- nḫt</name>
+                    <titel>i͗t- nṯr n Imn- Rꜥ sš n pr ḥḏ n nb tꜣ.wi͗ n pr Imn</titel>
+          </besitzer>
+          <datierung>
+                    <periode>3. Zwischenzeit</periode>
+                    <detail>21. Dynastie</detail>
+          </datierung>
+          <form>
+                    <objektgruppe>Papyrus</objektgruppe>
+                    <material>Papyrus</material>
+                    <gesamtmasse>
+                              <beschreibung>H.: 22, 5 cm L.: 270 cm</beschreibung>
+                    </gesamtmasse>
+                    <schrift>Hieroglyphisch</schrift>
+                    <vignettenstil>farbig</vignettenstil>
+          </form>
+          <bibliografie>
+                    <bibl bibl-id="bibl-805">
+                              <title>A. Piankoff/N. Rambova, Mythological Papyri</title>
+                              <pages>Nr. 25</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-2675">
+                              <title>M. Bellion</title>
+                              <pages>133</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-926">
+                              <title>A. Niwinski, Studies on the Illustrated Theban Funerary Papyri
+                                        of the 11th and 10th Centuries B.C., OBO 86,
+                                        Fribourg/Göttingen 1989</title>
+                              <pages>299 (Cairo 128)</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-439">
+                              <title>Chr. Seeber, Untersuchungen</title>
+                              <pages>234, 4</pages>
+                    </bibl>
+          </bibliografie>
+          <teilobjekt id="1545-1">
+                    <objektname>P. Kairo S. R. VII 11506</objektname>
+                    <inhalt>
+                              <sequenz>A. d. O. (mit anbetendem Ba) - mytholog. Szenen - V 110 -
+                                        mytholog. Szenen - V 126</sequenz>
+                              <sprueche>
+                                        <start/>
+                                        <s>VA.d.O.</s>
+                                        <s>Mythologische SzenenV</s>
+                                        <s>V110</s>
+                                        <s>Mythologische SzenenV</s>
+                                        <s>V126</s>
+                                        <end/>
+                              </sprueche>
+                    </inhalt>
+                    <abbildungen>
+                              <fotos>vorhanden / vollständig</fotos>
+                              <kommentar>siehe Publikation</kommentar>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_S_R_VII_11506_A.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_S_R_VII_11506_B.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_S_R_VII_11506_C.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_S_R_VII_11506_D.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_S_R_VII_11506_E.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_S_R_VII_11506_F.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_S_R_VII_11506_G.tif"/>
+                              </abbildung>
+                    </abbildungen>
+          </teilobjekt>
+</objekt>

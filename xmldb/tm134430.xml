@@ -1,0 +1,148 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134430" id="1246" v:revision="10258" v:key="153a8c5b2b02812" v:path="/db/totenbuch/objects/tm134430.xml">
+          <admin wer="TB-Projekt" wann="2012-01-01"/>
+          <anmerkungen>s. auch pBoulaq 23, pKairo J.E. 95887</anmerkungen>
+          <anmerkungen>am rechten Rand Titel: pr.t-m-hrw</anmerkungen>
+          <standort>
+                    <land>EG</land>
+                    <ort>Kairo</ort>
+                    <institution>Ägyptisches Museum</institution>
+          </standort>
+          <herkunft>
+                    <region>Theben</region>
+                    <anmerkungen>Royal Cachette von Deir el-Bahari, 1872</anmerkungen>
+          </herkunft>
+          <besitzer geschlecht="F">
+                    <name ranke="I, 244.12">Ḥnwt- tꜣwi͗ (A)</name>
+                    <titel>Königin</titel>
+                    <verwandt rel="Ehemann">
+                              <name>Pꜣ- nḏm I.</name>
+                              <titel>Hoherpriester</titel>
+                    </verwandt>
+          </besitzer>
+          <datierung>
+                    <periode>3. Zwischenzeit</periode>
+                    <detail>21. Dynastie</detail>
+                    <jahr>frühe 21. Dynastie</jahr>
+          </datierung>
+          <form>
+                    <objektgruppe>Papyrus</objektgruppe>
+                    <material>Papyrus</material>
+                    <gesamtmasse>
+                              <laenge>367</laenge>
+                              <hoehe>45,5</hoehe>
+                    </gesamtmasse>
+                    <schrift>Hieratisch</schrift>
+                    <schriftDetails>Leserichtung von links nach rechts</schriftDetails>
+                    <vignettenstil>farbig</vignettenstil>
+          </form>
+          <bibliografie>
+                    <bibl bibl-id="bibl-1203">
+                              <title>A. Mariette 1871-76, Vol. 3</title>
+                              <pages>Taf. 12-21</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-115">
+                              <title>M. Werbrouck, Les pleureuses dans l'Egypte ancienne, Brüssel
+                                        1938</title>
+                              <pages>Taf. XXIX</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-2675">
+                              <title>M. Bellion</title>
+                              <pages>89 (mit weiterer Lit.)</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-1189">
+                              <title>. Maspero, Les momies royales de Déir-el-Baharî</title>
+                              <pages>512f u. 688-691</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-926">
+                              <title>A. Niwinski, Studies on the Illustrated Theban Funerary Papyri
+                                        of the 11th and 10th Centuries B.C., OBO 86,
+                                        Fribourg/Göttingen 1989</title>
+                              <pages>265 (Cairo 36) sowie 269f. (Cairo 47)</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-1628">
+                              <title>K. Jansen-Winkeln, Text u. Sprache in der 3. Zwischenzeit, ÄAT
+                                        26, Wiesbaden 1994</title>
+                              <pages>266</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-1756">
+                              <title>M. Heerma van Voss, in: Fs Derchain, OLA 39, Leuven
+                                        1991</title>
+                              <pages>156-157</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-1359">
+                              <title>G. Lenzo Marchese, in: BSEG 26, 2004</title>
+                              <pages>43-62</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-1742">
+                              <title>M. Heerma van Voss, Beginning and End in the Book of the Dead
+                                        of the 21st Dynasty, in: St.E. Thompson/P. Der Manuelian,
+                                        Egypt and Beyond. Essays Presented to Leonard H. Lesko,
+                                        Providence 2008</title>
+                              <pages>163-166</pages>
+                    </bibl>
+          </bibliografie>
+          <teilobjekt id="1246-1">
+                    <objektname>P. Kairo CG 40005 (J.E. 95856, S.R. IV 955) (P. Boulaq
+                              22)</objektname>
+                    <inhalt>
+                              <sequenz>Tb 83V - 84V - 85V - 82V - 77V - 86V - 99/99B V - 125B V -
+                                        Räucherszene - V150 - 22 - 23 - 26 - 27 - 28 - 43 - 30A - 31
+                                        - 33 - 45 - 93 + Anbetung + Sonnenlitanei </sequenz>
+                              <sprueche>
+                                        <start/>
+                                        <s>83V</s>
+                                        <s>84V</s>
+                                        <s>85V</s>
+                                        <s>82V</s>
+                                        <s>77V</s>
+                                        <s>86V</s>
+                                        <s>99/99BV</s>
+                                        <s>125V</s>
+                                        <s>V?</s>
+                                        <s>V150</s>
+                                        <s>22</s>
+                                        <s>23</s>
+                                        <s>26</s>
+                                        <s>27</s>
+                                        <s>28</s>
+                                        <s>43</s>
+                                        <s>30A</s>
+                                        <s>31</s>
+                                        <s>33</s>
+                                        <s>45</s>
+                                        <s>93</s>
+                                        <s>VAdorationsszene</s>
+                                        <s>Sonnenlitanei</s>
+                                        <end/>
+                              </sprueche>
+                    </inhalt>
+                    <abbildungen>
+                              <fotos>vorhanden / vollständig</fotos>
+                              <kommentar>auch Dias</kommentar>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_CG_40005_A.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_CG_40005_B.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_CG_40005_C.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_CG_40005_D.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_CG_40005_E.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_CG_40005_F.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_CG_40005_G.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_CG_40005_H.tif"/>
+                              </abbildung>
+                    </abbildungen>
+          </teilobjekt>
+</objekt>

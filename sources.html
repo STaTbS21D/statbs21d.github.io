@@ -8,16 +8,9 @@
 <meta property="og:image:height" content="600">
 <meta property="og:description" content="Synoptic Edition of Book of the Dead Spell Sources from the 21st Dynasty (STaTbS21D) is a Digital Humanities project on Egyptology, provides edited and digitalized Book of the Dead spell sources from the end of the New Kingdom and the beginning of the Third Intermediate Period (particularly the 21st Dynasty) for the Egyptological community and the general public." />
 <link rel="prefetch" href="nav.html"><link rel="prefetch" href="footer.html">
-<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i&amp;display=swap"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.css">
+<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i&amp;display=swap"><link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css"><link rel="stylesheet" href="assets/fonts/font-awesome.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.css">
 <link  id="page-css" rel="stylesheet" href="assets/css/styles.min.css"><script src="assets/js/jquery-3.6.3.js?h=84e399b8f2181ccd73394fdeddff1638"></script>
 <script src="assets/js/crypto-js.min.js"></script>
-<style>
-        .marked::after {
-            content: "✅";
-            margin-left: 5px;
-            color: green;
-        }
-    </style>
 </head>
 
 <body>
@@ -171,12 +164,29 @@ $(document).ready(function() {
 		</div>	
 	</div></div>
 <!--/div--></div>
+
+<div class="modal fade portfolio-modal" id="TbPModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="TbPmodalLabel">...</h5>
+            </div>
+            <div class="modal-body" id="TbPmodalBody">
+               <div align="center"><img src="assets/img/loading.gif"></div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-primary closeModal" type="button" data-bs-dismiss="modal"><i class="fa fa-times icon"></i><span>&nbsp;Close</span></button>
+            </div>
+        </div>
+    </div>
+</div>
+
 </section>
 
 </main>
 
 <script>
-const completedPapyri = [134426, 134699, 134519, 134391];
+const completedPapyri = [134426, 134699, 134391];
   function markCompletedRows() {
   completedPapyri.forEach(id => {
                 const row = $(`#row-${id}`);
@@ -268,7 +278,7 @@ const completedPapyri = [134426, 134699, 134519, 134391];
 						dateclass = "dating-21d";
 					  }
 
-					  var row = '<tr id="row-' + TMnumber + '" class="table-row"><td>' + papyrus + ' <a class="tbp-link" href="https://totenbuch.awk.nrw.de/objekt/tm' + TMnumber + '" target="_blank" alt="Totenbuch Projekt reference">[TbP]</a> <a class="tm-link" href="https://trismegistos.org/text/' + TMnumber + '" target="_blank" alt="Trismegistos reference">[TM]</a> <a class="ref-link" href="references.html?p=tags&tag=TM ' + TMnumber + '" target="_blank" alt="Bibliography">[Ref]</a></td><td><span class="data-table ' + dateclass + '">' + dating + '</span></td><td>';
+					  var row = '<tr id="row-' + TMnumber + '" class="table-row"><td>' + papyrus + ' <a class="tbp-link" href="https://totenbuch.awk.nrw.de/objekt/tm' + TMnumber + '" target="_blank" alt="Totenbuch Projekt reference">[TbP]</a> <a class="tm-link" href="https://trismegistos.org/text/' + TMnumber + '" target="_blank" alt="Trismegistos reference">[TM]</a> <a class="ref-link" href="references.html?p=tags&tag=TM ' + TMnumber + '" target="_blank" alt="Bibliography">[Ref]</a><br><a class="btn btn-sm toggler ref-link" alt="Info" href="#TbPModal" data-bs-toggle="modal"><i class="icon-info icon" style="font-size:20px"></i></a></td><td><span class="data-table ' + dateclass + '">' + dating + '</span></td><td>';
 
 					  // Construct rows for each spell
 					  for (const spell of spells) {
@@ -366,6 +376,32 @@ $(document).ready(function() {
     checkIds();
 });
 
+</script>
+<script>
+$(document).ready(function() {
+	
+	$(".closeModal").click(function() {
+		 $('#TbPmodalBody').empty().html('<div align="center"><img src="assets/img/loading.gif"></div>');;
+		 $('#TbPmodalLabel').text('');
+		 history.pushState("", document.title, window.location.pathname);
+	});
+	
+   $(document).on('click', '.toggler', function() {
+        // Encuentra la fila actual
+        var fila = $(this).closest("tr");
+		var idx = $(this).closest("tr").attr("id");
+		var ids = idx.split('-'); var tbid = ids[ids.length - 1];
+
+		$('#TbPmodalLabel').text('TM '+ tbid+ ' Info');
+        $('#TbPmodalBody').load('tbpdb.html'); 
+	
+		var currentUrl = window.location.href;
+		var url = new URL(currentUrl);
+		url.searchParams.set('tm', tbid);
+		history.pushState(null, '', url);
+			
+    }); 
+});
 </script>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.js"></script><script src="assets/js/script.min.js"></script><script src="assets/bootstrap/js/bootstrap-collapse.js"></script>

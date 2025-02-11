@@ -1,0 +1,98 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134473" id="1289" v:revision="10301" v:key="153a8c5c11c283d" v:path="/db/totenbuch/objects/tm134473.xml">
+          <admin wer="TB-Projekt" wann="2012-01-01"/>
+          <anmerkungen>rot/gelb Umrandung</anmerkungen>
+          <standort>
+                    <land>EG</land>
+                    <ort>Kairo</ort>
+                    <institution>Ägyptisches Museum</institution>
+          </standort>
+          <herkunft>
+                    <region>Theben</region>
+                    <ort>Cachette von Deir el-Bahari (Bab el-Gasus), 1891</ort>
+          </herkunft>
+          <besitzer geschlecht="M">
+                    <name ranke="I, 91.9">Bꜣk- n- Mwt</name>
+                    <titel>wꜥb nbi͗ n pr Imn i͗t- nṯr n Mwt</titel>
+          </besitzer>
+          <datierung>
+                    <periode>3. Zwischenzeit</periode>
+                    <detail>21. Dynastie</detail>
+                    <jahr>späte 21. Dynastie</jahr>
+          </datierung>
+          <form>
+                    <objektgruppe>Papyrus</objektgruppe>
+                    <material>Papyrus</material>
+                    <gesamtmasse>
+                              <laenge>245</laenge>
+                              <hoehe>24</hoehe>
+                    </gesamtmasse>
+                    <schrift>Hieroglyphisch</schrift>
+                    <vignettenstil>farbig</vignettenstil>
+          </form>
+          <bibliografie>
+                    <bibl bibl-id="bibl-926">
+                              <title>A. Niwinski, Studies on the Illustrated Theban Funerary Papyri
+                                        of the 11th and 10th Centuries B.C., OBO 86,
+                                        Fribourg/Göttingen 1989</title>
+                              <pages>Taf. 21a-b sowie 269 (Cairo 45)</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-439">
+                              <title>Chr. Seeber, Untersuchungen</title>
+                              <pages>212</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-1359">
+                              <title>G. Lenzo Marchese, in: BSEG 26, 2004</title>
+                              <pages>43-62</pages>
+                    </bibl>
+          </bibliografie>
+          <teilobjekt id="1289-1">
+                    <objektname>P. Kairo CG 40023 (J.E. 95880, S.R. IV 982 A-E)</objektname>
+                    <inhalt>
+                              <sequenz>A.d.O. + Isis + Nephthys - Tb 194 - TG 125B V - 125A V - TG -
+                                        V126 - Reinigungs-Szene - V110</sequenz>
+                              <sprueche>
+                                        <start/>
+                                        <s>VA.d.O.</s>
+                                        <s>194</s>
+                                        <s>VTG</s>
+                                        <s>125V</s>
+                                        <s>125V</s>
+                                        <s>VTG</s>
+                                        <s>V126</s>
+                                        <s>V?</s>
+                                        <s>V110</s>
+                                        <l/>
+                              </sprueche>
+                    </inhalt>
+                    <abbildungen>
+                              <fotos>vorhanden / vollständig</fotos>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_CG_40023_C.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_CG_40023_D.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_CG_40023_E.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_CG_40023_F.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_CG_40023_G.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_CG_40023_H.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_CG_40023_I.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_CG_40023_J.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_CG_40023_K.tif"/>
+                              </abbildung>
+                    </abbildungen>
+          </teilobjekt>
+</objekt>

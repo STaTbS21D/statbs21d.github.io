@@ -1,0 +1,135 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134476" id="1292" v:revision="10304" v:key="153a8c5c21f2840" v:path="/db/totenbuch/objects/tm134476.xml">
+      <admin wer="TB-Projekt" wann="2012-01-01"/>
+      <anmerkungen>zur Datierung: Mumienbinden von HP Pinodjem II.; vgl. Sarg 7.29635; Maße: 1.
+            61x19,3, 2. 62x19,5 (Tb 125b + Anf. 149), 3. 57,5x19,5 cm, Schriftfeld 17,2
+            cm.</anmerkungen>
+      <standort>
+            <land>EG</land>
+            <ort>Kairo</ort>
+            <institution>Ägyptisches Museum</institution>
+            <anmerkungen>Raum: P 29 bas 27 r.5</anmerkungen>
+      </standort>
+      <herkunft>
+            <region>Theben</region>
+            <ort>Cachette von Deir el-Bahari (Bab el-Gasus), 1891</ort>
+      </herkunft>
+      <besitzer geschlecht="F">
+            <name ranke="I, 350.6">Gꜣt- sšn</name>
+            <titel>nb.t- pr šmꜥ.t n Imn nsw.t nṯr.w ḥsi͗.t n pꜣ ꜥ n Mw.t nb.t Išrw</titel>
+      </besitzer>
+      <datierung>
+            <periode>3. Zwischenzeit</periode>
+            <detail>21. Dynastie</detail>
+            <jahr>späte 21. Dynastie</jahr>
+      </datierung>
+      <form>
+            <objektgruppe>Papyrus</objektgruppe>
+            <material>Papyrus</material>
+            <gesamtmasse>
+                  <beschreibung>3 Kartons; s. Anm.</beschreibung>
+                  <laenge>181</laenge>
+                  <hoehe>19,5</hoehe>
+            </gesamtmasse>
+            <schrift>Hieroglyphisch</schrift>
+            <vignettenstil>Strichzeichnung</vignettenstil>
+      </form>
+      <bibliografie>
+            <bibl bibl-id="bibl-926">
+                  <title>A. Niwinski, Studies on the Illustrated Theban Funerary Papyri of the 11th
+                        and 10th Centuries B.C., OBO 86, Fribourg/Göttingen 1989</title>
+                  <pages>271 (Cairo 51)</pages>
+            </bibl>
+            <bibl bibl-id="bibl-1359">
+                  <title>G. Lenzo Marchese, in: BSEG 26, 2004</title>
+                  <pages>43-62</pages>
+            </bibl>
+      </bibliografie>
+      <teilobjekt id="1292-1">
+            <objektname>P. Kairo CG 40013 (J.E. 29636, S.R. IV 1001)</objektname>
+            <inhalt>
+                  <sequenz>A.d.O. - Titel Tb 125 - 149 (Var.) - 125B V - 149V</sequenz>
+                  <sprueche>
+                        <start/>
+                        <s>VA.d.O.</s>
+                        <s>125</s>
+                        <s>149</s>
+                        <s>125V</s>
+                        <s>149V</s>
+                        <end/>
+                  </sprueche>
+            </inhalt>
+            <abbildungen>
+                  <fotos>vorhanden / vollständig</fotos>
+                  <kommentar>(Assuan-Bilder) 32; Film 1, 6 + 26-33; priv. 16</kommentar>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_CG_40013_A.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_CG_40013_B.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_CG_40013_C.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_CG_40013_D.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_CG_40013_E.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_CG_40013_F.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_CG_40013_G.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_CG_40013_H.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_CG_40013_I.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_CG_40013_J.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_CG_40013_K.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_CG_40013_L.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_CG_40013_M.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_CG_40013_N.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_CG_40013_O.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_CG_40013_P.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_CG_40013_Q.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_CG_40013_R.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_CG_40013_S.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_CG_40013_T.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_CG_40013_U.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_CG_40013_V.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_CG_40013_W.tif"/>
+                  </abbildung>
+            </abbildungen>
+      </teilobjekt>
+</objekt>

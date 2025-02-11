@@ -1,0 +1,92 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134353" id="1168" v:revision="10181" v:key="153a8c598fa27c5" v:path="/db/totenbuch/objects/tm134353.xml">
+  <admin wer="TB-Projekt" wann="2012-01-01"/>
+  <standort>
+    <land>GB</land>
+    <ort>London</ort>
+    <institution>British Museum</institution>
+  </standort>
+  <herkunft>
+    <region>Theben</region>
+  </herkunft>
+  <besitzer geschlecht="M">
+    <name ranke="... / I, 197.18; II, 369">Krtn / Nfr- rnpt</name>
+    <titel>ḥr.i͗ i͗r.w nb.w pꜣq</titel>
+    <verwandt rel="Ehefrau">
+      <name>Ḥnr</name>
+      <titel>nb.t- pr šmꜥ.t n Imn</titel>
+    </verwandt>
+  </besitzer>
+  <datierung>
+    <periode>Neues Reich</periode>
+    <detail>19. Dynastie</detail>
+    <jahr>frühe 19. Dynastie</jahr>
+  </datierung>
+  <form>
+    <objektgruppe>Papyrus</objektgruppe>
+    <material>Papyrus</material>
+    <gesamtmasse>
+      <beschreibung>Fragm. / unterer Teil erhalten; max. H. 22 cm, L. 61,5 + 61 + 61,5
+        cm</beschreibung>
+    </gesamtmasse>
+    <schrift>keine Angaben</schrift>
+    <vignettenstil>farbig</vignettenstil>
+    <vignettenkommentar>unterer Streifen orange; Blattgold bei Adorationsszene</vignettenkommentar>
+  </form>
+  <bibliografie>
+    <bibl bibl-id="bibl-3">
+      <title>E. Zoffili, Kleidung und Schmuck im Alten Ägypten, Frankfurt a.M./ Berlin 1992</title>
+      <pages>Abb. 65</pages>
+    </bibl>
+    <bibl bibl-id="bibl-2742">
+      <title>Backes, in: SAT 14, 2009</title>
+      <pages>14</pages>
+    </bibl>
+    <bibl bibl-id="bibl-979">
+      <title>E. Naville, Das ägyptische Totenbuch der XVIII. bis XX. Dynastie, Graz 1971</title>
+      <pages>63-64 (An)</pages>
+    </bibl>
+    <bibl bibl-id="bibl-2675">
+      <title>M. Bellion</title>
+      <pages>51</pages>
+    </bibl>
+    <bibl bibl-id="bibl-716">
+      <title>St. Quirke, Owners</title>
+      <pages>48, Nr. 129 mit Anm. S. 78</pages>
+    </bibl>
+    <bibl bibl-id="bibl-1036">
+      <title>I. Munro, Untersuchungen zu den Totenbuch-Papyri der 18. Dynastie, London 1987</title>
+      <pages>304</pages>
+    </bibl>
+  </bibliografie>
+  <teilobjekt id="1168-1">
+    <objektname>P. London BM EA 9940</objektname>
+    <inhalt>
+      <sequenz>A.d.O. - Tb 1[V] - 17[V] ///</sequenz>
+      <sprueche>
+        <start/>
+        <s>VA.d.O.</s>
+        <s>1V</s>
+        <s>17V</s>
+        <l/>
+      </sprueche>
+    </inhalt>
+    <abbildungen>
+      <fotos>vorhanden / vollständig</fotos>
+      <abbildung rechte="com">
+        <datei name="London_BM_9940_001.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="London_BM_9940_002.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="London_BM_9940_003.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="London_BM_9940_004.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="London_BM_9940_005.tif"/>
+      </abbildung>
+    </abbildungen>
+  </teilobjekt>
+</objekt>

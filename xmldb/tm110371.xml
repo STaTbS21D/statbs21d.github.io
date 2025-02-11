@@ -1,0 +1,86 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="110371" id="1375" v:revision="9144" v:key="153a8c4346b23b8" v:path="/db/totenbuch/objects/tm110371.xml">
+  <admin wer="TB-Projekt" wann="2012-01-01"/>
+  <standort>
+    <land>FR</land>
+    <ort>Marseille</ort>
+    <institution>Musée d'Archéologie Méditerranéenne</institution>
+    <provenienz>Musée Borély 92</provenienz>
+  </standort>
+  <herkunft>
+    <region>Theben</region>
+  </herkunft>
+  <besitzer geschlecht="M">
+    <name>Ḏd- Imnt- i͗w- f- ꜥnḫ</name>
+    <titel>i͗t- nṯr n Imn- Rꜥ nsw.t nṯr.w</titel>
+    <verwandt rel="Vater">
+      <name>Iw- f- n- Imn</name>
+    </verwandt>
+  </besitzer>
+  <datierung>
+    <periode>3. Zwischenzeit</periode>
+  </datierung>
+  <form>
+    <objektgruppe>Papyrus</objektgruppe>
+    <material>Papyrus</material>
+    <gesamtmasse>
+      <beschreibung>2 Fragm., Höhe 56,5 - 57,2 cm</beschreibung>
+      <hoehe>56,5</hoehe>
+    </gesamtmasse>
+    <schrift>Hieratisch</schrift>
+    <vignettenstil>nicht erhalten</vignettenstil>
+  </form>
+  <bibliografie>
+    <bibl bibl-id="bibl-1166">
+      <title>D. Meeks, Deux papyrus funéraires de Marseille (Inv. 292 et 5323), in: Ancient Egypt
+        and Kush (Gs Korostovtsev), Moskau 1993</title>
+      <pages>290-299, Abb. 1-5 (Umschrift), Taf. 14-15</pages>
+    </bibl>
+    <bibl bibl-id="bibl-2675">
+      <title>M. Bellion</title>
+      <pages>227</pages>
+    </bibl>
+    <bibl bibl-id="bibl-1190">
+      <title>G. Maspero, Catalogue du Musée de Marseille, Paris 1889</title>
+      <pages>61, Nr. 92</pages>
+    </bibl>
+    <bibl bibl-id="bibl-1508">
+      <title>H. Kockelmann, Mumienbinden</title>
+      <pages>396 (Index)</pages>
+    </bibl>
+  </bibliografie>
+  <teilobjekt id="1375-1">
+    <objektname>P. Marseille 292</objektname>
+    <inhalt>
+      <sequenz>Tb 23 - 100/129 - 5 - 157 - 175 - 30B - 26</sequenz>
+      <sprueche>
+        <start/>
+        <s>23</s>
+        <s>100/129</s>
+        <s>5</s>
+        <s>157</s>
+        <s>175</s>
+        <s>30B</s>
+        <s>26</s>
+        <end/>
+      </sprueche>
+      <anmerkungenText>Titelkolumne am Anfang</anmerkungenText>
+    </inhalt>
+    <objektmasse>1) L. 25,3 cm; 2) L. 25 cm</objektmasse>
+    <abbildungen>
+      <fotos>vorhanden / vollständig</fotos>
+      <kommentar>mit Transkr. U. Verhoeven gescannt CBS 04. 01</kommentar>
+      <abbildung rechte="com">
+        <datei name="Marseille_292_001.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Marseille_292_002.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Marseille_292_003.JPG"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Marseille_292_004.JPG"/>
+      </abbildung>
+    </abbildungen>
+  </teilobjekt>
+</objekt>

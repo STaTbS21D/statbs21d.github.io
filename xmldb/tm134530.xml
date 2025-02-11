@@ -1,0 +1,103 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134530" id="1347" v:revision="10358" v:key="153a8c5d6302876" v:path="/db/totenbuch/objects/tm134530.xml">
+  <admin wer="TB-Projekt" wann="2012-01-01"/>
+  <standort>
+    <land>GB</land>
+    <ort>London</ort>
+    <institution>British Museum</institution>
+    <provenienz>Sammlung Barker, Nr. 209, erworben 1833</provenienz>
+  </standort>
+  <herkunft>
+    <region>Theben</region>
+    <ort>Deir el-Bahari</ort>
+  </herkunft>
+  <besitzer geschlecht="F">
+    <name ranke="I, 4.3">ꜣs.t- m- ꜣḫ- bi͗t</name>
+    <titel>nb.t- pr šmꜥ.t n Imn wr.t ḫnr.t n Imn wsr ḥꜣt</titel>
+  </besitzer>
+  <datierung>
+    <periode>3. Zwischenzeit</periode>
+    <detail>21. Dynastie</detail>
+    <jahr>Mitte - Ende 21. Dynastie</jahr>
+  </datierung>
+  <form>
+    <objektgruppe>Papyrus</objektgruppe>
+    <material>Papyrus</material>
+    <gesamtmasse>
+      <beschreibung>H. 25,4 cm, L. 1,58 m</beschreibung>
+    </gesamtmasse>
+    <schrift>Hieroglyphisch</schrift>
+    <vignettenstil>farbig</vignettenstil>
+  </form>
+  <bibliografie>
+    <bibl bibl-id="bibl-397">
+      <title>A.W. Shorter, Catalogue</title>
+      <pages>Taf. II sowie 1</pages>
+    </bibl>
+    <bibl bibl-id="bibl-2742">
+      <title>Backes, in: SAT 14, 2009</title>
+      <pages>21</pages>
+    </bibl>
+    <bibl bibl-id="bibl-979">
+      <title>E. Naville, Das ägyptische Totenbuch der XVIII. bis XX. Dynastie, Graz 1971</title>
+      <pages>67-68 (Aw)</pages>
+    </bibl>
+    <bibl bibl-id="bibl-2675">
+      <title>M. Bellion</title>
+      <pages>49 (mit weiterer Lit.)</pages>
+    </bibl>
+    <bibl bibl-id="bibl-926">
+      <title>A. Niwinski, Studies on the Illustrated Theban Funerary Papyri of the 11th and 10th
+        Centuries B.C., OBO 86, Fribourg/Göttingen 1989</title>
+      <pages>320 (London 1)</pages>
+    </bibl>
+    <bibl bibl-id="bibl-1036">
+      <title>I. Munro, Untersuchungen zu den Totenbuch-Papyri der 18. Dynastie, London 1987</title>
+      <pages>304</pages>
+    </bibl>
+    <bibl bibl-id="bibl-1628">
+      <title>K. Jansen-Winkeln, Text u. Sprache in der 3. Zwischenzeit, ÄAT 26, Wiesbaden
+        1994</title>
+      <pages>271</pages>
+    </bibl>
+    <bibl bibl-id="bibl-716">
+      <title>St. Quirke, Owners</title>
+      <pages>33, Nr. 28 mit Anm. S. 72</pages>
+    </bibl>
+  </bibliografie>
+  <teilobjekt id="1347-1">
+    <objektname>P. London BM EA 9903</objektname>
+    <inhalt>
+      <sequenz>A.d.O. - Tb 1 - 8V - 44 - 71V - 60V - 33 - 35V - 123/139V - 26V - 27</sequenz>
+      <sprueche>
+        <start/>
+        <s>VA.d.O.</s>
+        <s>1</s>
+        <s>8V</s>
+        <s>44</s>
+        <s>71V</s>
+        <s>60V</s>
+        <s>33</s>
+        <s>35V</s>
+        <s>123/139V</s>
+        <s>26V</s>
+        <s>27</s>
+        <end/>
+      </sprueche>
+    </inhalt>
+    <abbildungen>
+      <fotos>vorhanden / vollständig</fotos>
+      <abbildung rechte="com">
+        <datei name="London_BM_9903_A.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="London_BM_9903_B.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="London_BM_9903_C.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="London_BM_9903_D.tif"/>
+      </abbildung>
+    </abbildungen>
+  </teilobjekt>
+</objekt>

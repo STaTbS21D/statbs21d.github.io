@@ -1,0 +1,135 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134446" id="1262" v:revision="10274" v:key="153a8c5b8152822" v:path="/db/totenbuch/objects/tm134446.xml">
+  <admin wer="TB-Projekt" wann="2012-01-01"/>
+  <standort>
+    <land>EG</land>
+    <ort>Kairo</ort>
+    <institution>Ägyptisches Museum</institution>
+    <anmerkungen>in Raum 29 ausgestellt</anmerkungen>
+  </standort>
+  <herkunft>
+    <region>Theben</region>
+    <ort>Cachette von Deir el-Bahari (Bab el Gasus)</ort>
+  </herkunft>
+  <besitzer geschlecht="M">
+    <name ranke="I, 67.9; II, 347">ꜥnḫ- f- n- Ḫnsw</name>
+    <titel>i͗t- nṯr n Imn- Rꜥ nsw.t nṯr.w ḥr.i͗- sštꜣ ḥr.i͗ ṯꜣi͗ bsn n pr Imn </titel>
+  </besitzer>
+  <datierung>
+    <periode>3. Zwischenzeit</periode>
+    <detail>21. Dynastie</detail>
+    <jahr>späte 21. Dynastie</jahr>
+  </datierung>
+  <form>
+    <objektgruppe>Papyrus</objektgruppe>
+    <material>Papyrus</material>
+    <gesamtmasse>
+      <beschreibung>H. 23 cm, L. 1,59 m</beschreibung>
+    </gesamtmasse>
+    <schrift>Hieroglyphisch</schrift>
+    <vignettenstil>farbig</vignettenstil>
+  </form>
+  <bibliografie>
+    <bibl bibl-id="bibl-2501">
+      <title>B. Bruyère, Les bustes de laraires, in: FIFAO XVI (1939)</title>
+      <pages>184, Fig. 78</pages>
+    </bibl>
+    <bibl bibl-id="bibl-926">
+      <title>A. Niwinski, Studies on the Illustrated Theban Funerary Papyri of the 11th and 10th
+        Centuries B.C., OBO 86, Fribourg/Göttingen 1989</title>
+      <pages>260 (Cairo 19)</pages>
+    </bibl>
+    <bibl bibl-id="bibl-1037">
+      <title>P. Munro, Totenstelen</title>
+      <pages>180</pages>
+    </bibl>
+    <bibl bibl-id="bibl-1359">
+      <title>G. Lenzo Marchese, in: BSEG 26, 2004</title>
+      <pages>43-62</pages>
+    </bibl>
+    <bibl bibl-id="bibl-916">
+      <title>A. Niwinski, in: B. Backes/M. Müller/S. Stöhr (Hgg.), Ausgestattet mit den Schriften
+        des Thot. Festschrift für Irmtraut Munro zu ihrem 65. Geburtstag, SAT 14, Wiesbaden
+        2009</title>
+      <pages>152</pages>
+    </bibl>
+    <bibl bibl-id="bibl-2742">
+      <title>Backes, in: SAT 14, 2009</title>
+      <pages>21</pages>
+    </bibl>
+  </bibliografie>
+  <teilobjekt id="1262-1">
+    <objektname>P. Kairo J.E. 95658 (S.R. IV 556)</objektname>
+    <inhalt>
+      <sequenz>A.d.O. + Isis - Tb 1V - 57 - 89 - 148V - 56 - 9V</sequenz>
+      <sprueche>
+        <start/>
+        <s>VA.d.O.</s>
+        <s>1V</s>
+        <s>57</s>
+        <s>89</s>
+        <s>148V</s>
+        <s>56</s>
+        <s>9V</s>
+        <end/>
+      </sprueche>
+    </inhalt>
+    <abbildungen>
+      <fotos>vorhanden / vollständig</fotos>
+      <kommentar>Film 3, 17-22</kommentar>
+      <abbildung rechte="com">
+        <datei name="Kairo_J_E_95658_C.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_J_E_95658_D.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_J_E_95658_E.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_J_E_95658_F.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_J_E_95658_G.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_J_E_95658_H.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_J_E_95658_I.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_J_E_95658_J.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_J_E_95658_K.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_J_E_95658_L.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_J_E_95658_M.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_J_E_95658_N.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_J_E_95658_O.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_J_E_95658_P.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_J_E_95658_Q.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_J_E_95658_R.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_J_E_95658_S.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_J_E_95658_T.tif"/>
+      </abbildung>
+    </abbildungen>
+  </teilobjekt>
+</objekt>

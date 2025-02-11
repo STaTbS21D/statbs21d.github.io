@@ -1,0 +1,143 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="133519" id="4" v:revision="9431" v:key="153a8c494e024d7" v:path="/db/totenbuch/objects/tm133519.xml">
+        <admin wer="TB-Projekt" wann="2012-01-01"/>
+        <anmerkungen>Mutter des Pa-en-nesti-taui (P. London BM EA 10064)</anmerkungen>
+        <herkunft>
+                <region>Theben</region>
+                <anmerkungen>erschlossen</anmerkungen>
+        </herkunft>
+        <besitzer geschlecht="F">
+                <name>Tꜣ- mni͗wt</name>
+                <titel>nb.t- pr šmꜥ.t n.t Imn</titel>
+                <verwandt rel="Ehemann">
+                        <name>Ini͗- pḥ- f- nḫt</name>
+                </verwandt>
+                <verwandt rel="Sohn">
+                        <name>Pꜣ- n- nsti͗- tꜣwi͗</name>
+                </verwandt>
+        </besitzer>
+        <datierung>
+                <periode>3. Zwischenzeit</periode>
+                <detail>21. Dynastie</detail>
+                <jahr>Zeit Amenemope</jahr>
+        </datierung>
+        <form>
+                <objektgruppe>Papyrus</objektgruppe>
+                <material>Papyrus</material>
+                <schrift>Hieroglyphisch</schrift>
+                <vignettenstil>farbig</vignettenstil>
+        </form>
+        <bibliografie>
+                <bibl bibl-id="bibl-926">
+                        <title>A. Niwinski, Studies on the Illustrated Theban Funerary Papyri of the
+                                11th and 10th Centuries B.C., OBO 86, Fribourg/Göttingen
+                                1989</title>
+                        <pages>pl. 29a-d sowie 328 (London 30) sowie 326 (London 24), Pl.
+                                46b</pages>
+                </bibl>
+                <bibl bibl-id="bibl-439">
+                        <title>Chr. Seeber, Untersuchungen</title>
+                        <pages>211, Taf. 16</pages>
+                </bibl>
+                <bibl bibl-id="bibl-274">
+                        <title>J. Taylor (Hrg.), Journey through the Afterlife, Ancient Egyptian
+                                Book of the Dead, London 2010</title>
+                </bibl>
+                <bibl bibl-id="bibl-926">
+                        <title>A. Niwinski, Studies on the Illustrated Theban Funerary Papyri of the
+                                11th and 10th Centuries B.C., OBO 86, Fribourg/Göttingen
+                                1989</title>
+                        <pages>328 (London 30) sowie 326 (London 24), Pl. 46b</pages>
+                </bibl>
+                <bibl bibl-id="bibl-2675">
+                        <title>M. Bellion</title>
+                        <pages>55 (mit weiterer Lit.)</pages>
+                </bibl>
+                <bibl bibl-id="bibl-716">
+                        <title>St. Quirke, Owners</title>
+                        <pages>64, Nr. 242 mit Anm. S. 84 sowie 64, Nr. 242</pages>
+                </bibl>
+                <bibl bibl-id="bibl-717">
+                        <title>St. Quirke, Ancient Egyptian Religion, London 1992</title>
+                        <pages>49, fig. 28</pages>
+                </bibl>
+        </bibliografie>
+        <teilobjekt id="4-1">
+                <objektname>P. London BM EA 10008</objektname>
+                <standort>
+                        <land>GB</land>
+                        <ort>London</ort>
+                        <institution>British Museum</institution>
+                        <provenienz>Sammlung Barker, Nr. 210 erworben 1833</provenienz>
+                </standort>
+                <inhalt>
+                        <sequenz>Tb 125B - TG + ”Mytholog. Darstellungen”</sequenz>
+                        <sprueche>
+                                <l/>
+                                <s>125</s>
+                                <s>VTG</s>
+                                <s>Mythologische SzenenV</s>
+                                <end/>
+                        </sprueche>
+                </inhalt>
+                <objektmasse>H. 9,52 cm, L. 1,613 m</objektmasse>
+                <abbildungen>
+                        <fotos>vorhanden / vollständig</fotos>
+                        <abbildung rechte="com">
+                                <datei name="BM_EA_10008_3.jpg"/>
+                        </abbildung>
+                        <abbildung rechte="com">
+                                <datei name="London_BM_10008_A.tif"/>
+                        </abbildung>
+                        <abbildung rechte="com">
+                                <datei name="London_BM_10008_B.tif"/>
+                        </abbildung>
+                        <abbildung rechte="com">
+                                <datei name="London_BM_10008_D.tif"/>
+                        </abbildung>
+                        <abbildung rechte="com">
+                                <datei name="London_BM_10008_E.tif"/>
+                        </abbildung>
+                        <abbildung rechte="com">
+                                <datei name="London_BM_10008_F.tif"/>
+                        </abbildung>
+                </abbildungen>
+        </teilobjekt>
+        <teilobjekt id="4-2">
+                <objektname>P. London BM EA 10002</objektname>
+                <standort>
+                        <land>GB</land>
+                        <ort>London</ort>
+                        <institution>British Museum</institution>
+                </standort>
+                <inhalt>
+                        <sequenz>A.d. Re-Harachte - Tb V148 - V126 - V81A - V87 - mytholog. Szenen -
+                                V63</sequenz>
+                        <sprueche>
+                                <start/>
+                                <s>A.d. Re-HarachteV</s>
+                                <s>V148</s>
+                                <s>V126</s>
+                                <s>V81A</s>
+                                <s>V87</s>
+                                <s>Mythologische SzenenV</s>
+                                <s>V63</s>
+                                <l/>
+                        </sprueche>
+                </inhalt>
+                <objektmasse>H. 28 cm, L. 1,43 m (A.d.Re-Harachte - Tb V 148: H. 31 cm, Br. 46
+                        cm)</objektmasse>
+                <abbildungen>
+                        <fotos>vorhanden / unvollständig</fotos>
+                        <kommentar>London Oktober 2004, Film 3, 24 + Kopie</kommentar>
+                        <abbildung rechte="com">
+                                <datei name="London_BM_10002_A.tif"/>
+                        </abbildung>
+                        <abbildung rechte="com">
+                                <datei name="London_BM_10002_E.tif"/>
+                        </abbildung>
+                        <abbildung rechte="com">
+                                <datei name="London_BM_10002_F.tif"/>
+                        </abbildung>
+                </abbildungen>
+        </teilobjekt>
+</objekt>

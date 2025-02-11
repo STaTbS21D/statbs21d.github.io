@@ -1,0 +1,111 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="133563" id="151" v:revision="9475" v:key="153a8c4a3902503" v:path="/db/totenbuch/objects/tm133563.xml">
+  <admin wer="TB-Projekt" wann="2012-01-01"/>
+  <herkunft>
+    <region>Theben</region>
+  </herkunft>
+  <besitzer geschlecht="M">
+    <name ranke="I, 114.13">Pꜣ- Rꜥ- m- ḥb</name>
+    <titel>sš nsw.t</titel>
+  </besitzer>
+  <datierung>
+    <periode>Neues Reich</periode>
+    <detail>19.-20. Dynastie</detail>
+  </datierung>
+  <form>
+    <objektgruppe>Papyrus</objektgruppe>
+    <material>Papyrus</material>
+    <gesamtmasse>
+      <hoehe>31,5</hoehe>
+    </gesamtmasse>
+    <schrift>Hieroglyphisch</schrift>
+    <vignettenstil>farbig</vignettenstil>
+  </form>
+  <bibliografie>
+    <bibl bibl-id="bibl-1181">
+      <title>B. Mathieu, in: RdE 37, 1986</title>
+      <pages>155-159, mit Abb</pages>
+    </bibl>
+    <bibl bibl-id="bibl-2407">
+      <title>J.-L. de Cenival, Le Livre pour sortir le jour, Le Bouscat 1992</title>
+      <pages>14</pages>
+    </bibl>
+    <bibl bibl-id="bibl-979">
+      <title>E. Naville, Das ägyptische Totenbuch der XVIII. bis XX. Dynastie, Graz 1971</title>
+      <pages>81 f (Fa)</pages>
+    </bibl>
+    <bibl bibl-id="bibl-947">
+      <title>M. Nelson, Catalogue des Antiquités Égyptiennes / Musée Borély, Marseille 1978</title>
+      <pages>62</pages>
+    </bibl>
+    <bibl bibl-id="bibl-1036">
+      <title>I. Munro, Untersuchungen zu den Totenbuch-Papyri der 18. Dynastie, London 1987</title>
+      <pages>307</pages>
+    </bibl>
+    <bibl bibl-id="bibl-2675">
+      <title>M. Bellion</title>
+      <pages>227</pages>
+    </bibl>
+    <bibl bibl-id="bibl-2947">
+      <title>B. Mathieu, in: Egypte. Vision d’éternité, Kat. Musée de l’Ephèbe Le Cap d’Agde
+        2000</title>
+      <pages>30, Kat.-Nr. 11</pages>
+    </bibl>
+    <bibl bibl-id="bibl-277">
+      <title>M. Tarasenko, in: B. Backes/M. Müller/S. Stöhr (Hgg.), Ausgestattet mit den Schriften
+        des Thot. Festschrift für Irmtraut Munro zu ihrem 65. Geburtstag, SAT 14, Wiesbaden
+        2009</title>
+      <pages>243</pages>
+    </bibl>
+  </bibliografie>
+  <teilobjekt id="151-1">
+    <objektname>P. Marseille 294</objektname>
+    <standort>
+      <land>FR</land>
+      <ort>Marseille</ort>
+      <institution>Musée Borély</institution>
+    </standort>
+    <inhalt>
+      <sequenz>/// Anbetungs-Szene - Tb 90V - 155V - 156V - 112 /// </sequenz>
+      <sprueche>
+        <l/>
+        <s>VAdorationsszene</s>
+        <s>90V</s>
+        <s>155V</s>
+        <s>156V</s>
+        <s>112</s>
+        <l/>
+      </sprueche>
+    </inhalt>
+    <abbildungen>
+      <fotos>vorhanden / vollständig</fotos>
+      <abbildung rechte="com">
+        <datei name="Marseille_BM_294_001.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Marseille_BM_294_002.tif"/>
+      </abbildung>
+    </abbildungen>
+  </teilobjekt>
+  <teilobjekt id="151-2">
+    <objektname>P. Montpellier</objektname>
+    <standort>
+      <land>FR</land>
+      <ort>Montpellier</ort>
+      <institution>Musée de la Société archéologique de Montpellier</institution>
+    </standort>
+    <inhalt>
+      <sequenz>/// Tb 42 ///</sequenz>
+      <sprueche>
+        <l/>
+        <s>42</s>
+        <l/>
+      </sprueche>
+    </inhalt>
+    <abbildungen>
+      <fotos>vorhanden / vollständig</fotos>
+      <abbildung rechte="com">
+        <datei name="Montpellier_MB_1.JPG"/>
+      </abbildung>
+    </abbildungen>
+  </teilobjekt>
+</objekt>

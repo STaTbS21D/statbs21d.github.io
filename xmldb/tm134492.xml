@@ -1,0 +1,157 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134492" id="1308" v:revision="10320" v:key="153a8c5c79a2850" v:path="/db/totenbuch/objects/tm134492.xml">
+          <admin wer="TB-Projekt" wann="2012-01-01"/>
+          <anmerkungen>zur Datierung: Mumienbinden von HP Pinodjem II. u. Amenemope</anmerkungen>
+          <standort>
+                    <land>EG</land>
+                    <ort>Kairo</ort>
+                    <institution>Ägyptisches Museum</institution>
+          </standort>
+          <herkunft>
+                    <region>Theben</region>
+                    <ort>Cachette von Deir el-Bahari (Bab el-Gasus), 1891</ort>
+          </herkunft>
+          <besitzer geschlecht="M">
+                    <name ranke="I. 29.12">Imn- n- ni͗wt- nḫt</name>
+                    <titel>i͗t- nṯr ḥr.i͗ sštꜣ</titel>
+          </besitzer>
+          <datierung>
+                    <periode>3. Zwischenzeit</periode>
+                    <detail>21. Dynastie</detail>
+                    <jahr>Mitte - Ende 21. Dynastie</jahr>
+          </datierung>
+          <form>
+                    <objektgruppe>Papyrus</objektgruppe>
+                    <material>Papyrus</material>
+                    <gesamtmasse>
+                              <beschreibung>H. 23 cm, L. 5,02 m</beschreibung>
+                    </gesamtmasse>
+                    <schrift>Hieratisch</schrift>
+                    <vignettenstil>Strichzeichnung</vignettenstil>
+          </form>
+          <bibliografie>
+                    <bibl bibl-id="bibl-926">
+                              <title>A. Niwinski, Studies on the Illustrated Theban Funerary Papyri
+                                        of the 11th and 10th Centuries B.C., OBO 86,
+                                        Fribourg/Göttingen 1989</title>
+                              <pages>274 - 5 (Cairo 61)</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-1359">
+                              <title>G. Lenzo Marchese, in: BSEG 26, 2004</title>
+                              <pages>43-62</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-2419">
+                              <title>M. Capasso, Il restauro dei papiri del Museo Egizio del Cairo:
+                                        Seconda e terza sessione di lavoro (1998), in: M. Capasso
+                                        (Hg.), Da Ercolano all’Egitto. Ricerche varie di
+                                        papirologia, Papyrologica Lupiensia 7, Lecce 1998</title>
+                              <pages>22-40, bes. 27 m. Taf. VII (Papyrus während
+                                        Restaurierung)</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-277">
+                              <title>M. Tarasenko, in: B. Backes/M. Müller/S. Stöhr (Hgg.),
+                                        Ausgestattet mit den Schriften des Thot. Festschrift für
+                                        Irmtraut Munro zu ihrem 65. Geburtstag, SAT 14, Wiesbaden
+                                        2009</title>
+                              <pages>243</pages>
+                    </bibl>
+          </bibliografie>
+          <teilobjekt id="1308-1">
+                    <objektname>P. Kairo S.R. VII 10224</objektname>
+                    <inhalt>
+                              <sequenz>Tb 81 A - 80V - 175 + V75 - V2 oder 9/73 - V94 - V99 - V? - 2
+                                        - 3 - 9/73 + V148 - 72 - 71 - 64 - V100 - V134 - V130 - 89 -
+                                        63 B - 99/99 B - TG - 124 - 125 A - Tb 125B - V124 - V153A -
+                                        V138 - V140 - V30 - V6 - 125C - V 126 - V57 - V59 - V87? -
+                                        127B - V137 - 42 ///</sequenz>
+                              <sprueche>
+                                        <start/>
+                                        <s>81A</s>
+                                        <s>80V</s>
+                                        <s>175</s>
+                                        <s>V75</s>
+                                        <s>V2?</s>
+                                        <s>V94</s>
+                                        <s>V99</s>
+                                        <s>V?</s>
+                                        <s>2</s>
+                                        <s>3</s>
+                                        <s>9 oder 73</s>
+                                        <s>V148</s>
+                                        <s>72</s>
+                                        <s>71</s>
+                                        <s>64</s>
+                                        <s>V100/129</s>
+                                        <s>V134</s>
+                                        <s>V130</s>
+                                        <s>89</s>
+                                        <s>63B</s>
+                                        <s>99/99B</s>
+                                        <s>VTG</s>
+                                        <s>124</s>
+                                        <s>125</s>
+                                        <s>125</s>
+                                        <s>V124</s>
+                                        <s>V153A</s>
+                                        <s>V138</s>
+                                        <s>V140</s>
+                                        <s>V30</s>
+                                        <s>V6</s>
+                                        <s>125</s>
+                                        <s>V126</s>
+                                        <s>V57</s>
+                                        <s>V59</s>
+                                        <s>V87?</s>
+                                        <s>127B</s>
+                                        <s>V137</s>
+                                        <s>42</s>
+                                        <end/>
+                              </sprueche>
+                    </inhalt>
+                    <abbildungen>
+                              <fotos>vorhanden / vollständig</fotos>
+                              <kommentar>s/w-Film 5</kommentar>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_S_R_VII_10224_A.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_S_R_VII_10224_B.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_S_R_VII_10224_C.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_S_R_VII_10224_D.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_S_R_VII_10224_E.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_S_R_VII_10224_F.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_S_R_VII_10224_G.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_S_R_VII_10224_H.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_S_R_VII_10224_I.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_S_R_VII_10224_J.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_S_R_VII_10224_K.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_S_R_VII_10224_L.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_S_R_VII_10224_M.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_S_R_VII_10224_N.tif"/>
+                              </abbildung>
+                    </abbildungen>
+          </teilobjekt>
+</objekt>

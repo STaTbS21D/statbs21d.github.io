@@ -1,0 +1,71 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134714" id="1532" v:revision="10540" v:key="153a8c61d85292c" v:path="/db/totenbuch/objects/tm134714.xml">
+      <admin wer="TB-Projekt" wann="2012-01-01"/>
+      <anmerkungen>Rote u. weiße (Magnesium Silicat od. Steatit) Schrift! weitere Denkmäler o. Publ.
+            p. 69 Nr. 1</anmerkungen>
+      <standort>
+            <land>GB</land>
+            <ort>Reading</ort>
+            <institution>Museum of Reading</institution>
+      </standort>
+      <herkunft>
+            <region>Theben</region>
+            <ort>Theben-West</ort>
+      </herkunft>
+      <besitzer geschlecht="F">
+            <name ranke="I, 243.15">Ḥnwt- mḥi͗t</name>
+            <titel>nb.t- pr šmꜥ.t n Imn [m Ipt-swt]</titel>
+      </besitzer>
+      <datierung>
+            <periode>Neues Reich</periode>
+            <detail>19. Dynastie</detail>
+            <jahr>Ramses II.</jahr>
+      </datierung>
+      <form>
+            <objektgruppe>Papyrus</objektgruppe>
+            <material>Papyrus</material>
+            <gesamtmasse>
+                  <laenge>62</laenge>
+                  <hoehe>41</hoehe>
+            </gesamtmasse>
+            <schrift>Hieratisch</schrift>
+            <vignettenstil>Strichzeichnung</vignettenstil>
+      </form>
+      <bibliografie>
+            <bibl bibl-id="bibl-273">
+                  <title>J.H. Taylor, The Burial Assemblage of Henutmehyt: Inventory, Date and
+                        Provenance, in: W.V. Davies (Hg.), Studies in Egyptian Antiquities, FS
+                        T.G.H. James, BMOP 123, London 1999</title>
+                  <pages>59-72, Colour Pl. XVI</pages>
+            </bibl>
+            <bibl bibl-id="bibl-272">
+                  <title>J. H. Taylor, Death and the Afterlife in Ancient Egypt, London 2001</title>
+                  <pages>197, fig. 139</pages>
+            </bibl>
+            <bibl bibl-id="bibl-2834">
+                  <title>British Museum, A Guide to the First, Second and Third Egyptian Rooms,
+                        London 1924</title>
+                  <pages>83</pages>
+            </bibl>
+            <bibl bibl-id="bibl-2465">
+                  <title>E.A.W. Budge, The Mummy, Cambridge 1925</title>
+                  <pages>212, 222</pages>
+            </bibl>
+      </bibliografie>
+      <teilobjekt id="1532-1">
+            <objektname>P. Reading</objektname>
+            <inhalt>
+                  <sequenz>Tb 100/129V</sequenz>
+                  <sprueche>
+                        <start/>
+                        <s>100/129V</s>
+                        <end/>
+                  </sprueche>
+            </inhalt>
+            <abbildungen>
+                  <fotos>vorhanden / vollständig</fotos>
+                  <abbildung rechte="com">
+                        <datei name="Reading_Museum_of_Reading_001.tif"/>
+                  </abbildung>
+            </abbildungen>
+      </teilobjekt>
+</objekt>

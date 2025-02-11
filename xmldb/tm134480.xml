@@ -1,0 +1,85 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134480" id="1296" v:revision="10308" v:key="153a8c5c37a2844" v:path="/db/totenbuch/objects/tm134480.xml">
+      <admin wer="TB-Projekt" wann="2012-01-01"/>
+      <anmerkungen>zur Datierung: Mumienbinden von HP Psusennes. zur Herkunft: vgl. Sarg J.E.
+            29641?; Maße: 1. 44,5x23,3, 2. 46x23,3, 3. 43,5x23,5 cm; Vignetten: Röcke + Umrandungen
+            weiß, Gesicht + Hände d. Osiris schwarz</anmerkungen>
+      <standort>
+            <land>EG</land>
+            <ort>Kairo</ort>
+            <institution>Ägyptisches Museum</institution>
+            <anmerkungen>Raum: P 29 bas 27, r. 1</anmerkungen>
+      </standort>
+      <herkunft>
+            <region>Theben</region>
+            <ort>Cachette von Deir el-Bahari (Bab el-Gasus), 1891</ort>
+      </herkunft>
+      <besitzer geschlecht="M">
+            <name ranke="I, 175.18">Ns- pꜣ- qꜣ- šwti͗</name>
+            <titel>i͗t- nṯr n Imn- Rꜥ nsw.t nṯr.w i͗m.i͗- rꜣ pr- ḥḏ n pr dwꜣ.t- nṯr n Imn</titel>
+      </besitzer>
+      <datierung>
+            <periode>3. Zwischenzeit</periode>
+            <detail>21. Dynastie</detail>
+            <jahr>späte 21. Dynastie</jahr>
+      </datierung>
+      <form>
+            <objektgruppe>Papyrus</objektgruppe>
+            <material>Papyrus</material>
+            <gesamtmasse>
+                  <beschreibung>H. 23,5 cm, L. 135 cm; 3 Kartons, s. Anm.</beschreibung>
+            </gesamtmasse>
+            <schrift>Hieroglyphisch</schrift>
+            <vignettenstil>farbig</vignettenstil>
+            <vignettenkommentar>weisse Farbe</vignettenkommentar>
+      </form>
+      <bibliografie>
+            <bibl bibl-id="bibl-926">
+                  <title>A. Niwinski, Studies on the Illustrated Theban Funerary Papyri of the 11th
+                        and 10th Centuries B.C., OBO 86, Fribourg/Göttingen 1989</title>
+                  <pages>270 (Cairo 48)</pages>
+            </bibl>
+            <bibl bibl-id="bibl-1359">
+                  <title>G. Lenzo Marchese, in: BSEG 26, 2004</title>
+                  <pages>43-62</pages>
+            </bibl>
+      </bibliografie>
+      <teilobjekt id="1296-1">
+            <objektname>P. Kairo J.E. 95889 (S.R. IV 994)</objektname>
+            <inhalt>
+                  <sequenz>A.d.O. - Tb 125B V - 149 (1. ba.w ) - V110</sequenz>
+                  <sprueche>
+                        <start/>
+                        <s>VA.d.O.</s>
+                        <s>125V</s>
+                        <s>149</s>
+                        <s>V110</s>
+                        <end/>
+                  </sprueche>
+            </inhalt>
+            <abbildungen>
+                  <fotos>vorhanden / vollständig</fotos>
+                  <kommentar>Film 1, 7-13; priv. 15</kommentar>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_J_E_95889_A.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_J_E_95889_B.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_J_E_95889_C.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_J_E_95889_D.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_J_E_95889_F.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_J_E_95889_G.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_J_E_95889_I.tif"/>
+                  </abbildung>
+            </abbildungen>
+      </teilobjekt>
+</objekt>

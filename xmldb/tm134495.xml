@@ -1,0 +1,102 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134495" id="1311" v:revision="10323" v:key="153a8c5c8a02853" v:path="/db/totenbuch/objects/tm134495.xml">
+        <admin wer="TB-Projekt" wann="2012-01-01"/>
+        <standort>
+                <land>DK</land>
+                <ort>Kopenhagen</ort>
+                <institution>Ny Carlsberg Glyptothek</institution>
+        </standort>
+        <herkunft>
+                <region>Theben</region>
+        </herkunft>
+        <besitzer geschlecht="M">
+                <name ranke="I, 30.12">Imn- ḥtp</name>
+                <titel>i͗t- nṯr n Imn- Rꜥ nsw.t nṯr.w ḥm- nṯr n Mwt tꜣ ḥr.i͗t s.t wr.t ḥm- nṯr n
+                        Ḫnsw pꜣ ḥr.i͗ s.t wr.(t) ḥm- nṯr n Imn ḥr.i͗- i͗b Ipt- swt ḥr.i͗ sš.w ḥw.t-
+                        nṯr n pr Imn</titel>
+        </besitzer>
+        <datierung>
+                <periode>3. Zwischenzeit</periode>
+                <detail>21. Dynastie</detail>
+        </datierung>
+        <form>
+                <objektgruppe>Papyrus</objektgruppe>
+                <material>Papyrus</material>
+                <schrift>Hieratisch</schrift>
+                <vignettenstil>farbig</vignettenstil>
+        </form>
+        <bibliografie>
+                <bibl bibl-id="bibl-1208">
+                        <title>Manniche, L., Egyptian Art in Denmark, Kopenhagen 2004</title>
+                        <pages>33, Abb. 7; 211, Abb. 92 (A.d.O.)</pages>
+                </bibl>
+                <bibl bibl-id="bibl-1620">
+                        <title>Jensen, R.M., Papyrus Carlsberg 250. Bearbejdning og tolkning af et
+                                hieratisk dødebogsmanuskript fra det 21. Dynasti (MA thesis,
+                                Copenhagen, 2001) - unpubl.</title>
+                </bibl>
+        </bibliografie>
+        <teilobjekt id="1311-1">
+                <objektname>P. Kopenhagen Carlsberg 250</objektname>
+                <inhalt>
+                        <sequenz>A.d.O. - Tb 190 - 148 - 135 - 1B/172(Pleyte) - 15B III -
+                                180</sequenz>
+                        <sprueche>
+                                <start/>
+                                <s>VA.d.O.</s>
+                                <s>190</s>
+                                <s>148</s>
+                                <s>135</s>
+                                <s>172 (Pleyte)/1B</s>
+                                <s>15</s>
+                                <s>180</s>
+                                <end/>
+                        </sprueche>
+                </inhalt>
+                <abbildungen>
+                        <fotos>vorhanden / vollständig</fotos>
+                        <kommentar>Kopie bei Großformaten Mappe 6</kommentar>
+                        <abbildung rechte="com">
+                                <datei name="Carlsberg_250_001.tif"/>
+                        </abbildung>
+                        <abbildung rechte="com">
+                                <datei name="Carlsberg_250_002.tif"/>
+                        </abbildung>
+                        <abbildung rechte="com">
+                                <datei name="Carlsberg_250_003.tif"/>
+                        </abbildung>
+                        <abbildung rechte="com">
+                                <datei name="Carlsberg_250_004.tif"/>
+                        </abbildung>
+                        <abbildung rechte="com">
+                                <datei name="Carlsberg_250_005.tif"/>
+                        </abbildung>
+                        <abbildung rechte="com">
+                                <datei name="Carlsberg_250_006.tif"/>
+                        </abbildung>
+                        <abbildung rechte="com">
+                                <datei name="Kopenhagen_Carlsberg_250_A.tif"/>
+                        </abbildung>
+                        <abbildung rechte="com">
+                                <datei name="Kopenhagen_Carlsberg_250_B.tif"/>
+                        </abbildung>
+                        <abbildung rechte="com">
+                                <datei name="Kopenhagen_Carlsberg_250_C.tif"/>
+                        </abbildung>
+                        <abbildung rechte="com">
+                                <datei name="PCarlsberg_250_col1.jpg"/>
+                        </abbildung>
+                        <abbildung rechte="com">
+                                <datei name="PCarlsberg_250_col2.jpg"/>
+                        </abbildung>
+                        <abbildung rechte="com">
+                                <datei name="PCarlsberg_250_col3.jpg"/>
+                        </abbildung>
+                        <abbildung rechte="com">
+                                <datei name="PCarlsberg_250_col4.jpg"/>
+                        </abbildung>
+                        <abbildung rechte="com">
+                                <datei name="PCarlsberg_250_col5.jpg"/>
+                        </abbildung>
+                </abbildungen>
+        </teilobjekt>
+</objekt>

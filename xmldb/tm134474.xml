@@ -1,0 +1,151 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134474" id="1290" v:revision="10302" v:key="153a8c5c172283e" v:path="/db/totenbuch/objects/tm134474.xml">
+          <admin wer="TB-Projekt" wann="2012-01-01"/>
+          <anmerkungen>Besitzer des Sargensembles J.E. 29668</anmerkungen>
+          <standort>
+                    <land>EG</land>
+                    <ort>Kairo</ort>
+                    <institution>Ägyptisches Museum</institution>
+          </standort>
+          <herkunft>
+                    <region>Theben</region>
+                    <ort>Cachette von Deir el-Bahari (Bab el-Gasus), 1891</ort>
+          </herkunft>
+          <besitzer geschlecht="M">
+                    <anmerkungen>Name der Mutter bei Tb 124</anmerkungen>
+                    <name ranke="I, 121.23">Pꜣ- di͗- Imn</name>
+                    <titel>i͗t- nṯr n Imn</titel>
+                    <verwandt rel="Ehefrau">
+                              <name>Ḥnwt- tꜣwi͗</name>
+                              <titel>nb.t- pr šmꜥ.t n.t Imn</titel>
+                    </verwandt>
+                    <verwandt rel="Mutter">
+                              <name>Ḥrd (?)</name>
+                    </verwandt>
+          </besitzer>
+          <datierung>
+                    <periode>3. Zwischenzeit</periode>
+                    <detail>21. Dynastie</detail>
+                    <jahr>Mitte 21. Dynastie</jahr>
+          </datierung>
+          <form>
+                    <objektgruppe>Papyrus</objektgruppe>
+                    <material>Papyrus</material>
+                    <gesamtmasse>
+                              <laenge>390</laenge>
+                              <hoehe>21</hoehe>
+                    </gesamtmasse>
+                    <schrift>Hieroglyphisch</schrift>
+                    <vignettenstil>farbig</vignettenstil>
+          </form>
+          <bibliografie>
+                    <bibl bibl-id="bibl-2419">
+                              <title>M. Capasso, Il restauro dei papiri del Museo Egizio del Cairo:
+                                        Seconda e terza sessione di lavoro (1998), in: M. Capasso
+                                        (Hg.), Da Ercolano all’Egitto. Ricerche varie di
+                                        papirologia, Papyrologica Lupiensia 7, Lecce 1998</title>
+                              <pages>22-40, bes. 30, 22 m. Taf. I</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-926">
+                              <title>A. Niwinski, Studies on the Illustrated Theban Funerary Papyri
+                                        of the 11th and 10th Centuries B.C., OBO 86,
+                                        Fribourg/Göttingen 1989</title>
+                              <pages>290f. (Cairo 106)</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-1235">
+                              <title>B. Lüscher, Untersuchungen zu Totenbuch Spruch 151, SAT 2,
+                                        Wiesbaden 1998</title>
+                    </bibl>
+                    <bibl bibl-id="bibl-1359">
+                              <title>G. Lenzo Marchese, in: BSEG 26, 2004</title>
+                              <pages>43-62</pages>
+                    </bibl>
+          </bibliografie>
+          <teilobjekt id="1290-1">
+                    <objektname>P. Kairo S.R. VII 10653 (TR 23/4/40/1)</objektname>
+                    <inhalt>
+                              <sequenz>A.d.O. - Tb 124V - 1V - 151V - 83V - 84V - 85V - 82V - 77V -
+                                        86V - 99/99B V - 119V - 125A + V126 - 81A V - 87V - 37 - 91
+                                        - 102</sequenz>
+                              <sprueche>
+                                        <start/>
+                                        <s>VA.d.O.</s>
+                                        <s>124V</s>
+                                        <s>1V</s>
+                                        <s>151V</s>
+                                        <s>83V</s>
+                                        <s>84V</s>
+                                        <s>85V</s>
+                                        <s>82V</s>
+                                        <s>77V</s>
+                                        <s>86V</s>
+                                        <s>99/99BV</s>
+                                        <s>119V</s>
+                                        <s>125 + V126</s>
+                                        <s>81AV</s>
+                                        <s>87V</s>
+                                        <s>37</s>
+                                        <s>91</s>
+                                        <s>102</s>
+                                        <end/>
+                              </sprueche>
+                    </inhalt>
+                    <abbildungen>
+                              <fotos>vorhanden / vollständig</fotos>
+                              <kommentar>Film 5</kommentar>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_S_R_VII_10653_A.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_S_R_VII_10653_B.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_S_R_VII_10653_C.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_S_R_VII_10653_D.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_S_R_VII_10653_E.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_S_R_VII_10653_F.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_S_R_VII_10653_G.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_S_R_VII_10653_H.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_S_R_VII_10653_I.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_S_R_VII_10653_J.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_S_R_VII_10653_K.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_S_R_VII_10653_L.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_S_R_VII_10653_M.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_S_R_VII_10653_N.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_S_R_VII_10653_O.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_S_R_VII_10653_P.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_S_R_VII_10653_Q.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_S_R_VII_10653_R.tif"/>
+                              </abbildung>
+                    </abbildungen>
+          </teilobjekt>
+</objekt>

@@ -1,0 +1,83 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134393" id="1209" v:revision="10221" v:key="153a8c5a64a27ed" v:path="/db/totenbuch/objects/tm134393.xml">
+  <admin wer="TB-Projekt" wann="2012-01-01"/>
+  <standort>
+    <land>DE</land>
+    <ort>Berlin</ort>
+    <institution>Ägyptisches Museum und Papyrussammlung</institution>
+    <provenienz>Sammlung Athanasi, 1857</provenienz>
+  </standort>
+  <herkunft>
+    <region>Theben</region>
+    <anmerkungen>erschlossen</anmerkungen>
+  </herkunft>
+  <besitzer geschlecht="M">
+    <name ranke="I, 176.1">Ns- pꜣwti͗- tꜣwi͗</name>
+    <titel>i͗r.i͗ ꜥꜣ n pr Imn </titel>
+    <verwandt rel="Vater">
+      <name>i͗r.i͗ ꜥꜣ n pr- Imn Ḏḥwti͗- mꜣꜥ</name>
+    </verwandt>
+  </besitzer>
+  <datierung>
+    <periode>3. Zwischenzeit</periode>
+    <detail>21.-22. Dynastie</detail>
+    <jahr>späte 21. Dynastie / frühe 22. Dynastie</jahr>
+  </datierung>
+  <form>
+    <objektgruppe>Papyrus</objektgruppe>
+    <material>Papyrus</material>
+    <gesamtmasse>
+      <beschreibung>H. 23 cm, L. 82 cm</beschreibung>
+    </gesamtmasse>
+    <schrift>Hieratisch</schrift>
+    <vignettenstil>Strichzeichnung</vignettenstil>
+  </form>
+  <bibliografie>
+    <bibl bibl-id="bibl-1569">
+      <title>Kaplony-Heckel, Äg. Handschriften 3</title>
+      <pages>19 - 20, Nr. 12</pages>
+    </bibl>
+    <bibl bibl-id="bibl-926">
+      <title>A. Niwinski, Studies on the Illustrated Theban Funerary Papyri of the 11th and 10th
+        Centuries B.C., OBO 86, Fribourg/Göttingen 1989</title>
+      <pages>246 (Berlin 9)</pages>
+    </bibl>
+    <bibl bibl-id="bibl-1253">
+      <title>U. Luft, in: AfP 22/23, 1973/1974</title>
+      <pages>40 (Nr. 1047)</pages>
+    </bibl>
+    <bibl bibl-id="bibl-1359">
+      <title>G. Lenzo Marchese, in: BSEG 26, 2004</title>
+      <pages>43-62</pages>
+    </bibl>
+  </bibliografie>
+  <teilobjekt id="1209-1">
+    <objektname>P. Berlin P. 3012 A + B</objektname>
+    <inhalt>
+      <sequenz>A.d. Re-Harachte-Atum Tb 23 - 24 - 25(Var.) - 26 ///</sequenz>
+      <sprueche>
+        <start/>
+        <s>A.d. Re-Harachte-Atum</s>
+        <s>23</s>
+        <s>24</s>
+        <s>25</s>
+        <s>26</s>
+        <l/>
+      </sprueche>
+    </inhalt>
+    <abbildungen>
+      <fotos>vorhanden / vollständig</fotos>
+      <abbildung rechte="com">
+        <datei name="Berlin_3012_A(1).tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Berlin_3012_A.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Berlin_3012_B(1).tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Berlin_3012_B.tif"/>
+      </abbildung>
+    </abbildungen>
+  </teilobjekt>
+</objekt>

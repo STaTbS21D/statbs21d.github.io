@@ -1,0 +1,284 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="133576" id="164" v:revision="9488" v:key="153a8c4a8962510" v:path="/db/totenbuch/objects/tm133576.xml">
+  <admin wer="TB-Projekt" wann="2012-01-01"/>
+  <herkunft>
+    <region>Theben</region>
+    <anmerkungen>erschlossen aufgrund gleicher Sequenzen u. Gemeinsamkeiten zu pGatseschen u.
+      pLondon BM 10064</anmerkungen>
+  </herkunft>
+  <besitzer>
+    <name ranke="I, 179.16">Nsi͗- tꜣ- nb- tꜣwi͗</name>
+    <verwandt rel="Mutter">
+      <name>Tꜣ- nt- di͗t- Ḫnsw</name>
+    </verwandt>
+  </besitzer>
+  <datierung>
+    <periode>3. Zwischenzeit</periode>
+    <detail>21. Dynastie</detail>
+    <jahr>Ende 21. Dynastie</jahr>
+  </datierung>
+  <form>
+    <objektgruppe>Papyrus</objektgruppe>
+    <material>Papyrus</material>
+    <gesamtmasse>
+      <hoehe>41</hoehe>
+    </gesamtmasse>
+    <schrift>Hieratisch</schrift>
+    <vignettenstil>farbig</vignettenstil>
+  </form>
+  <bibliografie>
+    <bibl bibl-id="bibl-436">
+      <title>W. Seipel, Ägypten, Götter, Gräber und die Kunst, 4000 Jahre Jenseitsglaube
+        1989</title>
+      <pages>181, Abb. 145</pages>
+    </bibl>
+    <bibl bibl-id="bibl-1023">
+      <title>I. Munro, Spruchvorkommen</title>
+      <pages>128, Nr. 253</pages>
+    </bibl>
+    <bibl bibl-id="bibl-926">
+      <title>A. Niwinski, Studies on the Illustrated Theban Funerary Papyri of the 11th and 10th
+        Centuries B.C., OBO 86, Fribourg/Göttingen 1989</title>
+      <pages>361f. (Paris 44) sowie 361 f (Paris 44)</pages>
+    </bibl>
+    <bibl bibl-id="bibl-2675">
+      <title>M. Bellion</title>
+      <pages>218 (mit weiterer Lit.)</pages>
+    </bibl>
+    <bibl bibl-id="bibl-1628">
+      <title>K. Jansen-Winkeln, Text u. Sprache in der 3. Zwischenzeit, ÄAT 26, Wiesbaden
+        1994</title>
+      <pages>269 (mit weiterer Lit.)</pages>
+    </bibl>
+    <bibl bibl-id="bibl-2234">
+      <title>Devéria, Cat.</title>
+      <pages>86-87 sowie 86-87, III. 46</pages>
+    </bibl>
+    <bibl bibl-id="bibl-694">
+      <title>Chloe Ragazzoli, The Book of the Dead of Ankhesenaset (P. BNF Egyptien 62-88). Traces
+        of workshop production or scribal experiments?, in: BMSAES 15, 2010</title>
+      <pages>225-248</pages>
+    </bibl>
+  </bibliografie>
+  <teilobjekt id="164-1">
+    <objektname>P. Paris BN 138-140</objektname>
+    <anmerkungen>gehört zu: pParis Louvre E. 3661 (Herkunft Theben aufgrund gleicher Sequenzen u.
+      Gemeinsamkeiten zu pGatseschen u. pLondon BM 10064); Sequenz Lenzo Marchese (Katalog Tb HT 3.
+      ZwZt)</anmerkungen>
+    <standort>
+      <land>FR</land>
+      <ort>Paris</ort>
+      <institution>Bibliothèque Nationale</institution>
+      <provenienz>Sammlung Luynes</provenienz>
+    </standort>
+    <inhalt>
+      <sequenz>auf BN 138: Tb 180 - 181 - 79 - 127A - ?; auf BN 139: Tb 180 - 79 - 15B III - 130 -
+        136/136A; auf BN 140: Tb 134 - 64 - 1 - 2 - 3 - 65 - 92 - 68; Lenzo Marchese: /// 180 - 181
+        - 15B III - 130 - 136/136A - 134 - 64 - 1 - 72 - 2 - 3 - 65 - 92 - 68 - [69 - 70 - 101] /// </sequenz>
+      <sprueche>
+        <l/>
+        <s>180</s>
+        <s>181</s>
+        <s>79</s>
+        <s>127A</s>
+        <s>?</s>
+        <l/>
+        <s>180</s>
+        <s>79</s>
+        <s>15</s>
+        <s>130</s>
+        <s>136/136A</s>
+        <l/>
+        <s>134</s>
+        <s>64</s>
+        <s>1</s>
+        <s>2</s>
+        <s>3</s>
+        <s>65</s>
+        <s>92</s>
+        <s>68</s>
+        <l/>
+      </sprueche>
+    </inhalt>
+    <objektmasse>H: 41 cm L (Louvre- Teil): &gt; 5 m</objektmasse>
+    <abbildungen>
+      <fotos>vorhanden / vollständig</fotos>
+      <abbildung rechte="com">
+        <datei name="Paris_BN_138_140_001.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_BN_138_140_002.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_BN_138_140_003.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_BN_138_140_004.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_BN_138_140_005.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_BN_138_140_006.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_BN_138_140_007.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_BN_138_140_008.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_BN_138_140_009.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_BN_138_140_010.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_BN_138_140_011.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_BN_138_140_012.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_BN_138_140_013.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_BN_138_140_014.tif"/>
+      </abbildung>
+    </abbildungen>
+  </teilobjekt>
+  <teilobjekt id="164-2">
+    <objektname>P. Paris Louvre E. 3661</objektname>
+    <anmerkungen>Sequenz nach Lenzo Marchese (Katalog Tb HT 3. ZwZt)</anmerkungen>
+    <standort>
+      <land>FR</land>
+      <ort>Paris</ort>
+      <institution>Musée du Louvre</institution>
+      <provenienz>Sammlung Luynes</provenienz>
+    </standort>
+    <inhalt>
+      <sequenz>/// Tb 101 - 100/129V - 136B V - 136/136A V - 98V - 99/99B V - 63B - 8 - 14 - 85V -
+        115 - 102 - 119 - 7 - 39V - 41B - 31 - 32 - 40 - 36 - 33 - 37 - 38B - 54 - 55 - 38A V - 56 -
+        13/121 - 138 - 123/139 - 187 - 12/120 - 58 - 57 - 132 - 189 - 53 - 91 - 44 - 93 - 117 - 118
+        - 34 - 35 - 74 - 45 - 63A - 156 - 61 - 30B - 29 - 27 - 28 - 11 - 2 - 4 - 43 - 61 - 6 - 5 -
+        105V - 47 - 103 - 104 - 96/97+V104 - 103V - 10 - 145V+V137 - 100/129 - [...] - 125A - 125B -
+        125C</sequenz>
+      <sprueche>
+        <l/>
+        <s>101</s>
+        <s>100/129V</s>
+        <s>136BV</s>
+        <s>136/136AV</s>
+        <s>98V</s>
+        <s>99/99BV</s>
+        <s>63B</s>
+        <s>8</s>
+        <s>14</s>
+        <s>85V</s>
+        <s>115</s>
+        <s>102</s>
+        <s>119</s>
+        <s>7</s>
+        <s>39V</s>
+        <s>41B</s>
+        <s>31</s>
+        <s>32</s>
+        <s>40</s>
+        <s>36</s>
+        <s>33</s>
+        <s>37</s>
+        <s>38B</s>
+        <s>54</s>
+        <s>55</s>
+        <s>38AV</s>
+        <s>56</s>
+        <s>13/121</s>
+        <s>138</s>
+        <s>123/139</s>
+        <s>187</s>
+        <s>12/120</s>
+        <s>58</s>
+        <s>57</s>
+        <s>132</s>
+        <s>189</s>
+        <s>53</s>
+        <s>91</s>
+        <s>44</s>
+        <s>93</s>
+        <s>117</s>
+        <s>118</s>
+        <s>34</s>
+        <s>35</s>
+        <s>74</s>
+        <s>45</s>
+        <s>63A</s>
+        <s>156</s>
+        <s>61</s>
+        <s>30B</s>
+        <s>29</s>
+        <s>27</s>
+        <s>28</s>
+        <s>11/49</s>
+        <s>2</s>
+        <s>4</s>
+        <s>43</s>
+        <s>61</s>
+        <s>6</s>
+        <s>5</s>
+        <s>105V</s>
+        <s>47</s>
+        <s>103</s>
+        <s>104</s>
+        <s>96 oder 97</s>
+        <s>V104</s>
+        <s>103V</s>
+        <s>10/48</s>
+        <s>145V</s>
+        <s>V137</s>
+        <s>100/129</s>
+        <s>?</s>
+        <s>125</s>
+        <s>125</s>
+        <s>125</s>
+        <end/>
+      </sprueche>
+    </inhalt>
+    <objektmasse>H. 41 cm, L. 5,20 m</objektmasse>
+    <abbildungen>
+      <fotos>vorhanden / vollständig</fotos>
+      <kommentar>CD Lenzo Marchese</kommentar>
+      <abbildung rechte="com">
+        <datei name="Paris_louvre_E_3661_001.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_louvre_E_3661_002.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="pLouvreE3661_1.JPG"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="pLouvreE3661_2.JPG"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="pLouvreE3661_3.jpg"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="pLouvreE3661_4.jpg"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="pLouvreE3661_5.jpg"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="pLouvreE3661_6.jpg"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="pLouvreE3661_7.jpg"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="pLouvreE3661_8.jpg"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="pLouvreE3661_9.jpg"/>
+      </abbildung>
+    </abbildungen>
+  </teilobjekt>
+</objekt>

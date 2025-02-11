@@ -1,0 +1,68 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134724" id="1543" v:revision="10550" v:key="153a8c620cf2936" v:path="/db/totenbuch/objects/tm134724.xml">
+      <admin wer="TB-Projekt" wann="2012-01-01"/>
+      <anmerkungen>unbekannter Text: vgl. pCleveland 1914.733, pMoskau I, 1b, 130, pNew Haven Ct YBR
+            inv. 2755, pParis BN 128</anmerkungen>
+      <standort>
+            <land>AU</land>
+            <ort>Sydney</ort>
+            <institution>University of Sydney, Nicholson Museum</institution>
+            <provenienz>Sammlung Nicholson</provenienz>
+      </standort>
+      <herkunft>
+            <region>Theben</region>
+            <anmerkungen>erschlossen</anmerkungen>
+      </herkunft>
+      <besitzer geschlecht="F">
+            <name ranke="I, 147.22">Mwt- m- ḥb</name>
+            <titel>nb.t- pr i͗ḥi͗.t n Imn- Rꜥ šps.t</titel>
+      </besitzer>
+      <datierung>
+            <periode>3. Zwischenzeit</periode>
+            <detail>21.-22. Dynastie</detail>
+      </datierung>
+      <form>
+            <objektgruppe>Papyrus</objektgruppe>
+            <material>Papyrus</material>
+            <gesamtmasse>
+                  <beschreibung>H. 24,5 cm, Br. 54,7 cm</beschreibung>
+            </gesamtmasse>
+            <schrift>Hieratisch</schrift>
+            <vignettenstil>farbig</vignettenstil>
+      </form>
+      <bibliografie>
+            <bibl bibl-id="bibl-365">
+                  <title>K. Sowada/B. Ockinga (Hgg.), Egyptian Art in the Nicholson Museum, Sydney,
+                        Mediterranean Archeology, Sydney 2006</title>
+                  <pages>81-89, bes. 81f., Taf. 13b</pages>
+            </bibl>
+      </bibliografie>
+      <teilobjekt id="1543-1">
+            <objektname>P. Sydney R 402</objektname>
+            <inhalt>
+                  <sequenz>A.d.Re- Harachte - Tb 23 - unbekannter Text - Tb 26</sequenz>
+                  <sprueche>
+                        <start/>
+                        <s>A.d. Re-Harachte</s>
+                        <s>23</s>
+                        <s>?</s>
+                        <s>26</s>
+                        <end/>
+                  </sprueche>
+            </inhalt>
+            <abbildungen>
+                  <fotos>vorhanden / vollständig</fotos>
+                  <abbildung rechte="com">
+                        <datei name="pSydneyR402_2.JPG"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="pSydneyR402_3.JPG"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="pSydneyR402.JPG"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Sydney_402_001.tif"/>
+                  </abbildung>
+            </abbildungen>
+      </teilobjekt>
+</objekt>

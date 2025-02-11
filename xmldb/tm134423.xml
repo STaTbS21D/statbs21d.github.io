@@ -1,0 +1,163 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134423" id="1239" v:revision="10251" v:key="153a8c5b04a280b" v:path="/db/totenbuch/objects/tm134423.xml">
+      <admin wer="TB-Projekt" wann="2012-01-01"/>
+      <anmerkungen>Besitzer ist der Vater von Ga-j-jrwb-waeb (pLondon BM 10064); ursprünglich aus
+            der Sammlung Baroness Zouche of Haryngworth, dann Sammlung W.M. Mensing; Vortrag M.
+            Heerma van Voss, 04.11. 2002 (Book of the Dead Day, Leiden): Leserichtung von links nach
+            rechts</anmerkungen>
+      <standort>
+            <land>CH</land>
+            <ort>Cologny (Kanton Genf)</ort>
+            <institution>Bibliotheca Bodmeriana, Fondation Martin Bodmer</institution>
+            <provenienz>seit 1928</provenienz>
+      </standort>
+      <herkunft>
+            <region>Theben</region>
+            <anmerkungen>erschlossen</anmerkungen>
+      </herkunft>
+      <besitzer geschlecht="M">
+            <name ranke="I. 34.20">Ini͗- pḥ- f- nḫt</name>
+            <titel>i͗t- nṯr n Imn- Rꜥ nsw.t nṯr.w ḥr.i͗ nfw.w wi͗ꜣ n pr Imn </titel>
+      </besitzer>
+      <datierung>
+            <periode>3. Zwischenzeit</periode>
+            <detail>21. Dynastie</detail>
+            <jahr>Mitte 21. Dynastie</jahr>
+      </datierung>
+      <form>
+            <objektgruppe>Papyrus</objektgruppe>
+            <material>Papyrus</material>
+            <gesamtmasse>
+                  <beschreibung>H. 22 cm, L. 3,78 m</beschreibung>
+            </gesamtmasse>
+            <schrift>Hieroglyphisch</schrift>
+            <vignettenstil>farbig</vignettenstil>
+      </form>
+      <bibliografie>
+            <bibl bibl-id="bibl-2610">
+                  <title>Fr. W. v. Bissing, in: ZÄS 63, 1928</title>
+                  <pages>37-39, Taf. I</pages>
+            </bibl>
+            <bibl bibl-id="bibl-1053">
+                  <title>5000 Jahre Ägypt. Kunst (Ausstellungs-Kat. Essen), 1961</title>
+                  <pages>Nr. 213</pages>
+            </bibl>
+            <bibl bibl-id="bibl-196">
+                  <title>M. Valloggia, Les manuscrits hiératiques et hieroglyphiques de la
+                        Bibliotheca Bodmeriana, in: J.L. Chapaz/S. Vuilleumier (Hgg.), Sortir au
+                        jour. Art égyptien de la Fondation Martin Bodmer, CSEG 7, Genf 2001</title>
+                  <pages>135-145, Fig. 32, 39</pages>
+            </bibl>
+            <bibl bibl-id="bibl-2799">
+                  <title>Auktionskat. Antiquités - Objets d’art. Collection de Feu M.-Ant. W.M.
+                        Mensing, Amsterdam 23 - 25 Novembre 1937</title>
+                  <pages>11, III Nr. 80 m. Abb</pages>
+            </bibl>
+            <bibl bibl-id="bibl-516">
+                  <title>A. Sallé, in: Archeologia 255, 1990</title>
+                  <pages>28-35, mit Abb. S. 33</pages>
+            </bibl>
+            <bibl bibl-id="bibl-2675">
+                  <title>M. Bellion</title>
+                  <pages>361</pages>
+            </bibl>
+            <bibl bibl-id="bibl-926">
+                  <title>A. Niwinski, Studies on the Illustrated Theban Funerary Papyri of the 11th
+                        and 10th Centuries B.C., OBO 86, Fribourg/Göttingen 1989</title>
+                  <pages>308 (mit weiterer Lit.)</pages>
+            </bibl>
+            <bibl bibl-id="bibl-1628">
+                  <title>K. Jansen-Winkeln, Text u. Sprache in der 3. Zwischenzeit, ÄAT 26,
+                        Wiesbaden 1994</title>
+                  <pages>269f</pages>
+            </bibl>
+            <bibl bibl-id="bibl-344">
+                  <title>W. Spiegelberg, in: ZÄS 63, 1928</title>
+                  <pages>125f. (Dat. in 21. Dyn.)</pages>
+            </bibl>
+            <bibl bibl-id="bibl-1742">
+                  <title>M. Heerma van Voss, Beginning and End in the Book of the Dead of the 21st
+                        Dynasty, in: St.E. Thompson/P. Der Manuelian, Egypt and Beyond. Essays
+                        Presented to Leonard H. Lesko, Providence 2008</title>
+                  <pages>163-166</pages>
+            </bibl>
+            <bibl bibl-id="bibl-2224">
+                  <title>L.E. Díaz-Iglesias Llanos, Commentary on Heracleopolis Magna from the
+                        theological perspective (I): the image of the local lakes in the vignette of
+                        chapter 17 of the Book of the dead, in: Trabajos de Egiptología 4,
+                        2005</title>
+                  <pages>31-106</pages>
+            </bibl>
+      </bibliografie>
+      <teilobjekt id="1239-1">
+            <objektname>P. Cologny C</objektname>
+            <inhalt>
+                  <sequenz>Tb 1 - 17V - 130 - 81A - 77 - 71 - 146 - 100/129 - 125B V - V110 </sequenz>
+                  <sprueche>
+                        <l/>
+                        <s>1</s>
+                        <s>17V</s>
+                        <s>130</s>
+                        <s>81A</s>
+                        <s>77</s>
+                        <s>71</s>
+                        <s>146</s>
+                        <s>100/129</s>
+                        <s>125V</s>
+                        <s>V110</s>
+                        <end/>
+                  </sprueche>
+            </inhalt>
+            <abbildungen>
+                  <fotos>vorhanden / vollständig</fotos>
+                  <kommentar>Kopie aus Publikation</kommentar>
+                  <abbildung rechte="com">
+                        <datei name="Cologny_C_A.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Cologny_C_B.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Cologny_C_C.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Cologny_C_D.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Cologny_C_E.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Cologny_C_F.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Cologny_C_G.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Cologny_C_H.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Cologny_C_I.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Cologny_C_J.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Cologny_C_K.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Cologny_C_L.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Cologny_C_M.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Cologny_C_N.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Cologny_C_O.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Cologny_C_P.tif"/>
+                  </abbildung>
+            </abbildungen>
+      </teilobjekt>
+</objekt>

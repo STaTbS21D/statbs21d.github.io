@@ -1,0 +1,101 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134712" id="1530" v:revision="10538" v:key="153a8c61ce0292a" v:path="/db/totenbuch/objects/tm134712.xml">
+          <admin wer="TB-Projekt" wann="2012-01-01"/>
+          <standort>
+                    <land>FR</land>
+                    <ort>Paris</ort>
+                    <institution>Musée du Louvre</institution>
+          </standort>
+          <herkunft>
+                    <region>Theben</region>
+          </herkunft>
+          <besitzer geschlecht="M">
+                    <name ranke="I, 175.18">Nsi͗- pꜣ- qꜣ- šwti͗</name>
+                    <titel>sš ḥsb i͗t n pr Imn</titel>
+          </besitzer>
+          <datierung>
+                    <periode>3. Zwischenzeit</periode>
+          </datierung>
+          <form>
+                    <objektgruppe>Papyrus</objektgruppe>
+                    <material>Papyrus</material>
+                    <gesamtmasse>
+                              <laenge>256</laenge>
+                              <hoehe>19</hoehe>
+                    </gesamtmasse>
+                    <schrift>Hieroglyphisch</schrift>
+                    <vignettenstil>farbig</vignettenstil>
+          </form>
+          <bibliografie>
+                    <bibl bibl-id="bibl-805">
+                              <title>A. Piankoff/N. Rambova, Mythological Papyri</title>
+                              <pages>104-108 (Nr. 9)</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-919">
+                              <title>A. Niwinski, in: S. Bickel, In ägyptischer Gesellschaft.
+                                        Aegyptiaca der Sammlungen Bibel+Orient an der Universität
+                                        Freiburg Schweiz, Fribourg 2004</title>
+                              <pages>112, Abb. 36d</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-2098">
+                              <title>Les Portes du Ciel. Visions du monde dans l'Égypte ancienne,
+                                        Paris 2009. (Katalog Paris)</title>
+                              <pages>59f., No. 21</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-439">
+                              <title>Chr. Seeber, Untersuchungen</title>
+                              <pages>212, n. 27</pages>
+                    </bibl>
+          </bibliografie>
+          <teilobjekt id="1530-1">
+                    <objektname>P. Paris Louvre E. 17401</objektname>
+                    <inhalt>
+                              <sequenz>Mytholog. Szenen - TG - V59 - Mythol. Szenen - V126 - Myth.
+                                        Szenen - V148 - Myth. Szenen</sequenz>
+                              <sprueche>
+                                        <start/>
+                                        <s>Mythologische SzenenV</s>
+                                        <s>VTG</s>
+                                        <s>V59</s>
+                                        <s>Mythologische SzenenV</s>
+                                        <s>V126</s>
+                                        <s>Mythologische SzenenV</s>
+                                        <s>V148</s>
+                                        <s>Mythologische SzenenV</s>
+                                        <end/>
+                              </sprueche>
+                    </inhalt>
+                    <abbildungen>
+                              <fotos>vorhanden / vollständig</fotos>
+                              <abbildung rechte="com">
+                                        <datei name="Paris_AF17401.jpg"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Paris_AF17401_detail.jpg"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Paris_louvre_E_17401_001.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Paris_louvre_E_17401_002.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Paris_louvre_E_17401_003.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Paris_louvre_E_17401_004.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Paris_louvre_E_17401_006.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Paris_louvre_E_17401_007.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Paris_louvre_E_17401_008.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Paris_louvre_E_17401_009.tif"/>
+                              </abbildung>
+                    </abbildungen>
+          </teilobjekt>
+</objekt>

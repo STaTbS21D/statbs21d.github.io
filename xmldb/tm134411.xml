@@ -1,0 +1,57 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134411" id="1227" v:revision="10239" v:key="153a8c5ac4627ff" v:path="/db/totenbuch/objects/tm134411.xml">
+  <admin wer="TB-Projekt" wann="2012-01-01"/>
+  <standort>
+    <land>IT</land>
+    <ort>Cortona</ort>
+    <institution>Museo dell'Accademia Etrusca</institution>
+  </standort>
+  <herkunft>
+    <region>Theben</region>
+    <anmerkungen>erschlossen</anmerkungen>
+  </herkunft>
+  <besitzer geschlecht="M">
+    <name ranke="I, 412.3; II, 401">Ḏd- Ḫnsw</name>
+    <titel>i͗t- nṯr n Imn- Rꜥ nsw.t nṯr.w </titel>
+  </besitzer>
+  <datierung>
+    <periode>3. Zwischenzeit</periode>
+    <detail>21. Dynastie</detail>
+  </datierung>
+  <form>
+    <objektgruppe>Papyrus</objektgruppe>
+    <material>Papyrus</material>
+    <gesamtmasse>
+      <beschreibung>H. 8 cm, L. 27 cm (?)</beschreibung>
+    </gesamtmasse>
+    <schrift>Hieratisch</schrift>
+    <vignettenstil>farbig</vignettenstil>
+  </form>
+  <bibliografie>
+    <bibl bibl-id="bibl-2675">
+      <title>M. Bellion</title>
+      <pages>131</pages>
+    </bibl>
+    <bibl bibl-id="bibl-2567">
+      <title>G. Botti, Le antichità egiziane del Museo dell'Accademia di Cortona ordinate e
+        descritte (Mus.-Kat. Cortona), Florenz 1955</title>
+      <pages>49</pages>
+    </bibl>
+  </bibliografie>
+  <teilobjekt id="1227-1">
+    <objektname>P. Cortona 187</objektname>
+    <inhalt>
+      <sequenz>Tb 149 + Reste von 3V</sequenz>
+      <sprueche>
+        <l/>
+        <s>149</s>
+        <s>?</s>
+        <s>?</s>
+        <s>?</s>
+        <l/>
+      </sprueche>
+    </inhalt>
+    <abbildungen>
+      <fotos>nicht vorhanden</fotos>
+    </abbildungen>
+  </teilobjekt>
+</objekt>

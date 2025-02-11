@@ -1,0 +1,403 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="133529" id="16" v:revision="9441" v:key="153a8c4983b24e1" v:path="/db/totenbuch/objects/tm133529.xml">
+          <admin wer="TB-Projekt" wann="2012-01-01"/>
+          <standort>
+                    <land>GB</land>
+                    <ort>London</ort>
+                    <institution>British Museum</institution>
+          </standort>
+          <herkunft>
+                    <region>Theben</region>
+          </herkunft>
+          <besitzer geschlecht="M">
+                    <name ranke="I, 209.16">Nḫt</name>
+                    <titel>sš nsw.t mꜣꜥ i͗m.i͗- rꜣ mšꜥ n nb tꜣ.wi͗ u.a.</titel>
+                    <verwandt rel="Ehefrau">
+                              <name>Ṯwṯw</name>
+                              <titel>nb.t- pr šmꜥ.t n Imn</titel>
+                    </verwandt>
+                    <verwandt rel="Tochter">
+                              <name>Tꜣ- kꜣi͗- kꜣi͗</name>
+                    </verwandt>
+          </besitzer>
+          <datierung>
+                    <periode>Neues Reich</periode>
+                    <detail>18.-19. Dynastie</detail>
+                    <jahr>Ende 18./Anfang 19. Dynastie</jahr>
+          </datierung>
+          <form>
+                    <objektgruppe>Papyrus</objektgruppe>
+                    <objektgruppe>Lederrolle</objektgruppe>
+                    <material>Papyrus</material>
+                    <material>Leder</material>
+                    <gesamtmasse>
+                              <hoehe>35</hoehe>
+                    </gesamtmasse>
+                    <schrift>Hieroglyphisch</schrift>
+                    <vignettenstil>farbig</vignettenstil>
+          </form>
+          <bibliografie>
+                    <bibl bibl-id="bibl-1942">
+                              <title>S.R.K. Glanville, in: JEA 13, 1927</title>
+                              <pages>50ff., Taf. 19-21</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-436">
+                              <title>W. Seipel, Ägypten, Götter, Gräber und die Kunst, 4000 Jahre
+                                        Jenseitsglaube 1989</title>
+                              <pages>169-170, Nr.136 (Ausschnitt)</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-1646">
+                              <title>T.G.H. James, Egyptian Painting, London 1985</title>
+                              <pages>52, Abb. 57, 58</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-1215">
+                              <title>J. Malek, Cradles of Civilization. Egypt (Oklahoma,
+                                        1993)</title>
+                              <pages>92-93</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-1235">
+                              <title>B. Lüscher, Untersuchungen zu Totenbuch Spruch 151, SAT 2,
+                                        Wiesbaden 1998</title>
+                              <pages>Taf. 7</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-2977">
+                              <title>F. Dunand/R. Lichtenberg, Mummies. A Journey through Eternity,
+                                        London 1994 (Nachdruck 2000)</title>
+                              <pages>50 (Farbbild, fälschlich als pAni bezeichnet)</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-272">
+                              <title>J. H. Taylor, Death and the Afterlife in Ancient Egypt, London
+                                        2001</title>
+                              <pages>22, fig. 10; 197, fig. 138</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-1427">
+                              <title>G. Lapp, Totenbuch Spruch 17, TbT 1, Basel 2006</title>
+                              <pages>pL5</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-1233">
+                              <title>B. Lüscher, Die Verwandlungssprüche (Tb 76-88), TbT 2, Basel
+                                        2006</title>
+                              <pages>pL5</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-1426">
+                              <title>G. Lapp, Totenbuch Spruch 125, TbT 3, Basel 2008</title>
+                              <pages>pL5</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-274">
+                              <title>J. Taylor (Hrg.), Journey through the Afterlife, Ancient
+                                        Egyptian Book of the Dead, London 2010</title>
+                    </bibl>
+                    <bibl bibl-id="bibl-397">
+                              <title>A.W. Shorter, Catalogue</title>
+                              <pages>13-14, Taf. VII</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-1036">
+                              <title>I. Munro, Untersuchungen zu den Totenbuch-Papyri der 18.
+                                        Dynastie, London 1987</title>
+                              <pages>300</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-2675">
+                              <title>M. Bellion</title>
+                              <pages>69-70 (mit weiterer Lit.)</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-716">
+                              <title>St. Quirke, Owners</title>
+                              <pages>46, Nr. 119 mit Anm. S. 77</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-2064">
+                              <title>R.O. Faulkner (C. Andrews [Hg.]), The Ancient Egyptian Book of
+                                        the Dead, London 1985</title>
+                              <pages>passim</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-2859">
+                              <title>C. Andrews, Egyptian Mummies (Katalog British Museum), London
+                                        1984</title>
+                              <pages>Abb. 71</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-2241">
+                              <title>Chr. Desroches-Noblecourt, in: BSFE 53-54, 1969</title>
+                              <pages>9-30, bes. Taf. IV-V</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-446">
+                              <title>R. Schulz/M. Seidel, Ägypten, Die Welt der Pharaonen, Köln
+                                        1997</title>
+                              <pages>392, Abb. 107</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-1850">
+                              <title>N. Guilhou, in: Egypte Afrique &amp; Orient Nr. 43, Oktober
+                                        2006</title>
+                              <pages>31-38 m. Abb. 14</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-1120">
+                              <title>H. Milde, Vignetten-Forschung, in: B. Backes/I. Munro/S. Stöhr
+                                        (Hgg.), Totenbuch-Forschungen. Gesammelte Beiträge des 2.
+                                        Internationalen Totenbuch-Symposiums, Bonn 25. - 29.
+                                        September 2005, SAT 11, Wiesbaden 2006</title>
+                              <pages>221-231 m. Abb. 8</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-2224">
+                              <title>L.E. Díaz-Iglesias Llanos, Commentary on Heracleopolis Magna
+                                        from the theological perspective (I): the image of the local
+                                        lakes in the vignette of chapter 17 of the Book of the dead,
+                                        in: Trabajos de Egiptología 4, 2005</title>
+                              <pages>31-106</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-868">
+                              <title>R. Parkinson/St. Quirke, Papyrus, London 1995</title>
+                              <pages>22, Abb. 10</pages>
+                    </bibl>
+          </bibliografie>
+          <teilobjekt id="16-1">
+                    <objektname>P. London BM EA 10471</objektname>
+                    <inhalt>
+                              <sequenz>/// 125V - 145V - 1V - 2V - 17V - 18 - 72V - 136/136A V -
+                                        136B V - 44 - Titel 91V - 9V - 8V - V9 - 117 - 118 - 60 -
+                                        63A V - 23V - 38A V - 13/121 - 125C V - 136/136A V - 136B V
+                                        - 80 - 148V - 82V - 125B V - 125A V - 99/99B V - V110 - 83 +
+                                        84V - 86V - 87V - 37V - 36V - 33 - 72V - 89V - 72 - 89 -
+                                        V39(?) - 65 - 81A V - 65 - 77V - 85V - 153A V - V155 - 156 -
+                                        153A - 155 + 156 - 5 - 95V - 103V - 40V - 88V - 36V - 31V -
+                                        42V - 149V - 64V - V150 - 151V - 15</sequenz>
+                              <sprueche>
+                                        <l/>
+                                        <s>125V</s>
+                                        <s>145V</s>
+                                        <s>1V</s>
+                                        <s>2V</s>
+                                        <s>17V</s>
+                                        <s>18</s>
+                                        <s>72V</s>
+                                        <s>136/136AV</s>
+                                        <s>136BV</s>
+                                        <s>44</s>
+                                        <s>91V</s>
+                                        <s>9V</s>
+                                        <s>8V</s>
+                                        <s>V9</s>
+                                        <s>117</s>
+                                        <s>118</s>
+                                        <s>60</s>
+                                        <s>63AV</s>
+                                        <s>23V</s>
+                                        <s>38AV</s>
+                                        <s>13/121</s>
+                                        <s>125V</s>
+                                        <s>136/136AV</s>
+                                        <s>136BV</s>
+                                        <s>80</s>
+                                        <s>148V</s>
+                                        <s>82V</s>
+                                        <s>125V</s>
+                                        <s>125V</s>
+                                        <s>99/99BV</s>
+                                        <s>V110</s>
+                                        <s>83</s>
+                                        <s>84V</s>
+                                        <s>86V</s>
+                                        <s>87V</s>
+                                        <s>37V</s>
+                                        <s>36V</s>
+                                        <s>33</s>
+                                        <s>72V</s>
+                                        <s>89V</s>
+                                        <s>72</s>
+                                        <s>89</s>
+                                        <s>V39?</s>
+                                        <s>65</s>
+                                        <s>81AV</s>
+                                        <s>65</s>
+                                        <s>77V</s>
+                                        <s>85V</s>
+                                        <s>153AV</s>
+                                        <s>V155</s>
+                                        <s>156</s>
+                                        <s>153A</s>
+                                        <s>155</s>
+                                        <s>156</s>
+                                        <s>5</s>
+                                        <s>95V</s>
+                                        <s>103V</s>
+                                        <s>40V</s>
+                                        <s>88V</s>
+                                        <s>36V</s>
+                                        <s>31V</s>
+                                        <s>42V</s>
+                                        <s>149V</s>
+                                        <s>64V</s>
+                                        <s>V150</s>
+                                        <s>151V</s>
+                                        <s>15</s>
+                                        <l/>
+                              </sprueche>
+                    </inhalt>
+                    <objektmasse>H. 35 cm, L. 61 cm, H. d. Schriftspiegels: 30 cm</objektmasse>
+                    <abbildungen>
+                              <fotos>vorhanden / vollständig</fotos>
+                              <abbildung rechte="com">
+                                        <datei name="BM_10471_1.jpg"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="BM_10471_2.jpg"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="BM_EA_10471_10.jpg"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="BM_EA_10471_11.jpg"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="BM_EA_10471_12.jpg"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="BM_EA_10471_13.jpg"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="BM_EA_10471_14.jpg"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="BM_EA_10471_15.jpg"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="BM_EA_10471_16.jpg"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="BM_EA_10471_17.jpg"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="BM_EA_10471_18.jpg"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="BM_EA_10471_19.jpg"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="BM_EA_10471_20.jpg"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="BM_EA_10471_21.jpg"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="BM_EA_10471_3.jpg"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="BM_EA_10471_4.jpg"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="BM_EA_10471_6.jpg"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="BM_EA_10471_7.jpg"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="BM_EA_10471_8.jpg"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="BM_EA_10471_9.jpg"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10471_001.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10471_002.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10471_003.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10471_004.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10471_005.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10471_006.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10471_007.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10471_008.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10471_009.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10471_010.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10471_011.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10471_012.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10471_013.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10471_014.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10471_015.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10471_016.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10471_017.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10471_018.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10471_019.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10471_020.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10471_021.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10471_022.tif"/>
+                              </abbildung>
+                    </abbildungen>
+          </teilobjekt>
+          <teilobjekt id="16-2">
+                    <objektname>Leder London BM EA 10473</objektname>
+                    <inhalt>
+                              <sequenz>A.d.O. /// TG - Tb 30B + 26 + 30A V /// 144 /// </sequenz>
+                              <sprueche>
+                                        <l/>
+                                        <s>VA.d.O.</s>
+                                        <l/>
+                                        <s>VTG</s>
+                                        <s>30B</s>
+                                        <s>26</s>
+                                        <s>30AV</s>
+                                        <l/>
+                                        <s>144</s>
+                                        <l/>
+                              </sprueche>
+                    </inhalt>
+                    <objektmasse>H. 35 cm, H. d. Schriftspiegels: 30 cm</objektmasse>
+                    <abbildungen>
+                              <fotos>vorhanden / vollständig</fotos>
+                              <abbildung rechte="com">
+                                        <datei name="BM_EA_10473_1.jpg"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="BM_EA_10473_2.jpg"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="BM_EA_10473_3.jpg"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10473_001.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10473_002.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10473_003.tif"/>
+                              </abbildung>
+                    </abbildungen>
+          </teilobjekt>
+</objekt>

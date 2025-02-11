@@ -1,0 +1,375 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="133557" id="145" v:revision="9469" v:key="153a8c4a18724fd" v:path="/db/totenbuch/objects/tm133557.xml">
+          <admin wer="TB-Projekt" wann="2012-01-01"/>
+          <anmerkungen>Horizontalzeile auf verso</anmerkungen>
+          <herkunft>
+                    <region>Theben</region>
+                    <anmerkungen>erschlossen</anmerkungen>
+          </herkunft>
+          <besitzer geschlecht="M">
+                    <name ranke="I, 140.9">Ptḥ- ms</name>
+                    <titel>ḥr.i͗ i͗r.w ḫsbḏ n nb tꜣ.wi͗</titel>
+                    <verwandt rel="Mutter">
+                              <name>Nfrt- i͗ri͗</name>
+                              <titel>nb.t- pr </titel>
+                    </verwandt>
+                    <verwandt rel="Vater">
+                              <name>Kfꜣ- šnꜥ</name>
+                              <titel>sꜣb </titel>
+                    </verwandt>
+          </besitzer>
+          <datierung>
+                    <periode>Neues Reich</periode>
+                    <detail>19. Dynastie</detail>
+                    <jahr>frühe 19. Dynastie</jahr>
+          </datierung>
+          <form>
+                    <objektgruppe>Papyrus</objektgruppe>
+                    <material>Papyrus</material>
+                    <gesamtmasse>
+                              <hoehe>36,5</hoehe>
+                    </gesamtmasse>
+                    <schrift>Hieroglyphisch</schrift>
+                    <vignettenstil>farbig</vignettenstil>
+          </form>
+          <bibliografie>
+                    <bibl bibl-id="bibl-2102">
+                              <title>M.H. van Es, in: ZÄS 109, 1982</title>
+                              <pages>97-121</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-1251">
+                              <title>U. Luft, in: ZÄS 104, 1977</title>
+                              <pages>46-75, Taf. I-III</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-2407">
+                              <title>J.-L. de Cenival, Le Livre pour sortir le jour, Le Bouscat
+                                        1992</title>
+                              <pages>60 (Photo von Louvre SN 2) sowie 60</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-1233">
+                              <title>B. Lüscher, Die Verwandlungssprüche (Tb 76-88), TbT 2, Basel
+                                        2006</title>
+                              <pages>pKr1</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-1036">
+                              <title>I. Munro, Untersuchungen zu den Totenbuch-Papyri der 18.
+                                        Dynastie, London 1987</title>
+                              <pages>298-299</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-2675">
+                              <title>M. Bellion</title>
+                              <pages>132 u. 224</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-2696">
+                              <title>M. Barwik, The so-called Chapter 190 of the Book of the Dead
+                                        and the Linen Canopy from the Tomb of Tutankhamun, in: ET
+                                        19, 2001</title>
+                              <pages>28-39</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-1675">
+                              <title>E. Hornung, in: Hommages à Francois Daumas, Orientalia
+                                        Monspeliensia 3, Montpellier 1986</title>
+                              <pages>427-428</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-545">
+                              <title>U. Rößler-Köhler, SAT 3, 1999</title>
+                              <pages>18-19</pages>
+                    </bibl>
+          </bibliografie>
+          <teilobjekt id="145-1">
+                    <objektname>P. Krakau MNK IX-752 / 1-4</objektname>
+                    <standort>
+                              <land>PL</land>
+                              <ort>Krakau</ort>
+                              <institution>Muzeum Narodowe</institution>
+                    </standort>
+                    <inhalt>
+                              <sequenz>/// Tb 134 - Rubrum130 - 64 [V] + Rubrum - 3 - 65 [V] - 68V
+                                        /// 180 - 79 - Rubrum181 - 119V - 7 - 39V /// 13/121 oder
+                                        122 - 46 - 47 - 103 - 63A [V] - 175 - 34 - 71 /// 100/129V -
+                                        99/99BV ///</sequenz>
+                              <sprueche>
+                                        <l/>
+                                        <s>134</s>
+                                        <s>130</s>
+                                        <s>64V</s>
+                                        <s>3</s>
+                                        <s>65V</s>
+                                        <s>68V</s>
+                                        <l/>
+                                        <s>180</s>
+                                        <s>79</s>
+                                        <s>181</s>
+                                        <s>119V</s>
+                                        <s>7</s>
+                                        <s>39V</s>
+                                        <l/>
+                                        <s>13/121 oder 122</s>
+                                        <s>46</s>
+                                        <s>47</s>
+                                        <s>103</s>
+                                        <s>63AV</s>
+                                        <s>175</s>
+                                        <s>34</s>
+                                        <s>71</s>
+                                        <l/>
+                                        <s>100/129V</s>
+                                        <s>99/99BV</s>
+                                        <l/>
+                              </sprueche>
+                    </inhalt>
+                    <abbildungen>
+                              <fotos>vorhanden / vollständig</fotos>
+                              <abbildung rechte="com">
+                                        <datei name="Krakau_MN_XI_752_1.jpg"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Krakau_MN_XI_752_2.jpg"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Krakau_MN_XI_752_3.jpg"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Krakau_MN_XI_752_3a.jpg"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Krakau_MN_XI_752_4.jpg"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Krakau_MN_XI_752_4a.jpg"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="pKrakau_MNK_IX_752_005.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="pKrakau_MNK_IX_752_006.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="pKrakau_MNK_IX_752_007.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="pKrakau_MNK_IX_752_008.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="pKrakau_MNK_IX_752_009.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="pKrakau_MNK_IX_752_011.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="pKrakau_MNK_IX_752_012.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="pKrakau_MNK_IX_752_013.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="pKrakau_MNK_IX_752_014.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="pKrakau_MNK_IX_752_015.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="pKrakau_MNK_IX_752_016.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="pKrakau_MNK_IX_752_017.tif"/>
+                              </abbildung>
+                    </abbildungen>
+          </teilobjekt>
+          <teilobjekt id="145-2">
+                    <objektname>P. Paris Louvre SN 2</objektname>
+                    <standort>
+                              <land>FR</land>
+                              <ort>Paris</ort>
+                              <institution>Musée du Louvre</institution>
+                    </standort>
+                    <inhalt>
+                              <sequenz>/// Tb 69V - 70 + Rubrum - 107 + Rubrum /// 106 - 40 - 103
+                                        /// 33V - 54 - 13/121 - 138V - 123/139 /// [V85] - Tb 44 -
+                                        93 [V] - 50B V - 188V? - 34V? /// 12/120 - 14 /// 17V - 18V
+                                        /// V31 oder V32 /// 42V - 100/129V /// V63B - Tb 137B ///
+                                        77 - 78V /// 113 - 108 /// 149 - V150 /// 189 - 91V /// 31
+                                        /// 32 /// 35 /// 52V /// 53 /// 56 /// 57V /// 65V /// 72
+                                        /// 79 /// 82 /// 92 /// 99/99B /// 109 /// 127B /// 130V +
+                                        Rubrum /// 141/143 /// 148 /// 153A V /// 180 /// 186 ///
+                                        190 ///</sequenz>
+                              <sprueche>
+                                        <l/>
+                                        <s>69V</s>
+                                        <s>70</s>
+                                        <s>107</s>
+                                        <l/>
+                                        <s>106</s>
+                                        <s>40</s>
+                                        <s>103</s>
+                                        <l/>
+                                        <s>33V</s>
+                                        <s>54</s>
+                                        <s>13/121</s>
+                                        <s>138V</s>
+                                        <s>123/139</s>
+                                        <l/>
+                                        <s>V85</s>
+                                        <s>44</s>
+                                        <s>93V</s>
+                                        <s>50BV</s>
+                                        <s>188V?</s>
+                                        <s>34V?</s>
+                                        <l/>
+                                        <s>12/120</s>
+                                        <s>14</s>
+                                        <l/>
+                                        <s>17V</s>
+                                        <s>18V</s>
+                                        <l/>
+                                        <s>V31 oder V32</s>
+                                        <l/>
+                                        <s>42V</s>
+                                        <s>100/129V</s>
+                                        <l/>
+                                        <s>V63B</s>
+                                        <s>137B</s>
+                                        <l/>
+                                        <s>77</s>
+                                        <s>78V</s>
+                                        <l/>
+                                        <s>113</s>
+                                        <s>108</s>
+                                        <l/>
+                                        <s>149</s>
+                                        <s>V150</s>
+                                        <l/>
+                                        <s>189</s>
+                                        <s>91V</s>
+                                        <l/>
+                                        <s>31</s>
+                                        <l/>
+                                        <s>32</s>
+                                        <l/>
+                                        <s>35</s>
+                                        <l/>
+                                        <s>52V</s>
+                                        <l/>
+                                        <s>53</s>
+                                        <l/>
+                                        <s>56</s>
+                                        <l/>
+                                        <s>57V</s>
+                                        <l/>
+                                        <s>65V</s>
+                                        <l/>
+                                        <s>72</s>
+                                        <l/>
+                                        <s>79</s>
+                                        <l/>
+                                        <s>82</s>
+                                        <l/>
+                                        <s>92</s>
+                                        <l/>
+                                        <s>99/99B</s>
+                                        <l/>
+                                        <s>109</s>
+                                        <l/>
+                                        <s>127B</s>
+                                        <l/>
+                                        <s>130V</s>
+                                        <l/>
+                                        <s>141 oder 143</s>
+                                        <l/>
+                                        <s>148</s>
+                                        <l/>
+                                        <s>153AV</s>
+                                        <l/>
+                                        <s>180</s>
+                                        <l/>
+                                        <s>186</s>
+                                        <l/>
+                                        <s>190</s>
+                                        <l/>
+                              </sprueche>
+                    </inhalt>
+                    <abbildungen>
+                              <fotos>vorhanden / vollständig</fotos>
+                              <abbildung rechte="com">
+                                        <datei name="Paris_L_SN_2_001.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Paris_L_SN_2_002.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Paris_L_SN_2_003.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Paris_L_SN_2_004.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Paris_L_SN_2_005.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Paris_L_SN_2_006.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Paris_L_SN_2_007.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Paris_L_SN_2_008.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Paris_L_SN_2_009.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Paris_L_SN_2_010.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Paris_L_SN_2_011.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Paris_L_SN_2_012.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Paris_L_SN_2_013.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Paris_L_SN_2_014.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Paris_L_SN_2_015.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Paris_L_SN_2_016.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Paris_L_SN_2_017.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Paris_L_SN_2_018.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Paris_L_SN_2_019.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Paris_L_SN_2_020.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Paris_L_SN_2_021.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Paris_L_SN_2_022.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Paris_L_SN_2_023.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Paris_L_SN_2_024.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Paris_L_SN_2_025.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Paris_L_SN_2_026.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Paris_L_SN_2_027.tif"/>
+                              </abbildung>
+                    </abbildungen>
+          </teilobjekt>
+</objekt>

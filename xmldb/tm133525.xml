@@ -1,0 +1,373 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="133525" id="12" v:revision="9437" v:key="153a8c496e224dd" v:path="/db/totenbuch/objects/tm133525.xml">
+  <admin wer="TB-Projekt" wann="2012-01-01"/>
+  <herkunft>
+    <region>Theben</region>
+    <anmerkungen>Royal Cachette von Deir el-Bahari</anmerkungen>
+  </herkunft>
+  <besitzer geschlecht="F">
+    <name ranke="I, 215.24">Nḏmt</name>
+    <titel>Königin</titel>
+    <verwandt rel="Ehemann">
+      <name>Ḥri͗- Ḥr</name>
+      <titel>Hoherpriester</titel>
+    </verwandt>
+  </besitzer>
+  <datierung>
+    <periode>3. Zwischenzeit</periode>
+    <detail>21. Dynastie</detail>
+    <jahr>Psusennes I.</jahr>
+  </datierung>
+  <form>
+    <objektgruppe>Papyrus</objektgruppe>
+    <material>Papyrus</material>
+    <gesamtmasse>
+      <hoehe>34,6</hoehe>
+    </gesamtmasse>
+    <schrift>Hieroglyphisch</schrift>
+    <vignettenstil>farbig</vignettenstil>
+  </form>
+  <bibliografie>
+    <bibl bibl-id="bibl-397">
+      <title>A.W. Shorter, Catalogue</title>
+      <pages>Taf. V</pages>
+    </bibl>
+    <bibl bibl-id="bibl-699">
+      <title>B. de Rachewiltz, Il Libro dei Morti, Mailand 1958</title>
+      <pages>Taf. 5</pages>
+    </bibl>
+    <bibl bibl-id="bibl-2837">
+      <title>BM, Guide (Mus.-Kat. BM), London 1909</title>
+      <pages>Taf. I, XLI</pages>
+    </bibl>
+    <bibl bibl-id="bibl-594">
+      <title>G. Robins, Reflections of Women in the New Kingdom: Ancient Egyptian Art from The
+        British Museum, San Antonio 1995</title>
+      <pages>139-142 (Nr. 93), mit Abb. vgl. mit Photomaterial!! sowie 126, 130 - 131 (Nr. 85), mit
+        Abb</pages>
+    </bibl>
+    <bibl bibl-id="bibl-868">
+      <title>R. Parkinson/St. Quirke, Papyrus, London 1995</title>
+      <pages>Farb-Taf. VII</pages>
+    </bibl>
+    <bibl bibl-id="bibl-274">
+      <title>J. Taylor (Hrg.), Journey through the Afterlife, Ancient Egyptian Book of the Dead,
+        London 2010</title>
+    </bibl>
+    <bibl bibl-id="bibl-1360">
+      <title>Giuseppina Lenzo, The two funerary papyri of Queen Nedjmet (P. BM EA 10490 and P. BM EA
+        10541 + Louvre E. 6258), in: BMSAES 15, 2010</title>
+      <pages>63-83</pages>
+    </bibl>
+    <bibl bibl-id="bibl-979">
+      <title>E. Naville, Das ägyptische Totenbuch der XVIII. bis XX. Dynastie, Graz 1971</title>
+      <pages>108 f (Pq) (zu pLouvre E 6258) sowie 108f. (Pq) (zu pLouvre E 6258)</pages>
+    </bibl>
+    <bibl bibl-id="bibl-926">
+      <title>A. Niwinski, Studies on the Illustrated Theban Funerary Papyri of the 11th and 10th
+        Centuries B.C., OBO 86, Fribourg/Göttingen 1989</title>
+      <pages>337f. (London 60), Phot. pLouvre E 6258 sowie Taf. 8a - 10b sowie 337f. (London 60),
+        Photos des pLouvre E 6258 sowie 362 (Paris 47)</pages>
+    </bibl>
+    <bibl bibl-id="bibl-2675">
+      <title>M. Bellion</title>
+      <pages>239 f sowie 239f</pages>
+    </bibl>
+    <bibl bibl-id="bibl-1036">
+      <title>I. Munro, Untersuchungen zu den Totenbuch-Papyri der 18. Dynastie, London 1987</title>
+      <pages>301</pages>
+    </bibl>
+    <bibl bibl-id="bibl-716">
+      <title>St. Quirke, Owners</title>
+      <pages>47, Nr. 126 mit Anm. S. 78</pages>
+    </bibl>
+    <bibl bibl-id="bibl-1628">
+      <title>K. Jansen-Winkeln, Text u. Sprache in der 3. Zwischenzeit, ÄAT 26, Wiesbaden
+        1994</title>
+      <pages>272 sowie 272</pages>
+    </bibl>
+    <bibl bibl-id="bibl-1763">
+      <title>M. Heerma van Voss, in: Fs van Daelen, Kampen 1985</title>
+      <pages>114 (SD)</pages>
+    </bibl>
+    <bibl bibl-id="bibl-1645">
+      <title>T.G.H. James, A Short History of Ancient Egypt, Kairo 1995</title>
+      <pages>129</pages>
+    </bibl>
+    <bibl bibl-id="bibl-446">
+      <title>R. Schulz/M. Seidel, Ägypten, Die Welt der Pharaonen, Köln 1997</title>
+      <pages>329, Abb. 8</pages>
+    </bibl>
+    <bibl bibl-id="bibl-545">
+      <title>U. Rößler-Köhler, SAT 3, 1999</title>
+      <pages>79-80</pages>
+    </bibl>
+    <bibl bibl-id="bibl-2696">
+      <title>M. Barwik, The so-called Chapter 190 of the Book of the Dead and the Linen Canopy from
+        the Tomb of Tutankhamun, in: ET 19, 2001</title>
+      <pages>28-39</pages>
+    </bibl>
+    <bibl bibl-id="bibl-1359">
+      <title>G. Lenzo Marchese, in: BSEG 26, 2004</title>
+      <pages>43-62</pages>
+    </bibl>
+    <bibl bibl-id="bibl-926">
+      <title>A. Niwinski, Studies on the Illustrated Theban Funerary Papyri of the 11th and 10th
+        Centuries B.C., OBO 86, Fribourg/Göttingen 1989</title>
+      <pages>Taf. 8a - 10b sowie 337f. (London 60), Photos des pLouvre E 6258 sowie 362 (Paris
+        47)</pages>
+    </bibl>
+    <bibl bibl-id="bibl-2407">
+      <title>J.-L. de Cenival, Le Livre pour sortir le jour, Le Bouscat 1992</title>
+      <pages>Abb. auf S. 91</pages>
+    </bibl>
+    <bibl bibl-id="bibl-2098">
+      <title>Les Portes du Ciel. Visions du monde dans l'Égypte ancienne, Paris 2009. (Katalog
+        Paris)</title>
+      <pages>111, no. 4; 118f., no. 79; 180, no. 157</pages>
+    </bibl>
+    <bibl bibl-id="bibl-926">
+      <title>A. Niwinski, Studies on the Illustrated Theban Funerary Papyri of the 11th and 10th
+        Centuries B.C., OBO 86, Fribourg/Göttingen 1989</title>
+      <pages>337f. (London 60), Photos des pLouvre E 6258 sowie 362 (Paris 47)</pages>
+    </bibl>
+    <bibl bibl-id="bibl-916">
+      <title>A. Niwinski, in: B. Backes/M. Müller/S. Stöhr (Hgg.), Ausgestattet mit den Schriften
+        des Thot. Festschrift für Irmtraut Munro zu ihrem 65. Geburtstag, SAT 14, Wiesbaden
+        2009</title>
+      <pages>138</pages>
+    </bibl>
+  </bibliografie>
+  <teilobjekt id="12-1">
+    <objektname>P. London BM EA 10541 (P. Nedjmet A; 2. Fragment)</objektname>
+    <anmerkungen>zur Datierung: Jziw wurde in der Regierungszeit des Psusennes I. bestattet;
+      pMünchen ÄS 825 (im 2.Weltkrieg zerstört); Geschenk von König Edward VII., 1903</anmerkungen>
+    <standort>
+      <land>GB</land>
+      <ort>London</ort>
+      <institution>British Museum</institution>
+    </standort>
+    <inhalt>
+      <sequenz>Ad.-Re - Tb 15 - TG - 101 - 100/129 - V15 - 1V - 17V ///</sequenz>
+      <sprueche>
+        <start/>
+        <s>VAdorationsszene</s>
+        <s>15</s>
+        <s>VTG</s>
+        <s>101</s>
+        <s>100/129</s>
+        <s>V15</s>
+        <s>1V</s>
+        <s>17V</s>
+        <l/>
+      </sprueche>
+    </inhalt>
+    <objektmasse>H. 34,6 cm, L. 4,19 m</objektmasse>
+    <abbildungen>
+      <fotos>vorhanden / vollständig</fotos>
+      <abbildung rechte="com">
+        <datei name="BM_EA_10541.jpg"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="London_BM_10541_001.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="London_BM_10541_002.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="London_BM_10541_003.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="London_BM_10541_004.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="London_BM_10541_005.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="London_BM_10541_006.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="London_BM_10541_007.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="London_BM_10541_008.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="London_BM_10541_009.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="London_BM_10541_010.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="London_BM_10541_011.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="London_BM_10541_012.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="London_BM_10541_013.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="London_BM_10541_014.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="London_BM_10541_015.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="London_BM_10541_016.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="London_BM_10541_017.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="London_BM_10541_018.tif"/>
+      </abbildung>
+    </abbildungen>
+  </teilobjekt>
+  <teilobjekt id="12-2">
+    <objektname>P. Paris Louvre E. 6258 (P. Nedjmet A, 1. Fragm.)</objektname>
+    <anmerkungen>zur Datierung: Jziw wurde in der Regierungszeit des Psusennes I. bestattet; nach
+      Kat. Paris 2009 20. Dynastie</anmerkungen>
+    <standort>
+      <land>FR</land>
+      <ort>Paris</ort>
+      <institution>Musée du Louvre</institution>
+    </standort>
+    <inhalt>
+      <sequenz>Tb 17V - 18 + V153 A, V89, V71 - Tb 124 + V130(?) - 83V - 84V - 110V - 136/136A - 64
+        - 2 - 132 - 141/142V - 63BV - 106 - 79V - 102 - 136BV - V149 - V150 - 125AV - 125BV - TG -
+        146 a-f - V148 - A.d.O + Isis</sequenz>
+      <sprueche>
+        <l/>
+        <s>17V</s>
+        <s>18 + V153A</s>
+        <s>V89</s>
+        <s>V71</s>
+        <s>124 + V130?</s>
+        <s>83V</s>
+        <s>84V</s>
+        <s>110V</s>
+        <s>136/136A</s>
+        <s>64</s>
+        <s>2</s>
+        <s>132</s>
+        <s>141 oder 142V</s>
+        <s>63BV</s>
+        <s>106</s>
+        <s>79V</s>
+        <s>102</s>
+        <s>136BV</s>
+        <s>V149</s>
+        <s>V150</s>
+        <s>125V</s>
+        <s>125V</s>
+        <s>VTG</s>
+        <s>146</s>
+        <s>V148</s>
+        <s>VA.d.O.</s>
+        <end/>
+      </sprueche>
+    </inhalt>
+    <objektmasse>H. 34,6 cm; L. 855 cm (Frgm. des Louvre)</objektmasse>
+    <abbildungen>
+      <fotos>vorhanden / vollständig</fotos>
+      <kommentar>Fotos Niwinski</kommentar>
+      <abbildung rechte="com">
+        <datei name="Paris_louvre_E_6258_001.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_louvre_E_6258_002.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_louvre_E_6258_003.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_louvre_E_6258_004.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_louvre_E_6258_005.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_louvre_E_6258_006.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_louvre_E_6258_007.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_louvre_E_6258_008.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_louvre_E_6258_009.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_louvre_E_6258_010.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_louvre_E_6258_011.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_louvre_E_6258_012.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_louvre_E_6258_013.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_louvre_E_6258_014.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_louvre_E_6258_015.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_louvre_E_6258_016.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_louvre_E_6258_017.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_louvre_E_6258_018.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_louvre_E_6258_019.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_louvre_E_6258_020.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_louvre_E_6258_021.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_louvre_E_6258_022.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_louvre_E_6258_023.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_louvre_E_6258_024.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="pLouvre_E6258.bmp"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="pLouvre_E6258_x.bmp"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="pLouvre_E6258_y.bmp"/>
+      </abbildung>
+    </abbildungen>
+  </teilobjekt>
+  <teilobjekt id="12-3">
+    <objektname>P. München ÄS 825 (im 2.Weltkr. zerstört)</objektname>
+    <anmerkungen>zur Datierung: Jziw wurde in der Regierungszeit des Psusennes I. bestattet; </anmerkungen>
+    <standort>
+      <land>DE</land>
+      <ort>unbekannt</ort>
+      <anmerkungen>Ort zerstört</anmerkungen>
+    </standort>
+    <inhalt>
+      <sequenz>unklar</sequenz>
+      <sprueche> </sprueche>
+    </inhalt>
+    <abbildungen>
+      <fotos>nicht vorhanden</fotos>
+    </abbildungen>
+  </teilobjekt>
+</objekt>

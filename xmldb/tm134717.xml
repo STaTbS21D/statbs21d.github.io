@@ -1,0 +1,112 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134717" id="1535" v:revision="10543" v:key="153a8c61e7e292f" v:path="/db/totenbuch/objects/tm134717.xml">
+      <admin wer="TB-Projekt" wann="2012-01-01"/>
+      <anmerkungen>gleicher Besitzer wie: pParis Louvre N. 3070; Sarg Marseille 253, Kanopengefäß
+            St. Petersburg 821</anmerkungen>
+      <standort>
+            <land>AT</land>
+            <ort>Wien</ort>
+            <institution>Österreichische Nationalbibliothek</institution>
+            <provenienz>aus Slg. Drovetti</provenienz>
+      </standort>
+      <herkunft>
+            <region>Theben</region>
+      </herkunft>
+      <besitzer geschlecht="M">
+            <anmerkungen>zur Tochter vgl. pLeiden T 3</anmerkungen>
+            <name ranke="I, 271.7">Ḫnsw- ms</name>
+            <verwandt rel="Tochter">
+                  <name>Tꜣw-ḥrt</name>
+            </verwandt>
+      </besitzer>
+      <datierung>
+            <periode>3. Zwischenzeit</periode>
+            <detail>21. Dynastie</detail>
+            <jahr>Mittlere 21. Dynastie</jahr>
+      </datierung>
+      <form>
+            <objektgruppe>Papyrus</objektgruppe>
+            <material>Papyrus</material>
+            <gesamtmasse>
+                  <laenge>218,7</laenge>
+                  <hoehe>15,3</hoehe>
+            </gesamtmasse>
+            <schrift>Hieroglyphisch</schrift>
+            <vignettenstil>farbig</vignettenstil>
+      </form>
+      <bibliografie>
+            <bibl bibl-id="bibl-2256">
+                  <title>H. von Demel, Der Totenpapyrus des Chonsu=mes, in: Jahrbuch der
+                        Kunsthistorischen Sammlungen in Wien, N.F. 13 (1944)</title>
+                  <pages>1-16, 2 Taf</pages>
+            </bibl>
+            <bibl bibl-id="bibl-805">
+                  <title>A. Piankoff/N. Rambova, Mythological Papyri</title>
+                  <pages>149, Nr. 17</pages>
+            </bibl>
+            <bibl bibl-id="bibl-512">
+                  <title>H. Satzinger, Museum. Ägyptisch-Orientalische Sammlung Kunsthistorisches
+                        Museum Wien, München 1987</title>
+                  <pages>4-5</pages>
+            </bibl>
+            <bibl bibl-id="bibl-511">
+                  <title>H. Satzinger, Das Kunsthistorische Museum in Wien, Mainz 1994</title>
+                  <pages>50f., Abb. 33 a-b</pages>
+            </bibl>
+            <bibl bibl-id="bibl-1235">
+                  <title>B. Lüscher, Untersuchungen zu Totenbuch Spruch 151, SAT 2, Wiesbaden
+                        1998</title>
+            </bibl>
+            <bibl bibl-id="bibl-1130">
+                  <title>H. De Meulenaere, Notes de prosopographie thébaine, in: CdE 53,
+                        1978</title>
+                  <pages>227f</pages>
+            </bibl>
+            <bibl bibl-id="bibl-439">
+                  <title>Chr. Seeber, Untersuchungen</title>
+                  <pages>211, n. 8</pages>
+            </bibl>
+      </bibliografie>
+      <teilobjekt id="1535-1">
+            <objektname>P. Wien Vindob. Aeg. 3859 B</objektname>
+            <inhalt>
+                  <sequenz>V 148 - V126 - TG - Myth. Szenen - V99/99B - V151</sequenz>
+                  <sprueche>
+                        <l/>
+                        <s>V148</s>
+                        <s>V126</s>
+                        <s>VTG</s>
+                        <s>Mythologische SzenenV</s>
+                        <s>V99/99B</s>
+                        <s>V151</s>
+                        <end/>
+                  </sprueche>
+            </inhalt>
+            <abbildungen>
+                  <fotos>vorhanden / vollständig</fotos>
+                  <abbildung rechte="com">
+                        <datei name="Wien_Vindob_Aeg_3859_B_001.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Wien_Vindob_Aeg_3859_B_002.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Wien_Vindob_Aeg_3859_B_003.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Wien_Vindob_Aeg_3859_B_004.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Wien_Vindob_Aeg_3859_B_005.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Wien_Vindob_Aeg_3859_B_006.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Wien_Vindob_Aeg_3859_B_007.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Wien_Vindob_Aeg_3859_B_008.tif"/>
+                  </abbildung>
+            </abbildungen>
+      </teilobjekt>
+</objekt>

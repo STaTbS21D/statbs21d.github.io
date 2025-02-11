@@ -1,0 +1,87 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134741" id="1561" v:revision="10567" v:key="153a8c6265f2947" v:path="/db/totenbuch/objects/tm134741.xml">
+          <admin wer="TB-Projekt" wann="2012-01-01"/>
+          <standort>
+                    <land>IT</land>
+                    <ort>Turin</ort>
+                    <institution>Museo Egizio</institution>
+          </standort>
+          <herkunft>
+                    <region>Theben</region>
+                    <anmerkungen>erschlossen</anmerkungen>
+          </herkunft>
+          <besitzer geschlecht="F">
+                    <name ranke="I, 4.12-13">ꜣsti͗</name>
+                    <titel>nb.t-pr šmꜥ.t n Imn- Rꜥ nsw.t nṯr.w šps.t</titel>
+          </besitzer>
+          <datierung>
+                    <periode>3. Zwischenzeit</periode>
+                    <detail>21. Dynastie</detail>
+                    <jahr>Ende 21. Dynastie</jahr>
+          </datierung>
+          <form>
+                    <objektgruppe>Papyrus</objektgruppe>
+                    <material>Papyrus</material>
+                    <gesamtmasse>
+                              <laenge>116</laenge>
+                              <hoehe>24</hoehe>
+                    </gesamtmasse>
+                    <schrift>Hieratisch</schrift>
+                    <vignettenstil>farbig</vignettenstil>
+          </form>
+          <bibliografie>
+                    <bibl bibl-id="bibl-1355">
+                              <title>G. Lenzo Marchese, CSEG 8</title>
+                              <pages>69-90, Taf. 34-37a</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-2080">
+                              <title>A. Fabretti/F. Rossi/R. Lanzone, Catalogo Generale</title>
+                              <pages>232</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-1361">
+                              <title>G. Lenzo, in: BIFAO 102, 2002</title>
+                              <pages>267-283</pages>
+                    </bibl>
+          </bibliografie>
+          <teilobjekt id="1561-1">
+                    <objektname>P. Turin CGT 53007 (ehemals Nr. 1851)</objektname>
+                    <inhalt>
+                              <sequenz>A.d.O. - 33 - 37 - 38B - 54 - 55 - 38A - 56 - 13/121 - 138 -
+                                        123/139 - Titel 187 - 12/120 - 122 (58) - 57 - 132</sequenz>
+                              <sprueche>
+                                        <start/>
+                                        <s>VA.d.O.</s>
+                                        <s>33</s>
+                                        <s>37</s>
+                                        <s>38B</s>
+                                        <s>54</s>
+                                        <s>55</s>
+                                        <s>38A</s>
+                                        <s>56</s>
+                                        <s>13/121</s>
+                                        <s>138</s>
+                                        <s>123/139</s>
+                                        <s>187</s>
+                                        <s>12/120</s>
+                                        <s>122</s>
+                                        <s>57</s>
+                                        <s>132</s>
+                                        <l/>
+                              </sprueche>
+                    </inhalt>
+                    <abbildungen>
+                              <fotos>vorhanden / vollständig</fotos>
+                              <abbildung rechte="com">
+                                        <datei name="Turin_1851_001.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Turin_1851_002.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Turin_1851_003.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Turin_1851_004.tif"/>
+                              </abbildung>
+                    </abbildungen>
+          </teilobjekt>
+</objekt>

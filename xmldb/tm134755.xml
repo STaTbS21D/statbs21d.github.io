@@ -1,0 +1,49 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134755" id="1575" v:revision="10581" v:key="153a8c62aff2955" v:path="/db/totenbuch/objects/tm134755.xml">
+  <admin wer="TB-Projekt" wann="2012-01-01"/>
+  <standort>
+    <land>RO</land>
+    <ort>Bukarest</ort>
+    <institution>Library of the Rumanian Academy</institution>
+  </standort>
+  <herkunft>
+    <region>Theben</region>
+    <anmerkungen>erschlossen</anmerkungen>
+  </herkunft>
+  <besitzer geschlecht="F">
+    <name ranke="I, 299, 23">Sꜣḥti͗</name>
+    <titel>nb.t- pr</titel>
+  </besitzer>
+  <datierung>
+    <periode>Neues Reich</periode>
+    <detail>18.-19. Dynastie</detail>
+  </datierung>
+  <form>
+    <objektgruppe>Papyrus</objektgruppe>
+    <material>Papyrus</material>
+    <schrift>Hieroglyphisch</schrift>
+    <vignettenstil>farbig</vignettenstil>
+  </form>
+  <bibliografie>
+    <bibl bibl-id="bibl-2356">
+      <title>M. Cihó, Pappazoglu’s Egyptian Collection from Bucarest. Preliminary Report, in: GM 69,
+        1983</title>
+      <pages>23-26</pages>
+    </bibl>
+  </bibliografie>
+  <teilobjekt id="1575-1">
+    <objektname>P. Bukarest Mss. oriental 376</objektname>
+    <inhalt>
+      <sequenz>147 a V - 22 V - 23 V</sequenz>
+      <sprueche>
+        <l/>
+        <s>147V</s>
+        <s>22V</s>
+        <s>23V</s>
+        <l/>
+      </sprueche>
+    </inhalt>
+    <abbildungen>
+      <fotos>nicht vorhanden</fotos>
+    </abbildungen>
+  </teilobjekt>
+</objekt>

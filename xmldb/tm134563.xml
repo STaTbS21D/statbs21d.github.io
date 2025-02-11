@@ -1,0 +1,81 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134563" id="1381" v:revision="10391" v:key="153a8c5e18b2897" v:path="/db/totenbuch/objects/tm134563.xml">
+  <admin wer="TB-Projekt" wann="2012-01-01"/>
+  <standort>
+    <land>US</land>
+    <ort>New York (NY)</ort>
+    <institution>Metropolitan Museum of Art</institution>
+  </standort>
+  <herkunft>
+    <region>Theben</region>
+    <ort>Deir el-Bahari, Grab MMA 60, Grabung von Winlock 1924</ort>
+  </herkunft>
+  <besitzer geschlecht="F">
+    <name ranke="I, 350.6">Gꜣt- sšn</name>
+    <titel>nb.t- pr šmꜥ.t n Imn- Rꜥ nsw.t nṯr.w</titel>
+  </besitzer>
+  <datierung>
+    <periode>3. Zwischenzeit</periode>
+    <detail>21. Dynastie</detail>
+    <jahr>späte 21. Dynastie</jahr>
+  </datierung>
+  <form>
+    <objektgruppe>Papyrus</objektgruppe>
+    <material>Papyrus</material>
+    <gesamtmasse>
+      <hoehe>22</hoehe>
+    </gesamtmasse>
+    <schrift>Hieroglyphisch</schrift>
+    <vignettenstil>farbig</vignettenstil>
+  </form>
+  <bibliografie>
+    <bibl bibl-id="bibl-805">
+      <title>A. Piankoff/N. Rambova, Mythological Papyri</title>
+      <pages>185 + Frontspiece, Pap. N° 24 B</pages>
+    </bibl>
+    <bibl bibl-id="bibl-926">
+      <title>A. Niwinski, Studies on the Illustrated Theban Funerary Papyri of the 11th and 10th
+        Centuries B.C., OBO 86, Fribourg/Göttingen 1989</title>
+      <pages>346 (New York 9)</pages>
+    </bibl>
+    <bibl bibl-id="bibl-78">
+      <title>Winlock, The Egyptian Expedition 1924-1925. The Museum's Excavation at Thebes, in:
+        BMMA, March 1926</title>
+      <pages>30, Fig. 30</pages>
+    </bibl>
+    <bibl bibl-id="bibl-2675">
+      <title>M. Bellion</title>
+      <pages>228</pages>
+    </bibl>
+    <bibl bibl-id="bibl-1359">
+      <title>G. Lenzo Marchese, in: BSEG 26, 2004</title>
+      <pages>43-62</pages>
+    </bibl>
+  </bibliografie>
+  <teilobjekt id="1381-1">
+    <objektname>P. New York MMA 25.3.32</objektname>
+    <inhalt>
+      <sequenz>A.d.O. + Isis - Tb 190 - 148 - 135 - 1B/172(Pleyte) - 15 B III</sequenz>
+      <sprueche>
+        <start/>
+        <s>VA.d.O.</s>
+        <s>190</s>
+        <s>148</s>
+        <s>135</s>
+        <s>172 (Pleyte)/1B</s>
+        <s>15</s>
+        <end/>
+      </sprueche>
+    </inhalt>
+    <objektmasse>L. 140 cm</objektmasse>
+    <abbildungen>
+      <fotos>vorhanden / vollständig</fotos>
+      <kommentar>Kopie gescannt CBS 04.01</kommentar>
+      <abbildung rechte="com">
+        <datei name="MMA_25_3_32_(1).JPG"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="MMA_2_3_32_1.tif"/>
+      </abbildung>
+    </abbildungen>
+  </teilobjekt>
+</objekt>

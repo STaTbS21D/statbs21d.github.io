@@ -1,0 +1,289 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134518" id="1335" v:revision="10346" v:key="153a8c5d1ee286a" v:path="/db/totenbuch/objects/tm134518.xml">
+          <admin wer="TB-Projekt" wann="2012-01-01"/>
+          <anmerkungen>zur Datierung: Jziw wurde in der Regierungszeit des Psusennes I. bestattet </anmerkungen>
+          <standort>
+                    <land>GB</land>
+                    <ort>London</ort>
+                    <institution>British Museum</institution>
+                    <provenienz>erworben von Sir E. Stanton</provenienz>
+          </standort>
+          <herkunft>
+                    <region>Theben</region>
+                    <anmerkungen>Royal Cachette von Deir el-Bahari</anmerkungen>
+          </herkunft>
+          <besitzer geschlecht="F">
+                    <name ranke="I, 215.24">Nḏmt</name>
+                    <titel>Königin</titel>
+                    <verwandt rel="Ehemann">
+                              <name>Hri͗- Ḥr</name>
+                              <titel>Hoherpriester</titel>
+                    </verwandt>
+                    <verwandt rel="Mutter">
+                              <name>Ḥrr</name>
+                    </verwandt>
+          </besitzer>
+          <datierung>
+                    <periode>3. Zwischenzeit</periode>
+                    <detail>21. Dynastie</detail>
+                    <jahr>Psusennes I.</jahr>
+          </datierung>
+          <form>
+                    <objektgruppe>Papyrus</objektgruppe>
+                    <material>Papyrus</material>
+                    <gesamtmasse>
+                              <laenge>396</laenge>
+                              <hoehe>22,86</hoehe>
+                    </gesamtmasse>
+                    <schrift>Hieroglyphisch</schrift>
+                    <schrift>Hieratisch</schrift>
+                    <vignettenstil>farbig</vignettenstil>
+          </form>
+          <bibliografie>
+                    <bibl bibl-id="bibl-2474">
+                              <title>E.A.W. Budge, The Book of the Dead, Facsimiles of the Papyri of
+                                        Hunefer, Anhai, Kerâsher and Netchemet with Supplementary
+                                        Text from the Papyrus of Nu, London 1899</title>
+                              <pages>pl. 1-12, p. 44-62</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-274">
+                              <title>J. Taylor (Hrg.), Journey through the Afterlife, Ancient
+                                        Egyptian Book of the Dead, London 2010</title>
+                              <pages>271</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-1360">
+                              <title>Giuseppina Lenzo, The two funerary papyri of Queen Nedjmet (P.
+                                        BM EA 10490 and P. BM EA 10541 + Louvre E. 6258), in: BMSAES
+                                        15, 2010</title>
+                              <pages>63-83</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-926">
+                              <title>A. Niwinski, Studies on the Illustrated Theban Funerary Papyri
+                                        of the 11th and 10th Centuries B.C., OBO 86,
+                                        Fribourg/Göttingen 1989</title>
+                              <pages>337 (London 59), (mit weiterer Lit.)</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-516">
+                              <title>A. Sallé, in: Archeologia 255, 1990</title>
+                              <pages>28-35, mit Abb. S. 35</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-2675">
+                              <title>M. Bellion</title>
+                              <pages>240 (mit weiterer Lit.)</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-1628">
+                              <title>K. Jansen-Winkeln, Text u. Sprache in der 3. Zwischenzeit, ÄAT
+                                        26, Wiesbaden 1994</title>
+                              <pages>268</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-716">
+                              <title>St. Quirke, Owners</title>
+                              <pages>47, Nr. 126 mit Anm. S. 78</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-1361">
+                              <title>G. Lenzo, in: BIFAO 102, 2002</title>
+                              <pages>267-283</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-1359">
+                              <title>G. Lenzo Marchese, in: BSEG 26, 2004</title>
+                              <pages>43-62</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-154">
+                              <title>U. Verhoeven, Untersuchungen zur späthieratischen Buchschrift,
+                                        OLA 99, Leuven 2001</title>
+                              <pages>passim</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-549">
+                              <title>U. Rößler-Köhler, in: U. Verhoeven/E. Graefe (Hgg.), Religion
+                                        und Philosophie im Alten Ägypten, FS Derchain, OLA 39,
+                                        Leuven 1991</title>
+                              <pages>286ff</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-546">
+                              <title>U. Rößler-Köhler, in: I. Munro, Der Totenbuchpapyrus des
+                                        Hohenpriesters Pa-nedjem II, HAT 3, Wiesbaden 1996</title>
+                              <pages>49-52</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-1816">
+                              <title>E. Haslauer, in: Jahrbuch des Kunsthistorischen Museums Wien
+                                        Band 6/7, 2006</title>
+                              <pages>233-239, bes. 234 (zu Tb 19, Kranz der Rechtfertigung)</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-2476">
+                              <title>E.A.W. Budge, BD</title>
+                              <pages>104-109 (Tb 19A)</pages>
+                    </bibl>
+          </bibliografie>
+          <teilobjekt id="1335-1">
+                    <objektname>P. London BM EA 10490 (P. Nedjmet B)</objektname>
+                    <inhalt>
+                              <sequenz>A.d.O. + Amun-Re-Harachte - Tb 190 - 148 - Amduat - 125A -
+                                        125B - 19A (Budge) - 100/129 - 101 - 91 - 1B/172(Pleyte) +
+                                        Amduat</sequenz>
+                              <sprueche>
+                                        <start/>
+                                        <s>VA.d.O.</s>
+                                        <s>190</s>
+                                        <s>148</s>
+                                        <s>125</s>
+                                        <s>125</s>
+                                        <s>19</s>
+                                        <s>100/129</s>
+                                        <s>101</s>
+                                        <s>91</s>
+                                        <s>172 (Pleyte)/1B</s>
+                                        <s>Amduat</s>
+                                        <end/>
+                              </sprueche>
+                              <anmerkungenText>Papyrus-Mischtyp aus Tb + Amduat; zwischendurch als
+                                        Vignetten immer Amduatszenen</anmerkungenText>
+                    </inhalt>
+                    <abbildungen>
+                              <fotos>vorhanden / unvollständig</fotos>
+                              <kommentar>Photos: Niwinski </kommentar>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10490_001.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10490_002.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10490_003.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10490_004.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10490_005.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10490_006.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10490_007.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10490_008.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10490_009.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10490_010.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10490_011.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10490_012.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10490_013.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10490_014.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10490_015.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10490_016.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10490_017.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10490_018.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10490_019.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10490_020.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10490_021.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10490_022.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10490_023.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10490_024.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10490_025.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10490_026.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10490_027.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10490_028.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10490_029.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10490_030.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10490_031.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10490_032.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10490_033.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10490_034.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10490_035.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10490_036.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10490_037.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10490_038.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10490_039.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10490_040.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10490_041.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10490_042.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10490_043.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10490_044.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10490_045.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10490_046.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10490_047.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10490_048.tif"/>
+                              </abbildung>
+                    </abbildungen>
+          </teilobjekt>
+</objekt>

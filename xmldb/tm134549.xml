@@ -1,0 +1,86 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134549" id="1366" v:revision="10377" v:key="153a8c5dcc52889" v:path="/db/totenbuch/objects/tm134549.xml">
+          <admin wer="TB-Projekt" wann="2012-01-01"/>
+          <standort>
+                    <land>GB</land>
+                    <ort>London</ort>
+                    <institution>British Museum</institution>
+                    <provenienz>Sammlung Salt, Nr. 827</provenienz>
+          </standort>
+          <herkunft>
+                    <region>Theben</region>
+                    <anmerkungen>erschlossen</anmerkungen>
+          </herkunft>
+          <besitzer geschlecht="M">
+                    <name ranke="I, 249.9">Ḥr- nfr</name>
+                    <titel>sš n pr Imn- Rꜥ nsw.t nṯr.w</titel>
+          </besitzer>
+          <datierung>
+                    <periode>3. Zwischenzeit</periode>
+                    <detail>21. Dynastie</detail>
+                    <jahr>1. Hälfte 21. Dynastie</jahr>
+          </datierung>
+          <form>
+                    <objektgruppe>Papyrus</objektgruppe>
+                    <material>Papyrus</material>
+                    <gesamtmasse>
+                              <beschreibung>H. 23 cm, L. 1,55 cm</beschreibung>
+                    </gesamtmasse>
+                    <schrift>Hieroglyphisch</schrift>
+                    <vignettenstil>farbig</vignettenstil>
+          </form>
+          <bibliografie>
+                    <bibl bibl-id="bibl-926">
+                              <title>A. Niwinski, Studies on the Illustrated Theban Funerary Papyri
+                                        of the 11th and 10th Centuries B.C., OBO 86,
+                                        Fribourg/Göttingen 1989</title>
+                              <pages>329 (London 34)</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-2675">
+                              <title>M. Bellion</title>
+                              <pages>56 (mit weiterer Lit.)</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-1628">
+                              <title>K. Jansen-Winkeln, Text u. Sprache in der 3. Zwischenzeit, ÄAT
+                                        26, Wiesbaden 1994</title>
+                              <pages>271</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-439">
+                              <title>Chr. Seeber, Untersuchungen</title>
+                              <pages>212, n. 15</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-716">
+                              <title>St. Quirke, Owners</title>
+                              <pages>40, Nr. 81 mit Anm. S. 75</pages>
+                    </bibl>
+          </bibliografie>
+          <teilobjekt id="1366-1">
+                    <objektname>P. London BM EA 10013 (P. Salt 827)</objektname>
+                    <inhalt>
+                              <sequenz>Re-Harachte vor Osiris in Anbetung - Rede des Thot - Hymnus
+                                        an Osiris - TG - 15 - ? - 100/129V</sequenz>
+                              <sprueche>
+                                        <start/>
+                                        <s>VAdorationsszene</s>
+                                        <s>Ausserordentliches Textgut</s>
+                                        <s>Hymnus</s>
+                                        <s>VTG</s>
+                                        <s>15</s>
+                                        <s>?</s>
+                                        <s>100/129V</s>
+                                        <end/>
+                              </sprueche>
+                    </inhalt>
+                    <abbildungen>
+                              <fotos>vorhanden / vollständig</fotos>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10013_001.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10013_002.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10013_003.tif"/>
+                              </abbildung>
+                    </abbildungen>
+          </teilobjekt>
+</objekt>

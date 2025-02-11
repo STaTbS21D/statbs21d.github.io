@@ -1,0 +1,498 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134448" id="1264" v:revision="10276" v:key="153a8c5b8c42824" v:path="/db/totenbuch/objects/tm134448.xml">
+          <admin wer="TB-Projekt" wann="2012-01-01"/>
+          <anmerkungen>PhD Thesis über Spr. 177 u. 178 bei Soraya Luján in Vorbereitung
+                    2010</anmerkungen>
+          <anmerkungen>Fast identische Sequenz mit pLondon BM 10064</anmerkungen>
+          <standort>
+                    <land>EG</land>
+                    <ort>Kairo</ort>
+                    <institution>Ägyptisches Museum</institution>
+          </standort>
+          <herkunft>
+                    <region>Theben</region>
+                    <ort>Cachette von Deir el-Bahari (Bab el Gasus)</ort>
+          </herkunft>
+          <besitzer geschlecht="F">
+                    <name ranke="I, 350.6">Gꜣt- sšn</name>
+                    <titel>nb.t- pr wr.t ḫnr.t tp.t n Imn šmꜥ.t n Imn ḥsi͗.t ꜥꜣ.t (n) Mwt</titel>
+                    <verwandt rel="Vater">
+                              <name>Mn- ḫpr- Rꜥ</name>
+                              <titel>Hoherpriester</titel>
+                    </verwandt>
+          </besitzer>
+          <datierung>
+                    <periode>3. Zwischenzeit</periode>
+                    <detail>21. Dynastie</detail>
+                    <jahr>späte 21. Dynastie</jahr>
+          </datierung>
+          <form>
+                    <objektgruppe>Papyrus</objektgruppe>
+                    <material>Papyrus</material>
+                    <gesamtmasse>
+                              <beschreibung>H. 33 cm, L. 17,94 m</beschreibung>
+                    </gesamtmasse>
+                    <schrift>Hieratisch</schrift>
+                    <vignettenstil>farbig</vignettenstil>
+          </form>
+          <bibliografie>
+                    <bibl bibl-id="bibl-955">
+                              <title>E. Naville, Papyrus funéraires de la XXIe Dynastie, Le Papyrus
+                                        hiéroglyphique de Kamara et le Papyrus hiératique de
+                                        Nesikhonsou au Musée du Caire I</title>
+                    </bibl>
+                    <bibl bibl-id="bibl-1270">
+                              <title>R. Lucarelli, The Book of the Dead of Gatseshen. Ancient
+                                        Egyptian Funerary Religion in the 10th Century BC, EU 21,
+                                        Leiden 2006</title>
+                    </bibl>
+                    <bibl bibl-id="bibl-2675">
+                              <title>M. Bellion</title>
+                              <pages>103 f (mit weiterer Lit.)</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-1628">
+                              <title>K. Jansen-Winkeln, Text u. Sprache in der 3. Zwischenzeit, ÄAT
+                                        26, Wiesbaden 1994</title>
+                              <pages>266</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-926">
+                              <title>A. Niwinski, Studies on the Illustrated Theban Funerary Papyri
+                                        of the 11th and 10th Centuries B.C., OBO 86,
+                                        Fribourg/Göttingen 1989</title>
+                              <pages>264 (Cairo 32)</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-545">
+                              <title>U. Rößler-Köhler, SAT 3, 1999</title>
+                              <pages>85-86</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-1519">
+                              <title>H. Kockelmann, in: S. Bickel/A. Loprieno (Hgg.), AH 17, Basel
+                                        2003</title>
+                              <pages>296-314</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-1361">
+                              <title>G. Lenzo, in: BIFAO 102, 2002</title>
+                              <pages>267-283</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-1359">
+                              <title>G. Lenzo Marchese, in: BSEG 26, 2004</title>
+                              <pages>43-62</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-1274">
+                              <title>R. Lucarelli, in: A. Amenta et al. (Hgg.), L’aqua nell’antico
+                                        Egitto, Proceedings of the First International Conference
+                                        for Young Egyptologists (Italy, Chianciano Terme, October
+                                        15-18, 2003), Rom 2005</title>
+                              <pages>319-328</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-1276">
+                              <title>R. Lucarelli, in: Aegyptus Jhg. 82, Heft 1-2 (2002)</title>
+                              <pages>81-91</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-1120">
+                              <title>H. Milde, Vignetten-Forschung, in: B. Backes/I. Munro/S. Stöhr
+                                        (Hgg.), Totenbuch-Forschungen. Gesammelte Beiträge des 2.
+                                        Internationalen Totenbuch-Symposiums, Bonn 25. - 29.
+                                        September 2005, SAT 11, Wiesbaden 2006</title>
+                              <pages>221-231 m. Abb. 2, 3, (aus Naville)</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-916">
+                              <title>A. Niwinski, in: B. Backes/M. Müller/S. Stöhr (Hgg.),
+                                        Ausgestattet mit den Schriften des Thot. Festschrift für
+                                        Irmtraut Munro zu ihrem 65. Geburtstag, SAT 14, Wiesbaden
+                                        2009</title>
+                              <pages>139</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-277">
+                              <title>M. Tarasenko, in: B. Backes/M. Müller/S. Stöhr (Hgg.),
+                                        Ausgestattet mit den Schriften des Thot. Festschrift für
+                                        Irmtraut Munro zu ihrem 65. Geburtstag, SAT 14, Wiesbaden
+                                        2009</title>
+                              <pages>243, 250</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-694">
+                              <title>Chloe Ragazzoli, The Book of the Dead of Ankhesenaset (P. BNF
+                                        Egyptien 62-88). Traces of workshop production or scribal
+                                        experiments?, in: BMSAES 15, 2010</title>
+                              <pages>225-248</pages>
+                    </bibl>
+          </bibliografie>
+          <teilobjekt id="1264-1">
+                    <objektname>P. Kairo J.E. 95838 (S.R. IV 936)</objektname>
+                    <inhalt>
+                              <sequenz>A.d.O. - Tb 17 - 18 - 23 - 24 - 25 - 26 I - 28 I - 27 I [V] -
+                                        180 - 181 - 15B III - 130 - 136/136A I - 134 I - 64 - 133 -
+                                        136/136A II - 134 IIV - 1V - 72 - 2 I - 3 - 65 - 92 - 68V -
+                                        69 - 70 - 101 - 100/129V - 136B V - 136/136A III V - 98V -
+                                        99/99B V - 63B - 8 - 14 - 78V - 82V - 77V - 86V - 85V - 83V
+                                        - 84V - 81A V - 80 [V]- 87 - 88 - 76 - 115 - 116 - 111 -
+                                        112V - 113V - 107V - 108V - 109V - 114 - 102V - 119 - 7 - 39
+                                        - 42V - 41 - 41B - 31V - 32 - 40 - 36 - 33 - 37 - 38B V - 54
+                                        - 55 - 38A - 56 - 13/121 - 138 - 123/139 - 187 - 12/120 - 58
+                                        - 57 - 132 - 189 - 53 - 91 - 44 - 93 - 50 - 188 - 117 - 118
+                                        - 34 - 35 - 74 - 45 - 63A - 156 - 155 - 79 - 75 - 179 - 61 I
+                                        - 30B V - 29 - 27 - 28 II - 11 - 2 II - 4 - 43 - 61 II - 6 -
+                                        5 - 105V - 47 - 103 I - 104V - 96 - 97V - 94 - 103 II V -
+                                        10/48 - 90 - 131 - 141/142 - 190 - 146 - 145V+V137A - 147V -
+                                        26 II - 135 - 152 - 148V - 153A V- 153B V - 125A - 125B -
+                                        125C+D V - 149 - V 149 - V 150- V 136B - 151 - Ritualtext:
+                                        Stundenwachen - 177 - 110 - 178 - V 110 + Reinigungsszene +
+                                        Schlußvermerk</sequenz>
+                              <sprueche>
+                                        <start/>
+                                        <s>VA.d.O.</s>
+                                        <s>17</s>
+                                        <s>18</s>
+                                        <s>23</s>
+                                        <s>24</s>
+                                        <s>25</s>
+                                        <s>26</s>
+                                        <s>28</s>
+                                        <s>27</s>
+                                        <s>180</s>
+                                        <s>181</s>
+                                        <s>15</s>
+                                        <s>130</s>
+                                        <s>136/136A</s>
+                                        <s>134</s>
+                                        <s>64</s>
+                                        <s>133</s>
+                                        <s>136/136A</s>
+                                        <s>134</s>
+                                        <s>1V</s>
+                                        <s>72</s>
+                                        <s>2</s>
+                                        <s>3</s>
+                                        <s>65</s>
+                                        <s>92</s>
+                                        <s>68V</s>
+                                        <s>69</s>
+                                        <s>70</s>
+                                        <s>101</s>
+                                        <s>100/129V</s>
+                                        <s>136BV</s>
+                                        <s>136/136AV</s>
+                                        <s>98V</s>
+                                        <s>99/99BV</s>
+                                        <s>63B</s>
+                                        <s>8</s>
+                                        <s>14</s>
+                                        <s>78V</s>
+                                        <s>82V</s>
+                                        <s>77V</s>
+                                        <s>86V</s>
+                                        <s>85V</s>
+                                        <s>83V</s>
+                                        <s>84V</s>
+                                        <s>81AV</s>
+                                        <s>80V</s>
+                                        <s>87</s>
+                                        <s>88</s>
+                                        <s>76</s>
+                                        <s>115</s>
+                                        <s>116</s>
+                                        <s>111</s>
+                                        <s>112V</s>
+                                        <s>113V</s>
+                                        <s>107V</s>
+                                        <s>108V</s>
+                                        <s>109V</s>
+                                        <s>114</s>
+                                        <s>102V</s>
+                                        <s>119</s>
+                                        <s>7</s>
+                                        <s>39</s>
+                                        <s>42V</s>
+                                        <s>41</s>
+                                        <s>41B</s>
+                                        <s>31V</s>
+                                        <s>32</s>
+                                        <s>40</s>
+                                        <s>36</s>
+                                        <s>33</s>
+                                        <s>37</s>
+                                        <s>38BV</s>
+                                        <s>54</s>
+                                        <s>55</s>
+                                        <s>38A</s>
+                                        <s>56</s>
+                                        <s>13/121</s>
+                                        <s>138</s>
+                                        <s>123/139</s>
+                                        <s>187</s>
+                                        <s>12/120</s>
+                                        <s>58</s>
+                                        <s>57</s>
+                                        <s>132</s>
+                                        <s>189</s>
+                                        <s>53</s>
+                                        <s>91</s>
+                                        <s>44</s>
+                                        <s>93</s>
+                                        <s>50</s>
+                                        <s>188</s>
+                                        <s>117</s>
+                                        <s>118</s>
+                                        <s>34</s>
+                                        <s>35</s>
+                                        <s>74</s>
+                                        <s>45</s>
+                                        <s>63A</s>
+                                        <s>156</s>
+                                        <s>155</s>
+                                        <s>79</s>
+                                        <s>75</s>
+                                        <s>179</s>
+                                        <s>61</s>
+                                        <s>30BV</s>
+                                        <s>29</s>
+                                        <s>27</s>
+                                        <s>28</s>
+                                        <s>11/49</s>
+                                        <s>2</s>
+                                        <s>4</s>
+                                        <s>43</s>
+                                        <s>61</s>
+                                        <s>6</s>
+                                        <s>5</s>
+                                        <s>105V</s>
+                                        <s>47</s>
+                                        <s>103</s>
+                                        <s>104V</s>
+                                        <s>96 oder 97V</s>
+                                        <s>94</s>
+                                        <s>103V</s>
+                                        <s>10/48</s>
+                                        <s>90</s>
+                                        <s>131</s>
+                                        <s>141</s>
+                                        <s>142</s>
+                                        <s>190</s>
+                                        <s>146</s>
+                                        <s>145V + V137A</s>
+                                        <s>147V</s>
+                                        <s>26</s>
+                                        <s>135</s>
+                                        <s>152</s>
+                                        <s>148V</s>
+                                        <s>153AV</s>
+                                        <s>153BV</s>
+                                        <s>125</s>
+                                        <s>125</s>
+                                        <s>125</s>
+                                        <s>125V</s>
+                                        <s>149</s>
+                                        <s>V149</s>
+                                        <s>V150</s>
+                                        <s>V136B</s>
+                                        <s>151</s>
+                                        <s>Ritualtext</s>
+                                        <s>177</s>
+                                        <s>110</s>
+                                        <s>178</s>
+                                        <s>V110</s>
+                                        <s>V?</s>
+                                        <s>Schlussvermerk</s>
+                                        <end/>
+                              </sprueche>
+                    </inhalt>
+                    <abbildungen>
+                              <fotos>vorhanden / vollständig</fotos>
+                              <kommentar>siehe Publikation; extra Ordner; CD-Rom</kommentar>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95838_1.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95838_10.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95838_12.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95838_13.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95838_14.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95838_15.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95838_16.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95838_17.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95838_18.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95838_19.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95838_2.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95838_20.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95838_21.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95838_22.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95838_23.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95838_24.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95838_25.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95838_26.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95838_27.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95838_28.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95838_29.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95838_3.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95838_30.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95838_31.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95838_32.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95838_33.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95838_34.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95838_35.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95838_36.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95838_37.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95838_38.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95838_39.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95838_4.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95838_40.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95838_41.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95838_42.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95838_43.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95838_44.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95838_45.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95838_46.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95838_47.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95838_48.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95838_49.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95838_5.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95838_50.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95838_51.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95838_52.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95838_53.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95838_54.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95838_55.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95838_56.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95838_57.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95838_58.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95838_59.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95838_6.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95838_60.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95838_61.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95838_62.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95838_63.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95838_64.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95838_65.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95838_66.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95838_7.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95838_8.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95838_9.tif"/>
+                              </abbildung>
+                    </abbildungen>
+          </teilobjekt>
+</objekt>

@@ -1,0 +1,394 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134515" id="1332" v:revision="10343" v:key="153a8c5d0072867" v:path="/db/totenbuch/objects/tm134515.xml">
+    <admin wer="TB-Projekt" wann="2012-01-01"/>
+    <anmerkungen>1874 durch Sir A. Campbell in Luxor erworben, Schenkung an das BM 1960; zur
+        Datierung: Bestattung d. Ga-jzi II. im Jahr 10 des Siamun</anmerkungen>
+    <standort>
+        <land>GB</land>
+        <ort>London</ort>
+        <institution>British Museum</institution>
+    </standort>
+    <herkunft>
+        <region>Theben</region>
+        <anmerkungen>Royal Cachette von Deir el-Bahari</anmerkungen>
+    </herkunft>
+    <besitzer geschlecht="M">
+        <name ranke="I, 114.10">Pꜣ- nḏm</name>
+        <titel>ḥm- nṯr tp.i͗ n Imn- Rꜥ nsw.t nṯr.w i͗m.i͗- rꜣ mšꜣ wr i͗r ꜣḫ.t m Ipt- swt</titel>
+    </besitzer>
+    <datierung>
+        <periode>3. Zwischenzeit</periode>
+        <detail>21. Dynastie</detail>
+        <jahr>späte 21. Dynastie</jahr>
+    </datierung>
+    <form>
+        <objektgruppe>Papyrus</objektgruppe>
+        <material>Papyrus</material>
+        <gesamtmasse>
+            <laenge>608</laenge>
+            <hoehe>34</hoehe>
+        </gesamtmasse>
+        <schrift>Hieratisch</schrift>
+        <vignettenstil>farbig</vignettenstil>
+    </form>
+    <bibliografie>
+        <bibl bibl-id="bibl-706">
+            <title>St. Quirke/J. Spencer (Hgg.), The British Museum Book of Ancient Egypt, London
+                1992</title>
+            <pages>29, Abb. 17</pages>
+        </bibl>
+        <bibl bibl-id="bibl-1189">
+            <title>. Maspero, Les momies royales de Déir-el-Baharî</title>
+            <pages>pl. I (zeigt d. Vign. noch in unbeschädigtem Zustand!)</pages>
+        </bibl>
+        <bibl bibl-id="bibl-1647">
+            <title>T.G.H. James, The BM and Ancient Egypt (Kat. London), London 1983</title>
+            <pages>Abb. S. 30</pages>
+        </bibl>
+        <bibl bibl-id="bibl-2831">
+            <title>Unrolled Again after 3000 Years, The Book of the Dead of Pinudjem, in: The
+                illustrated London News, Vol. 237. Nr. 6335 (December 31, 1960)</title>
+            <pages>1180 mit 5 Abb</pages>
+        </bibl>
+        <bibl bibl-id="bibl-1042">
+            <title>I. Munro, Der Totenbuch-Papyrus des Hohenpriesters Pa-nedjem II. (pLondon BM
+                10793/pCambell), HAT 3, Wiesbaden 1996</title>
+        </bibl>
+        <bibl bibl-id="bibl-1646">
+            <title>T.G.H. James, Egyptian Painting, London 1985</title>
+            <pages>Abb. 71</pages>
+        </bibl>
+        <bibl bibl-id="bibl-2742">
+            <title>Backes, in: SAT 14, 2009</title>
+            <pages>21</pages>
+        </bibl>
+        <bibl bibl-id="bibl-2675">
+            <title>M. Bellion</title>
+            <pages>74 (mit weiterer Lit.)</pages>
+        </bibl>
+        <bibl bibl-id="bibl-926">
+            <title>A. Niwinski, Studies on the Illustrated Theban Funerary Papyri of the 11th and
+                10th Centuries B.C., OBO 86, Fribourg/Göttingen 1989</title>
+            <pages>339 (London 63), (mit weiterer Lit.)</pages>
+        </bibl>
+        <bibl bibl-id="bibl-716">
+            <title>St. Quirke, Owners</title>
+            <pages>60, Nr. 210 mit Anm. S. 83</pages>
+        </bibl>
+        <bibl bibl-id="bibl-1628">
+            <title>K. Jansen-Winkeln, Text u. Sprache in der 3. Zwischenzeit, ÄAT 26, Wiesbaden
+                1994</title>
+            <pages>268</pages>
+        </bibl>
+        <bibl bibl-id="bibl-1645">
+            <title>T.G.H. James, A Short History of Ancient Egypt, Kairo 1995</title>
+            <pages>130</pages>
+        </bibl>
+        <bibl bibl-id="bibl-545">
+            <title>U. Rößler-Köhler, SAT 3, 1999</title>
+            <pages>92-95</pages>
+        </bibl>
+        <bibl bibl-id="bibl-1519">
+            <title>H. Kockelmann, in: S. Bickel/A. Loprieno (Hgg.), AH 17, Basel 2003</title>
+            <pages>296-314</pages>
+        </bibl>
+        <bibl bibl-id="bibl-1361">
+            <title>G. Lenzo, in: BIFAO 102, 2002</title>
+            <pages>267-283</pages>
+        </bibl>
+        <bibl bibl-id="bibl-1359">
+            <title>G. Lenzo Marchese, in: BSEG 26, 2004</title>
+            <pages>43-62</pages>
+        </bibl>
+        <bibl bibl-id="bibl-694">
+            <title>Chloe Ragazzoli, The Book of the Dead of Ankhesenaset (P. BNF Egyptien 62-88).
+                Traces of workshop production or scribal experiments?, in: BMSAES 15, 2010</title>
+            <pages>225-248</pages>
+        </bibl>
+    </bibliografie>
+    <teilobjekt id="1332-1">
+        <objektname>P. London BM EA 10793 (P. Campbell)</objektname>
+        <inhalt>
+            <sequenz>A.d.O. - Tb 1 - 17 - 18 - 23 - 24 - 25 I - Forts. 24 - 25 II - 26 I - 28 I - 27
+                I - 38B - 40 - 36 I - 33 - 37 - 56 - 61 I - 30B - 29 - 27 II - 28 II - 11/49 - 2 - 4
+                - 43 - 61 II - 6 - 5 - 105 - 47 - 104 - 96/97 - 94 - 103 - 36 I - 55 - 117 - 118 -
+                21 - 12/120 - 122 - 31 - 10/48 - 90 - 131 - 102 - 41B - 32 - 134 I - 15 - 115 - 116
+                - 81A - 80 - 87 - 88 - 76 - 53 - 91 - 44 - 93 - 50 - 124 - 26 - 135 - 130 - 136/136A
+                - 134 II - 125C+D</sequenz>
+            <sprueche>
+                <start/>
+                <s>VA.d.O.</s>
+                <s>1</s>
+                <s>17</s>
+                <s>18</s>
+                <s>23</s>
+                <s>24</s>
+                <s>25</s>
+                <s>24</s>
+                <s>25</s>
+                <s>26</s>
+                <s>28</s>
+                <s>27</s>
+                <s>38B</s>
+                <s>40</s>
+                <s>36</s>
+                <s>33</s>
+                <s>37</s>
+                <s>56</s>
+                <s>61</s>
+                <s>30B</s>
+                <s>29</s>
+                <s>27</s>
+                <s>28</s>
+                <s>11/49</s>
+                <s>2</s>
+                <s>4</s>
+                <s>43</s>
+                <s>61</s>
+                <s>6</s>
+                <s>5</s>
+                <s>105</s>
+                <s>47</s>
+                <s>104</s>
+                <s>96 oder 97</s>
+                <s>94</s>
+                <s>103</s>
+                <s>36</s>
+                <s>55</s>
+                <s>117</s>
+                <s>118</s>
+                <s>21</s>
+                <s>12/120</s>
+                <s>122</s>
+                <s>31</s>
+                <s>10/48</s>
+                <s>90</s>
+                <s>131</s>
+                <s>102</s>
+                <s>41B</s>
+                <s>32</s>
+                <s>134</s>
+                <s>15</s>
+                <s>115</s>
+                <s>116</s>
+                <s>81A</s>
+                <s>80</s>
+                <s>87</s>
+                <s>88</s>
+                <s>76</s>
+                <s>53</s>
+                <s>91</s>
+                <s>44</s>
+                <s>93</s>
+                <s>50</s>
+                <s>124</s>
+                <s>26</s>
+                <s>135</s>
+                <s>130</s>
+                <s>136/136A</s>
+                <s>134</s>
+                <s>125</s>
+                <s>125</s>
+                <end/>
+            </sprueche>
+        </inhalt>
+        <abbildungen>
+            <fotos>vorhanden / vollständig</fotos>
+            <kommentar>siehe Publikation; s. a. Großformate Mappe 11</kommentar>
+            <abbildung rechte="com">
+                <datei name="London_BM_10793_001.jpg"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="LonDon_BM_10793_001_2.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="LonDon_BM_10793_002.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="LonDon_BM_10793_003.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="LonDon_BM_10793_004.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="LonDon_BM_10793_005.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="LonDon_BM_10793_006.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="LonDon_BM_10793_007.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="LonDon_BM_10793_008.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="LonDon_BM_10793_009.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="LonDon_BM_10793_010.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="LonDon_BM_10793_011.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="LonDon_BM_10793_012.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="LonDon_BM_10793_013.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="LonDon_BM_10793_014.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="LonDon_BM_10793_015.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="LonDon_BM_10793_016.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="LonDon_BM_10793_017.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="LonDon_BM_10793_018.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="LonDon_BM_10793_019.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="LonDon_BM_10793_020.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="LonDon_BM_10793_021.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="LonDon_BM_10793_022.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="LonDon_BM_10793_023.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="LonDon_BM_10793_024.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="LonDon_BM_10793_025.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="LonDon_BM_10793_026.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="LonDon_BM_10793_027.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="LonDon_BM_10793_028.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="LonDon_BM_10793_029.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="LonDon_BM_10793_030.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="LonDon_BM_10793_031.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="LonDon_BM_10793_033.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="LonDon_BM_10793_034.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="LonDon_BM_10793_035.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="LonDon_BM_10793_036.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="LonDon_BM_10793_037.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="LonDon_BM_10793_038.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="LonDon_BM_10793_039.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="LonDon_BM_10793_040.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="LonDon_BM_10793_041.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="LonDon_BM_10793_042.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="LonDon_BM_10793_043.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="LonDon_BM_10793_044.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="LonDon_BM_10793_045.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="LonDon_BM_10793_046.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="LonDon_BM_10793_047.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="LonDon_BM_10793_048.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="LonDon_BM_10793_049.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="LonDon_BM_10793_050.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="LonDon_BM_10793_051.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="LonDon_BM_10793_052.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="LonDon_BM_10793_053.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="LonDon_BM_10793_054.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="LonDon_BM_10793_055.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="LonDon_BM_10793_056.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="LonDon_BM_10793_057.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="LonDon_BM_10793_058.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="LonDon_BM_10793_059.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="LonDon_BM_10793_060.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="LonDon_BM_10793_061.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="LonDon_BM_10793_062.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="LonDon_BM_10793_063.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="LonDon_BM_10793_064.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="LonDon_BM_10793_065.tif"/>
+            </abbildung>
+        </abbildungen>
+    </teilobjekt>
+</objekt>

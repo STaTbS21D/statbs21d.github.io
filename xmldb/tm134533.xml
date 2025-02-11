@@ -1,0 +1,188 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134533" id="1350" v:revision="10361" v:key="153a8c5d73e2879" v:path="/db/totenbuch/objects/tm134533.xml">
+          <admin wer="TB-Projekt" wann="2012-01-01"/>
+          <anmerkungen>gleiche Werkstatt wie pLondon BM 9903</anmerkungen>
+          <standort>
+                    <land>GB</land>
+                    <ort>London</ort>
+                    <institution>British Museum</institution>
+                    <provenienz>Sammlung Barker, Nr. 217, erworben 1833</provenienz>
+          </standort>
+          <herkunft>
+                    <region>Theben</region>
+                    <anmerkungen>erschlossen</anmerkungen>
+          </herkunft>
+          <besitzer geschlecht="F">
+                    <name ranke="I, 4.3">ꜣst- m- ꜣḫ- bi͗t</name>
+                    <titel>nb.t- pr šmꜥ.t n Imn</titel>
+                    <verwandt rel="Mutter">
+                              <name>Mꜣꜥt- m- ḥb</name>
+                    </verwandt>
+          </besitzer>
+          <datierung>
+                    <periode>3. Zwischenzeit</periode>
+                    <detail>21. Dynastie</detail>
+                    <jahr>Mitte - Ende 21. Dynastie</jahr>
+          </datierung>
+          <form>
+                    <objektgruppe>Papyrus</objektgruppe>
+                    <material>Papyrus</material>
+                    <gesamtmasse>
+                              <beschreibung>H. 28 cm, L. 4,11 m</beschreibung>
+                    </gesamtmasse>
+                    <schrift>Hieroglyphisch</schrift>
+                    <schrift>Hieratisch</schrift>
+                    <vignettenstil>farbig</vignettenstil>
+          </form>
+          <bibliografie>
+                    <bibl bibl-id="bibl-926">
+                              <title>A. Niwinski, Studies on the Illustrated Theban Funerary Papyri
+                                        of the 11th and 10th Centuries B.C., OBO 86,
+                                        Fribourg/Göttingen 1989</title>
+                              <pages>Taf. 17a-19c sowie 320 (London 2)</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-2742">
+                              <title>Backes, in: SAT 14, 2009</title>
+                              <pages>22</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-274">
+                              <title>J. Taylor (Hrg.), Journey through the Afterlife, Ancient
+                                        Egyptian Book of the Dead, London 2010</title>
+                    </bibl>
+                    <bibl bibl-id="bibl-2675">
+                              <title>M. Bellion</title>
+                              <pages>49 (mit weiterer Lit.)</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-716">
+                              <title>St. Quirke, Owners</title>
+                              <pages>Nr. 28 mit Anm. 92f</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-397">
+                              <title>A.W. Shorter, Catalogue</title>
+                              <pages>2</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-545">
+                              <title>U. Rößler-Köhler, SAT 3, 1999</title>
+                              <pages>98-100</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-1359">
+                              <title>G. Lenzo Marchese, in: BSEG 26, 2004</title>
+                              <pages>43-62</pages>
+                    </bibl>
+          </bibliografie>
+          <teilobjekt id="1350-1">
+                    <objektname>P. London BM EA 9904</objektname>
+                    <inhalt>
+                              <sequenz>A.d.O. - Tb 1 - 56V - 9 - 81A V - 77V - 89V - 30B V - 89 - 17
+                                        - 60V - 138V - 6 - 61 - 125A - 125B V - TG - V126</sequenz>
+                              <sprueche>
+                                        <start/>
+                                        <s>VA.d.O.</s>
+                                        <s>1</s>
+                                        <s>56V</s>
+                                        <s>9</s>
+                                        <s>81AV</s>
+                                        <s>77V</s>
+                                        <s>89V</s>
+                                        <s>30BV</s>
+                                        <s>89</s>
+                                        <s>17</s>
+                                        <s>60V</s>
+                                        <s>138V</s>
+                                        <s>6</s>
+                                        <s>61</s>
+                                        <s>125</s>
+                                        <s>125V</s>
+                                        <s>VTG</s>
+                                        <s>V126</s>
+                                        <end/>
+                              </sprueche>
+                    </inhalt>
+                    <abbildungen>
+                              <fotos>vorhanden / vollständig</fotos>
+                              <abbildung rechte="com">
+                                        <datei name="BM_9904_001.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_9904_1.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_9904_10.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_9904_11.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_9904_12.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_9904_13.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_9904_14.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_9904_15.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_9904_17.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_9904_18.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_9904_19.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_9904_2.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_9904_20.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_9904_21.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_9904_22.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_9904_23.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_9904_24.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_9904_25.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_9904_26.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_9904_27.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_9904_28.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_9904_29.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_9904_3.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_9904_30.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_9904_4.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_9904_7.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_9904_8.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_9904_9.tif"/>
+                              </abbildung>
+                    </abbildungen>
+          </teilobjekt>
+</objekt>

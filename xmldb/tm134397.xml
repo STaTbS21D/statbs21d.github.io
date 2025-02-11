@@ -1,0 +1,113 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134397" id="1213" v:revision="10225" v:key="153a8c5a79927f1" v:path="/db/totenbuch/objects/tm134397.xml">
+  <admin wer="TB-Projekt" wann="2012-01-01"/>
+  <standort>
+    <land>DE</land>
+    <ort>Berlin</ort>
+    <institution>Ägyptisches Museum und Papyrussammlung</institution>
+    <provenienz>Sammlung Minutoli, 1823</provenienz>
+  </standort>
+  <herkunft>
+    <region>Theben</region>
+    <anmerkungen>erschlossen</anmerkungen>
+  </herkunft>
+  <besitzer geschlecht="F">
+    <name ranke="I, 146.17">Mwt-m-wi͗ꜣ</name>
+    <titel>nb.t- pr šmꜥ.t n Imn- Rꜥ nsw.t nṯr.w </titel>
+  </besitzer>
+  <datierung>
+    <periode>3. Zwischenzeit</periode>
+    <detail>21. Dynastie</detail>
+    <jahr>Mitte - Ende 21. Dynastie</jahr>
+  </datierung>
+  <form>
+    <objektgruppe>Papyrus</objektgruppe>
+    <material>Papyrus</material>
+    <gesamtmasse>
+      <beschreibung>H. 25 cm</beschreibung>
+    </gesamtmasse>
+    <schrift>Hieroglyphisch</schrift>
+    <vignettenstil>farbig</vignettenstil>
+  </form>
+  <bibliografie>
+    <bibl bibl-id="bibl-979">
+      <title>E. Naville, Das ägyptische Totenbuch der XVIII. bis XX. Dynastie, Graz 1971</title>
+      <pages>Taf. XXVII – XXX</pages>
+    </bibl>
+    <bibl bibl-id="bibl-979">
+      <title>E. Naville, Das ägyptische Totenbuch der XVIII. bis XX. Dynastie, Graz 1971</title>
+      <pages>71-73 (Bb)</pages>
+    </bibl>
+    <bibl bibl-id="bibl-1036">
+      <title>I. Munro, Untersuchungen zu den Totenbuch-Papyri der 18. Dynastie, London 1987</title>
+      <pages>299</pages>
+    </bibl>
+    <bibl bibl-id="bibl-926">
+      <title>A. Niwinski, Studies on the Illustrated Theban Funerary Papyri of the 11th and 10th
+        Centuries B.C., OBO 86, Fribourg/Göttingen 1989</title>
+      <pages>251 (Berlin 27)</pages>
+    </bibl>
+    <bibl bibl-id="bibl-2675">
+      <title>M. Bellion</title>
+      <pages>33</pages>
+    </bibl>
+    <bibl bibl-id="bibl-1569">
+      <title>Kaplony-Heckel, Äg. Handschriften 3</title>
+      <pages>43 Nr. 82 (mit ausführl. Lit.)</pages>
+    </bibl>
+    <bibl bibl-id="bibl-1253">
+      <title>U. Luft, in: AfP 22/23, 1973/1974</title>
+      <pages>22 (Nr. 18)</pages>
+    </bibl>
+    <bibl bibl-id="bibl-545">
+      <title>U. Rößler-Köhler, SAT 3, 1999</title>
+      <pages>100-101</pages>
+    </bibl>
+    <bibl bibl-id="bibl-2224">
+      <title>L.E. Díaz-Iglesias Llanos, Commentary on Heracleopolis Magna from the theological
+        perspective (I): the image of the local lakes in the vignette of chapter 17 of the Book of
+        the dead, in: Trabajos de Egiptología 4, 2005</title>
+      <pages>31-106</pages>
+    </bibl>
+  </bibliografie>
+  <teilobjekt id="1213-1">
+    <objektname>P. Berlin P. 3157</objektname>
+    <inhalt>
+      <sequenz>A.d.O. - Tb 17V - 149V - V110</sequenz>
+      <sprueche>
+        <start/>
+        <s>VA.d.O.</s>
+        <s>17V</s>
+        <s>149V</s>
+        <s>V110</s>
+        <end/>
+      </sprueche>
+    </inhalt>
+    <abbildungen>
+      <fotos>vorhanden / vollständig</fotos>
+      <abbildung rechte="com">
+        <datei name="Berlin_3157_A.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Berlin_3157_B.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Berlin_3157_C.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Berlin_3157_D.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Berlin_3157_E.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Berlin_3157_F.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Berlin_3157_G.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Berlin_3157_H.tif"/>
+      </abbildung>
+    </abbildungen>
+  </teilobjekt>
+</objekt>

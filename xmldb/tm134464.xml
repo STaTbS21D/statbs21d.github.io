@@ -1,0 +1,233 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134464" id="1280" v:revision="10292" v:key="153a8c5be0e2834" v:path="/db/totenbuch/objects/tm134464.xml">
+  <admin wer="TB-Projekt" wann="2012-01-01"/>
+  <anmerkungen>zur Datierung: Ehefrau d. HP Pinodjem II., starb nach Jahr 10 von Sj-Jmn, Reg.
+    Psusennes II.; Maße (in cm): 1. 22x57,5; 2. 22x56,8; 3. 22x56,9; 4. 22,5x56; 5. 22,5x53; 6.
+    22,5x54,5; 7. 22,3x56,5; (1 Kol. 18x18;) 8. 22,5x56,3; 9. 22,5x55; 10. 22,3x54,5; 11. 22,5x53,5;
+    20 cm Schmutzstreifen; Klebungen nach jeweils 18,5 cm</anmerkungen>
+  <standort>
+    <land>EG</land>
+    <ort>Kairo</ort>
+    <institution>Ägyptisches Museum</institution>
+    <anmerkungen>Bl. 1 in Raum 29 ausgest., Raum 29, bas 41 r. 10</anmerkungen>
+  </standort>
+  <herkunft>
+    <region>Theben</region>
+    <anmerkungen>DB-Cachette</anmerkungen>
+  </herkunft>
+  <besitzer geschlecht="F">
+    <name ranke="I, 4.3">ꜣst- m- ꜣḫ- bi͗t</name>
+    <titel>ḥr.t wr.t ḫnr.t tp.t n.t Imn ḥm.t- nṯr n Mw.t ꜥꜣ.t n pr n Mw.t mw.t nṯr n Ḫnsw- pꜣ- ẖrd
+      ḥr.i͗ šps.t</titel>
+  </besitzer>
+  <datierung>
+    <periode>3. Zwischenzeit</periode>
+    <detail>21. Dynastie</detail>
+    <jahr>späte 21. Dynastie</jahr>
+  </datierung>
+  <form>
+    <objektgruppe>Papyrus</objektgruppe>
+    <material>Papyrus</material>
+    <gesamtmasse>
+      <beschreibung>11 Kartons; 31 Kol., s. Anm.</beschreibung>
+      <laenge>612</laenge>
+      <hoehe>22,5</hoehe>
+    </gesamtmasse>
+    <schrift>Hieratisch</schrift>
+    <vignettenstil>farbig</vignettenstil>
+  </form>
+  <bibliografie>
+    <bibl bibl-id="bibl-2742">
+      <title>Backes, in: SAT 14, 2009</title>
+      <pages>19</pages>
+    </bibl>
+    <bibl bibl-id="bibl-926">
+      <title>A. Niwinski, Studies on the Illustrated Theban Funerary Papyri of the 11th and 10th
+        Centuries B.C., OBO 86, Fribourg/Göttingen 1989</title>
+      <pages>254 (Cairo 1)</pages>
+    </bibl>
+    <bibl bibl-id="bibl-1361">
+      <title>G. Lenzo, in: BIFAO 102, 2002</title>
+      <pages>267-283</pages>
+    </bibl>
+    <bibl bibl-id="bibl-1359">
+      <title>G. Lenzo Marchese, in: BSEG 26, 2004</title>
+      <pages>43-62</pages>
+    </bibl>
+  </bibliografie>
+  <teilobjekt id="1280-1">
+    <objektname>P. Kairo J.E. 26228 bis (S.R. IV 525)</objektname>
+    <inhalt>
+      <sequenz>A.d.O. - Tb 1 I- 130 - 136/136A I - 134 I - 64 - 133 - 136/136A II - 134 II - 1 II -
+        72 - 2 - 3 - 65 - 92 - 68 - 69 - 70 - 100/129 - 136B</sequenz>
+      <sprueche>
+        <start/>
+        <s>VA.d.O.</s>
+        <s>1</s>
+        <s>130</s>
+        <s>136/136A</s>
+        <s>134</s>
+        <s>64</s>
+        <s>133</s>
+        <s>136/136A</s>
+        <s>134</s>
+        <s>1</s>
+        <s>72</s>
+        <s>2</s>
+        <s>3</s>
+        <s>65</s>
+        <s>92</s>
+        <s>68</s>
+        <s>69</s>
+        <s>70</s>
+        <s>100/129</s>
+        <s>136B</s>
+        <end/>
+      </sprueche>
+    </inhalt>
+    <abbildungen>
+      <fotos>vorhanden / vollständig</fotos>
+      <kommentar>Film 2 u. 4; Film 3, 22-36; Film 5, 1-7; s/w-Film 4, 29; priv. 27</kommentar>
+      <abbildung rechte="com">
+        <datei name="Kairo_J_E_26228_1.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_J_E_26228_10.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_J_E_26228_11.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_J_E_26228_12.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_J_E_26228_13.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_J_E_26228_14.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_J_E_26228_15.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_J_E_26228_16.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_J_E_26228_17.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_J_E_26228_18.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_J_E_26228_19.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_J_E_26228_2.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_J_E_26228_20.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_J_E_26228_21.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_J_E_26228_22.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_J_E_26228_23.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_J_E_26228_24.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_J_E_26228_25.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_J_E_26228_26.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_J_E_26228_27.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_J_E_26228_28.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_J_E_26228_29.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_J_E_26228_3.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_J_E_26228_30.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_J_E_26228_31.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_J_E_26228_32.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_J_E_26228_33.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_J_E_26228_34.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_J_E_26228_35.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_J_E_26228_36.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_J_E_26228_6.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_J_E_26228_7.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_J_E_26228_8.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_J_E_26228_9.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_J_E_26228_A.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_J_E_26228_B.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_J_E_26228_C.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_J_E_26228_D.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_J_E_26228_E.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_J_E_26228_G.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_J_E_26228_H.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_J_E_26228_I.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_J_E_26228_J.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_J_E_26228_K.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_J_E_26228_L.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_J_E_26228_M.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_J_E_26228_N.tif"/>
+      </abbildung>
+    </abbildungen>
+  </teilobjekt>
+</objekt>

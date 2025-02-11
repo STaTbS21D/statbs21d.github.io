@@ -1,0 +1,71 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134678" id="1496" v:revision="10504" v:key="153a8c6117c2908" v:path="/db/totenbuch/objects/tm134678.xml">
+  <admin wer="TB-Projekt" wann="2012-01-01"/>
+  <anmerkungen>gleiche Werkstatt u. gleicher Schreiber wie pCologny CII; vgl. auch pTurin
+    1818</anmerkungen>
+  <standort>
+    <land>CH</land>
+    <ort>Cologny (Kanton Genf)</ort>
+    <institution>Bibliotheca Bodmeriana, Fondation Martin Bodmer</institution>
+    <provenienz>ursprünglich aus der Sammlung Baroness Zouche of Haryngworth, dann Sammlung W.M.
+      Mensing</provenienz>
+  </standort>
+  <herkunft>
+    <region>Theben</region>
+    <anmerkungen>erschlossen</anmerkungen>
+  </herkunft>
+  <besitzer geschlecht="M">
+    <name ranke="I, 67.9; II, 347">ꜥnḫ- f- n- Ḫnsw</name>
+    <titel>i͗t- nṯr n Imn</titel>
+    <verwandt rel="Vater">
+      <name>nḫ- f- Mꜣꜥt</name>
+      <titel>i͗t- nṯr n Imn- Rꜥ nsw.t nṯr.w ꜥ</titel>
+    </verwandt>
+  </besitzer>
+  <datierung>
+    <periode>3. Zwischenzeit</periode>
+  </datierung>
+  <form>
+    <objektgruppe>Papyrus</objektgruppe>
+    <material>Papyrus</material>
+    <gesamtmasse>
+      <beschreibung>H. 118 cm, L. 23,5 cm</beschreibung>
+    </gesamtmasse>
+    <schrift>Hieroglyphisch</schrift>
+    <vignettenstil>farbig</vignettenstil>
+  </form>
+  <bibliografie>
+    <bibl bibl-id="bibl-2799">
+      <title>Auktionskat. Antiquités - Objets d’art. Collection de Feu M.-Ant. W.M. Mensing,
+        Amsterdam 23 - 25 Novembre 1937</title>
+      <pages>11, III Nr. 81 m. Abb</pages>
+    </bibl>
+    <bibl bibl-id="bibl-196">
+      <title>M. Valloggia, Les manuscrits hiératiques et hieroglyphiques de la Bibliotheca
+        Bodmeriana, in: J.L. Chapaz/S. Vuilleumier (Hgg.), Sortir au jour. Art égyptien de la
+        Fondation Martin Bodmer, CSEG 7, Genf 2001</title>
+      <pages>135-145</pages>
+    </bibl>
+  </bibliografie>
+  <teilobjekt id="1496-1">
+    <objektname>P. Cologny CI</objektname>
+    <inhalt>
+      <sequenz>A.d.O.-Tb 17V - 1</sequenz>
+      <sprueche>
+        <start/>
+        <s>VA.d.O.</s>
+        <s>17V</s>
+        <s>1</s>
+        <l/>
+      </sprueche>
+    </inhalt>
+    <abbildungen>
+      <fotos>vorhanden / vollständig</fotos>
+      <abbildung rechte="com">
+        <datei name="Cologny_CI_A.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Cologny_CI_B.tif"/>
+      </abbildung>
+    </abbildungen>
+  </teilobjekt>
+</objekt>

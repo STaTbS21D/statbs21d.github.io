@@ -1,0 +1,101 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134449" id="1265" v:revision="10277" v:key="153a8c5b91a2825" v:path="/db/totenbuch/objects/tm134449.xml">
+      <admin wer="TB-Projekt" wann="2012-01-01"/>
+      <anmerkungen>zur Datierung: Mumienbinden von HP Pinodjem II.; vgl. Amduat des gleichen
+            Besitzers (Piankoff/Rambova , Nr. 25)</anmerkungen>
+      <standort>
+            <land>EG</land>
+            <ort>Kairo</ort>
+            <institution>Ägyptisches Museum</institution>
+      </standort>
+      <herkunft>
+            <region>Theben</region>
+            <ort>Cachette von Deir el-Bahari (Bab el-Gasus), 1891</ort>
+      </herkunft>
+      <besitzer geschlecht="M">
+            <name ranke="I, 112.23">Pꜣ- nb- n- Kmt- nḫtw</name>
+            <titel>sš pr- ḥḏ</titel>
+      </besitzer>
+      <datierung>
+            <periode>3. Zwischenzeit</periode>
+            <detail>21. Dynastie</detail>
+            <jahr>späte 21. Dynastie</jahr>
+      </datierung>
+      <form>
+            <objektgruppe>Papyrus</objektgruppe>
+            <material>Papyrus</material>
+            <gesamtmasse>
+                  <laenge>228</laenge>
+                  <hoehe>23</hoehe>
+            </gesamtmasse>
+            <schrift>Hieratisch</schrift>
+            <vignettenstil>nicht erhalten</vignettenstil>
+      </form>
+      <bibliografie>
+            <bibl bibl-id="bibl-926">
+                  <title>A. Niwinski, Studies on the Illustrated Theban Funerary Papyri of the 11th
+                        and 10th Centuries B.C., OBO 86, Fribourg/Göttingen 1989</title>
+                  <pages>265 (Cairo 35)</pages>
+            </bibl>
+            <bibl bibl-id="bibl-1361">
+                  <title>G. Lenzo, in: BIFAO 102, 2002</title>
+                  <pages>267-283</pages>
+            </bibl>
+      </bibliografie>
+      <teilobjekt id="1265-1">
+            <objektname>P. Kairo CG 40030 (J.E. 95855, S.R. IV 954)</objektname>
+            <inhalt>
+                  <sequenz>/// Tb 190 - 148 + R - 135 - 1B/172(Pleyte) - 15 BIII - /// </sequenz>
+                  <sprueche>
+                        <start/>
+                        <s>190</s>
+                        <s>148</s>
+                        <s>135</s>
+                        <s>172 (Pleyte)/1B</s>
+                        <s>15</s>
+                        <end/>
+                  </sprueche>
+                  <anmerkungenText>vgl. mit pKopenhagen 250; Vertikalzeile am
+                        Anfang</anmerkungenText>
+            </inhalt>
+            <abbildungen>
+                  <fotos>vorhanden / vollständig</fotos>
+                  <kommentar>Tb-Archiv (Film 1)</kommentar>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_CG_40030_A.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_CG_40030_B.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_CG_40030_C.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_CG_40030_D.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_CG_40030_E.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_CG_40030_F.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_CG_40030_G.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_CG_40030_H.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_CG_40030_I.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_CG_40030_J.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_CG_40030_K.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_CG_40030_L.tif"/>
+                  </abbildung>
+            </abbildungen>
+      </teilobjekt>
+</objekt>

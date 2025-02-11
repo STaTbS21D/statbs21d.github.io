@@ -1,0 +1,78 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134482" id="1298" v:revision="10310" v:key="153a8c5c4292846" v:path="/db/totenbuch/objects/tm134482.xml">
+  <admin wer="TB-Projekt" wann="2012-01-01"/>
+  <standort>
+    <land>EG</land>
+    <ort>Kairo</ort>
+    <institution>Ägyptisches Museum</institution>
+    <anmerkungen>P57, Ost, e</anmerkungen>
+  </standort>
+  <herkunft>
+    <region>Theben</region>
+    <ort>Cachette von Deir el-Bahari (Bab el-Gasus) (?)</ort>
+  </herkunft>
+  <besitzer geschlecht="F">
+    <name ranke="I, 4.3">ꜣst- m- ꜣḫ- bi͗t</name>
+  </besitzer>
+  <datierung>
+    <periode>3. Zwischenzeit</periode>
+    <detail>21. Dynastie</detail>
+    <jahr>späte 21. Dynastie</jahr>
+  </datierung>
+  <form>
+    <objektgruppe>Papyrus</objektgruppe>
+    <material>Papyrus</material>
+    <gesamtmasse>
+      <laenge>175</laenge>
+      <hoehe>23</hoehe>
+    </gesamtmasse>
+    <schrift>Hieratisch</schrift>
+    <vignettenstil>farbig</vignettenstil>
+    <vignettenkommentar>nur A.d.O.</vignettenkommentar>
+  </form>
+  <bibliografie>
+    <bibl bibl-id="bibl-2742">
+      <title>Backes, in: SAT 14, 2009</title>
+      <pages>19</pages>
+    </bibl>
+    <bibl bibl-id="bibl-926">
+      <title>A. Niwinski, Studies on the Illustrated Theban Funerary Papyri of the 11th and 10th
+        Centuries B.C., OBO 86, Fribourg/Göttingen 1989</title>
+      <pages>291 (Cairo 108)</pages>
+    </bibl>
+    <bibl bibl-id="bibl-1359">
+      <title>G. Lenzo Marchese, in: BSEG 26, 2004</title>
+      <pages>43-62</pages>
+    </bibl>
+  </bibliografie>
+  <teilobjekt id="1298-1">
+    <objektname>P. Kairo S.R. VII 10655 (TR 23/4/40/3)</objektname>
+    <inhalt>
+      <sequenz>A.d. Re-Harachte-Atum - Tb 1</sequenz>
+      <sprueche>
+        <start/>
+        <s>A.d. Re-Harachte-Atum</s>
+        <s>1</s>
+        <end/>
+      </sprueche>
+    </inhalt>
+    <abbildungen>
+      <fotos>vorhanden / vollständig</fotos>
+      <kommentar>Film 2, 35-36; Film 5</kommentar>
+      <abbildung rechte="com">
+        <datei name="Kairo_S_R_VII_10655_A.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_S_R_VII_10655_B.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_S_R_VII_10655_C.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_S_R_VII_10655_D.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_S_R_VII_10655_E.tif"/>
+      </abbildung>
+    </abbildungen>
+  </teilobjekt>
+</objekt>

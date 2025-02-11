@@ -1,0 +1,66 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134693" id="1511" v:revision="10519" v:key="153a8c6167f2917" v:path="/db/totenbuch/objects/tm134693.xml">
+  <admin wer="TB-Projekt" wann="2012-01-01"/>
+  <standort>
+    <land>GB</land>
+    <ort>Oxford</ort>
+    <institution>Bodleian Library</institution>
+  </standort>
+  <herkunft>
+    <region>Theben</region>
+    <anmerkungen>erschlossen</anmerkungen>
+  </herkunft>
+  <besitzer geschlecht="F">
+    <name ranke="I, 412.5; II, 401">Ḏd- Ḫnsw- i͗w- s- ꜥnḫ</name>
+    <titel>šmꜥ.t n Imn</titel>
+  </besitzer>
+  <datierung>
+    <periode>3. Zwischenzeit</periode>
+  </datierung>
+  <form>
+    <objektgruppe>Papyrus</objektgruppe>
+    <material>Papyrus</material>
+    <gesamtmasse>
+      <beschreibung>Höhe schwankend (20,3 - 21,8 cm)</beschreibung>
+      <hoehe>21</hoehe>
+    </gesamtmasse>
+    <schrift>Hieratisch</schrift>
+    <vignettenstil>nicht erhalten</vignettenstil>
+  </form>
+  <bibliografie>
+    <bibl bibl-id="bibl-2330">
+      <title>M. Coenen, in: JEA 86, 2000</title>
+      <pages>83</pages>
+    </bibl>
+    <bibl bibl-id="bibl-2323">
+      <title>M. Coenen, in: BLR 16, Nr. 6, 1999</title>
+      <pages>450-469</pages>
+    </bibl>
+  </bibliografie>
+  <teilobjekt id="1511-1">
+    <objektname>P. Oxford Ms. Egypt. d. 10 (P) + d. 11 (P)</objektname>
+    <inhalt>
+      <sequenz>d. 11 (P): /// Tb 166 (Pleyte) - 23 - 24 - 25 - 26 - 27</sequenz>
+      <sprueche>
+        <l/>
+        <s>166 (Pleyte)</s>
+        <s>23</s>
+        <s>24</s>
+        <s>25</s>
+        <s>26</s>
+        <s>27</s>
+        <l/>
+      </sprueche>
+    </inhalt>
+    <objektmasse>d. 10 (P): 7 Fragm.; L. 9 cm; d. 11 (P): 5 Fragm.; L. 12,5 cm</objektmasse>
+    <abbildungen>
+      <fotos>vorhanden / vollständig</fotos>
+      <kommentar>gescannt CBS 04.01</kommentar>
+      <abbildung rechte="com">
+        <datei name="Oxford_ms_d_10_11(P)001.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Oxford_ms_d_10_11(P)002.tif"/>
+      </abbildung>
+    </abbildungen>
+  </teilobjekt>
+</objekt>

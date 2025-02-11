@@ -1,0 +1,106 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134402" id="1218" v:revision="10230" v:key="153a8c5a94b27f6" v:path="/db/totenbuch/objects/tm134402.xml">
+  <admin wer="TB-Projekt" wann="2012-01-01"/>
+  <standort>
+    <land>IT</land>
+    <ort>Bologna</ort>
+    <institution>Museo Civico</institution>
+    <provenienz>Sammlung Palagi, 1832</provenienz>
+  </standort>
+  <herkunft>
+    <region>Theben</region>
+    <anmerkungen>erschlossen</anmerkungen>
+  </herkunft>
+  <besitzer geschlecht="M">
+    <name ranke="I, 412.4">Ḏd- Ḫnsw- i͗w- f- ꜥnḫ</name>
+    <titel>i͗t- nṯr n Imn ḥr.i͗ šnꜥ (?) n pr Imn</titel>
+  </besitzer>
+  <datierung>
+    <periode>3. Zwischenzeit</periode>
+    <detail>21.-22. Dynastie</detail>
+    <jahr>Ende 21. Dynastie - Anfang 22. Dynastie</jahr>
+  </datierung>
+  <form>
+    <objektgruppe>Papyrus</objektgruppe>
+    <material>Papyrus</material>
+    <gesamtmasse>
+      <beschreibung>H. 16 cm, L. 65 cm, 3 Kol. </beschreibung>
+    </gesamtmasse>
+    <schrift>Hieratisch</schrift>
+    <vignettenstil>farbig</vignettenstil>
+  </form>
+  <bibliografie>
+    <bibl bibl-id="bibl-2301">
+      <title>S. Curto/C.M. Govi/S. Pernigotti, Il senso dell'arte nell'Antico Egitto (Kat. Bologna),
+        Milano 1990</title>
+      <pages>228, Nr. 180 (mit weiterer Lit.)</pages>
+    </bibl>
+    <bibl bibl-id="bibl-848">
+      <title>Museo Civico Archeologico di Bologna. La collezione egiziana, Bologna 1994</title>
+      <pages>130 mit Abb.</pages>
+    </bibl>
+    <bibl bibl-id="bibl-1525">
+      <title>G. Kminek-Szedlo, Catalogo di antichità egizie, Turin 1895</title>
+      <pages>354 (Nr. 3163)</pages>
+    </bibl>
+    <bibl bibl-id="bibl-852">
+      <title>S. Pernigotti, I papiri egiziani del Museo Civico di Bologna, in: Il Carrobbio VII,
+        1981</title>
+      <pages>344-345, Nr. 8</pages>
+    </bibl>
+    <bibl bibl-id="bibl-926">
+      <title>A. Niwinski, Studies on the Illustrated Theban Funerary Papyri of the 11th and 10th
+        Centuries B.C., OBO 86, Fribourg/Göttingen 1989</title>
+      <pages>253 (Bologna 1), (mit weiterer Lit.)</pages>
+    </bibl>
+    <bibl bibl-id="bibl-2675">
+      <title>M. Bellion</title>
+      <pages>82</pages>
+    </bibl>
+    <bibl bibl-id="bibl-1519">
+      <title>H. Kockelmann, in: S. Bickel/A. Loprieno (Hgg.), AH 17, Basel 2003</title>
+      <pages>293 Anm. 19</pages>
+    </bibl>
+    <bibl bibl-id="bibl-1361">
+      <title>G. Lenzo, in: BIFAO 102, 2002</title>
+      <pages>267-283</pages>
+    </bibl>
+  </bibliografie>
+  <teilobjekt id="1218-1">
+    <objektname>P. Bologna KS 3163</objektname>
+    <inhalt>
+      <sequenz>A.d.? - Tb 23 - 24 - 25 - Teil v. 24 - 26 - 28 - 27 - 162 - 61</sequenz>
+      <sprueche>
+        <l/>
+        <s>A.d.?</s>
+        <s>23</s>
+        <s>24</s>
+        <s>25</s>
+        <s>24</s>
+        <s>26</s>
+        <s>28</s>
+        <s>27</s>
+        <s>162</s>
+        <s>61</s>
+        <end/>
+      </sprueche>
+    </inhalt>
+    <abbildungen>
+      <fotos>vorhanden / vollständig</fotos>
+      <abbildung rechte="com">
+        <datei name="Bologna_KS3163_A.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Bologna_KS3163_B.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Bologna_KS3163_C.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Bologna_KS3163_D.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Bologna_KS3163_F.tif"/>
+      </abbildung>
+    </abbildungen>
+  </teilobjekt>
+</objekt>

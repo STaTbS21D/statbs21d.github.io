@@ -1,0 +1,71 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134468" id="1284" v:revision="10296" v:key="153a8c5bf642838" v:path="/db/totenbuch/objects/tm134468.xml">
+  <admin wer="TB-Projekt" wann="2012-01-01"/>
+  <anmerkungen>zur Datierung: Mumienbinden von HP Psusennes mit Dat. - Jahr 12</anmerkungen>
+  <standort>
+    <land>EG</land>
+    <ort>Kairo</ort>
+    <institution>Ägyptisches Museum</institution>
+    <anmerkungen>in Raum 29 ausgestellt</anmerkungen>
+  </standort>
+  <herkunft>
+    <region>Theben</region>
+    <ort>Cachette von Deir el-Bahari (Bab el Gasus)</ort>
+  </herkunft>
+  <besitzer geschlecht="M">
+    <name ranke="I, 30.12">Imn- ḥtp</name>
+    <titel>i͗t- nṯr n Imn- Rꜥ nsw.t nṯr.w sš nꜣ mnḥi͗.w n pꜣ i͗m.i͗- rꜣ mšꜥ </titel>
+  </besitzer>
+  <datierung>
+    <periode>3. Zwischenzeit</periode>
+    <detail>21. Dynastie</detail>
+    <jahr>späte 21. Dynastie</jahr>
+  </datierung>
+  <form>
+    <objektgruppe>Papyrus</objektgruppe>
+    <material>Papyrus</material>
+    <gesamtmasse>
+      <laenge>144</laenge>
+      <hoehe>23,5</hoehe>
+    </gesamtmasse>
+    <schrift>Hieroglyphisch</schrift>
+    <vignettenstil>farbig</vignettenstil>
+  </form>
+  <bibliografie>
+    <bibl bibl-id="bibl-2289">
+      <title>G. Daressy, in: ASAE 8 (1907)</title>
+      <pages>25</pages>
+    </bibl>
+    <bibl bibl-id="bibl-926">
+      <title>A. Niwinski, Studies on the Illustrated Theban Funerary Papyri of the 11th and 10th
+        Centuries B.C., OBO 86, Fribourg/Göttingen 1989</title>
+      <pages>256 (Cairo 9)</pages>
+    </bibl>
+  </bibliografie>
+  <teilobjekt id="1284-1">
+    <objektname>P. Kairo J.E. 95646 (S.R. IV 543)</objektname>
+    <inhalt>
+      <sequenz>/// Tb 149V</sequenz>
+      <sprueche>
+        <l/>
+        <s>149V</s>
+        <end/>
+      </sprueche>
+    </inhalt>
+    <abbildungen>
+      <fotos>vorhanden / vollständig</fotos>
+      <kommentar>Film 4, 24-28</kommentar>
+      <abbildung rechte="com">
+        <datei name="Kairo_J_E_95646_A.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_J_E_95646_B.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_J_E_95646_C.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_J_E_95646_D.tif"/>
+      </abbildung>
+    </abbildungen>
+  </teilobjekt>
+</objekt>

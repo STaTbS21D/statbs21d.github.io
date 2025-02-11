@@ -1,0 +1,498 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134322" id="1137" v:revision="10150" v:key="153a8c58e9f27a6" v:path="/db/totenbuch/objects/tm134322.xml">
+          <admin wer="TB-Projekt" wann="2012-01-01"/>
+          <standort>
+                    <land>DE</land>
+                    <ort>Berlin</ort>
+                    <institution>Ägyptisches Museum und Papyrussammlung</institution>
+          </standort>
+          <herkunft>
+                    <region>Theben</region>
+          </herkunft>
+          <besitzer geschlecht="M">
+                    <name ranke="I, 209.22">Nḫt- Imn</name>
+                    <titel>sš nsw.t</titel>
+                    <verwandt rel="Ehefrau">
+                              <name>Pi͗ꜣ</name>
+                              <titel>nb.t- pr </titel>
+                    </verwandt>
+          </besitzer>
+          <datierung>
+                    <periode>Neues Reich</periode>
+                    <detail>19. Dynastie</detail>
+                    <jahr>Ramses II.</jahr>
+          </datierung>
+          <form>
+                    <objektgruppe>Papyrus</objektgruppe>
+                    <material>Papyrus</material>
+                    <gesamtmasse>
+                              <laenge>1772</laenge>
+                              <hoehe>40</hoehe>
+                    </gesamtmasse>
+                    <schrift>Hieroglyphisch</schrift>
+                    <vignettenstil>farbig</vignettenstil>
+          </form>
+          <bibliografie>
+                    <bibl bibl-id="bibl-2136">
+                              <title>Aufstieg zur Weltmacht (Kat. Hildesheim), Hildesheim
+                                        1987</title>
+                              <pages>Nr. 282, mit Abb</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-1028">
+                              <title>I. Munro, Das Totenbuch des Nacht-Amun, HAT 4, Wiesbaden
+                                        1997</title>
+                    </bibl>
+                    <bibl bibl-id="bibl-1427">
+                              <title>G. Lapp, Totenbuch Spruch 17, TbT 1, Basel 2006</title>
+                              <pages>pBe1</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-1233">
+                              <title>B. Lüscher, Die Verwandlungssprüche (Tb 76-88), TbT 2, Basel
+                                        2006</title>
+                              <pages>pBe1</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-1426">
+                              <title>G. Lapp, Totenbuch Spruch 125, TbT 3, Basel 2008</title>
+                              <pages>pBe1</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-1987">
+                              <title>A. Gasse, in: B. Backes/M. Müller/S. Stöhr (Hgg.), Ausgestattet
+                                        mit den Schriften des Thot. Festschrift für Irmtraut Munro
+                                        zu ihrem 65. Geburtstag, SAT 14, Wiesbaden 2009</title>
+                              <pages>70f</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-979">
+                              <title>E. Naville, Das ägyptische Totenbuch der XVIII. bis XX.
+                                        Dynastie, Graz 1971</title>
+                              <pages>70 f (Ba)</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-2675">
+                              <title>M. Bellion</title>
+                              <pages>23-24</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-1036">
+                              <title>I. Munro, Untersuchungen zu den Totenbuch-Papyri der 18.
+                                        Dynastie, London 1987</title>
+                              <pages>300-301</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-1569">
+                              <title>Kaplony-Heckel, Äg. Handschriften 3</title>
+                              <pages>15-16</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-545">
+                              <title>U. Rößler-Köhler, SAT 3, 1999</title>
+                              <pages>19-20</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-1850">
+                              <title>N. Guilhou, in: Egypte Afrique &amp; Orient Nr. 43, Oktober
+                                        2006</title>
+                              <pages>31-38 m. Abb. 1</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-1120">
+                              <title>H. Milde, Vignetten-Forschung, in: B. Backes/I. Munro/S. Stöhr
+                                        (Hgg.), Totenbuch-Forschungen. Gesammelte Beiträge des 2.
+                                        Internationalen Totenbuch-Symposiums, Bonn 25. - 29.
+                                        September 2005, SAT 11, Wiesbaden 2006</title>
+                              <pages>221-231</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-2224">
+                              <title>L.E. Díaz-Iglesias Llanos, Commentary on Heracleopolis Magna
+                                        from the theological perspective (I): the image of the local
+                                        lakes in the vignette of chapter 17 of the Book of the dead,
+                                        in: Trabajos de Egiptología 4, 2005</title>
+                              <pages>31-106</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-1049">
+                              <title>M. Müller-Roth, in: ZÄS 135 (2008)</title>
+                              <pages>146, Taf. XLII</pages>
+                    </bibl>
+          </bibliografie>
+          <teilobjekt id="1137-1">
+                    <objektname>P. Berlin P. 3002 a-z</objektname>
+                    <inhalt>
+                              <sequenz>A.d.O. - Tb 1V - 1B/172(Pleyte) V - 15A IV V - 16B - 15B I V
+                                        - 17V - 83V - 84V - 77V - 78V - 81A V - 86V - 87V - 147 -
+                                        145V - 125A V - 125B - 125C + TG - 15B III - 9 - 148V - 72V
+                                        - 39V - 40 - 32 - 100/129V - 99/99B V - 110 /// 93 - 36V -
+                                        95V - 92V - 103V - 68 - 117 - 119 - 141/143V - 119V - 117V -
+                                        119 - 59V - 137A V - 137B V - 63A V - 149V - 130V - 30B V -
+                                        26V - 27V - 29B V - 108V - 125A - 147 - 87 - 86 - 78 - 77 -
+                                        84 - 83 - 17 - 15B I - 1B/172(Pleyte) - 15A IV - V61 - V186
+                                        // </sequenz>
+                              <sprueche>
+                                        <start/>
+                                        <s>VA.d.O.</s>
+                                        <s>1V</s>
+                                        <s>172 (Pleyte)/1BV</s>
+                                        <s>15</s>
+                                        <s>V15</s>
+                                        <s>15V</s>
+                                        <s>17V</s>
+                                        <s>83V</s>
+                                        <s>84V</s>
+                                        <s>77V</s>
+                                        <s>78V</s>
+                                        <s>81AV</s>
+                                        <s>86V</s>
+                                        <s>87V</s>
+                                        <s>147</s>
+                                        <s>145V</s>
+                                        <s>125V</s>
+                                        <s>125</s>
+                                        <s>125 + VTG</s>
+                                        <s>15</s>
+                                        <s>9</s>
+                                        <s>148V</s>
+                                        <s>72V</s>
+                                        <s>39V</s>
+                                        <s>40</s>
+                                        <s>32</s>
+                                        <s>100/129V</s>
+                                        <s>99/99BV</s>
+                                        <s>110</s>
+                                        <l/>
+                                        <s>93</s>
+                                        <s>36V</s>
+                                        <s>95V</s>
+                                        <s>92V</s>
+                                        <s>103V</s>
+                                        <s>68</s>
+                                        <s>117</s>
+                                        <s>119</s>
+                                        <s>141 oder 143V</s>
+                                        <s>119V</s>
+                                        <s>117V</s>
+                                        <s>119</s>
+                                        <s>59V</s>
+                                        <s>137AV</s>
+                                        <s>137BV</s>
+                                        <s>63AV</s>
+                                        <s>149V</s>
+                                        <s>130V</s>
+                                        <s>30BV</s>
+                                        <s>26V</s>
+                                        <s>27V</s>
+                                        <s>29BV</s>
+                                        <s>108V</s>
+                                        <s>125</s>
+                                        <s>147</s>
+                                        <s>87</s>
+                                        <s>86</s>
+                                        <s>78</s>
+                                        <s>77</s>
+                                        <s>84</s>
+                                        <s>83</s>
+                                        <s>17</s>
+                                        <s>15</s>
+                                        <s>172 (Pleyte)/1B</s>
+                                        <s>15</s>
+                                        <s>61</s>
+                                        <s>186</s>
+                                        <end/>
+                              </sprueche>
+                    </inhalt>
+                    <abbildungen>
+                              <fotos>vorhanden / vollständig</fotos>
+                              <kommentar>Tb 30B + verso bei Großformaten Mappe 4</kommentar>
+                              <abbildung rechte="com">
+                                        <datei name="Berlin_3002_a_z_001.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Berlin_3002_a_z_002.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Berlin_3002_a_z_003.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Berlin_3002_a_z_004.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Berlin_3002_a_z_005.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Berlin_3002_a_z_006.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Berlin_3002_a_z_007.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Berlin_3002_a_z_009.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Berlin_3002_a_z_010.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Berlin_3002_a_z_011.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Berlin_3002_a_z_012.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Berlin_3002_a_z_013.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Berlin_3002_a_z_014.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Berlin_3002_a_z_015.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Berlin_3002_a_z_016.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Berlin_3002_a_z_017.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Berlin_3002_a_z_018.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Berlin_3002_a_z_019.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Berlin_3002_a_z_020.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Berlin_3002_a_z_021.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Berlin_3002_a_z_022.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Berlin_3002_a_z_023.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Berlin_3002_a_z_024.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Berlin_3002_a_z_025.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Berlin_3002_a_z_026.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Berlin_3002_a_z_027.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Berlin_3002_a_z_028.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Berlin_3002_a_z_029.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Berlin_3002_a_z_030.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Berlin_3002_a_z_031.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Berlin_3002_a_z_032.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Berlin_3002_a_z_033.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Berlin_AeG_3002_034.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Berlin_AeG_3002_036.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Berlin_AeG_3002_038.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Berlin_AeG_3002_039.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Berlin_AeG_3002_040.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Berlin_AeG_3002_041.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Berlin_AeG_3002_042.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Berlin_AeG_3002_043.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Berlin_AeG_3002_044.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Berlin_AeG_3002_045.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Berlin_AeG_3002_046.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Berlin_AeG_3002_047.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Berlin_AeG_3002_048.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Berlin_AeG_3002_049.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Berlin_AeG_3002_050.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Berlin_AeG_3002_051.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Berlin_AeG_3002_052.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Berlin_AeG_3002_053.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Berlin_AeG_3002_054.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Berlin_AeG_3002_055.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="pBerlin_P_3002_056.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="pBerlin_P_3002_057.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="pBerlin_P_3002_058.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="pBerlin_P_3002_059.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="pBerlin_P_3002_060.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="pBerlin_P_3002_061.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="pBerlin_P_3002_062.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="pBerlin_P_3002_063.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="pBerlin_P_3002_064.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="pBerlin_P_3002_065.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="pBerlin_P_3002_066.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="pBerlin_P_3002_067.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="pBerlin_P_3002_068.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="pBerlin_P_3002_069.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="pBerlin_P_3002_070.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="pBerlin_P_3002_071.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="pBerlin_P_3002_072.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="pBerlin_P_3002_073.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="pBerlin_P_3002_074.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="pBerlin_P_3002_075.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="pBerlin_P_3002_076.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="pBerlin_P_3002_077.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="pBerlin_P_3002_078.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="pBerlin_P_3002_079.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="pBerlin_P_3002_080.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="pBerlin_P_3002_081.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="pBerlin_P_3002_082.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="pBerlin_P_3002_083.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="pBerlin_P_3002_084.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="pBerlin_P_3002_085.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="pBerlin_P_3002_086.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="pBerlin_P_3002_087.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="pBerlin_P_3002_088.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="pBerlin_P_3002_089.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="pBerlin_P_3002_090.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="pBerlin_P_3002_091.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="pBerlin_P_3002_092.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="pBerlin_P_3002_094.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="pBerlin_P_3002_095.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="pBerlin_P_3002_096.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="pBerlin_P_3002_097.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="pBerlin_P_3002_098.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="pBerlin_P_3002_099.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="pBerlin_P_3002_100.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="pBerlin_P_3002_101.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="pBerlin_P_3002_102.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="pBerlin_P_3002_103.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="pBerlin_P_3002_104.tif"/>
+                              </abbildung>
+                    </abbildungen>
+          </teilobjekt>
+</objekt>

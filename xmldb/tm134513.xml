@@ -1,0 +1,142 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134513" id="1329" v:revision="10341" v:key="153a8c5cf122865" v:path="/db/totenbuch/objects/tm134513.xml">
+          <admin wer="TB-Projekt" wann="2012-01-01"/>
+          <standort>
+                    <land>GB</land>
+                    <ort>London</ort>
+                    <institution>British Museum</institution>
+          </standort>
+          <herkunft>
+                    <region>Theben</region>
+                    <anmerkungen>erschlossen</anmerkungen>
+          </herkunft>
+          <besitzer>
+                    <name ranke="?">[...]- n- Mwt</name>
+          </besitzer>
+          <datierung>
+                    <periode>Neues Reich</periode>
+                    <detail>19. Dynastie</detail>
+          </datierung>
+          <form>
+                    <objektgruppe>Papyrus</objektgruppe>
+                    <material>Papyrus</material>
+                    <gesamtmasse>
+                              <beschreibung>sh.1: H. 30,7 cm, L. 71,5 cm; sh.2: H. 30,5 cm, L. 76
+                                        cm; sh.3: H. 30,5 cm, L. 67 cm; sh.4: H. 30,5 cm, L. 69 cm;
+                                        sh.5: H. 30,5 cm, L. 66 cm; sh.6: H. 30,5 cm, L. 63 cm;
+                                        sh.7: H. 30,5 cm, L. 60 cm</beschreibung>
+                    </gesamtmasse>
+                    <schrift>Hieroglyphisch</schrift>
+                    <vignettenstil>farbig</vignettenstil>
+          </form>
+          <bibliografie>
+                    <bibl bibl-id="bibl-807">
+                              <title>A. Piankoff, The Wandering of the Soul, Bollingen Series XL:
+                                        6</title>
+                              <pages>44 ff, Taf. 17-33</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-595">
+                              <title>A. Roberts, My Heart, My Mother. Death and Rebirth in Ancient
+                                        Egypt, Rottingdean 2000</title>
+                              <pages>146-147</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-2064">
+                              <title>R.O. Faulkner (C. Andrews [Hg.]), The Ancient Egyptian Book of
+                                        the Dead, London 1985</title>
+                              <pages>Abb. S. 166-167 + S. 182-183</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-274">
+                              <title>J. Taylor (Hrg.), Journey through the Afterlife, Ancient
+                                        Egyptian Book of the Dead, London 2010</title>
+                    </bibl>
+                    <bibl bibl-id="bibl-1045">
+                              <title>Marcus Müller-Roth, From Memphis to Thebes: Local traditions in
+                                        the Late Period, in: BMSAES 15, 2010</title>
+                              <pages>173-187</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-2675">
+                              <title>M. Bellion</title>
+                              <pages>71 (mit weiterer Lit.)</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-2476">
+                              <title>E.A.W. Budge, BD</title>
+                              <pages>XVI, pl. 12</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-716">
+                              <title>St. Quirke, Owners</title>
+                              <pages>114</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-1036">
+                              <title>I. Munro, Untersuchungen zu den Totenbuch-Papyri der 18.
+                                        Dynastie, London 1987</title>
+                              <pages>305</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-594">
+                              <title>G. Robins, Reflections of Women in the New Kingdom: Ancient
+                                        Egyptian Art from The British Museum, San Antonio
+                                        1995</title>
+                              <pages>127 (Nr. 83)</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-1508">
+                              <title>H. Kockelmann, Mumienbinden</title>
+                              <pages>394 (Index)</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-2415">
+                              <title>Carrier, Livre des Morts</title>
+                              <pages>725-740</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-2885">
+                              <title>T.G. Allen, Book of the Dead, SAOC 37</title>
+                              <pages>162-168</pages>
+                    </bibl>
+          </bibliografie>
+          <teilobjekt id="1329-1">
+                    <objektname>P. London BM EA 10478</objektname>
+                    <inhalt>
+                              <sequenz>A.d.O.+ Isis - Tb 168BV - A.d.O.+ Horus</sequenz>
+                              <sprueche>
+                                        <start/>
+                                        <s>VA.d.O.</s>
+                                        <s>168</s>
+                                        <s>VA.d.O.</s>
+                                        <end/>
+                              </sprueche>
+                    </inhalt>
+                    <abbildungen>
+                              <fotos>vorhanden / vollständig</fotos>
+                              <kommentar>sh. 1 in Kopie; sonst Film 6, 11A-18A, 24A-27A.</kommentar>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10478_006.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10478_007.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10478_008.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10478_009.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10478_010.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10478_011.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10478_1.jpg"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10478_2.jpg"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10478_3.jpg"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10478_4.jpg"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_10478_5.jpg"/>
+                              </abbildung>
+                    </abbildungen>
+          </teilobjekt>
+</objekt>

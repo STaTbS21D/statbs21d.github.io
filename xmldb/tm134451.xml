@@ -1,0 +1,107 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134451" id="1267" v:revision="10279" v:key="153a8c5b9c22827" v:path="/db/totenbuch/objects/tm134451.xml">
+  <admin wer="TB-Projekt" wann="2012-01-01"/>
+  <anmerkungen>zur Datierung: Mumienbinden von HP Psusennes</anmerkungen>
+  <standort>
+    <land>EG</land>
+    <ort>Kairo</ort>
+    <institution>Ägyptisches Museum</institution>
+  </standort>
+  <herkunft>
+    <region>Theben</region>
+    <ort>Cachette von Deir el-Bahari (Bab el-Gasus), 1891</ort>
+  </herkunft>
+  <besitzer geschlecht="F">
+    <name ranke="I, 4.3">ꜣst- m- ꜣḫ- bi͗t</name>
+    <titel>šmꜥ.t n Imn</titel>
+  </besitzer>
+  <datierung>
+    <periode>3. Zwischenzeit</periode>
+    <detail>21. Dynastie</detail>
+    <jahr>späte 21. Dynastie</jahr>
+  </datierung>
+  <form>
+    <objektgruppe>Papyrus</objektgruppe>
+    <material>Papyrus</material>
+    <gesamtmasse>
+      <beschreibung>Einzelmaße vgl. Zettel</beschreibung>
+      <laenge>245</laenge>
+      <hoehe>20,5</hoehe>
+    </gesamtmasse>
+    <schrift>Hieratisch</schrift>
+    <vignettenstil>Strichzeichnung</vignettenstil>
+    <vignettenkommentar>nur A.d.O.</vignettenkommentar>
+  </form>
+  <bibliografie>
+    <bibl bibl-id="bibl-2742">
+      <title>Backes, in: SAT 14, 2009</title>
+      <pages>19</pages>
+    </bibl>
+    <bibl bibl-id="bibl-926">
+      <title>A. Niwinski, Studies on the Illustrated Theban Funerary Papyri of the 11th and 10th
+        Centuries B.C., OBO 86, Fribourg/Göttingen 1989</title>
+      <pages>267 (Cairo 40)</pages>
+    </bibl>
+    <bibl bibl-id="bibl-1361">
+      <title>G. Lenzo, in: BIFAO 102, 2002</title>
+      <pages>267-283</pages>
+    </bibl>
+    <bibl bibl-id="bibl-1359">
+      <title>G. Lenzo Marchese, in: BSEG 26, 2004</title>
+      <pages>43-62</pages>
+    </bibl>
+  </bibliografie>
+  <teilobjekt id="1267-1">
+    <objektname>P. Kairo CG 40009 (J.E. 95861, S.R. IV 961)</objektname>
+    <inhalt>
+      <sequenz>A.d.O. - Tb 1 - 130 - 136/136A - 134 - 130 - 64</sequenz>
+      <sprueche>
+        <start/>
+        <s>VA.d.O.</s>
+        <s>1</s>
+        <s>130</s>
+        <s>136/136A</s>
+        <s>134</s>
+        <s>130</s>
+        <s>64</s>
+        <end/>
+      </sprueche>
+    </inhalt>
+    <abbildungen>
+      <fotos>vorhanden / vollständig</fotos>
+      <kommentar>Film 2</kommentar>
+      <abbildung rechte="com">
+        <datei name="Kairo_CG_40009_A.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_CG_40009_B.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_CG_40009_C.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_CG_40009_D.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_CG_40009_E.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_CG_40009_F.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_CG_40009_G.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_CG_40009_H.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_CG_40009_I.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_CG_40009_J.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_CG_40009_K.tif"/>
+      </abbildung>
+    </abbildungen>
+  </teilobjekt>
+</objekt>

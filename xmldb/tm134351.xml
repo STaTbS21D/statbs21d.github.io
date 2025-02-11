@@ -1,0 +1,217 @@
+<objekt id="1166" tm="134351">
+        <admin wann="2023-09-14+02:00" wer="admin"/>
+        <anmerkungen>
+                Update 14.09.2023: Spurch 23V zur Spruchsequenz hinzugefügt (vgl. Quirke 2013: 82, auf Hinweis von Ivan Rodríguez López unter Zustimmung von Rita Lucarelli)
+        </anmerkungen>
+        <standort>
+                <land>GB</land>
+                <ort>London</ort>
+                <institution>British Museum</institution>
+        </standort>
+        <herkunft>
+                <region>Theben</region>
+        </herkunft>
+        <besitzer geschlecht="M">
+                <name>Hw- nfr</name>
+                <titel>i͗m.i͗- rꜣ pr n nsw.t nb tꜣ.wi͗ (Mn-mꜣꜥt-Rꜥ)| i͗m.i͗- rꜣ mnmn.wt n nb tꜣ.wi͗
+                        i͗mn.t.t Wꜣs.t</titel>
+                <verwandt rel="Ehefrau">
+                        <name>Nꜣšꜣ</name>
+                        <titel>nb.t- pr šmꜥ.t n Imn </titel>
+                </verwandt>
+        </besitzer>
+        <datierung>
+                <periode>Neues Reich</periode>
+                <detail>19. Dynastie</detail>
+        </datierung>
+        <form>
+                <objektgruppe>Papyrus</objektgruppe>
+                <material>Papyrus</material>
+                <gesamtmasse>
+                        <beschreibung>H. d. Schriftspiegels: 29,5 cm</beschreibung>
+                        <hoehe>46,3</hoehe>
+                        <breite>579</breite>
+                </gesamtmasse>
+                <schrift>Hieroglyphisch</schrift>
+                <vignettenstil>farbig</vignettenstil>
+        </form>
+        <bibliografie>
+                <bibl bibl-id="bibl-2474">
+                        <title>E.A.W. Budge, The Book of the Dead, Facsimiles of the Papyri of
+                                Hunefer, Anhai, Kerâsher and Netchemet with Supplementary Text from
+                                the Papyrus of Nu, London 1899</title>
+                </bibl>
+                <bibl bibl-id="bibl-436">
+                        <title>W. Seipel, Ägypten, Götter, Gräber und die Kunst, 4000 Jahre
+                                Jenseitsglaube 1989</title>
+                        <pages>171, Nr. 137 (Ausschnitt)</pages>
+                </bibl>
+                <bibl bibl-id="bibl-871">
+                        <title>R. Parkinson, Cracking Codes - The Rosetta Stone and Decipherment
+                                (Kat. London), London 1999</title>
+                        <pages>65, Fig. 29 (nur sh. 8)</pages>
+                </bibl>
+                <bibl bibl-id="bibl-717">
+                        <title>St. Quirke, Ancient Egyptian Religion, London 1992</title>
+                        <pages>28, fig. 13 und 106, fig. 58</pages>
+                </bibl>
+                <bibl bibl-id="bibl-1616">
+                        <title>Johnson, P., The Civilisation of Ancient Egypt, London 1999</title>
+                        <pages>4 u. 5</pages>
+                </bibl>
+                <bibl bibl-id="bibl-595">
+                        <title>A. Roberts, My Heart, My Mother. Death and Rebirth in Ancient Egypt,
+                                Rottingdean 2000</title>
+                        <pages>40</pages>
+                </bibl>
+                <bibl bibl-id="bibl-2977">
+                        <title>F. Dunand/R. Lichtenberg, Mummies. A Journey through Eternity, London
+                                1994 (Nachdruck 2000)</title>
+                        <pages>47</pages>
+                </bibl>
+                <bibl bibl-id="bibl-272">
+                        <title>J. H. Taylor, Death and the Afterlife in Ancient Egypt, London
+                                2001</title>
+                        <pages>Cover; 26, fig. 11; 36, fig. 17; 190, fig. 133</pages>
+                </bibl>
+                <bibl bibl-id="bibl-942">
+                        <title>H. Nibley (J. Gee/M.D. Rhodes (Hgg.)), The Message of the Joseph
+                                Smith Papyri. An Egyptian Endowment, The Collected Works of Hugh
+                                Nibley, Vol. 16, Salt Lake City/Provo 22005</title>
+                        <pages>151, Abb. 40C; 230, Abb. 69; 343, Abb. 107</pages>
+                </bibl>
+                <bibl bibl-id="bibl-1427">
+                        <title>G. Lapp, Totenbuch Spruch 17, TbT 1, Basel 2006</title>
+                        <pages>pL4</pages>
+                </bibl>
+                <bibl bibl-id="bibl-2013">
+                        <title>M. Gabolde, Une interprétation alternative de la „pesée du coeur“ du
+                                livre des morts, in: Egypte Afrique &amp; Orient Nr. 43, Oktober
+                                2006</title>
+                        <pages>16, Abb. 9 sowie 11-22</pages>
+                </bibl>
+                <bibl bibl-id="bibl-281">
+                        <title>M. Tarasenko, Mythological Allusions Connected with Cosmogony in
+                                Chapter 17 of the Book of the Dead, in: B.Backes/I.Munro/S. Stöhr
+                                (Hgg.), Totenbuch-Forschungen, Gesammelte Beiträge des 2.
+                                Internationalen Totenbuch-Symposiums, Bonn 25-29. September 2005,
+                                SAT 11, Wiesbaden 2006</title>
+                        <pages>345, Abb. 1 (= J. Malek, The Cat in Ancient Egypt, London 2000, 85,
+                                Abb. 52)</pages>
+                </bibl>
+                <bibl bibl-id="bibl-1438">
+                        <title>Landesmuseum Württemberg, Stuttgart (Hg.), Ägyptische Mumien.
+                                Unsterblichkeit im Land der Pharaonen, Kat. Stuttgart 2007, Mainz
+                                2007</title>
+                        <pages>171</pages>
+                </bibl>
+                <bibl bibl-id="bibl-2742">
+                        <title>Backes, in: SAT 14, 2009</title>
+                        <pages>5, 14f</pages>
+                </bibl>
+                <bibl bibl-id="bibl-274">
+                        <title>J. Taylor (Hrg.), Journey through the Afterlife, Ancient Egyptian
+                                Book of the Dead, London 2010</title>
+                </bibl>
+                <bibl bibl-id="bibl-979">
+                        <title>E. Naville, Das ägyptische Totenbuch der XVIII. bis XX. Dynastie,
+                                Graz 1971</title>
+                        <pages>59-60 (Ag)</pages>
+                </bibl>
+                <bibl bibl-id="bibl-2675">
+                        <title>M. Bellion</title>
+                        <pages>49 (mit weiterer Lit.)</pages>
+                </bibl>
+                <bibl bibl-id="bibl-1036">
+                        <title>I. Munro, Untersuchungen zu den Totenbuch-Papyri der 18. Dynastie,
+                                London 1987</title>
+                        <pages>302</pages>
+                </bibl>
+                <bibl bibl-id="bibl-554">
+                        <title>E. Rossiter, Die Ägyptischen Totenbücher</title>
+                        <pages>80-89,</pages>
+                </bibl>
+                <bibl bibl-id="bibl-706">
+                        <title>St. Quirke/J. Spencer (Hgg.), The British Museum Book of Ancient
+                                Egypt, London 1992</title>
+                        <pages>149 (Abb. 113), 170-171 (Abb. 130)</pages>
+                </bibl>
+                <bibl bibl-id="bibl-716">
+                        <title>St. Quirke, Owners</title>
+                        <pages>41, Nr. 89 mit Anm. S. 75</pages>
+                </bibl>
+                <bibl bibl-id="bibl-1645">
+                        <title>T.G.H. James, A Short History of Ancient Egypt, Kairo 1995</title>
+                        <pages>Schutzumschlag</pages>
+                </bibl>
+                <bibl bibl-id="bibl-2859">
+                        <title>C. Andrews, Egyptian Mummies (Katalog British Museum), London
+                                1984</title>
+                        <pages>Abb.70</pages>
+                </bibl>
+                <bibl bibl-id="bibl-1958">
+                        <title>R. Germer, Das Geheimnis der Mumien, 1997</title>
+                        <pages>38-39, Abb. 29</pages>
+                </bibl>
+                <bibl bibl-id="bibl-446">
+                        <title>R. Schulz/M. Seidel, Ägypten, Die Welt der Pharaonen, Köln
+                                1997</title>
+                        <pages>350-351, Abb. 44</pages>
+                </bibl>
+                <bibl bibl-id="bibl-2224">
+                        <title>L.E. Díaz-Iglesias Llanos, Commentary on Heracleopolis Magna from the
+                                theological perspective (I): the image of the local lakes in the
+                                vignette of chapter 17 of the Book of the dead, in: Trabajos de
+                                Egiptología 4, 2005</title>
+                        <pages>31-106</pages>
+                </bibl>
+                <bibl bibl-id="bibl-3033">
+                        <title>Quirke, St.: Going out in Daylight, London 2013.</title>
+                </bibl>
+        </bibliografie>
+        <teilobjekt id="1166-1">
+                <objektname>P. London BM EA 9901</objektname>
+                <inhalt>
+                        <sequenz>Tb 15A III V - 15A V - 183V - TG - 30B - 1V - 22 - 23V - 17V</sequenz>
+                        <sprueche>
+                                <start/>
+                                <s>15V</s>
+                                <s>V15</s>
+                                <s>183V</s>
+                                <s>VTG</s>
+                                <s>30B</s>
+                                <s>1V</s>
+                                <s>22</s>
+                                <s>17V</s>
+                                <end/>
+                        </sprueche>
+                </inhalt>
+                <abbildungen>
+                        <fotos>vorhanden / vollständig</fotos>
+                        <abbildung rechte="com">
+                                <datei name="BM_EA_9901_1.jpg"/>
+                        </abbildung>
+                        <abbildung rechte="com">
+                                <datei name="BM_EA_9901_2.jpg"/>
+                        </abbildung>
+                        <abbildung rechte="com">
+                                <datei name="BM_EA_9901_3.jpg"/>
+                        </abbildung>
+                        <abbildung rechte="com">
+                                <datei name="BM_EA_9901_4.jpg"/>
+                        </abbildung>
+                        <abbildung rechte="com">
+                                <datei name="BM_EA_9901_5.jpg"/>
+                        </abbildung>
+                        <abbildung rechte="com">
+                                <datei name="BM_EA_9901_6.jpg"/>
+                        </abbildung>
+                        <abbildung rechte="com">
+                                <datei name="BM_EA_9901_7.jpg"/>
+                        </abbildung>
+                        <abbildung rechte="com">
+                                <datei name="BM_EA_9901_8.jpg"/>
+                        </abbildung>
+                </abbildungen>
+        </teilobjekt>
+</objekt>

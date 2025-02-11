@@ -1,0 +1,334 @@
+<objekt xmlns:v="http://exist-db.org/versioning" id="1242" tm="134426" v:revision="12125" v:key="153a8c5b15e2f5d" v:path="/db/totenbuch/objects/tm134426.xml">
+    <admin wann="2012-01-01" wer="TB-Projekt"/>
+    <anmerkungen>1858 in Luxor erworben; seit 1949 in Sammlung Gumá Herrera Conde de Langunillas;
+        mit Vergoldung </anmerkungen>
+    <standort>
+        <land>CU</land>
+        <ort>Havanna</ort>
+        <institution>Museo Nacional</institution>
+    </standort>
+    <herkunft>
+        <region>Theben</region>
+    </herkunft>
+    <besitzer geschlecht="M">
+        <name ranke="I, 90.16; 91.5">Bꜣk- n- wrl</name>
+        <titel>wꜥb n Imn- Rꜥ nb nsw.t tꜣ.wi͗ ẖr.i͗- ḥb n Imn m Ipt- swt</titel>
+        <verwandt rel="Ehefrau">
+            <name>Mi͗ꜣ- nmt</name>
+            <titel>nb(.t)- pr, šm(ꜥ.t) n(.t) Imn</titel>
+        </verwandt>
+        <verwandt rel="Sohn">
+            <name ranke="PN I, 30.12">Imn- ḥtp</name>
+        </verwandt>
+        <verwandt rel="Vater">
+            <name ranke="I, 307, 11">Smn- tꜣwi͗</name>
+        </verwandt>
+    </besitzer>
+    <datierung>
+        <periode>Neues Reich</periode>
+        <detail>19.-20. Dynastie</detail>
+    </datierung>
+    <form>
+        <objektgruppe>Papyrus</objektgruppe>
+        <material>Papyrus</material>
+        <gesamtmasse>
+            <hoehe>33,5</hoehe>
+        </gesamtmasse>
+        <schrift>Hieroglyphisch</schrift>
+        <vignettenstil>farbig</vignettenstil>
+    </form>
+    <bibliografie>
+        <bibl bibl-id="bibl-1296">
+            <title>J. Lipinska, CAA Cuba 1, Mainz 1982</title>
+            <pages>137-142</pages>
+        </bibl>
+        <bibl bibl-id="bibl-926">
+            <title>A. Niwinski, Studies on the Illustrated Theban Funerary Papyri of the 11th and
+                10th Centuries B.C., OBO 86, Fribourg/Göttingen 1989</title>
+            <pages>309 (Havana)</pages>
+        </bibl>
+        <bibl bibl-id="bibl-2675">
+            <title>M. Bellion</title>
+            <pages>160 (mit weiterer Lit.)</pages>
+        </bibl>
+        <bibl bibl-id="bibl-1763">
+            <title>M. Heerma van Voss, in: Fs van Daelen, Kampen 1985</title>
+            <pages>114 (SD)</pages>
+        </bibl>
+        <bibl bibl-id="bibl-1711">
+            <title>A.K. Heyne, in: A. Brodbeck (Hg.), Ein ägyptisches Glasperlenspiel (Fs
+                Hornung)</title>
+            <pages>57-68, bes. 60f., Anm. 21</pages>
+        </bibl>
+        <bibl bibl-id="bibl-3026">
+            <title>Álvarez Sosa, M.; Chicuri Lastra, A.; Morfini, I. La Colección
+                Egipcia del Museo Nacional de Bellas Artes de la Habana / The
+                Egyptian collection of the National Museum of Fine Arts in
+                Havana, [San Cristóbal de La Laguna] 2015</title>
+            <pages>204-210</pages>
+        </bibl>
+        <bibl bibl-id="bibl-3027">
+            <title>Castro Miranda, M.; Loeben, Ch. E.; Rößler, D.; Stürmer, V. Die
+                Antikensammlung im Nationalmuseum Havanna, Antike Welt 29 (3)
+                1998</title>
+            <pages>209-223</pages>
+        </bibl>
+        <bibl bibl-id="bibl-3028">
+            <title>Rodríguez López, I. Experiences and Challenges in Deciphering the
+                Book of the Dead papyrus Havana, Abgadiyat 15, 2020</title>
+            <pages>56-64</pages>
+        </bibl>
+        <bibl bibl-id="bibl-3029">
+            <title>Rodríguez López, I. The Book of the Dead of Bakenwerel (pHavana [MNBA
+                Cuba 94–47] / pHood B), HAT 15, Wiesbaden 2021</title>
+            <pages/>
+        </bibl>
+        <bibl bibl-id="bibl-3030">
+            <title>Rodríguez López, I. Papyrus Havana Book of the Dead spell 194. A
+                versioned copy of the tribunal of the dead or ‘Anubis and the
+                daemons’, ZÄS 149 (2) 2022</title>
+            <pages>240-252</pages>
+        </bibl>
+        <bibl id="bibl-3032">
+            <title>Rodríguez López, I. Enigmatic hieroglyphs in a Book of the Dead
+                vignette of the Field of Offerings/Rushes, in: D’Auria, S.;
+                Lacovara, P. (Hg.), From the Field of Offerings: Studies in
+                Memory of Lanny D. Bell, MVCAE 9, Atlanta 2023.</title>
+            <pages>87-94</pages>
+        </bibl>
+    </bibliografie>
+    <teilobjekt id="1242-1">
+        <objektname>P. Havanna</objektname>
+        <inhalt>
+            <!-- DATENUPDATE Ivan Rodriguez TB-Mailingliste 17. Mai 2023 
+             
+                Alte Sequenz:               // Tb 168A d V - 168A e V - 23V - ausserodentliches Textgut - 185V - 148V // 1 // V148 - 43V? - 99V // 1b // 100 // 110V - 58V - V59 - 90V //186A V // V186A ///
+                Gewünschte Sequenz:         Tb ///168A d V + 168A e V - Reinigung (195V) //23V// - 138V - 185V - 148V //1// - 194V //149V// - 99V //1B b// //100// - 110V - V59 - 90V// - 58V + 186A
+                Umsetzung nach Anpassung:   /// Tb 168A d V + 168A e V - Reinigung (195V) //23V// - 138V - 185V - 148V //1// - 194V //149V// - 99V //1B b// //100// - 110V - V59 - 90V// - 58V + 186A                
+             -->
+            
+          <!--  <sequenz>// Tb 168A d V - 168A e V - 23V - ausserodentliches Textgut - 185V - 148V // 1
+                // V148 - 43V? - 99V // 1b // 100 // 110V - 58V - V59 - 90V //186A V // V186A
+                ///</sequenz>-->
+            
+            <sequenz>/// Tb 168A d V + 168A e V - Reinigung (195V) //23V// - 138V - 185V - 148V //1// - 194V //149V// - 99V //1B b// //100// - 110V - V59 - 90V// - 58V + 186A</sequenz>
+            <!--<sprueche>
+                <l/>
+                <s>168A d V</s>
+                <s>168A e V</s>
+                <s>23V</s>
+                <s>ausserodentliches Textgut</s>
+                <s>185V</s>
+                <s>148V</s>
+                <l/>
+                <s>1</s>
+                <l/>
+                <s>43V ?</s>
+                <s>99V</s>
+                <l/>
+                <s>1b</s>
+                <l/>
+                <s>100</s>
+                <l/>
+                <s>110V</s>
+                <s>58V</s>
+                <s>V59</s>
+                <s>90V</s>
+                <l/>
+                <s>186A V</s>
+                <l/>
+                <s>V186A</s>
+                <end/>
+            </sprueche>-->
+            <sprueche>
+                <l/>
+                <s>168A d V + 168A e V</s>
+                <s>195V</s>
+                <s>138V</s>
+                <s>185V</s>
+                <s>148V</s>
+                <s>194V</s>
+                <s>99V</s>
+                <s>110V</s>
+                <s>V59</s>
+                <s>90</s>
+                <s>58 + 186A</s>
+            </sprueche>
+        </inhalt>
+        <objektmasse>Länge: 325 cm</objektmasse>
+        <abbildungen>
+            <fotos>vorhanden / vollständig</fotos>
+            <abbildung rechte="com">
+                <datei name="Havanna_MN_001.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Havanna_MN_002.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Havanna_MN_003.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Havanna_MN_004.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Havanna_MN_005.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Havanna_MN_006.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Havanna_MN_007.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Havanna_MN_008.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Havanna_MN_009.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="IMG_0635.JPG"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="IMG_0636.JPG"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="IMG_0637.JPG"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="IMG_0638.JPG"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="IMG_0639.JPG"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="IMG_0640.JPG"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="IMG_0641.JPG"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="IMG_0642.JPG"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="IMG_0643.JPG"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="IMG_0644.JPG"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="IMG_0645.JPG"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="IMG_0646.JPG"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="IMG_0647.JPG"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="IMG_0648.JPG"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="IMG_0649.JPG"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="IMG_0650.JPG"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="IMG_0651.JPG"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="IMG_0652.JPG"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="IMG_0653.JPG"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="IMG_0654.JPG"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="IMG_0655.JPG"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="IMG_0656.JPG"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="IMG_0657.JPG"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="IMG_0658.JPG"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="IMG_0659.JPG"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="IMG_0660.JPG"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="IMG_0661.JPG"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="IMG_0662.JPG"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="IMG_0663.JPG"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="IMG_0664.JPG"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="IMG_0665.JPG"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="IMG_0666.JPG"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="IMG_0667.JPG"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="IMG_0668.JPG"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="IMG_0669.JPG"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="IMG_0670.JPG"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="IMG_0671.JPG"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="IMG_0672.JPG"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="IMG_0673.JPG"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="IMG_0674.JPG"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="IMG_0675.JPG"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="IMG_0676.JPG"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="IMG_0677.JPG"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="IMG_0678.JPG"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="IMG_0679.JPG"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="IMG_0680.JPG"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="IMG_0681.JPG"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="IMG_0682.JPG"/>
+            </abbildung>
+        </abbildungen>
+    </teilobjekt>
+</objekt>

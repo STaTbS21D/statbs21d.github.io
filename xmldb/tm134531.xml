@@ -1,0 +1,166 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134531" id="1348" v:revision="10359" v:key="153a8c5d6862877" v:path="/db/totenbuch/objects/tm134531.xml">
+  <admin wer="TB-Projekt" wann="2012-01-01"/>
+  <standort>
+    <land>GB</land>
+    <ort>London</ort>
+    <institution>British Museum</institution>
+    <provenienz>Sammlung Barker, Nr. 212, erworben 1833</provenienz>
+  </standort>
+  <herkunft>
+    <region>Theben</region>
+    <anmerkungen>erschlossen</anmerkungen>
+  </herkunft>
+  <besitzer geschlecht="M">
+    <name ranke="I, 57.7">ꜥꜣ- Imn</name>
+    <titel>i͗t- nṯr mr- nṯr wꜥb ꜥ.wi͗ m Ipt- swt ḥr.i͗ sštꜣ m Ipt- swt ḥr.i͗ nfw.w wi͗ꜣ n pr
+      Imn</titel>
+  </besitzer>
+  <datierung>
+    <periode>3. Zwischenzeit</periode>
+    <detail>21. Dynastie</detail>
+    <jahr>1. Hälfte 21. Dynastie</jahr>
+  </datierung>
+  <form>
+    <objektgruppe>Papyrus</objektgruppe>
+    <material>Papyrus</material>
+    <gesamtmasse>
+      <beschreibung>H. 32,4 cm, L. 2,79 m</beschreibung>
+    </gesamtmasse>
+    <schrift>Hieroglyphisch</schrift>
+    <vignettenstil>farbig</vignettenstil>
+  </form>
+  <bibliografie>
+    <bibl bibl-id="bibl-397">
+      <title>A.W. Shorter, Catalogue</title>
+      <pages>5 f, pl. VI</pages>
+    </bibl>
+    <bibl bibl-id="bibl-926">
+      <title>A. Niwinski, Studies on the Illustrated Theban Funerary Papyri of the 11th and 10th
+        Centuries B.C., OBO 86, Fribourg/Göttingen 1989</title>
+      <pages>329-330 (London 35)</pages>
+    </bibl>
+    <bibl bibl-id="bibl-2675">
+      <title>M. Bellion</title>
+      <pages>56</pages>
+    </bibl>
+    <bibl bibl-id="bibl-1628">
+      <title>K. Jansen-Winkeln, Text u. Sprache in der 3. Zwischenzeit, ÄAT 26, Wiesbaden
+        1994</title>
+      <pages>271f</pages>
+    </bibl>
+    <bibl bibl-id="bibl-716">
+      <title>St. Quirke, Owners</title>
+      <pages>29, Nr. 1 mit Anm. S. 70</pages>
+    </bibl>
+    <bibl bibl-id="bibl-916">
+      <title>A. Niwinski, in: B. Backes/M. Müller/S. Stöhr (Hgg.), Ausgestattet mit den Schriften
+        des Thot. Festschrift für Irmtraut Munro zu ihrem 65. Geburtstag, SAT 14, Wiesbaden
+        2009</title>
+      <pages>152</pages>
+    </bibl>
+  </bibliografie>
+  <teilobjekt id="1348-1">
+    <objektname>P. London BM EA 10014</objektname>
+    <inhalt>
+      <sequenz>A.d.O. - Tb 9 - 181 - 148V - 138V - 57V - 147V - 144V - 89V - 53 - 187V - 125B V -
+        V150 - V110</sequenz>
+      <sprueche>
+        <start/>
+        <s>VA.d.O.</s>
+        <s>9</s>
+        <s>181</s>
+        <s>148V</s>
+        <s>138V</s>
+        <s>57V</s>
+        <s>147V</s>
+        <s>144V</s>
+        <s>89V</s>
+        <s>53</s>
+        <s>187V</s>
+        <s>125V</s>
+        <s>V150</s>
+        <s>V110</s>
+        <end/>
+      </sprueche>
+    </inhalt>
+    <abbildungen>
+      <fotos>vorhanden / vollständig</fotos>
+      <kommentar>Tb-Archiv + Niwinski- Fotos</kommentar>
+      <abbildung rechte="com">
+        <datei name="London_BM_10014_001.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="London_BM_10014_002.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="London_BM_10014_003.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="London_BM_10014_004.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="London_BM_10014_005.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="London_BM_10014_006.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="London_BM_10014_007.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="London_BM_10014_008.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="London_BM_10014_009.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="London_BM_10014_010.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="London_BM_10014_011.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="London_BM_10014_012.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="London_BM_10014_013.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="London_BM_10014_014.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="London_BM_10014_015.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="London_BM_10014_016.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="London_BM_10014_017.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="London_BM_10014_018.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="London_BM_10014_019.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="London_BM_10014_020.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="London_BM_10014_021.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="London_BM_10014_022.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="London_BM_10014_023.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="London_BM_10014_024.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="London_BM_10014_025.tif"/>
+      </abbildung>
+    </abbildungen>
+  </teilobjekt>
+</objekt>

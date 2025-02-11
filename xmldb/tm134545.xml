@@ -1,0 +1,577 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134545" id="1362" v:revision="10373" v:key="153a8c5db5e2885" v:path="/db/totenbuch/objects/tm134545.xml">
+    <admin wer="TB-Projekt" wann="2012-01-01"/>
+    <anmerkungen>PhD Thesis über Spr. 177 u. 178 bei Soraya Luján in Vorbereitung 2010</anmerkungen>
+    <anmerkungen>aus Sammlung Salt; zur Datierung: mit Datum: "Jahr 5, 3. Monat d. Achet-Jahreszeit,
+        Tag 2 d. Rgzt. Amenemope" !</anmerkungen>
+    <standort>
+        <land>GB</land>
+        <ort>London</ort>
+        <institution>British Museum</institution>
+    </standort>
+    <herkunft>
+        <region>Theben</region>
+    </herkunft>
+    <besitzer geschlecht="M">
+        <name ranke="I, 109.10">P(ꜣ)- n- nsti͗- tꜣwi͗</name>
+        <titel>wꜥb ḥr.i͗ nfw.w wi͗ꜣ n pr Imn</titel>
+        <verwandt rel="Mutter">
+            <name>Tꜣ- mni͗w</name>
+        </verwandt>
+        <verwandt rel="Vater">
+            <name>Ini͗- pḥ- f- nḫt</name>
+        </verwandt>
+    </besitzer>
+    <datierung>
+        <periode>3. Zwischenzeit</periode>
+        <detail>21. Dynastie</detail>
+        <jahr>späte 21. Dynastie</jahr>
+    </datierung>
+    <form>
+        <objektgruppe>Papyrus</objektgruppe>
+        <material>Papyrus</material>
+        <gesamtmasse>
+            <beschreibung>H. 32,4 cm, L. 10,54 m</beschreibung>
+        </gesamtmasse>
+        <schrift>Hieroglyphisch</schrift>
+        <schrift>Hieratisch</schrift>
+        <vignettenstil>farbig</vignettenstil>
+    </form>
+    <bibliografie>
+        <bibl bibl-id="bibl-397">
+            <title>A.W. Shorter, Catalogue</title>
+            <pages>Taf. XII sowie 7-9</pages>
+        </bibl>
+        <bibl bibl-id="bibl-1025">
+            <title>I. Munro, Das Totenbuch des Pa- en- nesti- taui (pLondon BM 10064) aus der
+                Regierungszeit des Amenemope (HAT 7, Wiesbaden 2001)</title>
+        </bibl>
+        <bibl bibl-id="bibl-926">
+            <title>A. Niwinski, Studies on the Illustrated Theban Funerary Papyri of the 11th and
+                10th Centuries B.C., OBO 86, Fribourg/Göttingen 1989</title>
+            <pages>334 (London 49)</pages>
+        </bibl>
+        <bibl bibl-id="bibl-2675">
+            <title>M. Bellion</title>
+            <pages>59 (mit weiterer Lit.)</pages>
+        </bibl>
+        <bibl bibl-id="bibl-716">
+            <title>St. Quirke, Owners</title>
+            <pages>59, Nr. 205 mit Anm. S. 82</pages>
+        </bibl>
+        <bibl bibl-id="bibl-1628">
+            <title>K. Jansen-Winkeln, Text u. Sprache in der 3. Zwischenzeit, ÄAT 26, Wiesbaden
+                1994</title>
+            <pages>267</pages>
+        </bibl>
+        <bibl bibl-id="bibl-1532">
+            <title>K.A. Kitchen, TIP</title>
+            <pages>272 n. 421</pages>
+        </bibl>
+        <bibl bibl-id="bibl-545">
+            <title>U. Rößler-Köhler, SAT 3, 1999</title>
+            <pages>82-85</pages>
+        </bibl>
+        <bibl bibl-id="bibl-1519">
+            <title>H. Kockelmann, in: S. Bickel/A. Loprieno (Hgg.), AH 17, Basel 2003</title>
+            <pages>296-314</pages>
+        </bibl>
+        <bibl bibl-id="bibl-1361">
+            <title>G. Lenzo, in: BIFAO 102, 2002</title>
+            <pages>267-283</pages>
+        </bibl>
+        <bibl bibl-id="bibl-1359">
+            <title>G. Lenzo Marchese, in: BSEG 26, 2004</title>
+            <pages>43-62</pages>
+        </bibl>
+        <bibl bibl-id="bibl-1815">
+            <title>E. Haslauer, Rez. zu I. Munro, HAT 7, in: WZKM 95, 2005</title>
+            <pages>387-391</pages>
+        </bibl>
+        <bibl bibl-id="bibl-1120">
+            <title>H. Milde, Vignetten-Forschung, in: B. Backes/I. Munro/S. Stöhr (Hgg.),
+                Totenbuch-Forschungen. Gesammelte Beiträge des 2. Internationalen
+                Totenbuch-Symposiums, Bonn 25. - 29. September 2005, SAT 11, Wiesbaden 2006</title>
+            <pages>221-231</pages>
+        </bibl>
+        <bibl bibl-id="bibl-1508">
+            <title>H. Kockelmann, Mumienbinden</title>
+            <pages>394 (Index)</pages>
+        </bibl>
+        <bibl bibl-id="bibl-916">
+            <title>A. Niwinski, in: B. Backes/M. Müller/S. Stöhr (Hgg.), Ausgestattet mit den
+                Schriften des Thot. Festschrift für Irmtraut Munro zu ihrem 65. Geburtstag, SAT 14,
+                Wiesbaden 2009</title>
+            <pages>139, 153</pages>
+        </bibl>
+        <bibl bibl-id="bibl-277">
+            <title>M. Tarasenko, in: B. Backes/M. Müller/S. Stöhr (Hgg.), Ausgestattet mit den
+                Schriften des Thot. Festschrift für Irmtraut Munro zu ihrem 65. Geburtstag, SAT 14,
+                Wiesbaden 2009</title>
+            <pages>244</pages>
+        </bibl>
+        <bibl bibl-id="bibl-694">
+            <title>Chloe Ragazzoli, The Book of the Dead of Ankhesenaset (P. BNF Egyptien 62-88).
+                Traces of workshop production or scribal experiments?, in: BMSAES 15, 2010</title>
+            <pages>225-248</pages>
+        </bibl>
+    </bibliografie>
+    <teilobjekt id="1362-1">
+        <objektname>P. London BM EA 10064</objektname>
+        <inhalt>
+            <sequenz>A.d.O. - Tb 17 - 18 - 23 - 24 - 25 - 26 I - 28 I - 180 - 181 - 15B III - 130 -
+                136/136A I - 134 I - 64 - 133V - 136/136A II V- 134 II - 1V - 72 - 2 I - 3 - 65V -
+                92 - 68 - 69 - 70 - 101 - 100/129V - 136B V - 136/136A III V - 98V - 99/99B V - 63B
+                - 8 - 14 - 78V - 82V - 77V - 86V - 85V - 83V - 84V - 81A V - 80 - 87V - 88V - 76 -
+                115 - 116V- 111 - 112V - 113V - 107 - 108 [V] - 109V - 114V - 102V - 119 - 7 - 39 -
+                42V - 41 - 41B - 31V- 32V - 40V - 36V- 33V (?) - 37V (?) - 38B - 54 - 55 - 38A V -
+                56 - 13/121 - 138 - 123/139 - 187 - 12/120 - 58 - 57 - 132 - 189 - 53 - 91 - 44 - 93
+                - 50 - 188 - 117 + 118 - 34 - 35 - 74 - 45 - 63A - 156 - 155 - 79 - 75 - 179 - 61 I
+                - 30B V - 29 - 27 - 28 II - 11/49 - 2 II - 4 - 43 - 61 II - 6 - 5 - 105V - 47 - 103
+                I - 104V - 96/97V - 94 V- 103 II V - 10/48 - 90 - 131 - 141/142 - 190 - 146 - 145V -
+                147V - 26 II - 135 - 152 - 148V - 153A V - 153B V -125A - 125C+D - 125B V - V 125C -
+                149 - V 149 -V 150 - V 136/136A/B- 151 - Ritualtext (Stundenwache) - 177 - 110 - 178
+                - V 110 + Schlussvermerk + Reinigungsszene </sequenz>
+            <sprueche>
+                <start/>
+                <s>VA.d.O.</s>
+                <s>17</s>
+                <s>18</s>
+                <s>23</s>
+                <s>24</s>
+                <s>25</s>
+                <s>26</s>
+                <s>28</s>
+                <s>180</s>
+                <s>181</s>
+                <s>15</s>
+                <s>130</s>
+                <s>136/136A</s>
+                <s>134</s>
+                <s>64</s>
+                <s>133V</s>
+                <s>136/136AV</s>
+                <s>134</s>
+                <s>1V</s>
+                <s>72</s>
+                <s>2</s>
+                <s>3</s>
+                <s>65V</s>
+                <s>92</s>
+                <s>68</s>
+                <s>69</s>
+                <s>70</s>
+                <s>101</s>
+                <s>100/129V</s>
+                <s>136BV</s>
+                <s>136/136AV</s>
+                <s>98V</s>
+                <s>99/99BV</s>
+                <s>63B</s>
+                <s>8</s>
+                <s>14</s>
+                <s>78V</s>
+                <s>82V</s>
+                <s>77V</s>
+                <s>86V</s>
+                <s>85V</s>
+                <s>83V</s>
+                <s>84V</s>
+                <s>81AV</s>
+                <s>80</s>
+                <s>87V</s>
+                <s>88V</s>
+                <s>76</s>
+                <s>115</s>
+                <s>116V</s>
+                <s>111</s>
+                <s>112V</s>
+                <s>113V</s>
+                <s>107</s>
+                <s>108V</s>
+                <s>109V</s>
+                <s>114V</s>
+                <s>102V</s>
+                <s>119</s>
+                <s>7</s>
+                <s>39</s>
+                <s>42V</s>
+                <s>41</s>
+                <s>41B</s>
+                <s>31V</s>
+                <s>32V</s>
+                <s>40V</s>
+                <s>36V</s>
+                <s>33V?</s>
+                <s>37V?</s>
+                <s>38B</s>
+                <s>54</s>
+                <s>55</s>
+                <s>38AV</s>
+                <s>56</s>
+                <s>13/121</s>
+                <s>138</s>
+                <s>123/139</s>
+                <s>187</s>
+                <s>12/120</s>
+                <s>58</s>
+                <s>57</s>
+                <s>132</s>
+                <s>189</s>
+                <s>53</s>
+                <s>91</s>
+                <s>44</s>
+                <s>93</s>
+                <s>50</s>
+                <s>188</s>
+                <s>117</s>
+                <s>118</s>
+                <s>34</s>
+                <s>35</s>
+                <s>74</s>
+                <s>45</s>
+                <s>63A</s>
+                <s>156</s>
+                <s>155</s>
+                <s>79</s>
+                <s>75</s>
+                <s>179</s>
+                <s>61</s>
+                <s>30BV</s>
+                <s>29</s>
+                <s>27</s>
+                <s>28</s>
+                <s>11/49</s>
+                <s>2</s>
+                <s>4</s>
+                <s>43</s>
+                <s>61</s>
+                <s>6</s>
+                <s>5</s>
+                <s>105V</s>
+                <s>47</s>
+                <s>103</s>
+                <s>104V</s>
+                <s>96 oder 97V</s>
+                <s>94V</s>
+                <s>103V</s>
+                <s>10/48</s>
+                <s>90</s>
+                <s>131</s>
+                <s>141</s>
+                <s>142</s>
+                <s>190</s>
+                <s>146</s>
+                <s>145V</s>
+                <s>147V</s>
+                <s>26</s>
+                <s>135</s>
+                <s>152</s>
+                <s>148V</s>
+                <s>153AV</s>
+                <s>153BV</s>
+                <s>125</s>
+                <s>125</s>
+                <s>125</s>
+                <s>125V</s>
+                <s>V125</s>
+                <s>149</s>
+                <s>V149</s>
+                <s>V150</s>
+                <s>V136/136A</s>
+                <s>V136B</s>
+                <s>151</s>
+                <s>Ritualtext</s>
+                <s>177</s>
+                <s>110</s>
+                <s>178</s>
+                <s>V110</s>
+                <s>Schlussvermerk</s>
+                <s>V?</s>
+                <end/>
+            </sprueche>
+        </inhalt>
+        <abbildungen>
+            <fotos>vorhanden / vollständig</fotos>
+            <kommentar>extra Ordner</kommentar>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_001.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_002.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_003.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_004.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_005.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_006.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_007.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_008.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_009.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_010.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_011.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_012.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_013.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_014.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_015.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_016.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_017.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_018.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_019.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_020.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_021.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_022.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_023.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_024.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_025.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_026.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_027.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_028.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_029.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_030.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_031.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_033.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_034.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_035.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_036.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_038.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_040.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_043.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_045.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_046.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_047.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_048.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_049.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_050.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_051.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_052.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_053.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_054.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_055.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_056.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_057.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_059.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_060.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_061.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_062.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_063.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_064.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_065.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_066.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_067.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_068.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_069.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_070.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_071.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_072.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_073.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_074.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_075.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_076.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_077.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_078.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_079.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_080.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_081.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_082.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_083.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_084.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_085.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_086.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_087.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_088.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_089.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_090.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_091.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_092.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_093.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_094.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_095.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_096.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_097.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_098.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_100.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10064_101.tif"/>
+            </abbildung>
+        </abbildungen>
+    </teilobjekt>
+</objekt>

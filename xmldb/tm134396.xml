@@ -1,0 +1,74 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134396" id="1212" v:revision="10224" v:key="153a8c5a74527f0" v:path="/db/totenbuch/objects/tm134396.xml">
+          <admin wer="TB-Projekt" wann="2012-01-01"/>
+          <standort>
+                    <land>DE</land>
+                    <ort>Berlin</ort>
+                    <institution>Ägyptisches Museum und Papyrussammlung</institution>
+                    <provenienz>Sammlung Minutoli, 1823</provenienz>
+          </standort>
+          <herkunft>
+                    <region>Theben</region>
+                    <anmerkungen>erschlossen</anmerkungen>
+          </herkunft>
+          <besitzer geschlecht="M">
+                    <name>Nsi͗- qꜣ- ꜥꜣ- sbq</name>
+                    <titel>wn n pr Imn ḥw od. i͗ri͗ ꜥ.t (?)</titel>
+          </besitzer>
+          <datierung>
+                    <periode>3. Zwischenzeit</periode>
+                    <detail>21.-22. Dynastie</detail>
+                    <jahr>späte 21. Dynastie / frühe 22. Dynastie</jahr>
+          </datierung>
+          <form>
+                    <objektgruppe>Papyrus</objektgruppe>
+                    <material>Papyrus</material>
+                    <gesamtmasse>
+                              <beschreibung>H. 22 cm, L. 30 cm </beschreibung>
+                    </gesamtmasse>
+                    <schrift>Hieratisch</schrift>
+                    <vignettenstil>farbig</vignettenstil>
+          </form>
+          <bibliografie>
+                    <bibl bibl-id="bibl-1569">
+                              <title>Kaplony-Heckel, Äg. Handschriften 3</title>
+                              <pages>19, Nr. 10</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-926">
+                              <title>A. Niwinski, Studies on the Illustrated Theban Funerary Papyri
+                                        of the 11th and 10th Centuries B.C., OBO 86,
+                                        Fribourg/Göttingen 1989</title>
+                              <pages>245 (Berlin 7)</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-1253">
+                              <title>U. Luft, in: AfP 22/23, 1973/1974</title>
+                              <pages>23 (Nr. 30)</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-1359">
+                              <title>G. Lenzo Marchese, in: BSEG 26, 2004</title>
+                              <pages>43-62</pages>
+                    </bibl>
+          </bibliografie>
+          <teilobjekt id="1212-1">
+                    <objektname>P. Berlin P. 3010</objektname>
+                    <inhalt>
+                              <sequenz>A.d. Re-Harachte-Atum - Tb 23 - Szenen aus dem
+                                        Mundöffnungsritual (Szene 46 b-d nach Otto) ///</sequenz>
+                              <sprueche>
+                                        <start/>
+                                        <s>A.d. Re-Harachte-Atum</s>
+                                        <s>23</s>
+                                        <s>MöR</s>
+                                        <l/>
+                              </sprueche>
+                    </inhalt>
+                    <abbildungen>
+                              <fotos>vorhanden / vollständig</fotos>
+                              <abbildung rechte="com">
+                                        <datei name="Berlin_3010_A.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Berlin_3010_B.tif"/>
+                              </abbildung>
+                    </abbildungen>
+          </teilobjekt>
+</objekt>

@@ -1,0 +1,124 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134461" id="1277" v:revision="10289" v:key="153a8c5bd142831" v:path="/db/totenbuch/objects/tm134461.xml">
+          <admin wer="TB-Projekt" wann="2012-01-01"/>
+          <anmerkungen>zur Datierung: Mumienbinden von HP Mn-Žpr-R&lt; </anmerkungen>
+          <standort>
+                    <land>EG</land>
+                    <ort>Kairo</ort>
+                    <institution>Ägyptisches Museum</institution>
+          </standort>
+          <herkunft>
+                    <region>Theben</region>
+                    <ort>Cachette von Deir el-Bahari (Bab el-Gasus) 1891</ort>
+          </herkunft>
+          <besitzer geschlecht="M">
+                    <name ranke="I, 109.8">Pꜣ- n- nst- tꜣwi͗</name>
+                    <titel>i͗t- nṯr n Imn- Rꜥ nsw.t nṯr.w i͗t- nṯr n Ḫnsw sš wꜣḥ- ḥtp nṯr n Imn Mw.t
+                              Ḫnsw</titel>
+          </besitzer>
+          <datierung>
+                    <periode>3. Zwischenzeit</periode>
+                    <detail>21. Dynastie</detail>
+                    <jahr>Mitte 21. Dynastie</jahr>
+          </datierung>
+          <form>
+                    <objektgruppe>Papyrus</objektgruppe>
+                    <material>Papyrus</material>
+                    <gesamtmasse>
+                              <hoehe>36</hoehe>
+                    </gesamtmasse>
+                    <schrift>Hieroglyphisch</schrift>
+                    <vignettenstil>farbig</vignettenstil>
+          </form>
+          <bibliografie>
+                    <bibl bibl-id="bibl-1718">
+                              <title>Hermann, in: Jahrbuch für Antike u. Christentum 4, 1961</title>
+                              <pages>Taf. 4a</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-439">
+                              <title>Chr. Seeber, Untersuchungen</title>
+                              <pages>212, n. 21, Fig. 60</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-926">
+                              <title>A. Niwinski, Studies on the Illustrated Theban Funerary Papyri
+                                        of the 11th and 10th Centuries B.C., OBO 86,
+                                        Fribourg/Göttingen 1989</title>
+                              <pages>269 (Cairo 46)</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-1628">
+                              <title>K. Jansen-Winkeln, Text u. Sprache in der 3. Zwischenzeit, ÄAT
+                                        26, Wiesbaden 1994</title>
+                              <pages>270</pages>
+                    </bibl>
+          </bibliografie>
+          <teilobjekt id="1277-1">
+                    <objektname>P. Kairo J.E. 95881 (S.R. IV 984)</objektname>
+                    <inhalt>
+                              <sequenz>Tb 146V- TG + Rede des Thot - 99/99BV - 125A V - 125B V -
+                                        V126 - 100/129V - 101 - 102 - 136/136A - 136B V - 149V -
+                                        V150</sequenz>
+                              <sprueche>
+                                        <start/>
+                                        <s>146V</s>
+                                        <s>VTG</s>
+                                        <s>Ausserordentliches Textgut</s>
+                                        <s>99/99BV</s>
+                                        <s>125V</s>
+                                        <s>125V</s>
+                                        <s>V126</s>
+                                        <s>100/129V</s>
+                                        <s>101</s>
+                                        <s>102</s>
+                                        <s>136/136A</s>
+                                        <s>136BV</s>
+                                        <s>149V</s>
+                                        <s>V150</s>
+                                        <end/>
+                              </sprueche>
+                    </inhalt>
+                    <abbildungen>
+                              <fotos>vorhanden / vollständig</fotos>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95881_A.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95881_B.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95881_C.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95881_D.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95881_E.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95881_F.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95881_G.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95881_H.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95881_I.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95881_J.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95881_L.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95881_M.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95881_N.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95881_O.tif"/>
+                              </abbildung>
+                    </abbildungen>
+          </teilobjekt>
+</objekt>

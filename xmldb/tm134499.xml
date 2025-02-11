@@ -1,0 +1,192 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134499" id="1315" v:revision="10327" v:key="153a8c5ca032857" v:path="/db/totenbuch/objects/tm134499.xml">
+  <admin wer="TB-Projekt" wann="2012-01-01"/>
+  <anmerkungen>aus d. Sammlung Anastasi, 1828</anmerkungen>
+  <standort>
+    <land>NL</land>
+    <ort>Leiden</ort>
+    <institution>Rijksmuseum van Oudheden</institution>
+  </standort>
+  <herkunft>
+    <region>Theben</region>
+  </herkunft>
+  <besitzer geschlecht="M">
+    <name>Pꜣi͗- sr</name>
+    <titel>i͗t- nṯr n Imn- Rꜥ nsw.t nṯr.w m Ipt- swt m Wꜣst ḥsi͗ ꜥꜣ n nṯr- f Imn wꜥb ꜥ.wi͗ m Ipt-
+      swt i͗t- nṯr n Imn m i͗rw- f nb kk (?)</titel>
+    <verwandt rel="Ehefrau">
+      <name>Tꜣ- r- tꜣ- p.t</name>
+      <titel>nb.t- pr šmꜥ.t n Imn</titel>
+    </verwandt>
+    <verwandt rel="Mutter">
+      <name>--</name>
+    </verwandt>
+  </besitzer>
+  <datierung>
+    <periode>3. Zwischenzeit</periode>
+    <detail>21. Dynastie</detail>
+    <jahr>1. Hälfte 21. Dynastie</jahr>
+  </datierung>
+  <form>
+    <objektgruppe>Papyrus</objektgruppe>
+    <material>Papyrus</material>
+    <gesamtmasse>
+      <beschreibung>H. 39 cm, L. 3,65 m</beschreibung>
+    </gesamtmasse>
+    <schrift>Hieroglyphisch</schrift>
+    <vignettenstil>farbig</vignettenstil>
+  </form>
+  <bibliografie>
+    <bibl bibl-id="bibl-189">
+      <title>M. Heerma van Voss, Illustrations pour l'eternité, Brüssel 1966</title>
+      <pages>Taf. 18/19</pages>
+    </bibl>
+    <bibl bibl-id="bibl-1769">
+      <title>M. Heerma van Voss, Ägypten. Die 21. Dyn., Iconogr. of Rel. XVI,9, Leiden 1982</title>
+      <pages>Taf. 12</pages>
+    </bibl>
+    <bibl bibl-id="bibl-678">
+      <title>M. J. Raven, Schrift en schrijvers in het Oude Egypte, Amsterdam 1996</title>
+      <pages>Nr. 25, 64-66, 2 Abb</pages>
+    </bibl>
+    <bibl bibl-id="bibl-11">
+      <title>Chr. Ziegler/J.-L. Bovot, Manuel de l’Ecole du Louvre. Art et archéologie: l’Egypte
+        ancienne, Paris 2001</title>
+      <pages>248, fig. 150</pages>
+    </bibl>
+    <bibl bibl-id="bibl-2675">
+      <title>M. Bellion</title>
+      <pages>177 f (mit weiterer Lit.)</pages>
+    </bibl>
+    <bibl bibl-id="bibl-469">
+      <title>H.D. Schneider/M.J. Raven, De Egyptische Oudheid (Mus. - Kat. Leiden), 's - Gravenhage
+        1981</title>
+      <pages>No. 119</pages>
+    </bibl>
+    <bibl bibl-id="bibl-926">
+      <title>A. Niwinski, Studies on the Illustrated Theban Funerary Papyri of the 11th and 10th
+        Centuries B.C., OBO 86, Fribourg/Göttingen 1989</title>
+      <pages>311-312 (Leiden 3), (mit weiterer Lit.)</pages>
+    </bibl>
+    <bibl bibl-id="bibl-979">
+      <title>E. Naville, Das ägyptische Totenbuch der XVIII. bis XX. Dynastie, Graz 1971</title>
+      <pages>94 (Ld)</pages>
+    </bibl>
+    <bibl bibl-id="bibl-1628">
+      <title>K. Jansen-Winkeln, Text u. Sprache in der 3. Zwischenzeit, ÄAT 26, Wiesbaden
+        1994</title>
+      <pages>271</pages>
+    </bibl>
+    <bibl bibl-id="bibl-916">
+      <title>A. Niwinski, in: B. Backes/M. Müller/S. Stöhr (Hgg.), Ausgestattet mit den Schriften
+        des Thot. Festschrift für Irmtraut Munro zu ihrem 65. Geburtstag, SAT 14, Wiesbaden
+        2009</title>
+      <pages>138</pages>
+    </bibl>
+  </bibliografie>
+  <teilobjekt id="1315-1">
+    <objektname>P. Leiden T 7 (AMS 34)</objektname>
+    <inhalt>
+      <sequenz>Osiris + Isis in Schrein - Tb 141/143V - 148V - V126 - V86 - V85 - V110 - Schu beim
+        Hochheben der Nut</sequenz>
+      <sprueche>
+        <start/>
+        <s>V?</s>
+        <s>141 oder 143V</s>
+        <s>148V</s>
+        <s>V126</s>
+        <s>V86</s>
+        <s>V85</s>
+        <s>V110</s>
+        <s>Hochheben der Nut</s>
+        <end/>
+      </sprueche>
+    </inhalt>
+    <abbildungen>
+      <fotos>vorhanden / vollständig</fotos>
+      <abbildung rechte="com">
+        <datei name="Leiden_T7_1.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Leiden_T7_10.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Leiden_T7_12.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Leiden_T7_13.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Leiden_T7_14.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Leiden_T7_15.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Leiden_T7_16.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Leiden_T7_17.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Leiden_T7_18.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Leiden_T7_19.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Leiden_T7_2.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Leiden_T7_20.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Leiden_T7_21.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Leiden_T7_22.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Leiden_T7_23.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Leiden_T7_24.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Leiden_T7_25.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Leiden_T7_26.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Leiden_T7_29.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Leiden_T7_3.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Leiden_T7_30.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Leiden_T7_31.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Leiden_T7_4.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Leiden_T7_5.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Leiden_T7_6.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Leiden_T7_7.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Leiden_T7_8.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Leiden_T7_9.tif"/>
+      </abbildung>
+    </abbildungen>
+  </teilobjekt>
+</objekt>

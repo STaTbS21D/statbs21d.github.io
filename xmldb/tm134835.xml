@@ -1,0 +1,67 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134835" id="1656" v:revision="10660" v:key="153a8c6453e29a4" v:path="/db/totenbuch/objects/tm134835.xml">
+  <admin wer="TB-Projekt" wann="2012-01-01"/>
+  <anmerkungen>Ankauf 1812 in Theben-West, seit 1857 im Museum </anmerkungen>
+  <standort>
+    <land>GB</land>
+    <ort>Warrington</ort>
+    <institution>Warrington Museum and Art Gallery</institution>
+  </standort>
+  <herkunft>
+    <region>Theben</region>
+    <anmerkungen>erschlossen</anmerkungen>
+  </herkunft>
+  <besitzer geschlecht="M">
+    <name ranke="I, 67.9; II, 347">ꜥnḫ- f- n- Ḫnsw</name>
+    <verwandt rel="Mutter">
+      <name>Tꜣ- ꜥꜣt- m- pꜣ- wi͗ꜣ</name>
+    </verwandt>
+  </besitzer>
+  <datierung>
+    <periode>3. Zwischenzeit</periode>
+  </datierung>
+  <form>
+    <objektgruppe>Papyrus</objektgruppe>
+    <material>Papyrus</material>
+    <gesamtmasse>
+      <laenge>103</laenge>
+      <hoehe>25</hoehe>
+    </gesamtmasse>
+    <schrift>Hieratisch</schrift>
+    <vignettenstil>Strichzeichnung</vignettenstil>
+  </form>
+  <teilobjekt id="1656-1">
+    <objektname>P. Warrington WAGMG : RA 298</objektname>
+    <inhalt>
+      <sequenz>A.d.O. - Tb 23 - 24 - 25 - 26 - 28 - 27</sequenz>
+      <sprueche>
+        <start/>
+        <s>VA.d.O.</s>
+        <s>23</s>
+        <s>24</s>
+        <s>25</s>
+        <s>26</s>
+        <s>28</s>
+        <s>27</s>
+        <end/>
+      </sprueche>
+    </inhalt>
+    <abbildungen>
+      <fotos>vorhanden / vollständig</fotos>
+      <abbildung rechte="com">
+        <datei name="Warrington_WAGMG_RA_298004.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Warrington_WAGMG_RA_298_001.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Warrington_WAGMG_RA_298_002.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Warrington_WAGMG_RA_298_003.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Warrington_WAGMG_RA_298_004.jpg"/>
+      </abbildung>
+    </abbildungen>
+  </teilobjekt>
+</objekt>

@@ -1,0 +1,375 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134444" id="1260" v:revision="10272" v:key="153a8c5b74f2820" v:path="/db/totenbuch/objects/tm134444.xml">
+    <admin wer="TB-Projekt" wann="2012-01-01"/>
+    <anmerkungen>zur Datierung: Nichte u. Ehefrau von HP Pinodjem II., sie starb im Jahr 5 des
+        Königs Siamun</anmerkungen>
+    <standort>
+        <land>EG</land>
+        <ort>Kairo</ort>
+        <institution>Ägyptisches Museum</institution>
+    </standort>
+    <herkunft>
+        <region>Theben</region>
+        <ort>Deir el-Bahari-Cachette, 1881</ort>
+    </herkunft>
+    <besitzer geschlecht="F">
+        <name ranke="I, 178.20">Nsi͗- Ḫnsw</name>
+        <titel>wr.t ḫnr.t n Imn ḥr.t wr.t tp.t n Imn- Rꜥ nsw.t nṯr.w </titel>
+    </besitzer>
+    <datierung>
+        <periode>3. Zwischenzeit</periode>
+        <detail>21. Dynastie</detail>
+        <jahr>Pinodjem II.</jahr>
+    </datierung>
+    <form>
+        <objektgruppe>Papyrus</objektgruppe>
+        <material>Papyrus</material>
+        <gesamtmasse>
+            <laenge>690</laenge>
+            <hoehe>44</hoehe>
+        </gesamtmasse>
+        <schrift>Hieratisch</schrift>
+        <vignettenstil>farbig</vignettenstil>
+    </form>
+    <bibliografie>
+        <bibl bibl-id="bibl-955">
+            <title>E. Naville, Papyrus funéraires de la XXIe Dynastie, Le Papyrus hiéroglyphique de
+                Kamara et le Papyrus hiératique de Nesikhonsou au Musée du Caire I</title>
+            <pages>21-38, Taf. XI-XXX</pages>
+        </bibl>
+        <bibl bibl-id="bibl-926">
+            <title>A. Niwinski, Studies on the Illustrated Theban Funerary Papyri of the 11th and
+                10th Centuries B.C., OBO 86, Fribourg/Göttingen 1989</title>
+            <pages>292 (Cairo 109)</pages>
+        </bibl>
+        <bibl bibl-id="bibl-1189">
+            <title>. Maspero, Les momies royales de Déir-el-Baharî</title>
+            <pages>592 f</pages>
+        </bibl>
+        <bibl bibl-id="bibl-2675">
+            <title>M. Bellion</title>
+            <pages>241 (mit weiterer Lit.)</pages>
+        </bibl>
+        <bibl bibl-id="bibl-1628">
+            <title>K. Jansen-Winkeln, Text u. Sprache in der 3. Zwischenzeit, ÄAT 26, Wiesbaden
+                1994</title>
+            <pages>266</pages>
+        </bibl>
+        <bibl bibl-id="bibl-1763">
+            <title>M. Heerma van Voss, in: Fs van Daelen, Kampen 1985</title>
+            <pages>114</pages>
+        </bibl>
+        <bibl bibl-id="bibl-1519">
+            <title>H. Kockelmann, in: S. Bickel/A. Loprieno (Hgg.), AH 17, Basel 2003</title>
+            <pages>296-314</pages>
+        </bibl>
+        <bibl bibl-id="bibl-1361">
+            <title>G. Lenzo, in: BIFAO 102, 2002</title>
+            <pages>267-283</pages>
+        </bibl>
+        <bibl bibl-id="bibl-1359">
+            <title>G. Lenzo Marchese, in: BSEG 26, 2004</title>
+            <pages>43-62</pages>
+        </bibl>
+        <bibl bibl-id="bibl-549">
+            <title>U. Rößler-Köhler, in: U. Verhoeven/E. Graefe (Hgg.), Religion und Philosophie im
+                Alten Ägypten, FS Derchain, OLA 39, Leuven 1991</title>
+            <pages>287ff</pages>
+        </bibl>
+        <bibl bibl-id="bibl-154">
+            <title>U. Verhoeven, Untersuchungen zur späthieratischen Buchschrift, OLA 99, Leuven
+                2001</title>
+            <pages>passim</pages>
+        </bibl>
+        <bibl bibl-id="bibl-1120">
+            <title>H. Milde, Vignetten-Forschung, in: B. Backes/I. Munro/S. Stöhr (Hgg.),
+                Totenbuch-Forschungen. Gesammelte Beiträge des 2. Internationalen
+                Totenbuch-Symposiums, Bonn 25. - 29. September 2005, SAT 11, Wiesbaden 2006</title>
+            <pages>221-231 m. Abb. 1 (aus Naville)</pages>
+        </bibl>
+        <bibl bibl-id="bibl-694">
+            <title>Chloe Ragazzoli, The Book of the Dead of Ankhesenaset (P. BNF Egyptien 62-88).
+                Traces of workshop production or scribal experiments?, in: BMSAES 15, 2010</title>
+            <pages>225-248</pages>
+        </bibl>
+    </bibliografie>
+    <teilobjekt id="1260-1">
+        <objektname>P. Kairo J.E. 26230 (S.R. VII 11573, S.R. VII 11485)</objektname>
+        <inhalt>
+            <sequenz>A.d.O. - Tb 17 - 136/136A V - 1V - 2 - 65V - 100/129V - 136/136A V - 98V -
+                99/99B V - 63B - 82V - 77V - 86V - 85V - 83V + 84V - 81A V - 111V - 112V - 113V -
+                107V - 109V - 102V - 41V - 31V - 38B V - 55 - 2 - 4 - V 105 - 6 - 5 - 105 - 104 V -
+                96/97V - 103V - 10/48 - 153A V - 153B V - 125A + V126 - V110 +
+                Reinigungsszene</sequenz>
+            <sprueche>
+                <start/>
+                <s>VA.d.O.</s>
+                <s>17</s>
+                <s>136/136AV</s>
+                <s>1V</s>
+                <s>2</s>
+                <s>65V</s>
+                <s>100/129V</s>
+                <s>136/136AV</s>
+                <s>98V</s>
+                <s>99/99BV</s>
+                <s>63B</s>
+                <s>82V</s>
+                <s>77V</s>
+                <s>86V</s>
+                <s>85V</s>
+                <s>83V</s>
+                <s>84V</s>
+                <s>81AV</s>
+                <s>111V</s>
+                <s>112V</s>
+                <s>113V</s>
+                <s>107V</s>
+                <s>109V</s>
+                <s>102V</s>
+                <s>41V</s>
+                <s>31V</s>
+                <s>38BV</s>
+                <s>55</s>
+                <s>2</s>
+                <s>4</s>
+                <s>V105</s>
+                <s>6</s>
+                <s>5</s>
+                <s>105</s>
+                <s>104V</s>
+                <s>96 oder 97V</s>
+                <s>103V</s>
+                <s>10/48</s>
+                <s>153AV</s>
+                <s>153BV</s>
+                <s>125 + V126</s>
+                <s>V110</s>
+                <s>V?</s>
+                <end/>
+            </sprueche>
+        </inhalt>
+        <abbildungen>
+            <fotos>vorhanden / vollständig</fotos>
+            <kommentar>siehe Publikation; Kopie bei Großformate Mappe 7</kommentar>
+            <abbildung rechte="com">
+                <datei name="Kairo_J_E_26230_A.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Kairo_J_E_26230_B.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Kairo_J_E_26230_C.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Kairo_J_E_26230_D.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Kairo_J_E_26230_E.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Kairo_J_E_26230_F.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Kairo_J_E_26230_G.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Kairo_J_E_26230_H.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Kairo_J_E_26230_I.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Kairo_J_E_26230_J.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Kairo_J_E_26230_K.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Kairo_J_E_26230_L.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Kairo_J_E_26230_M.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Kairo_J_E_26230_N.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Kairo_J_E_26230_O.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Kairo_J_E_26230_P.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Kairo_J_E_26230_Q.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Kairo_J_E_26230_R.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Kairo_J_E_26230_S.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Kairo_J_E_26230_T.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Kairo_J_E_26230_U.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Kairo_JE_26230_001.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Kairo_JE_26230_002.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Kairo_JE_26230_003.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Kairo_JE_26230_004.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Kairo_JE_26230_006.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Kairo_JE_26230_007.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Kairo_JE_26230_008.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Kairo_JE_26230_009.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Kairo_JE_26230_010.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Kairo_JE_26230_011.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Kairo_JE_26230_012.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Kairo_JE_26230_013.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Kairo_JE_26230_014.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Kairo_JE_26230_015.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Kairo_JE_26230_016.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Kairo_JE_26230_017.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Kairo_JE_26230_018.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Kairo_JE_26230_019.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Kairo_JE_26230_020.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Kairo_JE_26230_021.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Kairo_JE_26230_022.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Kairo_JE_26230_023.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Leiden_066.jpg"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Leiden_067.jpg"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Leiden_068.jpg"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Leiden_069.jpg"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Leiden_070.jpg"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Leiden_071.jpg"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="naville_001.jpg"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="naville_002.jpg"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="naville_003.jpg"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="naville_004.jpg"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="naville_005.jpg"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="naville_006.jpg"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="naville_007.jpg"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="naville_008.jpg"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="naville_009.jpg"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="naville_010.jpg"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="naville_011.jpg"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="naville_012.jpg"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="naville_013.jpg"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="naville_014.jpg"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="naville_015.jpg"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="naville_016.jpg"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="naville_017.jpg"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="naville_018.jpg"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="naville_019.jpg"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="naville_020.jpg"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="naville_021.jpg"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="naville_022.jpg"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="naville_023.jpg"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="naville_024.jpg"/>
+            </abbildung>
+        </abbildungen>
+    </teilobjekt>
+</objekt>

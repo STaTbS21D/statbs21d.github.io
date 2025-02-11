@@ -1,0 +1,83 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134662" id="1480" v:revision="10489" v:key="153a8c60c2828f9" v:path="/db/totenbuch/objects/tm134662.xml">
+    <admin wer="TB-Projekt" wann="2012-01-01"/>
+    <anmerkungen>unbekannte Sprüche vgl. pCleveland 1914.733, pMoskau I, 1b, 130, pNew Haven Ct YBR
+        inv. 2755, pSydney R 402</anmerkungen>
+    <standort>
+        <land>FR</land>
+        <ort>Paris</ort>
+        <institution>Bibliothèque Nationale</institution>
+        <provenienz>Caillaud 1815-1818</provenienz>
+    </standort>
+    <herkunft>
+        <region>Theben</region>
+    </herkunft>
+    <besitzer geschlecht="F">
+        <name ranke="I, 375, 1; RdE 46, 186">Dni͗t- n- Bꜣstt</name>
+        <titel>šmꜥ.t n Imn</titel>
+        <verwandt rel="Mutter">
+            <name>Ḏd- Imnt- i͗w- s- ꜥnḫ</name>
+        </verwandt>
+        <verwandt rel="Vater">
+            <name>Di͗- Ḫnsw- i͗wdw</name>
+        </verwandt>
+    </besitzer>
+    <datierung>
+        <periode>3. Zwischenzeit</periode>
+    </datierung>
+    <form>
+        <objektgruppe>Papyrus</objektgruppe>
+        <material>Papyrus</material>
+        <gesamtmasse>
+            <hoehe>22,7</hoehe>
+        </gesamtmasse>
+        <schrift>Hieratisch</schrift>
+        <vignettenstil>Strichzeichnung</vignettenstil>
+        <vignettenkommentar>Haare schwarz</vignettenkommentar>
+    </form>
+    <bibliografie>
+        <bibl bibl-id="bibl-2446">
+            <title>F. Caillaud, Voyage à l’oasis de Thèbes et dans les déserts... publié par M.
+                Jomard... IIe partie... (Paris 1862) Pl. XXIX M. Yacoub, Übersetzung und Kommentar
+                zu Papyrus Bibliothèque Nationale pBN 128 in Paris, Magisterarbeit Bonn
+                2007.</title>
+            <pages>Pl. XXIX</pages>
+        </bibl>
+        <bibl bibl-id="bibl-52">
+            <title>M. Yacoub, Übersetzung und Kommentar zu Papyrus Bibliothèque Nationale pBN 128 in
+                Paris, Magisterarbeit Bonn 2007.</title>
+        </bibl>
+        <bibl bibl-id="bibl-2675">
+            <title>M. Bellion</title>
+            <pages>76</pages>
+        </bibl>
+        <bibl bibl-id="bibl-926">
+            <title>A. Niwinski, Studies on the Illustrated Theban Funerary Papyri of the 11th and
+                10th Centuries B.C., OBO 86, Fribourg/Göttingen 1989</title>
+            <pages>378 (Location unknown 5)</pages>
+        </bibl>
+    </bibliografie>
+    <teilobjekt id="1480-1">
+        <objektname>P. Paris BN 128</objektname>
+        <inhalt>
+            <sequenz>A.d. Re-Harachte - Titel Tb 23 - Text zur Versorgung - Spruch zum Ba - Titel Tb
+                162 - Unterweltstext</sequenz>
+            <sprueche>
+                <start/>
+                <s>A.d. Re-Harachte</s>
+                <s>23</s>
+                <s>Ausserordentliches Textgut</s>
+                <s>Ausserordentliches Textgut</s>
+                <s>162</s>
+                <s>Unterweltstext</s>
+                <end/>
+            </sprueche>
+        </inhalt>
+        <objektmasse>L. 49,7 cm</objektmasse>
+        <abbildungen>
+            <fotos>vorhanden / vollständig</fotos>
+            <abbildung rechte="com">
+                <datei name="Paris_BN_128_001.tif"/>
+            </abbildung>
+        </abbildungen>
+    </teilobjekt>
+</objekt>

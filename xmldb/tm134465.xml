@@ -1,0 +1,164 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134465" id="1281" v:revision="10293" v:key="153a8c5be642835" v:path="/db/totenbuch/objects/tm134465.xml">
+  <admin wer="TB-Projekt" wann="2012-01-01"/>
+  <anmerkungen>zur Datierung: Mumienbinden von HP Pinodjem II.; Schott-Photos, Pap.
+    “o”</anmerkungen>
+  <standort>
+    <land>EG</land>
+    <ort>Kairo</ort>
+    <institution>Ägyptisches Museum</institution>
+  </standort>
+  <herkunft>
+    <region>Theben</region>
+    <ort>Cachette von Deir el-Bahari (Bab el-Gasus), 1891</ort>
+  </herkunft>
+  <besitzer geschlecht="M">
+    <name ranke="I, 387.9">Ṯꜣi͗- nfr</name>
+    <titel>i͗t- nṯr mri͗- nṯr ḥr.i͗ sštꜣ m p.t tꜣ dwꜣ.t 3. ḥm nṯr n Imn wn ꜥ.wi͗ n.w p.t m Ipt- swt
+      ḥm.w(?)- nṯr n.w Imn- Rꜥ nsw.t nṯr.w ḥm- nṯr n Mnṯw nb Wꜣst i͗m.i͗- rꜣ kꜣ.w n.w pr- Rꜥ tp.i͗
+      ḥw.t n pr Imn ḥm- nṯr n H̲nm nb qbḥ </titel>
+    <verwandt rel="Ehefrau">
+      <name>Gꜣt- sšn</name>
+    </verwandt>
+    <verwandt rel="Mutter">
+      <name>Ꜣst- m- ꜣḫbi͗t (C)</name>
+    </verwandt>
+    <verwandt rel="Vater">
+      <name>Mn- ḫpr- Rꜥ</name>
+      <titel>Hoherpriester</titel>
+    </verwandt>
+  </besitzer>
+  <datierung>
+    <periode>3. Zwischenzeit</periode>
+    <detail>21. Dynastie</detail>
+    <jahr>Mitte 21. Dynastie</jahr>
+  </datierung>
+  <form>
+    <objektgruppe>Papyrus</objektgruppe>
+    <material>Papyrus</material>
+    <gesamtmasse>
+      <laenge>570</laenge>
+      <hoehe>35</hoehe>
+    </gesamtmasse>
+    <schrift>Hieroglyphisch</schrift>
+    <vignettenstil>farbig</vignettenstil>
+  </form>
+  <bibliografie>
+    <bibl bibl-id="bibl-926">
+      <title>A. Niwinski, Studies on the Illustrated Theban Funerary Papyri of the 11th and 10th
+        Centuries B.C., OBO 86, Fribourg/Göttingen 1989</title>
+      <pages>Taf. 22a sowie 281/2 (Cairo 81) (mit weiterer Lit.)</pages>
+    </bibl>
+    <bibl bibl-id="bibl-2041">
+      <title>W. Forman/Vilimkova, Äg. Kunst aus Kairo</title>
+      <pages>Taf. 106 u. 114</pages>
+    </bibl>
+    <bibl bibl-id="bibl-439">
+      <title>Chr. Seeber, Untersuchungen</title>
+      <pages>Abb. 29</pages>
+    </bibl>
+    <bibl bibl-id="bibl-2675">
+      <title>M. Bellion</title>
+      <pages>109 (mit weiterer Lit.)</pages>
+    </bibl>
+    <bibl bibl-id="bibl-1628">
+      <title>K. Jansen-Winkeln, Text u. Sprache in der 3. Zwischenzeit, ÄAT 26, Wiesbaden
+        1994</title>
+      <pages>270</pages>
+    </bibl>
+    <bibl bibl-id="bibl-2039">
+      <title>H. Kischkewitz/W. Forman, Egyptian Art, Drawings and Paintings, London 2. Aufl.
+        1989</title>
+      <pages>Nr. 55</pages>
+    </bibl>
+    <bibl bibl-id="bibl-1359">
+      <title>G. Lenzo Marchese, in: BSEG 26, 2004</title>
+      <pages>43-62</pages>
+    </bibl>
+    <bibl bibl-id="bibl-2419">
+      <title>M. Capasso, Il restauro dei papiri del Museo Egizio del Cairo: Seconda e terza sessione
+        di lavoro (1998), in: M. Capasso (Hg.), Da Ercolano all’Egitto. Ricerche varie di
+        papirologia, Papyrologica Lupiensia 7, Lecce 1998</title>
+      <pages>22-40, bes. 38f</pages>
+    </bibl>
+  </bibliografie>
+  <teilobjekt id="1281-1">
+    <objektname>P. Kairo CG 40014 (J.E. 33997, S.R. VII 10244)</objektname>
+    <inhalt>
+      <sequenz>A.d.O. + Thot, Isis, Nephthys - A.d.Ba (als Widder) + Uto - Hymnus an Re-Harachte - V
+        Rede des Thot an Osiris - TG - Tb 125B V - V126 (Feuersee) - V Toter vor Hathor-Kuh in
+        Papyrus - V zwei Schalben auf Hügel (fa j arw, fa j Jfw- ne.w) - Pflügeszene - Ernteszene -
+        Dreschszene (V110) - V Osiris, Tb-Besitzer + Ehefrau in Boot über Wasserlauf u. Schlange -
+        (in geteilter Vignette): 2x Anbetung von Göttern u. Tb-Besitzer + Ehefrau</sequenz>
+      <sprueche>
+        <l/>
+        <s>VA.d.O.</s>
+        <s>A.d.Ba</s>
+        <s>Hymnus</s>
+        <s>V?</s>
+        <s>VTG</s>
+        <s>125V</s>
+        <s>V126</s>
+        <s>V?</s>
+        <s>V?</s>
+        <s>V110</s>
+        <s>V?</s>
+        <s>VAdorationsszene</s>
+        <l/>
+      </sprueche>
+    </inhalt>
+    <abbildungen>
+      <fotos>vorhanden / vollständig</fotos>
+      <abbildung rechte="com">
+        <datei name="Kairo_CG_40014_A.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_CG_40014_B.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_CG_40014_C.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_CG_40014_D.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_CG_40014_E.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_CG_40014_F.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_CG_40014_G.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_CG_40014_H.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_CG_40014_I.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_CG_40014_J.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_CG_40014_K.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_CG_40014_L.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_CG_40014_M.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_CG_40014_N.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_CG_40014_O.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_CG_40014_P.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_CG_40014_Q.tif"/>
+      </abbildung>
+    </abbildungen>
+  </teilobjekt>
+</objekt>

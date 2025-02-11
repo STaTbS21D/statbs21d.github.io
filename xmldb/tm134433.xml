@@ -1,0 +1,102 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134433" id="1249" v:revision="10261" v:key="153a8c5b3af2815" v:path="/db/totenbuch/objects/tm134433.xml">
+        <admin wer="TB-Projekt" wann="2012-01-01"/>
+        <standort>
+                <land>EG</land>
+                <ort>Kairo</ort>
+                <institution>Ägyptisches Museum</institution>
+        </standort>
+        <herkunft>
+                <region>Theben</region>
+                <ort>Cachette von Deir el-Bahari (Bab el-Gasus), 1891</ort>
+        </herkunft>
+        <besitzer geschlecht="F">
+                <name ranke="I, 370.14">Tꜣ- šd- Ḫnsw</name>
+                <titel>ḥs.t n pꜣ ꜥn Mw.t nb.t p.t rsi͗.t (?) nb.t- pr šmꜥ.t n Imn ḥm.t- nṯr n Imn-
+                        (m-) Ip.t ḥm.t- nṯr n Mw.t n pr- msw ḥm.t- nṯr n Nḫb.t ḥḏ.t Nḫn ꜥꜣ(.t) šps
+                        (ḥ.t) pr nw.t bi͗t Mn- mꜣꜥ.t- Rꜥ m ẖ.t-f mri͗-f Mri͗- Ptḥ Stẖi͗</titel>
+        </besitzer>
+        <datierung>
+                <periode>3. Zwischenzeit</periode>
+                <detail>21. Dynastie</detail>
+                <jahr>Mitte - Ende 21. Dynastie</jahr>
+        </datierung>
+        <form>
+                <objektgruppe>Papyrus</objektgruppe>
+                <material>Papyrus</material>
+                <gesamtmasse>
+                        <laenge>275</laenge>
+                        <hoehe>28</hoehe>
+                </gesamtmasse>
+                <schrift>Hieroglyphisch</schrift>
+                <vignettenstil>Strichzeichnung</vignettenstil>
+        </form>
+        <bibliografie>
+                <bibl bibl-id="bibl-805">
+                        <title>A. Piankoff/N. Rambova, Mythological Papyri</title>
+                        <pages>150 - 155, Pap. 18</pages>
+                </bibl>
+                <bibl bibl-id="bibl-2039">
+                        <title>H. Kischkewitz/W. Forman, Egyptian Art, Drawings and Paintings,
+                                London 2. Aufl. 1989</title>
+                        <pages>Nr. 47</pages>
+                </bibl>
+                <bibl bibl-id="bibl-926">
+                        <title>A. Niwinski, Studies on the Illustrated Theban Funerary Papyri of the
+                                11th and 10th Centuries B.C., OBO 86, Fribourg/Göttingen
+                                1989</title>
+                        <pages>280 (Cairo 77)</pages>
+                </bibl>
+                <bibl bibl-id="bibl-1359">
+                        <title>G. Lenzo Marchese, in: BSEG 26, 2004</title>
+                        <pages>43-62</pages>
+                </bibl>
+                <bibl bibl-id="bibl-2419">
+                        <title>M. Capasso, Il restauro dei papiri del Museo Egizio del Cairo:
+                                Seconda e terza sessione di lavoro (1998), in: M. Capasso (Hg.), Da
+                                Ercolano all’Egitto. Ricerche varie di papirologia, Papyrologica
+                                Lupiensia 7, Lecce 1998</title>
+                        <pages>22-40, bes. 29</pages>
+                </bibl>
+        </bibliografie>
+        <teilobjekt id="1249-1">
+                <objektname>P. Kairo CG 40016 (S.R. VII 10240)</objektname>
+                <inhalt>
+                        <sequenz>A.d.O. + Nephthys - Tb 125B V - Litanei - V110 - V126 - Mytholog.
+                                Vign.</sequenz>
+                        <sprueche>
+                                <start/>
+                                <s>AdorationV</s>
+                                <s>125V</s>
+                                <s>?</s>
+                                <s>V110</s>
+                                <s>V126</s>
+                                <s>Mythologische SzenenV</s>
+                                <end/>
+                        </sprueche>
+                </inhalt>
+                <abbildungen>
+                        <fotos>vorhanden / vollständig</fotos>
+                        <abbildung rechte="com">
+                                <datei name="Kairo_CG_40016_A.tif"/>
+                        </abbildung>
+                        <abbildung rechte="com">
+                                <datei name="Kairo_CG_40016_B.tif"/>
+                        </abbildung>
+                        <abbildung rechte="com">
+                                <datei name="Kairo_CG_40016_C.tif"/>
+                        </abbildung>
+                        <abbildung rechte="com">
+                                <datei name="Kairo_CG_40016_D.tif"/>
+                        </abbildung>
+                        <abbildung rechte="com">
+                                <datei name="Kairo_CG_40016_E.tif"/>
+                        </abbildung>
+                        <abbildung rechte="com">
+                                <datei name="Kairo_CG_40016_F.tif"/>
+                        </abbildung>
+                        <abbildung rechte="com">
+                                <datei name="Kairo_CG_40016_G.tif"/>
+                        </abbildung>
+                </abbildungen>
+        </teilobjekt>
+</objekt>

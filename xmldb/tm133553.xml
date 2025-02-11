@@ -1,0 +1,411 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="133553" id="141" v:revision="9465" v:key="153a8c4a03124f9" v:path="/db/totenbuch/objects/tm133553.xml">
+          <admin wer="TB-Projekt" wann="2012-01-01"/>
+          <herkunft>
+                    <region>Theben</region>
+                    <anmerkungen>TT 336</anmerkungen>
+          </herkunft>
+          <besitzer geschlecht="M">
+                    <name ranke="I, 197.18">Nfr- rnpt</name>
+                    <titel>ṯꜣi͗ mḏꜣ.t </titel>
+                    <verwandt rel="Ehefrau">
+                              <name>Ḥwi͗-nfrt</name>
+                    </verwandt>
+                    <verwandt rel="Sohn">
+                              <name>Ḥr-nfr</name>
+                    </verwandt>
+                    <verwandt rel="Sohn">
+                              <name>Pꜣ-šd</name>
+                    </verwandt>
+                    <verwandt rel="Sohn">
+                              <name>Ii͗i͗</name>
+                    </verwandt>
+          </besitzer>
+          <datierung>
+                    <periode>Neues Reich</periode>
+                    <detail>19. Dynastie</detail>
+                    <jahr>Mitte Ramses II.</jahr>
+          </datierung>
+          <form>
+                    <objektgruppe>Papyrus</objektgruppe>
+                    <material>Papyrus</material>
+                    <gesamtmasse>
+                              <hoehe>36,8</hoehe>
+                    </gesamtmasse>
+                    <schrift>Hieroglyphisch</schrift>
+                    <vignettenstil>farbig</vignettenstil>
+          </form>
+          <bibliografie>
+                    <bibl bibl-id="bibl-362">
+                              <title>L. Speelers, Le Papyrus de Nefer Renpet, Brüssel 1917</title>
+                    </bibl>
+                    <bibl bibl-id="bibl-1122">
+                              <title>H. Milde, The Vignettes in the Book of the Dead of Neferrenpet,
+                                        EU 7, Leiden 1991</title>
+                    </bibl>
+                    <bibl bibl-id="bibl-313">
+                              <title>E. Strouhal, Ägypten zur Pharaonenzeit</title>
+                              <pages>Abb. 273</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-2039">
+                              <title>H. Kischkewitz/W. Forman, Egyptian Art, Drawings and Paintings,
+                                        London 2. Aufl. 1989</title>
+                              <pages>Nr. 21-33</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-1235">
+                              <title>B. Lüscher, Untersuchungen zu Totenbuch Spruch 151, SAT 2,
+                                        Wiesbaden 1998</title>
+                              <pages>Taf. 9</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-1233">
+                              <title>B. Lüscher, Die Verwandlungssprüche (Tb 76-88), TbT 2, Basel
+                                        2006</title>
+                              <pages>pBr1</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-1230">
+                              <title>B. Lüscher, Totenbuch-Papyrus Neuchâtel Eg. 429 und Princeton
+                                        Pharaonic Roll 2. Zur Totenbuch-Tradition von Deir
+                                        el-Medina, BAÄ 1, Basel 2007</title>
+                              <pages>15, Taf. 32-35, 36b, 38b, 39a, 39c, 40a, 40c sowie 15</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-1426">
+                              <title>G. Lapp, Totenbuch Spruch 125, TbT 3, Basel 2008</title>
+                              <pages>pBr1</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-189">
+                              <title>M. Heerma van Voss, Illustrations pour l'eternité, Brüssel
+                                        1966</title>
+                              <pages>15-16, fig. 5-8</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-1252">
+                              <title>U. Luft, Das Totenbuch des Neferrenpet (Grab 336), in: Stud.
+                                        Aegypt. III, 1977</title>
+                              <pages>81-87 sowie 81-87</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-1036">
+                              <title>I. Munro, Untersuchungen zu den Totenbuch-Papyri der 18.
+                                        Dynastie, London 1987</title>
+                              <pages>299-300 sowie 306</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-2675">
+                              <title>M. Bellion</title>
+                              <pages>96-97 sowie 245</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-545">
+                              <title>U. Rößler-Köhler, SAT 3, 1999</title>
+                              <pages>14-15</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-523">
+                              <title>T. Rutkauskas, in: RdE 55, 2004</title>
+                              <pages>182-188</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-2696">
+                              <title>M. Barwik, The so-called Chapter 190 of the Book of the Dead
+                                        and the Linen Canopy from the Tomb of Tutankhamun, in: ET
+                                        19, 2001</title>
+                              <pages>28-39</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-1120">
+                              <title>H. Milde, Vignetten-Forschung, in: B. Backes/I. Munro/S. Stöhr
+                                        (Hgg.), Totenbuch-Forschungen. Gesammelte Beiträge des 2.
+                                        Internationalen Totenbuch-Symposiums, Bonn 25. - 29.
+                                        September 2005, SAT 11, Wiesbaden 2006</title>
+                              <pages>221-231 m. Abb. 5, 12 (aus Milde)</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-839">
+                              <title>M. Perraud, in: Totenbuch-Forschungen. Gesammelte Beiträge des
+                                        2. Internationalen Totenbuch-Symposiums, Bonn 25. - 29.
+                                        September 2005, SAT 11</title>
+                              <pages>286-287, Nr. 5</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-277">
+                              <title>M. Tarasenko, in: B. Backes/M. Müller/S. Stöhr (Hgg.),
+                                        Ausgestattet mit den Schriften des Thot. Festschrift für
+                                        Irmtraut Munro zu ihrem 65. Geburtstag, SAT 14, Wiesbaden
+                                        2009</title>
+                              <pages>242</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-689">
+                              <title>H. Ranke, The Egyptian Collections of the University Museum of
+                                        Pennsylvania, in: University Museum Bulletin XV,
+                                        1950</title>
+                              <pages>82-83, Abb. 50</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-393">
+                              <title>D.P. Silverman (Hrsg.), Searching for Ancient Egypt. Art,
+                                        Architecture and Artifacts from the University of
+                                        Pennsylvania, Philadelphia 1997</title>
+                    </bibl>
+                    <bibl bibl-id="bibl-2742">
+                              <title>Backes, in: SAT 14, 2009</title>
+                              <pages>22</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-186">
+                              <title>Kat. San Antonio: Charles van Siclen III, An Illustrated
+                                        Checklist for Mummies, Myth and Magic, held at the Witte
+                                        Museum, September 22, 1989 to April 8, 1990, San Antonio
+                                        1990</title>
+                              <pages>39, Nr. 3 (zu E16721)</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-2976">
+                              <title>Evans/Hamburg/Mickelson, A Papyrus Treatment
+                                        (Restaurationsbericht)</title>
+                    </bibl>
+          </bibliografie>
+          <teilobjekt id="141-1">
+                    <objektname>P. Brüssel MRAH E. 5043</objektname>
+                    <anmerkungen>gehört zur sog. Deir el-Medina-Gruppe</anmerkungen>
+                    <standort>
+                              <land>BE</land>
+                              <ort>Brüssel</ort>
+                              <institution>Musées Royaux d’Art et d’Histoire</institution>
+                              <provenienz>Schenkung aus dem Jahr 1900</provenienz>
+                    </standort>
+                    <inhalt>
+                              <sequenz>/// Tb 17V - 18V - 180V - 181V - 79 - 181R - 15B III V - 130V
+                                        - 136/136A - 134 - 130R - 94V - 96/97V - 125A V - 125B V -
+                                        125C+D V - 100/129R V - 102V - 136B V - 149V - V150 - 64R V
+                                        - 30B V - 65V - 72R V - 71V - 68 - 69 - 70 - 130R V -
+                                        141/143V - 190 - 133R V - 135V - 136/136A R V - 134R V -
+                                        101R - 99/99B V - 82V - 77V - 85V - 83V - 124 - 84V - 83 -
+                                        84 - 86V - 87V - 88V - 78V - 116V - 115 - 111V - 112V - 113
+                                        - 107V - 109 - 22V - 23V - 27 - 42V - 92V - 151C - 166V -
+                                        32V - 138V</sequenz>
+                              <sprueche>
+                                        <l/>
+                                        <s>17V</s>
+                                        <s>18V</s>
+                                        <s>180V</s>
+                                        <s>181V</s>
+                                        <s>79</s>
+                                        <s>181</s>
+                                        <s>15V</s>
+                                        <s>130V</s>
+                                        <s>136/136A</s>
+                                        <s>134</s>
+                                        <s>130</s>
+                                        <s>94V</s>
+                                        <s>96 oder 97V</s>
+                                        <s>125V</s>
+                                        <s>125V</s>
+                                        <s>125</s>
+                                        <s>125V</s>
+                                        <s>100/129V</s>
+                                        <s>102V</s>
+                                        <s>136BV</s>
+                                        <s>149V</s>
+                                        <s>V150</s>
+                                        <s>64V</s>
+                                        <s>30BV</s>
+                                        <s>65V</s>
+                                        <s>72V</s>
+                                        <s>71V</s>
+                                        <s>68</s>
+                                        <s>69</s>
+                                        <s>70</s>
+                                        <s>130V</s>
+                                        <s>141 oder 143V</s>
+                                        <s>190</s>
+                                        <s>133V</s>
+                                        <s>135V</s>
+                                        <s>136/136AV</s>
+                                        <s>134V</s>
+                                        <s>101</s>
+                                        <s>99/99BV</s>
+                                        <s>82V</s>
+                                        <s>77V</s>
+                                        <s>85V</s>
+                                        <s>83V</s>
+                                        <s>124</s>
+                                        <s>84V</s>
+                                        <s>83</s>
+                                        <s>84</s>
+                                        <s>86V</s>
+                                        <s>87V</s>
+                                        <s>88V</s>
+                                        <s>78V</s>
+                                        <s>116V</s>
+                                        <s>115</s>
+                                        <s>111V</s>
+                                        <s>112V</s>
+                                        <s>113</s>
+                                        <s>107V</s>
+                                        <s>109</s>
+                                        <s>22V</s>
+                                        <s>23V</s>
+                                        <s>27</s>
+                                        <s>42V</s>
+                                        <s>92V</s>
+                                        <s>151</s>
+                                        <s>166V</s>
+                                        <s>32V</s>
+                                        <s>138V</s>
+                                        <end/>
+                              </sprueche>
+                    </inhalt>
+                    <objektmasse>H. 25 cm</objektmasse>
+                    <abbildungen>
+                              <fotos>vorhanden / vollständig</fotos>
+                              <abbildung rechte="com">
+                                        <datei name="Bruessel_MR_E_5043_001.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Bruessel_MR_E_5043_002.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Bruessel_MR_E_5043_003.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Bruessel_MR_E_5043_004.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Bruessel_MR_E_5043_005.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Bruessel_MR_E_5043_006.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Bruessel_MR_E_5043_007.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Bruessel_MR_E_5043_008.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Bruessel_MR_E_5043_009.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Bruessel_MR_E_5043_010.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Bruessel_MR_E_5043_011.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Bruessel_MR_E_5043_012.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Bruessel_MR_E_5043_013.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Bruessel_MR_E_5043_014.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Bruessel_MR_E_5043_015.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Bruessel_MR_E_5043_016.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Bruessel_MR_E_5043_017.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Bruessel_MR_E_5043_018.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Bruessel_MR_E_5043_019.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Bruessel_MR_E_5043_020.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Bruessel_MR_E_5043_021.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Bruessel_MR_E_5043_022.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Bruessel_MR_E_5043_023.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Bruessel_MR_E_5043_024.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Bruessel_MR_E_5043_025.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Bruessel_MR_E_5043_026.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Bruessel_MR_E_5043_027.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Bruessel_MR_E_5043_028.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Bruessel_MR_E_5043_029.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Bruessel_MR_E_5043_030.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Bruessel_MR_E_5043_031.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Bruessel_MR_E_5043_032.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Bruessel_MR_E_5043_033.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Bruessel_MR_E_5043_034.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Bruessel_MR_E_5043_035.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Bruessel_MR_E_5043_036.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Bruessel_MR_E_5043_037.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Bruessel_MR_E_5043_038.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Bruessel_MR_E_5043_039.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Bruessel_MR_E_5043_040.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Bruessel_MR_E_5043_041.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Bruessel_MR_E_5043_042.tif"/>
+                              </abbildung>
+                    </abbildungen>
+          </teilobjekt>
+          <teilobjekt id="141-2">
+                    <objektname>P. Philadelphia E 2775 + 16720 + 16721 + 16722</objektname>
+                    <standort>
+                              <land>US</land>
+                              <ort>Philadelphia (PA)</ort>
+                              <institution>University of Pennsylvania, Museum of Archeology and
+                                        Anthropology</institution>
+                    </standort>
+                    <inhalt>
+                              <sequenz>Fr. a: /// Tb 180 (die letzten 5 Zeilen) - 181V ///; Fr. b:
+                                        /// Tb 17c ///</sequenz>
+                              <sprueche>
+                                        <l/>
+                                        <s>180</s>
+                                        <s>181V</s>
+                                        <l/>
+                                        <s>17</s>
+                                        <l/>
+                              </sprueche>
+                    </inhalt>
+                    <objektmasse>Fr. a: H. 36,8 cm, L. 64,8 cm Fr. b: H. 11,1 cm, L. 15,9
+                              cm</objektmasse>
+                    <abbildungen>
+                              <fotos>vorhanden / vollständig</fotos>
+                              <abbildung rechte="com">
+                                        <datei name="Philadelphia_UM_E_2775_001.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Philadelphia_UM_E_2775_002.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Philadelphia_UM_E_2775_003.tif"/>
+                              </abbildung>
+                    </abbildungen>
+          </teilobjekt>
+</objekt>

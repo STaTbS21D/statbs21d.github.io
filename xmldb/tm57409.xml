@@ -1,0 +1,60 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="57409" id="1205" v:revision="11772" v:key="153a8c7c8382dfc" v:path="/db/totenbuch/objects/tm57409.xml">
+  <admin wer="TB-Projekt" wann="2012-01-01"/>
+  <standort>
+    <land>FR</land>
+    <ort>Avignon</ort>
+    <institution>Musée Calvet</institution>
+  </standort>
+  <herkunft>
+    <region>Theben</region>
+  </herkunft>
+  <besitzer geschlecht="F">
+    <name ranke="I, 179.16">Ns- tꜣ- nbt- tꜣwi͗</name>
+  </besitzer>
+  <datierung>
+    <periode>3. Zwischenzeit</periode>
+    <detail>21. Dynastie</detail>
+  </datierung>
+  <form>
+    <objektgruppe>Papyrus</objektgruppe>
+    <material>Papyrus</material>
+    <gesamtmasse>
+      <beschreibung>13 Zeilen</beschreibung>
+    </gesamtmasse>
+    <schrift>Hieratisch</schrift>
+    <vignettenstil>nicht erhalten</vignettenstil>
+  </form>
+  <bibliografie>
+    <bibl bibl-id="bibl-2043">
+      <title>M.-P. Foissy-Aufrère, Civilisation survivances et “Cabinetz de Curiositez” (Égypte
+        &amp; Provence, Kat. Avignon 1985)</title>
+      <pages>108ff., 271</pages>
+    </bibl>
+    <bibl bibl-id="bibl-709">
+      <title>St. Quirke, Rez. von A. Niwinski, Studies, in: JEA 79, 1993</title>
+      <pages>312</pages>
+    </bibl>
+  </bibliografie>
+  <teilobjekt id="1205-1">
+    <objektname>P. Avignon A.73</objektname>
+    <inhalt>
+      <sequenz>/// Tb 23 - 24 - 25 - 26 - 27 - 28 ///</sequenz>
+      <sprueche>
+        <l/>
+        <s>23</s>
+        <s>24</s>
+        <s>25</s>
+        <s>26</s>
+        <s>27</s>
+        <s>28</s>
+        <l/>
+      </sprueche>
+    </inhalt>
+    <abbildungen>
+      <fotos>vorhanden / vollständig</fotos>
+      <abbildung rechte="com">
+        <datei name="Avignon_A_73_001.tif"/>
+      </abbildung>
+    </abbildungen>
+  </teilobjekt>
+</objekt>

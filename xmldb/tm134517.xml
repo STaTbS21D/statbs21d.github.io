@@ -1,0 +1,258 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134517" id="1334" v:revision="10345" v:key="153a8c5d1992869" v:path="/db/totenbuch/objects/tm134517.xml">
+    <admin wer="TB-Projekt" wann="2012-01-01"/>
+    <anmerkungen>für Datierung vgl. J. Taylor (Hrg.), Journey through the Afterlife, Ancient
+        Egyptian Book of the Dead, London 2010, 71; Niwinski sowie I. Munro Dritte Zwischenzeit
+        wegen Anfangsvignette 3. Zwischenzeit, da sie typisch für die 21. Dynastie ist und nicht im
+        Neuen Reich belegt ist</anmerkungen>
+    <standort>
+        <land>GB</land>
+        <ort>London</ort>
+        <institution>British Museum</institution>
+    </standort>
+    <herkunft>
+        <region>Theben</region>
+    </herkunft>
+    <besitzer geschlecht="F">
+        <name>Inhꜣi͗</name>
+        <titel>šmꜥ.t n Imn u.a.</titel>
+        <verwandt rel="Mutter">
+            <name>Nfrt- i͗i͗ti͗</name>
+        </verwandt>
+    </besitzer>
+    <datierung>
+        <periode>Neues Reich</periode>
+        <detail>20. Dynastie</detail>
+        <jahr>Ramses IV. (?)</jahr>
+    </datierung>
+    <form>
+        <objektgruppe>Papyrus</objektgruppe>
+        <material>Papyrus</material>
+        <gesamtmasse>
+            <hoehe>42</hoehe>
+        </gesamtmasse>
+        <schrift>Hieroglyphisch</schrift>
+        <vignettenstil>farbig</vignettenstil>
+    </form>
+    <bibliografie>
+        <bibl bibl-id="bibl-2474">
+            <title>E.A.W. Budge, The Book of the Dead, Facsimiles of the Papyri of Hunefer, Anhai,
+                Kerâsher and Netchemet with Supplementary Text from the Papyrus of Nu, London
+                1899</title>
+            <pages>Taf. 1-8</pages>
+        </bibl>
+        <bibl bibl-id="bibl-554">
+            <title>E. Rossiter, Die Ägyptischen Totenbücher</title>
+            <pages>98-109</pages>
+        </bibl>
+        <bibl bibl-id="bibl-2064">
+            <title>R.O. Faulkner (C. Andrews [Hg.]), The Ancient Egyptian Book of the Dead, London
+                1985</title>
+        </bibl>
+        <bibl bibl-id="bibl-1646">
+            <title>T.G.H. James, Egyptian Painting, London 1985</title>
+        </bibl>
+        <bibl bibl-id="bibl-717">
+            <title>St. Quirke, Ancient Egyptian Religion, London 1992</title>
+            <pages>24, fig. 11</pages>
+        </bibl>
+        <bibl bibl-id="bibl-594">
+            <title>G. Robins, Reflections of Women in the New Kingdom: Ancient Egyptian Art from The
+                British Museum, San Antonio 1995</title>
+            <pages>126, 130-131 (Nr. 85) mit Abb</pages>
+        </bibl>
+        <bibl bibl-id="bibl-3">
+            <title>E. Zoffili, Kleidung und Schmuck im Alten Ägypten, Frankfurt a.M./ Berlin
+                1992</title>
+            <pages>Abb.66</pages>
+        </bibl>
+        <bibl bibl-id="bibl-1215">
+            <title>J. Malek, Cradles of Civilization. Egypt (Oklahoma, 1993)</title>
+            <pages>93</pages>
+        </bibl>
+        <bibl bibl-id="bibl-595">
+            <title>A. Roberts, My Heart, My Mother. Death and Rebirth in Ancient Egypt, Rottingdean
+                2000</title>
+            <pages>186-187</pages>
+        </bibl>
+        <bibl bibl-id="bibl-1465">
+            <title>D. Kurth, Der Oasenmann, Kulturgeschichte der antiken Welt 103, Mainz
+                2003</title>
+            <pages>90, Abb. 47</pages>
+        </bibl>
+        <bibl bibl-id="bibl-859">
+            <title>W.H. Peck/J.G. Ross, Ägyptische Zeichnungen aus drei Jahrtausenden, Bergisch
+                Gladbach 1979</title>
+            <pages>98-99, Nr. 24-25</pages>
+        </bibl>
+        <bibl bibl-id="bibl-307">
+            <title>N. Strudwick, The British Museum. Masterpieces of Ancient Egypt, London
+                2006</title>
+            <pages>237</pages>
+        </bibl>
+        <bibl bibl-id="bibl-274">
+            <title>J. Taylor (Hrg.), Journey through the Afterlife, Ancient Egyptian Book of the
+                Dead, London 2010</title>
+        </bibl>
+        <bibl bibl-id="bibl-926">
+            <title>A. Niwinski, Studies on the Illustrated Theban Funerary Papyri of the 11th and
+                10th Centuries B.C., OBO 86, Fribourg/Göttingen 1989</title>
+            <pages>336 f (London 58), (mit weiterer Lit.)</pages>
+        </bibl>
+        <bibl bibl-id="bibl-2675">
+            <title>M. Bellion</title>
+            <pages>70 ( mit weiterer Lit.)</pages>
+        </bibl>
+        <bibl bibl-id="bibl-1036">
+            <title>I. Munro, Untersuchungen zu den Totenbuch-Papyri der 18. Dynastie, London
+                1987</title>
+            <pages>296</pages>
+        </bibl>
+        <bibl bibl-id="bibl-716">
+            <title>St. Quirke, Owners</title>
+            <pages>30, Nr. 14 mit Anm. S. 71</pages>
+        </bibl>
+        <bibl bibl-id="bibl-1763">
+            <title>M. Heerma van Voss, in: Fs van Daelen, Kampen 1985</title>
+            <pages>113 (SD)</pages>
+        </bibl>
+        <bibl bibl-id="bibl-1628">
+            <title>K. Jansen-Winkeln, Text u. Sprache in der 3. Zwischenzeit, ÄAT 26, Wiesbaden
+                1994</title>
+            <pages>272</pages>
+        </bibl>
+        <bibl bibl-id="bibl-439">
+            <title>Chr. Seeber, Untersuchungen</title>
+            <pages>212, n. 17</pages>
+        </bibl>
+        <bibl bibl-id="bibl-1508">
+            <title>H. Kockelmann, Mumienbinden</title>
+            <pages>394 (Index)</pages>
+        </bibl>
+        <bibl bibl-id="bibl-436">
+            <title>W. Seipel, Ägypten, Götter, Gräber und die Kunst, 4000 Jahre Jenseitsglaube
+                1989</title>
+            <pages>173, Nr. 139 (Ausschnitt)</pages>
+        </bibl>
+        <bibl bibl-id="bibl-712">
+            <title>St. Quirke, Women in Ancient Egypt: Temples Titles and Funerary Papyri, in: A.
+                Leahy/J. Tait (Hrgs.), Studies on Ancient Egypt in Honour of H. S. Smith, (London,
+                1999)</title>
+            <pages>227-235</pages>
+        </bibl>
+    </bibliografie>
+    <teilobjekt id="1334-1">
+        <objektname>P. London BM EA 10472</objektname>
+        <inhalt>
+            <sequenz>Tb 15V Var. (Re-Hymnus) - Rede des Thot - Rede des Horus - Tb 146V - TG - 110V
+                - 125A V - 125B V - V: Mumie d. Toten auf Treppe liegend - Verwandlungsspruch
+                ("Ptah") - V: Nun, das Sonnenboot mit Insassen hochstemmend (Pfortenbuch?)</sequenz>
+            <sprueche>
+                <start/>
+                <s>15V</s>
+                <s>Ausserordentliches Textgut</s>
+                <s>Ausserordentliches Textgut</s>
+                <s>146V</s>
+                <s>VTG</s>
+                <s>110V</s>
+                <s>125V</s>
+                <s>125V</s>
+                <s>V?</s>
+                <s>Ausserordentliches Textgut</s>
+                <s>Pfortenbuch</s>
+                <end/>
+            </sprueche>
+        </inhalt>
+        <objektmasse>Länge: 443 cm</objektmasse>
+        <abbildungen>
+            <fotos>vorhanden / vollständig</fotos>
+            <kommentar>Kopie bei Großformate Mappe 6</kommentar>
+            <abbildung rechte="com">
+                <datei name="BM_EA_10472_1.jpg"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="BM_EA_10472_2.jpg"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="BM_EA_10472_3.jpg"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="BM_EA_10472_4.jpg"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="BM_EA_10472_5.jpg"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="BM_EA_10472_6.jpg"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="BM_EA_10472_7.jpg"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10472_001_(2).tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10472_001.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10472_002_(2).tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10472_002.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10472_003_(2).tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10472_003.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10472_004_(2).tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10472_004.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10472_005_(2).tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10472_005.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10472_006_(2).tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10472_006.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10472_007_(2).tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10472_007.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10472_008_(2).tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10472_008.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10472_009.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10472_010.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10472_011.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10472_012.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10472_013.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_10472_014.tif"/>
+            </abbildung>
+        </abbildungen>
+    </teilobjekt>
+</objekt>

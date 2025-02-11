@@ -1,0 +1,216 @@
+<objekt id="1186" tm="134371">
+    <admin wann="2023-09-22+02:00" wer="admin"/>
+    <standort>
+        <land>IT</land>
+        <ort>Mailand</ort>
+        <institution>Ospedale Maggiore di Milano</institution>
+    </standort>
+    <herkunft>
+        <region>Theben</region>
+    </herkunft>
+    <besitzer geschlecht="M">
+        <name ranke="I, 140.9">Ptḥ- ms</name>
+        <titel>ḥr.i͗ sš qdw.t </titel>
+        <verwandt rel="Mutter">
+            <name>Di͗di͗ꜣ</name>
+            <titel>nb.t- pr šmꜥ.t n Imn- Rꜥ </titel>
+        </verwandt>
+        <verwandt rel="Vater">
+            <name>Wsi͗ri͗</name>
+            <titel>sꜣb </titel>
+        </verwandt>
+    </besitzer>
+    <datierung>
+        <periode>Neues Reich</periode>
+        <detail>19. Dynastie</detail>
+    </datierung>
+    <form>
+        <objektgruppe>Papyrus</objektgruppe>
+        <material>Papyrus</material>
+        <gesamtmasse>
+            <beschreibung>H. 18,5 cm</beschreibung>
+        </gesamtmasse>
+        <schrift>Hieroglyphisch</schrift>
+        <vignettenstil>farbig</vignettenstil>
+    </form>
+    <bibliografie>
+        <bibl bibl-id="bibl-1766">
+            <title>M. Heerma van Voss, Teksten over Amuletten in de Papyrus Busca,
+                in: K.R. Veenhof (Hg.), Schrijvend Verleden, Documenten uit
+                het oude Nabije Oosten Vertaald en toegelicht,
+                Leiden/Zutphen 1983</title>
+            <pages>290-293</pages>
+        </bibl>
+        <bibl bibl-id="bibl-232">
+            <title>F. Tiradritti, Sesh. Lingue e scritture dell’antico Egitto.
+                Inediti dal Museo Archeologico di Milano, Mailand
+                1999</title>
+            <pages>Nr. 21, p. 112-115</pages>
+        </bibl>
+        <bibl bibl-id="bibl-1233">
+            <title>B. Lüscher, Die Verwandlungssprüche (Tb 76-88), TbT 2, Basel
+                2006</title>
+            <pages>pMi1</pages>
+        </bibl>
+        <bibl bibl-id="bibl-2306">
+            <title>F. Crevatin, Il libro dei morti di Ptahmose (Papiro Busca,
+                Milano) ed altri documenti egiziani antichi, Pisa/Rom
+                2008</title>
+        </bibl>
+        <bibl bibl-id="bibl-2365">
+            <title>F. Chiappa, Il papiro Busca, Mailand 1972</title>
+        </bibl>
+        <bibl bibl-id="bibl-979">
+            <title>E. Naville, Das ägyptische Totenbuch der XVIII. bis XX.
+                Dynastie, Graz 1971</title>
+            <pages>89-90 (Ik)</pages>
+        </bibl>
+        <bibl bibl-id="bibl-1036">
+            <title>I. Munro, Untersuchungen zu den Totenbuch-Papyri der 18.
+                Dynastie, London 1987</title>
+            <pages>305</pages>
+        </bibl>
+        <bibl bibl-id="bibl-2675">
+            <title>M. Bellion</title>
+            <pages>99</pages>
+        </bibl>
+        <bibl bibl-id="bibl-839">
+            <title>M. Perraud, in: Totenbuch-Forschungen. Gesammelte Beiträge des
+                2. Internationalen Totenbuch-Symposiums, Bonn 25. - 29.
+                September 2005, SAT 11</title>
+            <pages>289, Nr. 9</pages>
+        </bibl>
+        <bibl bibl-id="bibl-277">
+            <title>M. Tarasenko, in: B. Backes/M. Müller/S. Stöhr (Hgg.),
+                Ausgestattet mit den Schriften des Thot. Festschrift für
+                Irmtraut Munro zu ihrem 65. Geburtstag, SAT 14, Wiesbaden
+                2009</title>
+            <pages>243, 258</pages>
+        </bibl>
+        <bibl bibl-id="bibl-3034">
+            <title>Allen, J. P., A New Concordance of the Pyramid Texts (6 volumes), Bd. VI, Providence, 2013</title>
+        </bibl>
+        <bibl bibl-id="bibl-3035">
+            <title>Rodríguez López, I., Snake or situla? On the meaning and uses of mqrt and variants, in: Göttinger Miszellen (2021), Bd. 264</title>
+            <pages>197-205</pages>
+        </bibl>
+    </bibliografie>
+    <teilobjekt id="1186-1">
+        <objektname>P. Mailand, Ospedale Maggiore (P. Busca)</objektname>
+        <inhalt>
+            <sequenz>/// Tb 152V - 138V - 18V - 99/99BV - 125A V + TG - 125B V - 42V - 127B V - 110V - 144V - 146V - 149[V] - 29B [V](?) - 30B[V] - 155[V] - 151A, IV - 156 - 160 - Spruch der Menkeret-Amulett (PT *778-*779) - 157 - Spruch der Seweret-Perle - 166[V] - Var. 167[V]? - Spruch des wesech-Kragens (Pyr. 1652-1656) [V] /// vso.: Tb 78</sequenz>
+            <sprueche>
+                <l/>
+                <s>152V</s>
+                <s>138V</s>
+                <s>18V</s>
+                <s>99/99BV</s>
+                <s>125V</s>
+                <s>VTG</s>
+                <s>125V</s>
+                <s>42V</s>
+                <s>127BV</s>
+                <s>110V</s>
+                <s>144V</s>
+                <s>146V</s>
+                <s>149V</s>
+                <s>29BV?</s>
+                <s>30BV</s>
+                <s>155V</s>
+                <s>151</s>
+                <s>156</s>
+                <s>160</s>
+                <s>Ausserordentliches Textgut</s>
+                <s>157</s>
+                <s>Ausserordentliches Textgut</s>
+                <s>166V</s>
+                <s>167V?</s>
+                <s>Ausserordentliches Textgut</s>
+                <l/>
+                <s>78</s>
+                <l/>
+            </sprueche>
+        </inhalt>
+        <abbildungen>
+            <fotos>vorhanden / vollständig</fotos>
+            <abbildung rechte="com">
+                <datei name="Mailand_OM_002.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Mailand_OM_003.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Mailand_OM_004.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Mailand_OM_005.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Mailand_OM_006.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Mailand_OM_007.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Mailand_OM_008.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Mailand_OM_009.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Mailand_OM_010.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Mailand_OM_011.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Mailand_OM_012.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Mailand_OM_013.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Mailand_OM_014.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Mailand_OM_015.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Mailand_OM_016.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Mailand_OM_017.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Mailand_OM_018.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Mailand_OM_019.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Mailand_OM_020.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Mailand_OM_021.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Mailand_OM_022.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Mailand_OM_023.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Mailand_OM_024.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Mailand_OM_025.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Mailand_OM_026.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Mailand_OM_027.tif"/>
+            </abbildung>
+        </abbildungen>
+    </teilobjekt>
+</objekt>

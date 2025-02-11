@@ -1,0 +1,161 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134591" id="1409" v:revision="10418" v:key="153a8c5ea8228b2" v:path="/db/totenbuch/objects/tm134591.xml">
+  <admin wer="TB-Projekt" wann="2012-01-01"/>
+  <anmerkungen>gleicher Besitzer wie pWien Vindob. Aeg. 3859 B</anmerkungen>
+  <standort>
+    <land>FR</land>
+    <ort>Paris</ort>
+    <institution>Musée du Louvre</institution>
+    <provenienz>Sammlung Musée Guimet</provenienz>
+  </standort>
+  <herkunft>
+    <region>Theben</region>
+  </herkunft>
+  <besitzer geschlecht="M">
+    <anmerkungen>zur Tochter vgl. pLeiden T 3</anmerkungen>
+    <name ranke="I, 271.7">Ḫnsw- ms</name>
+    <titel>i͗t- nṯr n Imn m Ipt- swt i͗t- nṯr sš ḥw.t- nṯr n Mwt ḥr.i͗ sꜣw sš.w n pr- ḥḏ n pr Imn sš
+      nꜣ ḥw.t nb.w n Imn Mwt Ḫnsw šsp i͗n.w Ḫꜣrw Kš</titel>
+    <verwandt rel="Tochter">
+      <name>Tꜣw- ḥrt</name>
+    </verwandt>
+  </besitzer>
+  <datierung>
+    <periode>3. Zwischenzeit</periode>
+    <detail>21. Dynastie</detail>
+    <jahr>Mitte 21. Dynastie</jahr>
+  </datierung>
+  <form>
+    <objektgruppe>Papyrus</objektgruppe>
+    <material>Papyrus</material>
+    <gesamtmasse>
+      <laenge>400</laenge>
+      <hoehe>26,8</hoehe>
+    </gesamtmasse>
+    <schrift>Hieroglyphisch</schrift>
+    <vignettenstil>farbig</vignettenstil>
+  </form>
+  <bibliografie>
+    <bibl bibl-id="bibl-2407">
+      <title>J.-L. de Cenival, Le Livre pour sortir le jour, Le Bouscat 1992</title>
+      <pages>78</pages>
+    </bibl>
+    <bibl bibl-id="bibl-2096">
+      <title>M. Etienne, Premier Millénaire, in: L’Egypte au Louvre 117, Paris 1998</title>
+      <pages>50</pages>
+    </bibl>
+    <bibl bibl-id="bibl-516">
+      <title>A. Sallé, in: Archeologia 255, 1990</title>
+      <pages>28-35, mit Abb. S. 33</pages>
+    </bibl>
+    <bibl bibl-id="bibl-2098">
+      <title>Les Portes du Ciel. Visions du monde dans l'Égypte ancienne, Paris 2009. (Katalog
+        Paris)</title>
+      <pages>110, fig. 3</pages>
+    </bibl>
+    <bibl bibl-id="bibl-2234">
+      <title>Devéria, Cat.</title>
+      <pages>119-121, III. 95</pages>
+    </bibl>
+    <bibl bibl-id="bibl-926">
+      <title>A. Niwinski, Studies on the Illustrated Theban Funerary Papyri of the 11th and 10th
+        Centuries B.C., OBO 86, Fribourg/Göttingen 1989</title>
+      <pages>353 (Paris 12), (mit weiterer Lit.)</pages>
+    </bibl>
+    <bibl bibl-id="bibl-2675">
+      <title>M. Bellion</title>
+      <pages>192</pages>
+    </bibl>
+    <bibl bibl-id="bibl-1130">
+      <title>H. De Meulenaere, Notes de prosopographie thébaine, in: CdE 53, 1978</title>
+      <pages>227f</pages>
+    </bibl>
+    <bibl bibl-id="bibl-1742">
+      <title>M. Heerma van Voss, Beginning and End in the Book of the Dead of the 21st Dynasty, in:
+        St.E. Thompson/P. Der Manuelian, Egypt and Beyond. Essays Presented to Leonard H. Lesko,
+        Providence 2008</title>
+      <pages>163-166</pages>
+    </bibl>
+  </bibliografie>
+  <teilobjekt id="1409-1">
+    <objektname>P. Paris Louvre N. 3070</objektname>
+    <inhalt>
+      <sequenz>Opferszene vor Re-Harachte-Atum / Osiris / Isis / Nephthys - Tb 94 (nur Titel) - 71 -
+        72 -V110 - 125BV - 108V - 109V - V126 - V151(?) ; verso: V 110</sequenz>
+      <sprueche>
+        <start/>
+        <s>V?</s>
+        <s>94</s>
+        <s>71</s>
+        <s>72</s>
+        <s>V110</s>
+        <s>125V</s>
+        <s>108V</s>
+        <s>109V</s>
+        <s>V126</s>
+        <s>V151?</s>
+        <l/>
+        <s>V110</s>
+        <l/>
+      </sprueche>
+      <anmerkungenText>Leserichtung von links nach rechts; V110 auf dem verso;
+        Titelkolumne</anmerkungenText>
+    </inhalt>
+    <abbildungen>
+      <fotos>vorhanden / unvollständig</fotos>
+      <abbildung rechte="com">
+        <datei name="Paris_Louvre_N_3070_001.bmp"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_louvre_N_3070_002.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_louvre_N_3070_003.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_louvre_N_3070_004.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_louvre_N_3070_005.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_louvre_N_3070_006.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_louvre_N_3070_007.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_louvre_N_3070_008.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_louvre_N_3070_009.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_louvre_N_3070_010.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_louvre_N_3070_011.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_louvre_N_3070_012.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_louvre_N_3070_013.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_louvre_N_3070_014.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_louvre_N_3070_015.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_louvre_N_3070_016.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_louvre_N_3070_017.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_louvre_N_3070_018.tif"/>
+      </abbildung>
+    </abbildungen>
+  </teilobjekt>
+</objekt>

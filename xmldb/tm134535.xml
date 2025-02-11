@@ -1,0 +1,66 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134535" id="1352" v:revision="10363" v:key="153a8c5d7eb287b" v:path="/db/totenbuch/objects/tm134535.xml">
+  <admin wer="TB-Projekt" wann="2012-01-01"/>
+  <anmerkungen>ursprünglich BM EA 9872</anmerkungen>
+  <anmerkungen>späte 21. oder frühe 22. Dynastie</anmerkungen>
+  <standort>
+    <land>GB</land>
+    <ort>London</ort>
+    <institution>British Museum</institution>
+  </standort>
+  <herkunft>
+    <region>Theben</region>
+  </herkunft>
+  <besitzer geschlecht="F">
+    <name ranke="RdE 46, 185-186">Di͗- Mwt- i͗wdw</name>
+    <titel>šmꜥ.t (n.t) Imn</titel>
+  </besitzer>
+  <datierung>
+    <periode>3. Zwischenzeit</periode>
+    <detail>21. Dynastie</detail>
+  </datierung>
+  <form>
+    <objektgruppe>Papyrus</objektgruppe>
+    <material>Papyrus</material>
+    <gesamtmasse>
+      <hoehe>20</hoehe>
+    </gesamtmasse>
+    <schrift>Hieratisch</schrift>
+    <vignettenstil>nicht erhalten</vignettenstil>
+  </form>
+  <bibliografie>
+    <bibl bibl-id="bibl-274">
+      <title>J. Taylor (Hrg.), Journey through the Afterlife, Ancient Egyptian Book of the Dead,
+        London 2010</title>
+      <pages>300</pages>
+    </bibl>
+    <bibl bibl-id="bibl-716">
+      <title>St. Quirke, Owners</title>
+      <pages>35, Nr. 43 mit Anm. S. 7</pages>
+    </bibl>
+  </bibliografie>
+  <teilobjekt id="1352-1">
+    <objektname>P. London BM EA 74136</objektname>
+    <inhalt>
+      <sequenz>/// Tb 23 - 24 - 25 - 26 - 28 ///</sequenz>
+      <sprueche>
+        <l/>
+        <s>23</s>
+        <s>24</s>
+        <s>25</s>
+        <s>26</s>
+        <s>28</s>
+        <end/>
+      </sprueche>
+    </inhalt>
+    <objektmasse>B. 94,4 cm</objektmasse>
+    <abbildungen>
+      <fotos>vorhanden / vollständig</fotos>
+      <abbildung rechte="com">
+        <datei name="BM_74136_001.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="London_BM_74136_001.jpg"/>
+      </abbildung>
+    </abbildungen>
+  </teilobjekt>
+</objekt>

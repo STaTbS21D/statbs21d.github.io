@@ -1,0 +1,84 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134401" id="1217" v:revision="10229" v:key="153a8c5a8f527f5" v:path="/db/totenbuch/objects/tm134401.xml">
+  <admin wer="TB-Projekt" wann="2012-01-01"/>
+  <standort>
+    <land>DE</land>
+    <ort>Berlin</ort>
+    <institution>Ägyptisches Museum und Papyrussammlung</institution>
+    <provenienz>ehem. State Library (nach A. Niwinski)</provenienz>
+  </standort>
+  <herkunft>
+    <region>Theben</region>
+    <anmerkungen>erschlossen</anmerkungen>
+  </herkunft>
+  <besitzer geschlecht="M">
+    <name ranke="II, 280.1">Pꜣ- wi͗ꜣ- n- ꜥḏdi͗w</name>
+    <titel>i͗t- nṯr n Imn- Rꜥ nsw.t nṯr.w </titel>
+  </besitzer>
+  <datierung>
+    <periode>3. Zwischenzeit</periode>
+  </datierung>
+  <form>
+    <objektgruppe>Papyrus</objektgruppe>
+    <material>Papyrus</material>
+    <gesamtmasse>
+      <beschreibung>L. 93 cm</beschreibung>
+      <hoehe>24</hoehe>
+    </gesamtmasse>
+    <schrift>Hieratisch</schrift>
+    <vignettenstil>farbig</vignettenstil>
+  </form>
+  <bibliografie>
+    <bibl bibl-id="bibl-1663">
+      <title>M. Hussein/R. Krauspe, Vom Papyrus zum Codex, Leipzig 1970 </title>
+      <pages>46, mit Photo S. 43</pages>
+    </bibl>
+    <bibl bibl-id="bibl-1569">
+      <title>Kaplony-Heckel, Äg. Handschriften 3</title>
+      <pages>50, Nr. 105</pages>
+    </bibl>
+    <bibl bibl-id="bibl-1628">
+      <title>K. Jansen-Winkeln, Text u. Sprache in der 3. Zwischenzeit, ÄAT 26, Wiesbaden
+        1994</title>
+      <pages>265</pages>
+    </bibl>
+    <bibl bibl-id="bibl-926">
+      <title>A. Niwinski, Studies on the Illustrated Theban Funerary Papyri of the 11th and 10th
+        Centuries B.C., OBO 86, Fribourg/Göttingen 1989</title>
+      <pages>252 (Berlin 29)</pages>
+    </bibl>
+    <bibl bibl-id="bibl-1361">
+      <title>G. Lenzo, in: BIFAO 102, 2002</title>
+      <pages>267-283</pages>
+    </bibl>
+  </bibliografie>
+  <teilobjekt id="1217-1">
+    <objektname>P. Berlin P. 10466</objektname>
+    <inhalt>
+      <sequenz>A.d.O. - Tb 23 - 24 - 25 - 26 - 28 - 27 - 162</sequenz>
+      <sprueche>
+        <start/>
+        <s>VA.d.O.</s>
+        <s>23</s>
+        <s>24</s>
+        <s>25</s>
+        <s>26</s>
+        <s>28</s>
+        <s>27</s>
+        <s>162</s>
+        <l/>
+      </sprueche>
+    </inhalt>
+    <abbildungen>
+      <fotos>vorhanden / vollständig</fotos>
+      <abbildung rechte="com">
+        <datei name="Berlin_10466_B.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Berlin_10466_D.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Berlin_10466_F.tif"/>
+      </abbildung>
+    </abbildungen>
+  </teilobjekt>
+</objekt>

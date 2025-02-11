@@ -1,0 +1,155 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134485" id="1301" v:revision="10313" v:key="153a8c5c5352849" v:path="/db/totenbuch/objects/tm134485.xml">
+          <admin wer="TB-Projekt" wann="2012-01-01"/>
+          <standort>
+                    <land>EG</land>
+                    <ort>Kairo</ort>
+                    <institution>Ägyptisches Museum</institution>
+                    <anmerkungen>Raum 29, bas 20, 1 ,2</anmerkungen>
+          </standort>
+          <herkunft>
+                    <region>Theben</region>
+                    <ort>Cachette von Deir el-Bahari (Bab el-Gasus)</ort>
+          </herkunft>
+          <besitzer geschlecht="M">
+                    <name ranke="I, 176.2">Ns- pr- n- nb</name>
+                    <titel>i͗t- nṯr n Imn- Rꜥ nsw.t nṯr.w i͗t- nṯr n Mw.t Ḫnsw (...?)</titel>
+          </besitzer>
+          <datierung>
+                    <periode>3. Zwischenzeit</periode>
+                    <detail>21. Dynastie</detail>
+                    <jahr>späte 21. Dynastie</jahr>
+          </datierung>
+          <form>
+                    <objektgruppe>Papyrus</objektgruppe>
+                    <material>Papyrus</material>
+                    <gesamtmasse>
+                              <beschreibung>Einzelmaße vgl. Zettel</beschreibung>
+                              <laenge>787</laenge>
+                              <hoehe>23,5</hoehe>
+                    </gesamtmasse>
+                    <schrift>Hieratisch</schrift>
+                    <vignettenstil>farbig</vignettenstil>
+          </form>
+          <bibliografie>
+                    <bibl bibl-id="bibl-926">
+                              <title>A. Niwinski, Studies on the Illustrated Theban Funerary Papyri
+                                        of the 11th and 10th Centuries B.C., OBO 86,
+                                        Fribourg/Göttingen 1989</title>
+                              <pages>265 (Cairo 34)</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-1359">
+                              <title>G. Lenzo Marchese, in: BSEG 26, 2004</title>
+                              <pages>43-62</pages>
+                    </bibl>
+          </bibliografie>
+          <teilobjekt id="1301-1">
+                    <objektname>P. Kairo J.E. 95854 (S.R. IV 953)</objektname>
+                    <inhalt>
+                              <sequenz>A. d. O. - Tb 23 - 24 - 25 - 26 - 28 - 27 - 180 - 181 - 130 -
+                                        136/136A A - 134 + Rubrum (Saitisch 130 Lepsius Taf. 53 Z.
+                                        27) - 64 + R - 133 - 125 A - 125 B - 125 C V - 125 D -
+                                        136/136A A V + Rubrum - 134 V - 1 - 72 + R - 2 - 3 - 65 V -
+                                        68</sequenz>
+                              <sprueche>
+                                        <start/>
+                                        <s>VA.d.O.</s>
+                                        <s>23</s>
+                                        <s>24</s>
+                                        <s>25</s>
+                                        <s>26</s>
+                                        <s>28</s>
+                                        <s>27</s>
+                                        <s>180</s>
+                                        <s>181</s>
+                                        <s>130</s>
+                                        <s>136/136A</s>
+                                        <s>134</s>
+                                        <s>64</s>
+                                        <s>133</s>
+                                        <s>125</s>
+                                        <s>125</s>
+                                        <s>125V</s>
+                                        <s>125</s>
+                                        <s>136/136AV</s>
+                                        <s>134V</s>
+                                        <s>1</s>
+                                        <s>72</s>
+                                        <s>2</s>
+                                        <s>3</s>
+                                        <s>65V</s>
+                                        <s>68</s>
+                                        <end/>
+                              </sprueche>
+                    </inhalt>
+                    <abbildungen>
+                              <fotos>vorhanden / vollständig</fotos>
+                              <kommentar>Film 1 + 2</kommentar>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95854_1.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95854_10.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95854_11.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95854_12.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95854_13.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95854_14.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95854_15.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95854_16.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95854_17.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95854_18.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95854_19.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95854_2.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95854_23.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95854_24.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95854_25.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95854_3.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95854_4.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95854_5.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95854_6.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95854_7.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95854_8.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Kairo_J_E_95854_9.tif"/>
+                              </abbildung>
+                    </abbildungen>
+          </teilobjekt>
+</objekt>

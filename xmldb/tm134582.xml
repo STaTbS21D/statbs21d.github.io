@@ -1,0 +1,123 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134582" id="1400" v:revision="10410" v:key="153a8c5e7e128aa" v:path="/db/totenbuch/objects/tm134582.xml">
+          <admin wer="TB-Projekt" wann="2012-01-01"/>
+          <anmerkungen>gleicher Besitzer wie pWien 3293 ?</anmerkungen>
+          <standort>
+                    <land>FR</land>
+                    <ort>Paris</ort>
+                    <institution>Musée du Louvre</institution>
+          </standort>
+          <herkunft>
+                    <region>unbekannt</region>
+          </herkunft>
+          <besitzer geschlecht="M">
+                    <anmerkungen>gleicher Besitzer wie pParis Louvre N. 3292 ? (Myth.
+                              Papyrus)</anmerkungen>
+                    <name ranke="I, 28.20">Imn- m- sꜣ- f</name>
+                    <titel>ḥr.i͗ qrꜥw</titel>
+          </besitzer>
+          <datierung>
+                    <periode>3. Zwischenzeit</periode>
+                    <detail>21. Dynastie</detail>
+                    <jahr>Mitte 21. Dynastie</jahr>
+          </datierung>
+          <form>
+                    <objektgruppe>Papyrus</objektgruppe>
+                    <material>Papyrus</material>
+                    <gesamtmasse>
+                              <laenge>449</laenge>
+                              <hoehe>38</hoehe>
+                    </gesamtmasse>
+                    <schrift>Hieroglyphisch</schrift>
+                    <vignettenstil>farbig</vignettenstil>
+          </form>
+          <bibliografie>
+                    <bibl bibl-id="bibl-994">
+                              <title>M.G. Nagel, Un papyrus funéraire de la fin du Nouvel Empire
+                                        (Louvre 3292), in: BIFAO 29 (1929)</title>
+                              <pages>1-127, pl. I-VIII</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-673">
+                              <title>D. Redford (Hg.), The Ancient Gods Speak. A Guide to Egyptian
+                                        Religion, Oxford/New York 2002</title>
+                              <pages>Frontispiz (seitenverkehrt)</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-942">
+                              <title>H. Nibley (J. Gee/M.D. Rhodes (Hgg.)), The Message of the
+                                        Joseph Smith Papyri. An Egyptian Endowment, The Collected
+                                        Works of Hugh Nibley, Vol. 16, Salt Lake City/Provo
+                                        22005</title>
+                              <pages>179, Abb. 47; 395, Abb. 127</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-926">
+                              <title>A. Niwinski, Studies on the Illustrated Theban Funerary Papyri
+                                        of the 11th and 10th Centuries B.C., OBO 86,
+                                        Fribourg/Göttingen 1989</title>
+                              <pages>360 (Paris 38) (mit weiterer Lit.)</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-2675">
+                              <title>M. Bellion</title>
+                              <pages>217</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-439">
+                              <title>Chr. Seeber, Untersuchungen</title>
+                              <pages>212, n. 26</pages>
+                    </bibl>
+          </bibliografie>
+          <teilobjekt id="1400-1">
+                    <objektname>P. Paris Louvre N. 3292</objektname>
+                    <inhalt>
+                              <sequenz>A.d.Re-Harachte - Re-Hymnus - Tb 125 B V - 30B V - TG -
+                                        mytholog. Szenen - A.d.O. - 15(Var.) V - 125 B V</sequenz>
+                              <sprueche>
+                                        <start/>
+                                        <s>A.d. Re-Harachte</s>
+                                        <s>Hymnus</s>
+                                        <s>125V</s>
+                                        <s>30BV</s>
+                                        <s>VTG</s>
+                                        <s>Mythologische SzenenV</s>
+                                        <s>VA.d.O.</s>
+                                        <s>15V</s>
+                                        <s>125V</s>
+                                        <end/>
+                              </sprueche>
+                    </inhalt>
+                    <abbildungen>
+                              <fotos>vorhanden / vollständig</fotos>
+                              <kommentar>Film 4, 1</kommentar>
+                              <abbildung rechte="com">
+                                        <datei name="Paris_louvre_N_3292_001.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Paris_louvre_N_3292_002.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Paris_louvre_N_3292_003.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Paris_louvre_N_3292_004.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Paris_louvre_N_3292_005.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Paris_louvre_N_3292_006.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Paris_louvre_N_3292_007.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Paris_louvre_N_3292_008.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Paris_louvre_N_3292_009.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Paris_louvre_N_3292_010.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Paris_louvre_N_3292_011.tif"/>
+                              </abbildung>
+                    </abbildungen>
+          </teilobjekt>
+</objekt>

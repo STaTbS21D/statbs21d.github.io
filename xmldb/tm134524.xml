@@ -1,0 +1,94 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134524" id="1341" v:revision="10352" v:key="153a8c5d4332870" v:path="/db/totenbuch/objects/tm134524.xml">
+      <admin wer="TB-Projekt" wann="2012-01-01"/>
+      <anmerkungen>Name und Titel des Vaters stimmen mit dem des Vaters von Ns-Jmn (vgl. pNew York,
+            MMA 26.2.51) überein.</anmerkungen>
+      <standort>
+            <land>GB</land>
+            <ort>London</ort>
+            <institution>British Museum</institution>
+            <provenienz>Sammlung Anastasi, Nr. 1076</provenienz>
+      </standort>
+      <herkunft>
+            <region>Theben</region>
+      </herkunft>
+      <besitzer geschlecht="M">
+            <name ranke="I, 108.3">PꜢ- n- Mꜣꜥt</name>
+            <titel>i͗t- nṯr n Imn sš ḥw.t- nṯr</titel>
+            <verwandt rel="Vater">
+                  <name>P(ꜣ)- n- Rnnwtt</name>
+                  <titel>i͗t- nṯr sš ḥw.t- nṯr Mr- n- Mꜣꜥ.; P: i͗t- nṯr sš ḥw.t- nṯr n pr Mꜣꜥt
+                  </titel>
+            </verwandt>
+      </besitzer>
+      <datierung>
+            <periode>3. Zwischenzeit</periode>
+            <detail>21.-22. Dynastie</detail>
+            <jahr>Ende 21. Dynastie - Anfang 22. Dynastie</jahr>
+      </datierung>
+      <form>
+            <objektgruppe>Papyrus</objektgruppe>
+            <material>Papyrus</material>
+            <gesamtmasse>
+                  <beschreibung>H. 25,4 cm, L. 1,08 m</beschreibung>
+            </gesamtmasse>
+            <schrift>Hieratisch</schrift>
+            <vignettenstil>farbig</vignettenstil>
+      </form>
+      <bibliografie>
+            <bibl bibl-id="bibl-926">
+                  <title>A. Niwinski, Studies on the Illustrated Theban Funerary Papyri of the 11th
+                        and 10th Centuries B.C., OBO 86, Fribourg/Göttingen 1989</title>
+                  <pages>pl. 5a sowie 331 (London 40)</pages>
+            </bibl>
+            <bibl bibl-id="bibl-716">
+                  <title>St. Quirke, Owners</title>
+                  <pages>58, Nr. 203 mit Anm. S. 82</pages>
+            </bibl>
+            <bibl bibl-id="bibl-1361">
+                  <title>G. Lenzo, in: BIFAO 102, 2002</title>
+                  <pages>267-283</pages>
+            </bibl>
+      </bibliografie>
+      <teilobjekt id="1341-1">
+            <objektname>P. London BM EA 10029</objektname>
+            <inhalt>
+                  <sequenz>A d. Re-Harachte - Tb 23 - 24 - 25 - 26 - 28 - 38B - 40 - 36
+                        ///</sequenz>
+                  <sprueche>
+                        <start/>
+                        <s>A.d. Re-Harachte</s>
+                        <s>23</s>
+                        <s>24</s>
+                        <s>25</s>
+                        <s>26</s>
+                        <s>28</s>
+                        <s>38B</s>
+                        <s>40</s>
+                        <s>36</s>
+                        <end/>
+                  </sprueche>
+                  <anmerkungenText>iw=f pw-Vermerk am Ende</anmerkungenText>
+            </inhalt>
+            <abbildungen>
+                  <fotos>vorhanden / vollständig</fotos>
+                  <abbildung rechte="com">
+                        <datei name="London_BM_10029_001.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="London_BM_10029_004.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="London_BM_10029_005.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="London_BM_10029_006.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="London_BM_10029_008.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="London_BM_10029_010.tif"/>
+                  </abbildung>
+            </abbildungen>
+      </teilobjekt>
+</objekt>
