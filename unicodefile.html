@@ -55,7 +55,7 @@ $(document).ready(function() {
 		<div id="loader" align="center"><br><br><div class="block-content"><img src="assets/img/loading.gif" /></div></div>
 
 </div>
-
+<div class="container"><div id="TbPContent" class="block-content"></div></div>
 </section>
 
 </main>
@@ -404,7 +404,7 @@ const xmlUrl = "xmldb/tm" + TM + ".xml";
 			ftext += '</div>';
             const $paragraph = $("<p class='block-content'>");
             $paragraph.html(`<h4 class='unicode'><em>Totenbuch Projekt</em> Info for TM ${TM}</h4> ${ftext} <i class='fa fa-list icon'></i> Spell Sequence:  ${highlightedSequence} `);
-            $("#markdownContent").append($paragraph); 			
+            $("#TbPContent").append($paragraph); 			
 			});
         },
         error: function(jqXHR, textStatus, errorThrown) {
