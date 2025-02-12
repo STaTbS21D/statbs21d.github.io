@@ -1,4 +1,9 @@
 <!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+</head>
+<body>
   <script>
     $(document).ready(function() {
 
@@ -63,17 +68,19 @@
 			var daugtherTitle = $(this).find("besitzer verwandt[rel='Tochter'] titel").text();
 			daugtherTitle = daugtherTitle.replace(/-\s/g, '-'); daugtherTitle = daugtherTitle.replace(/-\)\s/g, ')-'); daugtherTitle = daugtherTitle.replace(/I/g, 'i͗');
 			
-			var group = $(this).find("form objektgruppe").text();			
-			
 			const trScr = {
 				Hieroglyphisch: 'Hieroglyphic', 
 				Hieratisch: 'Hieratic',
+				Lederrolle: 'Leather roll',
 				farbig: 'colored',
 				Strichzeichnung: 'line drawing',
 				reliefiert: 'reliefed',
+				nicht erhalten: 'not present',
 				'19.-20. Dynastie': 'Ramesside Period',
 				'21. Dynastie': '21<sup>st</sup> Dynasty',
-				'21.-22. Dynastie': '21-22 Dynasties'
+				'21.-22. Dynastie': '21-22 Dynasties',
+				'18.-19. Dynastie': '18-19 Dynasties',
+				'20. Dynastie': '20<sup>th</sup> Dynasty'
 				//Vignette(n) vorhanden: 'vignette(s) present',
 				};
 				
@@ -85,6 +92,12 @@
 			}
 		}
 		
+		
+			var group = $(this).find("form objektgruppe").map(function() {
+			  var myg = translateScript($(this).text())
+			  return myg;			  
+			}).get().join(' / ');	
+			
 			const dating = $(this).find("datierung detail").map(function() {
 			  var mydate = translateScript($(this).text())
 			  return mydate;			  
@@ -104,7 +117,8 @@
 				Kairo: 'Cairo', 
 				Havanna: 'Havana',
 				Wien: 'Viena',
-				Mailand: 'Milan'
+				Mailand: 'Milan',
+				Vatikanstadt: 'Vatican City'
 			};
 			
 			function translateCities(city) {
@@ -193,7 +207,7 @@
 			ftext += '</div>';
             const $paragraph = $("<p class='content'>");
             $paragraph.html(`${ftext} <i class='icon-layers icon'></i> Source: ${group} <br> <div style="padding-left:20px"> <i class='fa fa-pencil icon'></i> Script: ${script} <br> <i class='fa fa-photo icon'></i> Vignettes: ${vignettes} <br> <i class='fa fa-list icon'></i> Spell Sequence:  ${sequence} </div> <i class='fa fa-map-marker icon'></i> Origin: ${origin} <br> <i class='fa fa-hourglass-o icon'></i> Dating: ${dating} <br> <i class='fa fa-institution'></i> Current Location: ${location}, ${city} (${country}) `);
-            $("#TbPmodalBody").append($paragraph); 
+            $("#TbPmodalBody").append($paragraph);
 			$("#TbPmodalBody").append('<p style="text-align:center">Source: <a class="btn btn-sm btn-light" href="https://totenbuch.awk.nrw.de/" target="_blank"><em>Totenbuch Projekt</em></a></p>');
 			//return $paragraph;
           });
@@ -207,3 +221,5 @@
 	  });   	  
 	    
   </script>
+</body>
+</html>
