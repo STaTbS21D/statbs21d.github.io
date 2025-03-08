@@ -516,7 +516,16 @@ $(document).ready(function() {
                             });
 						html += '</tbody></table>';
 						//document.getElementById('loader').style.display = "none";	
-                        $('#folderListBody').html(html);
+                        $('#folderListBody').html(html).then(() => {
+        // Check for hash in URL
+        const hash = window.location.hash;
+        if (hash) {
+            // Scroll to the anchor smoothly
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top
+            }, 1000); // Adjust duration as needed
+        }
+    });
                     },
 				error: function() {
 				$('#folderListBody').html('<div align="center"><p class="text-bg-danger small" style="width:60%;border-radius: 18px;text-align: center">Error fetching files from GitHub repository.</p></div>');
