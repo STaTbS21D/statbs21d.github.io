@@ -516,7 +516,19 @@ $(document).ready(function() {
                             });
 						html += '</tbody></table>';
 						//document.getElementById('loader').style.display = "none";	
-                        $('#folderListBody').html(html).then(() => {
+						
+                        function loadTableData(html) { 
+							return new Promise((resolve) => {
+								setTimeout(() => {
+									// Here you would typically fetch your data and create your table
+									$('#folderListBody').html(html); 
+									resolve(); // Resolve the promise when done
+								}, 1000); // Simulate a 1-second load time
+							});
+						
+						}
+						
+						loadTableData(html).then(() => {
         // Check for hash in URL
         const hash = window.location.hash;
         if (hash) {
