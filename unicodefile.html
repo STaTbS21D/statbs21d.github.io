@@ -223,9 +223,41 @@ $(document).ready(function() {
 					return '<a href="' + p2 + '" target="_blank">' + p1 + '</a>'; 
 				  }
 				});
-							
+					replacedText = references(replacedText);
+				
+					replacedText = replacedText.replace(/-!/g, '<br>');
+				
 					return replacedText;
 				
+			}
+			
+			function references(ref) {
+				
+				const regex = /(\(?[A-Za-záéíóúñÁÉÍÓÚÑ]+\s*,\s*\d{4}\s*(?:,\s*\d+(?:-\d+)?)?\)?)|([A-Za-záéíóúñÁÉÍÓÚÑ]+\s*\(\d{4}\s*(?:,\s*\d+(?:-\d+)?)?\))/g;
+
+				var textoModificado = ref.replace(regex, function(match) {
+					// Limpiar la referencia para formar el query
+					let query = match.replace(/[(),:]/g, ''); // Eliminar paréntesis, comas y dos puntos
+
+					// Extraer el año y el autor
+					let yearMatch = query.match(/\d{4}/); // Buscar el año
+					let authorMatch = query.match(/[A-Za-záéíóúñÁÉÍÓÚÑ]+(?:\s+[A-Za-záéíóúñÁÉÍÓÚÑ]+)*/); // Buscar el autor
+
+					if (yearMatch && authorMatch) {
+						// Combinar autor y año en el formato deseado
+						query = `${authorMatch[0]}+${yearMatch[0]}`;
+					} else {
+						query = match.replace(/[(),:]/g, '').replace(/\s+/g, '+'); // Si no se encuentra, usar la referencia original sin paréntesis y con espacios reemplazados por +
+					}
+
+					// Reemplazar espacios con signos más
+					query = query.replace(/\s+/g, '+');
+
+					// Crear el enlace. Codificar el atributo href completo.
+					return `<a href="references.html?q=${query}" target="_blank">${match}</a>`;
+				});
+
+				return textoModificado;
 			}
 			
 			function downloadlinks(unicodefile){
