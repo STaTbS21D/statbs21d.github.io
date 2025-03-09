@@ -348,45 +348,49 @@ const xmlUrl = "xmldb/tm" + TM + ".xml";
 			let lastWasLineBreak = false;
 
 			var sequence = $(this).find('teilobjekt inhalt sprueche > *').each(function() {  
-			
 				const tagName = this.tagName;
 
 				if (tagName === 's') {
-				const text = $(this).text();
-				if (currentSpellList !== "") {
-					currentSpellList += " - "; 
-				}
-				currentSpellList += text;
-				lastWasLineBreak = false; 
-
-			} else if (tagName === 'l') {
-				if (!lastWasLineBreak) {
-					if(currentSpellList !== "") {
-					   spells.push(currentSpellList);
+					const text = $(this).text();
+					if (currentSpellList !== "") {
+						currentSpellList += " - "; 
 					}
-					currentSpellList = "[...]";
-					lastWasLineBreak = true;
+					currentSpellList += text;
+					lastWasLineBreak = false; 
+				} else if (tagName === 'l') {
+					if (!lastWasLineBreak) {
+						if(currentSpellList !== "") {
+							spells.push(currentSpellList);
+						}
+						currentSpellList = "[...]";
+						lastWasLineBreak = true;
+					}
 				}
-			}
-		});
+			});
 
 			if (currentSpellList !== "") {
-			spells.push(currentSpellList);
-		}
+				spells.push(currentSpellList);
+			}
 
-		let joinedSpells = spells.join(' - ');
-		joinedSpells = joinedSpells.replace(/\[\.\.\.\] -/g, '[...]'); 
-		joinedSpells = joinedSpells.replace(/ - \[\.\.\.\]/g, ' - [...] - '); 
-		joinedSpells = joinedSpells.trim();
-		if (joinedSpells.endsWith('-')) {
-			joinedSpells = joinedSpells.slice(0, joinedSpells.length - 1).trim();
-		}
-			
+			let joinedSpells = spells.join(' - ');
+			joinedSpells = joinedSpells.replace(/[...] -/g, '[...]'); 
+			joinedSpells = joinedSpells.replace(/ - [...]/g, ' - [...] - '); 
+			joinedSpells = joinedSpells.trim();
+			if (joinedSpells.endsWith('-')) {
+				joinedSpells = joinedSpells.slice(0, joinedSpells.length - 1).trim();
+			}
+
 			sequence = joinedSpells;
-			
-			var highlightedSequence = sequence.replace(new RegExp(Sp, 'g'), '<a class="btn-light" href="spells.html#s'+Sp+'"><span style="color:#69b0e5;font-size:1.2em"><strong>' + Sp + '</strong></span></a>');
-			
-			
+			  
+			  const spellRegex = new RegExp(`(?<![0-9])(${Sp}[A-E]*)(?![0-9])`, 'g');
+
+				// Highlight the matched spells
+				var highlightedSequence = sequence.replace(spellRegex, function(match) {
+					const trimmedMatch = match.replace(/[A-Z]/g, '').trim();
+					// Create a link for the matched spell
+					return `<a class="btn-light" href="spells.html#sp${trimmedMatch.replace('V', '')}}"><span style="color:#69b0e5;font-size:1.2em"><strong>${match}</strong></span></a>`;
+				});
+
 			var ftext = '';
 			if(name != '') ftext = `<i class='fa fa-user icon'></i> Owner (N): ${name.toLowerCase()}`;
 			if(nameTitle != '') ftext += `  Titles: ${nameTitle.toLowerCase()}`;
