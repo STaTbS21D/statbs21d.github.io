@@ -233,7 +233,7 @@ $(document).ready(function() {
 			
 			function references(ref) {
 				
-				const regex = /(\(?[A-Za-záéíóúñÁÉÍÓÚÑ]+\s*,\s*\d{4}\s*(?:,\s*\d+(?:-\d+)?)?\)?)|([A-Za-záéíóúñÁÉÍÓÚÑ]+\s*\(\d{4}\s*(?:,\s*\d+(?:-\d+)?)?\))/g;
+				const regex = /(\(?[A-Za-záéíóúüñńÁÉÍÓÚÜÑŃ]+\s*,\s*\d{4}\s*(?:,\s*\d+(?:-\d+)?)?\)?)|([A-Za-záéíóúüñńÁÉÍÓÚÜÑŃ]+\s*\(\d{4}\s*(?:,\s*\d+(?:-\d+)?)?\))/g;
 
 				var textoModificado = ref.replace(regex, function(match) {
 					// Limpiar la referencia para formar el query
@@ -241,7 +241,7 @@ $(document).ready(function() {
 
 					// Extraer el año y el autor
 					let yearMatch = query.match(/\d{4}/); // Buscar el año
-					let authorMatch = query.match(/[A-Za-záéíóúñÁÉÍÓÚÑ]+(?:\s+[A-Za-záéíóúñÁÉÍÓÚÑ]+)*/); // Buscar el autor
+					let authorMatch = query.match(/[A-Za-záéíóúüñńÁÉÍÓÚÜÑŃ]+(?:\s+[A-Za-záéíóúüñńÁÉÍÓÚÜÑŃ]+)*/); // Buscar el autor
 
 					if (yearMatch && authorMatch) {
 						// Combinar autor y año en el formato deseado
