@@ -474,15 +474,11 @@ $(document).ready(function() {
 							  
 							  // Check if button has already been appended
 							  if ($('#s' + Spnumber + ' .chevron').length === 0) {
-								if (ctr == "a") {
-								  $('#s' + Spnumber).append(' <a id="bs' + Spnumber + '" class="chevron" href="#sp' + Spnumber + '" role="button" alt="Witnesses available"><i class="icon-arrow-down-circle"></i></a>');
-								  ctr = "b";
-								} else {
-								  // Append other button style
-								  //$('#s' + Spnumber).append(' <a class="btn2" href="#sp' + Spnumber + '" alt="Witnesses available"><i class="icon-arrow-down-circle"></i></a>');
-								  ctr = "a";
-								}
-							  }
+								// Append button regardless of the value of ctr
+        $('#s' + Spnumber).append(' <a id="bs' + Spnumber + '" class="chevron" href="#sp' + Spnumber + '" role="button" alt="Witnesses available"><i class="icon-arrow-down-circle"></i></a>');
+   
+								
+							  } 
 							  
 							  html += '<tr>';	
 							  html += '<td id="sp' + Spnumber + '">' + spell + ' <a class="tbp-link" href="https://totenbuch.awk.nrw.de/spruch/' + Spnumber + '" target="_blank">[TbP]</a> <a class="ref-link" href="references.html?p=tags&tag=' + spell + '" target="_blank" alt="Bibliography">[Ref]</a></td>';
