@@ -449,6 +449,10 @@ const xmlUrl = "xmldb/tm" + TM + ".xml";
         }
       });
 	  
+	  if (TM != '') {
+				$("#TbPContent").append('<h4 class="unicode">References</h4><div id="ref-data"><div align="center"><img src="assets/img/loading.gif" /></div></div>');
+				$('#ref-data').load('https://mdc2unicode.x10.bz/zot.php?p=ref&tag=TM+' + encodeURIComponent(TM));
+        } 
 	  
 });
 
