@@ -99,7 +99,7 @@
                 99/99B V - 63B - 82V - 77V - 86V - 85V - 83V + 84V - 81A V - 111V - 112V - 113V -
                 107V - 109V - 102V - 41V - 31V - 38B V - 55 - 2 - 4 - V 105 - 6 - 5 - 105 - 104 V -
                 96/97V - 103V - 10/48 - 153A V - 153B V - 125A + V126 - V110 +
-                Reinigungsszene</sequenz>
+                V195 (Reinigungsszene)</sequenz>
             <sprueche>
                 <start/>
                 <s>VA.d.O.</s>
@@ -144,7 +144,7 @@
                 <s>153BV</s>
                 <s>125 + V126</s>
                 <s>V110</s>
-                <s>V?</s>
+                <s>V195</s>
                 <end/>
             </sprueche>
         </inhalt>
