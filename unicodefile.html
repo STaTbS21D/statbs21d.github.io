@@ -420,7 +420,7 @@ const xmlUrl = "xmldb/tm" + TM + ".xml";
 				var highlightedSequence = sequence.replace(spellRegex, function(match) {
 					const trimmedMatch = match.replace(/[A-Z]/g, '').trim();
 					// Create a link for the matched spell
-					return `<a class="btn-light" href="spells.html#sp${trimmedMatch.replace('V', '')}}"><span style="color:#69b0e5;font-size:1.2em"><strong>${match}</strong></span></a>`;
+					return `<a class="btn-light" href="spells.html#sp${trimmedMatch.replace('V', '')}"><span style="color:#69b0e5;font-size:1.2em"><strong>${match}</strong></span></a>`;
 				});
 
 			var ftext = '';
