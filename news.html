@@ -48,9 +48,9 @@ $(document).ready(function() {
 <div class="block-heading">
 <h2 class="text-info">News Feed</h2>
 </div>
-<script src="https://static.elfsight.com/platform/platform.js" async></script>
-<div class="elfsight-app-a4ddc932-9076-44ff-b631-98c752100448" data-elfsight-app-lazy></div>
-<div class="row">
+<!--script src="https://static.elfsight.com/platform/platform.js" async></script>
+<div class="elfsight-app-a4ddc932-9076-44ff-b631-98c752100448" data-elfsight-app-lazy></div-->
+<div id="telegram-feed" class="row">
 	<!--div class="fb-page" align="center" data-href="https://www.facebook.com/STaTbS21D" data-tabs="timeline, events, messages" data-width="800" data-height="" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/STaTbS21D" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/STaTbS21D">Synoptic Edition of Book of the Dead spell sources from the 21st Dynasty</a></blockquote></div-->
 	
 	
@@ -67,7 +67,11 @@ $(document).ready(function() {
 </div>
 <script>
 $(document).ready(function() {
-    $('a[href="https://elfsight.com/facebook-feed-widget/?utm_source=websites&utm_medium=clients&utm_content=facebook-feed&utm_term=statbs21d.github.io&utm_campaign=free-widget"]').hide();
+    //$('a[href="https://elfsight.com/facebook-feed-widget/?utm_source=websites&utm_medium=clients&utm_content=facebook-feed&utm_term=statbs21d.github.io&utm_campaign=free-widget"]').hide();
+	
+	$('#telegram-feed').html('<div align="center"><img src="assets/img/loading.gif" /></div>');
+    $('#telegram-feed').load('https://mdc2unicode.x10.bz/telegram-channel.php');
+				
 });
 </script>
 <script>
