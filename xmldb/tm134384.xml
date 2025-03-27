@@ -1,0 +1,69 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134384" id="1199" v:revision="10212" v:key="153a8c5a34b27e4" v:path="/db/totenbuch/objects/tm134384.xml">
+  <admin wer="TB-Projekt" wann="2012-01-01"/>
+  <standort>
+    <land>IT</land>
+    <ort>Turin</ort>
+    <institution>Museo Egizio</institution>
+  </standort>
+  <herkunft>
+    <region>Theben</region>
+    <anmerkungen>erschlossen</anmerkungen>
+  </herkunft>
+  <besitzer geschlecht="M">
+    <name ranke="I, 271.7">Ḫnsw- ms</name>
+    <titel>ḥr.i͗ wꜥb.w i͗r.i͗ mḥꜣ.t n pr Imn</titel>
+  </besitzer>
+  <datierung>
+    <periode>Neues Reich</periode>
+    <detail>19.-20. Dynastie</detail>
+  </datierung>
+  <form>
+    <objektgruppe>Papyrus</objektgruppe>
+    <material>Papyrus</material>
+    <gesamtmasse>
+      <beschreibung>Fragm.</beschreibung>
+    </gesamtmasse>
+    <schrift>Hieroglyphisch</schrift>
+    <schrift>Hieratisch</schrift>
+    <schriftDetails>Spruchtitel Hieratisch</schriftDetails>
+    <vignettenstil>nicht erhalten</vignettenstil>
+  </form>
+  <bibliografie>
+    <bibl bibl-id="bibl-1233">
+      <title>B. Lüscher, Die Verwandlungssprüche (Tb 76-88), TbT 2, Basel 2006</title>
+      <pages>pT2</pages>
+    </bibl>
+    <bibl bibl-id="bibl-2080">
+      <title>A. Fabretti/F. Rossi/R. Lanzone, Catalogo Generale</title>
+      <pages>224</pages>
+    </bibl>
+    <bibl bibl-id="bibl-979">
+      <title>E. Naville, Das ägyptische Totenbuch der XVIII. bis XX. Dynastie, Graz 1971</title>
+      <pages>88 f (Ij)</pages>
+    </bibl>
+    <bibl bibl-id="bibl-1036">
+      <title>I. Munro, Untersuchungen zu den Totenbuch-Papyri der 18. Dynastie, London 1987</title>
+      <pages>307 f</pages>
+    </bibl>
+    <bibl bibl-id="bibl-2675">
+      <title>M. Bellion</title>
+      <pages>279</pages>
+    </bibl>
+  </bibliografie>
+  <teilobjekt id="1199-1">
+    <objektname>P. Turin 1828</objektname>
+    <inhalt>
+      <sequenz>/// Tb 78 /// 125C ///</sequenz>
+      <sprueche>
+        <l/>
+        <s>78</s>
+        <l/>
+        <s>125</s>
+        <l/>
+      </sprueche>
+    </inhalt>
+    <abbildungen>
+      <fotos>nicht vorhanden</fotos>
+    </abbildungen>
+  </teilobjekt>
+</objekt>

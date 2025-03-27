@@ -1,0 +1,94 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="133570" id="158" v:revision="9482" v:key="153a8c4a68b250a" v:path="/db/totenbuch/objects/tm133570.xml">
+  <admin wer="TB-Projekt" wann="2012-01-01"/>
+  <anmerkungen>zur Datierung: Mumienbinden von HP Mencheperre u. HP Pinodjem II.</anmerkungen>
+  <standort>
+    <land>EG</land>
+    <ort>Kairo</ort>
+    <institution>Ägyptisches Museum</institution>
+    <anmerkungen>Raum 24</anmerkungen>
+  </standort>
+  <herkunft>
+    <region>Theben</region>
+    <anmerkungen>Cachette von Deir el-Bahari (Bab el-Gasus), 1891</anmerkungen>
+  </herkunft>
+  <besitzer geschlecht="M">
+    <name ranke="I, 175.5">Ns- pꜣ- nfr- ḥr</name>
+    <titel>i͗t- nṯr mr-nṯr ḥr.i͗ sštꜣ m p.t tꜣ dwꜣ.t i͗m.i͗- rꜣ nfr.w n pr Imn</titel>
+    <verwandt rel="Vater">
+      <name>Sr Ḏḥwti͗</name>
+    </verwandt>
+  </besitzer>
+  <datierung>
+    <periode>3. Zwischenzeit</periode>
+    <detail>21. Dynastie</detail>
+    <jahr>mittlere bis späte 21. Dynastie</jahr>
+  </datierung>
+  <form>
+    <objektgruppe>Papyrus</objektgruppe>
+    <material>Papyrus</material>
+    <gesamtmasse>
+      <beschreibung>H. 23 cm, L. 2,66 m</beschreibung>
+    </gesamtmasse>
+    <schrift>Hieroglyphisch</schrift>
+    <vignettenstil>farbig</vignettenstil>
+  </form>
+  <bibliografie>
+    <bibl bibl-id="bibl-926">
+      <title>A. Niwinski, Studies on the Illustrated Theban Funerary Papyri of the 11th and 10th
+        Centuries B.C., OBO 86, Fribourg/Göttingen 1989</title>
+      <pages>Taf. 25c sowie 298 (Cairo 125)</pages>
+    </bibl>
+    <bibl bibl-id="bibl-1359">
+      <title>G. Lenzo Marchese, in: BSEG 26, 2004</title>
+      <pages>43-62</pages>
+    </bibl>
+  </bibliografie>
+  <teilobjekt id="158-1">
+    <objektname>P. Kairo S.R. VII 11503</objektname>
+    <inhalt>
+      <sequenz>A.d.O. + Isis - Tb 130V + R - 125B V - V150 - V110</sequenz>
+      <sprueche>
+        <start/>
+        <s>VA.d.O.</s>
+        <s>130V</s>
+        <s>125V</s>
+        <s>V150</s>
+        <s>V110</s>
+        <end/>
+      </sprueche>
+    </inhalt>
+    <abbildungen>
+      <fotos>vorhanden / vollständig</fotos>
+      <abbildung rechte="com">
+        <datei name="Kairo_S_R_VII_11503_B.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_S_R_VII_11503_C.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_S_R_VII_11503_E.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_S_R_VII_11503_F.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_S_R_VII_11503_G.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_S_R_VII_11503_H.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_S_R_VII_11503_I.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_S_R_VII_11503_J.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_S_R_VII_11503_K.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_S_R_VII_11503_M.tif"/>
+      </abbildung>
+    </abbildungen>
+  </teilobjekt>
+</objekt>

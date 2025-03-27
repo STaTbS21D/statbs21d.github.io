@@ -1,0 +1,148 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="133561" id="149" v:revision="9473" v:key="153a8c4a2e42501" v:path="/db/totenbuch/objects/tm133561.xml">
+  <admin wer="TB-Projekt" wann="2012-01-01"/>
+  <herkunft>
+    <region>Theben</region>
+    <anmerkungen>erschlossen aufgrund der Ähnlichkeit mit pNfr-rnpt u.a.</anmerkungen>
+  </herkunft>
+  <besitzer>
+    <name>anonym</name>
+  </besitzer>
+  <datierung>
+    <periode>Neues Reich</periode>
+    <detail>19.-20. Dynastie</detail>
+  </datierung>
+  <form>
+    <objektgruppe>Papyrus</objektgruppe>
+    <material>Papyrus</material>
+    <gesamtmasse>
+      <beschreibung>n. Shorter 11 sh.</beschreibung>
+    </gesamtmasse>
+    <schrift>Hieroglyphisch</schrift>
+    <vignettenstil>farbig</vignettenstil>
+  </form>
+  <bibliografie>
+    <bibl bibl-id="bibl-397">
+      <title>A.W. Shorter, Catalogue</title>
+      <pages>3</pages>
+    </bibl>
+    <bibl bibl-id="bibl-2675">
+      <title>M. Bellion</title>
+      <pages>53</pages>
+    </bibl>
+    <bibl bibl-id="bibl-716">
+      <title>St. Quirke, Owners</title>
+      <pages>113</pages>
+    </bibl>
+    <bibl bibl-id="bibl-523">
+      <title>T. Rutkauskas, in: RdE 55, 2004</title>
+      <pages>182-188</pages>
+    </bibl>
+    <bibl bibl-id="bibl-1230">
+      <title>B. Lüscher, Totenbuch-Papyrus Neuchâtel Eg. 429 und Princeton Pharaonic Roll 2. Zur
+        Totenbuch-Tradition von Deir el-Medina, BAÄ 1, Basel 2007</title>
+      <pages>17</pages>
+    </bibl>
+    <bibl bibl-id="bibl-277">
+      <title>M. Tarasenko, in: B. Backes/M. Müller/S. Stöhr (Hgg.), Ausgestattet mit den Schriften
+        des Thot. Festschrift für Irmtraut Munro zu ihrem 65. Geburtstag, SAT 14, Wiesbaden
+        2009</title>
+      <pages>243</pages>
+    </bibl>
+  </bibliografie>
+  <teilobjekt id="149-1">
+    <objektname>P. London BM EA 9957, 1-3</objektname>
+    <anmerkungen>Das rechte untere Fragment von pLondon BM 9957 (Fragment4) datiert in die
+      Spätzeit!!!; gehört zur sog. Deir el-Medina-Gruppe</anmerkungen>
+    <standort>
+      <land>GB</land>
+      <ort>London</ort>
+      <institution>British Museum</institution>
+      <provenienz>Sammlung Hay</provenienz>
+    </standort>
+    <inhalt>
+      <sequenz>Tb 2 /// V15 /// 17 /// 18V /// 42 /// 92 /// 125A /// 125B V /// 134 + Rubrum130 ///
+        146[V] /// 149V /// 180 ///</sequenz>
+      <sprueche>
+        <l/>
+        <s>2</s>
+        <l/>
+        <s>V15</s>
+        <l/>
+        <s>17</s>
+        <l/>
+        <s>18V</s>
+        <l/>
+        <s>42</s>
+        <l/>
+        <s>92</s>
+        <l/>
+        <s>125</s>
+        <l/>
+        <s>125V</s>
+        <l/>
+        <s>134</s>
+        <s>130</s>
+        <l/>
+        <s>146V</s>
+        <l/>
+        <s>149V</s>
+        <l/>
+        <s>180</s>
+        <l/>
+      </sprueche>
+    </inhalt>
+    <abbildungen>
+      <fotos>vorhanden / unvollständig</fotos>
+      <kommentar>sh. 1, 2, 4 vorh.: Film 8, 2-5; sh. 3 fehlt!</kommentar>
+      <abbildung rechte="com">
+        <datei name="London_BM_9957_001.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="London_BM_9957_002.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="London_BM_9957_003.tif"/>
+      </abbildung>
+    </abbildungen>
+  </teilobjekt>
+  <teilobjekt id="149-2">
+    <objektname>P. London BM EA 9958</objektname>
+    <standort>
+      <land>GB</land>
+      <ort>London</ort>
+      <institution>British Museum</institution>
+    </standort>
+    <inhalt>
+      <sequenz>Tb V2 /// 15 /// 17 /// 18V /// 42 /// 92 /// 125 /// 134 /// 146 /// 149 /// 180
+        ///</sequenz>
+      <sprueche>
+        <l/>
+        <s>V2</s>
+        <l/>
+        <s>15</s>
+        <l/>
+        <s>17</s>
+        <l/>
+        <s>18V</s>
+        <l/>
+        <s>42</s>
+        <l/>
+        <s>92</s>
+        <l/>
+        <s>125</s>
+        <l/>
+        <s>134</s>
+        <l/>
+        <s>146</s>
+        <l/>
+        <s>149</s>
+        <l/>
+        <s>180</s>
+        <l/>
+      </sprueche>
+    </inhalt>
+    <abbildungen>
+      <fotos>nicht vorhanden</fotos>
+    </abbildungen>
+  </teilobjekt>
+</objekt>

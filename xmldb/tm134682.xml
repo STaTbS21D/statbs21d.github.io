@@ -1,0 +1,76 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134682" id="1500" v:revision="10508" v:key="153a8c612d2290c" v:path="/db/totenbuch/objects/tm134682.xml">
+    <admin wer="TB-Projekt" wann="2012-01-01"/>
+    <anmerkungen>Fackelspruch ist nicht eine Var. von Tb 137 nach Angaben Daniela C. Luft, SAT
+        15</anmerkungen>
+    <standort>
+        <land>CH</land>
+        <ort>Cologny (Kanton Genf)</ort>
+        <institution>Bibliotheca Bodmeriana, Fondation Martin Bodmer</institution>
+    </standort>
+    <herkunft>
+        <region>Theben</region>
+    </herkunft>
+    <besitzer geschlecht="M">
+        <name ranke="I, 176.2">Nsi͗- pr- nbw</name>
+        <titel>i͗t- nṯr n Imn- Rꜥ nsw.t nṯr.w mri͗- nṯr wn ꜥꜣ.wi͗ ḥ.w ḥr.i͗ m Ip.t- sw.t</titel>
+        <verwandt rel="Vater">
+            <name>Mḥ- Imn- ḥꜣt</name>
+            <titel>i͗t- nṯr n Imn- Rꜥ nsw.t nṯr.w mri͗- nṯr </titel>
+        </verwandt>
+    </besitzer>
+    <datierung>
+        <periode>3. Zwischenzeit</periode>
+    </datierung>
+    <form>
+        <objektgruppe>Papyrus</objektgruppe>
+        <material>Papyrus</material>
+        <gesamtmasse>
+            <beschreibung>3 Kol., H. 26 cm, L. 60 cm</beschreibung>
+        </gesamtmasse>
+        <schrift>Hieratisch</schrift>
+        <vignettenstil>nicht erhalten</vignettenstil>
+    </form>
+    <bibliografie>
+        <bibl bibl-id="bibl-196">
+            <title>M. Valloggia, Les manuscrits hiératiques et hieroglyphiques de la Bibliotheca
+                Bodmeriana, in: J.L. Chapaz/S. Vuilleumier (Hgg.), Sortir au jour. Art égyptien de
+                la Fondation Martin Bodmer, CSEG 7, Genf 2001</title>
+            <pages>135-145</pages>
+        </bibl>
+    </bibliografie>
+    <teilobjekt id="1500-1">
+        <objektname>P. Cologny CVI</objektname>
+        <inhalt>
+            <sequenz>Tb 26 - 162 - Fackelspruch - ? - Spruch um die Vergesslichkeit zu vertreiben
+                (r3 n [dr] mhi n NN) -</sequenz>
+            <sprueche>
+                <l/>
+                <s>26</s>
+                <s>162</s>
+                <s>Ausserordentliches Textgut</s>
+                <s>?</s>
+                <s>Ausserordentliches Textgut</s>
+                <end/>
+            </sprueche>
+        </inhalt>
+        <abbildungen>
+            <fotos>vorhanden / vollständig</fotos>
+            <kommentar>Film 5</kommentar>
+            <abbildung rechte="com">
+                <datei name="Cologny_CVI_A.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Cologny_CVI_B.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Cologny_CVI_C.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Cologny_CVI_D.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Cologny_CVI_E.tif"/>
+            </abbildung>
+        </abbildungen>
+    </teilobjekt>
+</objekt>

@@ -1,0 +1,45 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134760" id="1580" v:revision="10586" v:key="153a8c62cae295a" v:path="/db/totenbuch/objects/tm134760.xml">
+      <admin wer="TB-Projekt" wann="2012-01-01"/>
+      <anmerkungen>Schrift sehr ähnlich mit pLondon BM 9939 + pNew York Amherst 18 + pStandort
+            unbekannt (gleiche Werkstatt ?)</anmerkungen>
+      <standort>
+            <land>US</land>
+            <ort>Memphis (TE)</ort>
+            <institution>Institute of Egyptian Art and Archaeology, University of
+                  Memphis</institution>
+      </standort>
+      <herkunft>
+            <region>Theben</region>
+            <anmerkungen>erschlossen</anmerkungen>
+      </herkunft>
+      <datierung>
+            <periode>Neues Reich</periode>
+            <detail>19. Dynastie</detail>
+      </datierung>
+      <form>
+            <objektgruppe>Papyrus</objektgruppe>
+            <material>Papyrus</material>
+            <gesamtmasse>
+                  <beschreibung>H. 8 cm, Br. 7,7</beschreibung>
+            </gesamtmasse>
+            <schrift>Hieroglyphisch</schrift>
+            <vignettenstil>nicht erhalten</vignettenstil>
+      </form>
+      <teilobjekt id="1580-1">
+            <objektname>P. Memphis 9986.1.3</objektname>
+            <inhalt>
+                  <sequenz>/// Tb 125 A ///</sequenz>
+                  <sprueche>
+                        <l/>
+                        <s>125</s>
+                        <l/>
+                  </sprueche>
+            </inhalt>
+            <abbildungen>
+                  <fotos>vorhanden / vollständig</fotos>
+                  <abbildung rechte="com">
+                        <datei name="Memphis_IEA_9986_1_3_1.jpg"/>
+                  </abbildung>
+            </abbildungen>
+      </teilobjekt>
+</objekt>

@@ -1,0 +1,91 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134570" id="1388" v:revision="10398" v:key="153a8c5e3ea289e" v:path="/db/totenbuch/objects/tm134570.xml">
+  <admin wer="TB-Projekt" wann="2012-01-01"/>
+  <standort>
+    <land>FR</land>
+    <ort>Paris</ort>
+    <institution>Bibliothèque Nationale</institution>
+    <provenienz>Sammlung Cailliaud</provenienz>
+  </standort>
+  <herkunft>
+    <region>Theben</region>
+    <anmerkungen>erschlossen</anmerkungen>
+  </herkunft>
+  <besitzer geschlecht="M">
+    <name ranke="I, 28.1">Imn- m- wi͗ꜣ</name>
+    <titel>ḥr.i͗. ꜥ.t n pr Imn</titel>
+  </besitzer>
+  <datierung>
+    <periode>3. Zwischenzeit</periode>
+    <detail>21. Dynastie</detail>
+    <jahr>Mitte - Ende 21. Dynastie</jahr>
+  </datierung>
+  <form>
+    <objektgruppe>Papyrus</objektgruppe>
+    <material>Papyrus</material>
+    <gesamtmasse>
+      <hoehe>22,5</hoehe>
+    </gesamtmasse>
+    <schrift>Hieroglyphisch</schrift>
+    <vignettenstil>farbig</vignettenstil>
+  </form>
+  <bibliografie>
+    <bibl bibl-id="bibl-979">
+      <title>E. Naville, Das ägyptische Totenbuch der XVIII. bis XX. Dynastie, Graz 1971</title>
+      <pages>107 (Pn)</pages>
+    </bibl>
+    <bibl bibl-id="bibl-2675">
+      <title>M. Bellion</title>
+      <pages>74</pages>
+    </bibl>
+    <bibl bibl-id="bibl-926">
+      <title>A. Niwinski, Studies on the Illustrated Theban Funerary Papyri of the 11th and 10th
+        Centuries B.C., OBO 86, Fribourg/Göttingen 1989</title>
+      <pages>350 (Paris 3)</pages>
+    </bibl>
+  </bibliografie>
+  <teilobjekt id="1388-1">
+    <objektname>P. Paris BN 33-37</objektname>
+    <inhalt>
+      <sequenz>A.d.O. + Isis - Tb 130V - 125B V - V150 - V110</sequenz>
+      <sprueche>
+        <start/>
+        <s>VA.d.O.</s>
+        <s>130V</s>
+        <s>125V</s>
+        <s>V150</s>
+        <s>V110</s>
+        <end/>
+      </sprueche>
+    </inhalt>
+    <abbildungen>
+      <fotos>vorhanden / vollständig</fotos>
+      <abbildung rechte="com">
+        <datei name="Paris_BN_33_37_001.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_BN_33_37_002.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_BN_33_37_003.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_BN_33_37_004.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_BN_33_37_005.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_BN_33_37_006.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_BN_33_37_007.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_BN_33_37_008.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_BN_33_37_009.tif"/>
+      </abbildung>
+    </abbildungen>
+  </teilobjekt>
+</objekt>

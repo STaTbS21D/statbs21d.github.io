@@ -1,0 +1,185 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134564" id="1382" v:revision="10392" v:key="153a8c5e1e02898" v:path="/db/totenbuch/objects/tm134564.xml">
+  <admin wer="TB-Projekt" wann="2012-01-01"/>
+  <anmerkungen>Gefunden Im Grab des Meritamun (TT 358) in dem ersten Flur des Grabs </anmerkungen>
+  <standort>
+    <land>US</land>
+    <ort>New York (NY)</ort>
+    <institution>Metropolitan Museum of Art</institution>
+    <provenienz>Roger Funds</provenienz>
+  </standort>
+  <herkunft>
+    <region>Theben</region>
+    <ort>Deir el-Bahari, Gab TT 358 MMA 65, Grabung von Winlock</ort>
+  </herkunft>
+  <besitzer geschlecht="F">
+    <name>Nꜣ(w)- ni͗</name>
+    <titel>nb.t- pr šmꜥ.t n Imn- Rꜥ nsw.t nṯr.w ḥsi͗.t n nb.w Wꜣst Imn Mw.t Ḫnsw sꜣ.t nsw.t</titel>
+    <verwandt rel="Mutter">
+      <name>Tꜣ- nt- nꜣ(w)- bḫnw</name>
+    </verwandt>
+  </besitzer>
+  <datierung>
+    <periode>3. Zwischenzeit</periode>
+    <detail>21. Dynastie</detail>
+    <jahr>frühe 21. Dynastie, Psusennes I</jahr>
+  </datierung>
+  <form>
+    <objektgruppe>Papyrus</objektgruppe>
+    <material>Papyrus</material>
+    <gesamtmasse>
+      <laenge>521,5</laenge>
+      <hoehe>35</hoehe>
+    </gesamtmasse>
+    <schrift>Hieroglyphisch</schrift>
+    <schriftDetails>ob rückwärts kopiert?</schriftDetails>
+    <vignettenstil>farbig</vignettenstil>
+  </form>
+  <bibliografie>
+    <bibl bibl-id="bibl-2549">
+      <title>J.H. Breasted, Geschichte Aegyptens, Zürich 1936</title>
+      <pages>Abb. 272</pages>
+    </bibl>
+    <bibl bibl-id="bibl-906">
+      <title>J.P. O'Neill (Hg.), The Metropolitan Museum of Art, Egypt and the Ancient Near East
+        (Mus.-Kat.), Tokio 1987</title>
+      <pages>72-73, Abb. 50</pages>
+    </bibl>
+    <bibl bibl-id="bibl-926">
+      <title>A. Niwinski, Studies on the Illustrated Theban Funerary Papyri of the 11th and 10th
+        Centuries B.C., OBO 86, Fribourg/Göttingen 1989</title>
+      <pages>347 (New York 13), (mit weiterer Lit.)</pages>
+    </bibl>
+    <bibl bibl-id="bibl-2675">
+      <title>M. Bellion</title>
+      <pages>229 (mit ausführl. Lit.)</pages>
+    </bibl>
+    <bibl bibl-id="bibl-75">
+      <title>Winlock, Excavations at Deir el Bahri 1911-1931, New York 1942</title>
+      <pages>pl. 77-78</pages>
+    </bibl>
+    <bibl bibl-id="bibl-1763">
+      <title>M. Heerma van Voss, in: Fs van Daelen, Kampen 1985</title>
+      <pages>114 (SD)</pages>
+    </bibl>
+    <bibl bibl-id="bibl-1628">
+      <title>K. Jansen-Winkeln, Text u. Sprache in der 3. Zwischenzeit, ÄAT 26, Wiesbaden
+        1994</title>
+      <pages>272</pages>
+    </bibl>
+    <bibl bibl-id="bibl-2038">
+      <title>W. Forman/St. Quirke, Hieroglyphs and the Afterlife in Ancient Egypt, London
+        1996</title>
+      <pages>141, 144</pages>
+    </bibl>
+    <bibl bibl-id="bibl-1359">
+      <title>G. Lenzo Marchese, in: BSEG 26, 2004</title>
+      <pages>43-62</pages>
+    </bibl>
+  </bibliografie>
+  <teilobjekt id="1382-1">
+    <objektname>P. New York MMA 30.3.31</objektname>
+    <inhalt>
+      <sequenz>Tb 125B V - 125A - 38B - 75 - TG - 93 - 152 - 132 - 94 - 71 - 72R - V126 - 72
+        (Forts.) - A.d.O. + Isis + Nephthys - 72 - 105 - A.d.O.; als oberer Streifen zusätzliche
+        Tb-Vignetten: V85 - V 38B - mytholog. Szene - V149 - mytholog. Szene - V94 - V77 - V72 - V86
+        - V85 - V105 - V151 - V86 - V83 - V94 - V110</sequenz>
+      <sprueche>
+        <l/>
+        <s>125V</s>
+        <s>V?</s>
+        <s>V38B</s>
+        <s>V85</s>
+        <s>Mythologische SzenenV</s>
+        <s>V149</s>
+        <s>125</s>
+        <s>V?</s>
+        <s>38B</s>
+        <s>75</s>
+        <s>V94</s>
+        <s>V77</s>
+        <s>V72</s>
+        <s>VTG</s>
+        <s>V86</s>
+        <s>V85</s>
+        <s>V105</s>
+        <s>93</s>
+        <s>V?</s>
+        <s>152</s>
+        <s>V?</s>
+        <s>132</s>
+        <s>V151</s>
+        <s>94</s>
+        <s>71</s>
+        <s>V86</s>
+        <s>V83</s>
+        <s>V?</s>
+        <s>V94</s>
+        <s>72</s>
+        <s>V126</s>
+        <s>V110</s>
+        <s>VA.d.O.</s>
+        <s>V?</s>
+        <s>72</s>
+        <s>105V</s>
+        <s>VA.d.O.</s>
+        <end/>
+      </sprueche>
+      <anmerkungenText>Titelkolumne am Anfang</anmerkungenText>
+    </inhalt>
+    <abbildungen>
+      <fotos>vorhanden / vollständig</fotos>
+      <kommentar>gescannt CBS 04.01</kommentar>
+      <abbildung rechte="com">
+        <datei name="MMA_30_3_31_001.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="MMA_30_3_31_002.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="MMA_30_3_31_003.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="MMA_30_3_31_004.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="MMA_30_3_31_005.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="MMA_30_3_31_006.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="MMA_30_3_31_007.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="MMA_30_3_31_008.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="MMA_30_3_31_009.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="MMA_30_3_31_010.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="MMA_30_3_31_011.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="MMA_30_3_31_012.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="MMA_30_3_31_013.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="MMA_30_3_31_014.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="MMA_30_3_31_015.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="MMA_30_3_31_016.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="MMA_30_3_31_017.tif"/>
+      </abbildung>
+    </abbildungen>
+  </teilobjekt>
+</objekt>

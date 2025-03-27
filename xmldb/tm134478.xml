@@ -1,0 +1,106 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134478" id="1294" v:revision="10306" v:key="153a8c5c2cd2842" v:path="/db/totenbuch/objects/tm134478.xml">
+      <admin wer="TB-Projekt" wann="2012-01-01"/>
+      <anmerkungen>zur Datierung: Mumienbinden von Amenemope, HP Pinodjem II. u. HP Mencheperre;
+            mr.t n.t pr.t m hrw auf Schmutzstreifen; Besitzer des Sargensembles Kairo J.E.
+            29659</anmerkungen>
+      <standort>
+            <land>EG</land>
+            <ort>Kairo</ort>
+            <institution>Ägyptisches Museum</institution>
+            <anmerkungen>P. 51, süd</anmerkungen>
+      </standort>
+      <herkunft>
+            <region>Theben</region>
+            <ort>Cachette von Deir el-Bahari (Bab el-Gasus), 1891</ort>
+      </herkunft>
+      <besitzer geschlecht="M">
+            <anmerkungen>Jr- Bij- i- Bgw steht auf dem Sarg</anmerkungen>
+            <name ranke="I, 173.19 / vgl. I, 173.20">Ns- Imn / Ns- Imn- m- Ipt</name>
+            <titel>wꜥb i͗m.i͗- s.t ꜥ n pr Imn</titel>
+      </besitzer>
+      <datierung>
+            <periode>3. Zwischenzeit</periode>
+            <detail>21. Dynastie</detail>
+            <jahr>Mitte 21. Dynastie</jahr>
+      </datierung>
+      <form>
+            <objektgruppe>Papyrus</objektgruppe>
+            <material>Papyrus</material>
+            <gesamtmasse>
+                  <laenge>165</laenge>
+                  <hoehe>23</hoehe>
+            </gesamtmasse>
+            <schrift>Hieroglyphisch</schrift>
+            <vignettenstil>farbig</vignettenstil>
+      </form>
+      <bibliografie>
+            <bibl bibl-id="bibl-926">
+                  <title>A. Niwinski, Studies on the Illustrated Theban Funerary Papyri of the 11th
+                        and 10th Centuries B.C., OBO 86, Fribourg/Göttingen 1989</title>
+                  <pages>Taf. 6b sowie 288 (Cairo 98)</pages>
+            </bibl>
+            <bibl bibl-id="bibl-1359">
+                  <title>G. Lenzo Marchese, in: BSEG 26, 2004</title>
+                  <pages>43-62</pages>
+            </bibl>
+      </bibliografie>
+      <teilobjekt id="1294-1">
+            <objektname>P. Kairo S.R. VII 10269</objektname>
+            <inhalt>
+                  <sequenz>Tb 125C - 127B - 125B V - A.d.O.</sequenz>
+                  <sprueche>
+                        <l/>
+                        <s>125</s>
+                        <s>127B</s>
+                        <s>125V</s>
+                        <s>VA.d.O.</s>
+                        <l/>
+                  </sprueche>
+            </inhalt>
+            <abbildungen>
+                  <fotos>vorhanden / vollständig</fotos>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_S_R_VII_10269_C.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_S_R_VII_10269_D.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_S_R_VII_10269_E.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_S_R_VII_10269_F.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_S_R_VII_10269_G.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_S_R_VII_10269_H.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_S_R_VII_10269_J.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_S_R_VII_10269_K.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_S_R_VII_10269_L.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_S_R_VII_10269_M.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_S_R_VII_10269_N.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_S_R_VII_10269_O.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_S_R_VII_10269_P.tif"/>
+                  </abbildung>
+                  <abbildung rechte="com">
+                        <datei name="Kairo_S_R_VII_10269_Q.tif"/>
+                  </abbildung>
+            </abbildungen>
+      </teilobjekt>
+</objekt>

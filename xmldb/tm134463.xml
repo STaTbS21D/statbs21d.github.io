@@ -1,0 +1,110 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134463" id="1279" v:revision="10291" v:key="153a8c5bdba2833" v:path="/db/totenbuch/objects/tm134463.xml">
+  <admin wer="TB-Projekt" wann="2012-01-01"/>
+  <standort>
+    <land>EG</land>
+    <ort>Kairo</ort>
+    <institution>Ägyptisches Museum</institution>
+  </standort>
+  <herkunft>
+    <region>Theben</region>
+    <ort>Cachette von Deir el-Bahari (Bab el-Gasus), 1891</ort>
+  </herkunft>
+  <besitzer>
+    <name ranke="II, 325.16; I, 354.2; I, 359.8; RdE 39, 134">Tꜣ- wḏꜣt- Rꜥ</name>
+    <titel>ḥsi͗.t ꜥꜣ.t n Mwt nb.t p.t mr.t n Ḥwt- Ḥr wsr.t nb.t- pr šmꜥ.t n Imn- Rꜥ nsw.t nṯr.w
+      šmꜥ.t n pꜣ grg wꜥb n Ptḥ ḥsi͗.t n pꜣ ꜥ n Mwt tꜣ šps.t ḥsi͗.t n pꜣ ꜥ n Mwt nb.t Išrw</titel>
+    <verwandt rel="Mutter">
+      <name>Tꜣi͗w- ḥri͗t</name>
+    </verwandt>
+  </besitzer>
+  <datierung>
+    <periode>3. Zwischenzeit</periode>
+    <detail>21. Dynastie</detail>
+    <jahr>Mitte 21. Dynastie</jahr>
+  </datierung>
+  <form>
+    <objektgruppe>Papyrus</objektgruppe>
+    <material>Papyrus</material>
+    <gesamtmasse>
+      <laenge>432</laenge>
+      <hoehe>32</hoehe>
+    </gesamtmasse>
+    <schrift>Hieroglyphisch</schrift>
+    <vignettenstil>farbig</vignettenstil>
+  </form>
+  <bibliografie>
+    <bibl bibl-id="bibl-805">
+      <title>A. Piankoff/N. Rambova, Mythological Papyri</title>
+      <pages>133-142, Pap. No. 15</pages>
+    </bibl>
+    <bibl bibl-id="bibl-926">
+      <title>A. Niwinski, Studies on the Illustrated Theban Funerary Papyri of the 11th and 10th
+        Centuries B.C., OBO 86, Fribourg/Göttingen 1989</title>
+      <pages>295 (Cairo 118) (mit weiterer Lit.)</pages>
+    </bibl>
+    <bibl bibl-id="bibl-439">
+      <title>Chr. Seeber, Untersuchungen</title>
+      <pages>212, n. 23</pages>
+    </bibl>
+    <bibl bibl-id="bibl-1627">
+      <title>K. Jansen-Winkeln, Bemerkungen zu den Frauenbiographien der Spätzeit, in:
+        Altorientalische Forschungen 31, 2004</title>
+      <pages>358-373, bes. 358-363</pages>
+    </bibl>
+  </bibliografie>
+  <teilobjekt id="1279-1">
+    <objektname>P. Kairo S.R. VII 11496</objektname>
+    <inhalt>
+      <sequenz>A.d.O. + Isis u. Nephthys - A.d.Thot - TG - mytholog. Szene- V77 - V85 - V17 - V86 -
+        125B V- V110 - V126 - Kühe hüten - Gänse hüten</sequenz>
+      <sprueche>
+        <l/>
+        <s>VA.d.O.</s>
+        <s>A.d.Thot</s>
+        <s>VTG</s>
+        <s>Mythologische SzenenV</s>
+        <s>V77</s>
+        <s>V85</s>
+        <s>V17</s>
+        <s>V86</s>
+        <s>125V</s>
+        <s>V110</s>
+        <s>V126</s>
+        <s>V?</s>
+        <s>V?</s>
+        <l/>
+      </sprueche>
+    </inhalt>
+    <abbildungen>
+      <fotos>vorhanden / vollständig</fotos>
+      <kommentar>siehe Publikation</kommentar>
+      <abbildung rechte="com">
+        <datei name="Kairo_S_R_VII_11496_A.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_S_R_VII_11496_B.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_S_R_VII_11496_C.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_S_R_VII_11496_D.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_S_R_VII_11496_E.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_S_R_VII_11496_F.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_S_R_VII_11496_G.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_S_R_VII_11496_H.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Kairo_S_R_VII_11496_I.tif"/>
+      </abbildung>
+    </abbildungen>
+  </teilobjekt>
+</objekt>

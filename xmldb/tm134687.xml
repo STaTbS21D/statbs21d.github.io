@@ -1,0 +1,170 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134687" id="1505" v:revision="10513" v:key="153a8c614862911" v:path="/db/totenbuch/objects/tm134687.xml">
+    <admin wer="TB-Projekt" wann="2012-01-01"/>
+    <anmerkungen>Dr. Roland Kaehr, Tel.: 4259310; Besonderheiten bei Tb 17 vgl. pQenna, pNeferrenpet
+        (19.Dyn.); gehört zur sog. Deir el-Medina-Gruppe</anmerkungen>
+    <standort>
+        <land>CH</land>
+        <ort>Neuchâtel</ort>
+        <institution>Musée d’Éthnographie</institution>
+        <provenienz>Sammlung G.Jequier</provenienz>
+    </standort>
+    <herkunft>
+        <region>Theben</region>
+    </herkunft>
+    <besitzer>
+        <name>anonym</name>
+    </besitzer>
+    <datierung>
+        <periode>Neues Reich</periode>
+        <detail>19. Dynastie</detail>
+    </datierung>
+    <form>
+        <objektgruppe>Papyrus</objektgruppe>
+        <material>Papyrus</material>
+        <gesamtmasse>
+            <beschreibung>Fragmente, H. der Vignette bei Tb 78: 9,5 cm, Gesamthöhe
+                erhalten</beschreibung>
+        </gesamtmasse>
+        <schrift>Hieroglyphisch</schrift>
+        <vignettenstil>Strichzeichnung</vignettenstil>
+        <vignettenkommentar>Vorzeichnungen</vignettenkommentar>
+    </form>
+    <bibliografie>
+        <bibl bibl-id="bibl-1230">
+            <title>B. Lüscher, Totenbuch-Papyrus Neuchâtel Eg. 429 und Princeton Pharaonic Roll 2.
+                Zur Totenbuch-Tradition von Deir el-Medina, BAÄ 1, Basel 2007</title>
+            <pages>3-11, Taf. 1-29, 39b</pages>
+        </bibl>
+        <bibl bibl-id="bibl-1233">
+            <title>B. Lüscher, Die Verwandlungssprüche (Tb 76-88), TbT 2, Basel 2006</title>
+            <pages>pNe1</pages>
+        </bibl>
+        <bibl bibl-id="bibl-1447">
+            <title>A. Langneau, Egypte Ancienne. Documents Deux, Neuchâtel 1995</title>
+            <pages>Buchumschlag</pages>
+        </bibl>
+    </bibliografie>
+    <teilobjekt id="1505-1">
+        <objektname>P. Neuchâtel Eg. 429</objektname>
+        <inhalt>
+            <sequenz>a: /// V1 /// Tb 64 /// Tb 130 /// Tb 130 (Rubrum) - 141/142 /// Tb 125B - 125C
+                V /// 107/// 134 /// b: /// Tb 84 - 86 /// 99/99B /// 124 /// c: /// Tb 78V /// d:
+                /// Tb 102V - 136B /// e: /// Tb 149V /// f: /// Tb 17 /// 147V /// g: /// Tb 65 ///
+                109 /// 72 /// 100/129 /// 30B /// h: /// Tb 82 - 77 - 85 /// 86 - 87 - 88
+                ///</sequenz>
+            <sprueche>
+                <l/>
+                <s>V1</s>
+                <l/>
+                <s>64</s>
+                <l/>
+                <s>130</s>
+                <l/>
+                <s>130</s>
+                <s>141</s>
+                <s>142</s>
+                <l/>
+                <s>125</s>
+                <s>125V</s>
+                <l/>
+                <s>107</s>
+                <l/>
+                <s>134</s>
+                <l/>
+                <s>84</s>
+                <s>86</s>
+                <l/>
+                <s>99/99B</s>
+                <l/>
+                <s>124</s>
+                <l/>
+                <s>78V</s>
+                <l/>
+                <s>102V</s>
+                <s>136B</s>
+                <l/>
+                <s>149V</s>
+                <l/>
+                <s>17</s>
+                <l/>
+                <s>147V</s>
+                <l/>
+                <s>65</s>
+                <l/>
+                <s>109</s>
+                <l/>
+                <s>72</s>
+                <l/>
+                <s>100/129</s>
+                <l/>
+                <s>30B</s>
+                <l/>
+                <s>82</s>
+                <s>77</s>
+                <s>85</s>
+                <l/>
+                <s>86</s>
+                <s>87</s>
+                <s>88</s>
+                <l/>
+            </sprueche>
+        </inhalt>
+        <abbildungen>
+            <fotos>vorhanden / vollständig</fotos>
+            <abbildung rechte="com">
+                <datei name="Neuchatel_ME_429a_h_001.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Neuchatel_ME_429a_h_002.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Neuchatel_ME_429a_h_003.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Neuchatel_ME_429a_h_004.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Neuchatel_ME_429a_h_005.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Neuchatel_ME_429a_h_006.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Neuchatel_ME_429a_h_007.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Neuchatel_ME_429a_h_008.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Neuchatel_ME_429a_h_009.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Neuchatel_ME_429a_h_010.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Neuchatel_ME_429a_h_011.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Neuchatel_ME_429a_h_012.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Neuchatel_ME_429a_h_013.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Neuchatel_ME_429a_h_014.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Neuchatel_ME_429a_h_015.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Neuchatel_ME_429a_h_016.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Neuchatel_ME_429a_h_017.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Neuchatel_ME_429a_h_018.tif"/>
+            </abbildung>
+        </abbildungen>
+    </teilobjekt>
+</objekt>

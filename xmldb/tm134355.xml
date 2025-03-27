@@ -1,0 +1,108 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134355" id="1170" v:revision="10183" v:key="153a8c599a127c7" v:path="/db/totenbuch/objects/tm134355.xml">
+    <admin wer="TB-Projekt" wann="2012-01-01"/>
+    <anmerkungen>vgl. pBrüssel E 5043, pPhiladelphia E 2775,16720-22, pLondon BM 9957, pKaunas und
+        pPrinceton; gehört zur sog. Deir el-Medina-Gruppe</anmerkungen>
+    <standort>
+        <land>GB</land>
+        <ort>London</ort>
+        <institution>British Museum</institution>
+    </standort>
+    <herkunft>
+        <region>Theben</region>
+        <anmerkungen>erschlossen</anmerkungen>
+    </herkunft>
+    <besitzer>
+        <name ranke="-- / I, 197.18; II, 369">unbekannt / Nfr- rnpt ?</name>
+    </besitzer>
+    <datierung>
+        <periode>Neues Reich</periode>
+        <detail>19. Dynastie</detail>
+    </datierung>
+    <form>
+        <objektgruppe>Papyrus</objektgruppe>
+        <material>Papyrus</material>
+        <gesamtmasse>
+            <beschreibung>Fragm.</beschreibung>
+        </gesamtmasse>
+        <schrift>Hieroglyphisch</schrift>
+        <vignettenstil>farbig</vignettenstil>
+    </form>
+    <bibliografie>
+        <bibl bibl-id="bibl-1122">
+            <title>H. Milde, The Vignettes in the Book of the Dead of Neferrenpet, EU 7, Leiden
+                1991</title>
+            <pages>28-30, Taf. 43-48</pages>
+        </bibl>
+        <bibl bibl-id="bibl-397">
+            <title>A.W. Shorter, Catalogue</title>
+            <pages>4</pages>
+        </bibl>
+        <bibl bibl-id="bibl-1036">
+            <title>I. Munro, Untersuchungen zu den Totenbuch-Papyri der 18. Dynastie, London
+                1987</title>
+            <pages>305</pages>
+        </bibl>
+        <bibl bibl-id="bibl-716">
+            <title>St. Quirke, Owners</title>
+            <pages>113</pages>
+        </bibl>
+        <bibl bibl-id="bibl-2675">
+            <title>M. Bellion</title>
+            <pages>53</pages>
+        </bibl>
+        <bibl bibl-id="bibl-523">
+            <title>T. Rutkauskas, in: RdE 55, 2004</title>
+            <pages>182-188, Taf. I</pages>
+        </bibl>
+        <bibl bibl-id="bibl-1230">
+            <title>B. Lüscher, Totenbuch-Papyrus Neuchâtel Eg. 429 und Princeton Pharaonic Roll 2.
+                Zur Totenbuch-Tradition von Deir el-Medina, BAÄ 1, Basel 2007</title>
+            <pages>16</pages>
+        </bibl>
+    </bibliografie>
+    <teilobjekt id="1170-1">
+        <objektname>P. London BM EA 9962, 2-7</objektname>
+        <inhalt>
+            <sequenz>/// Tb 125C /// 134 - 130Rubrum - 94(?) /// 18V /// 42 - 92 /// 149 (e,f,g-h)
+                /// 149 (c,d,i,l) ///</sequenz>
+            <sprueche>
+                <l/>
+                <s>125</s>
+                <l/>
+                <s>134</s>
+                <s>130</s>
+                <s>94?</s>
+                <l/>
+                <s>18V</s>
+                <l/>
+                <s>42</s>
+                <s>92</s>
+                <l/>
+                <s>149</s>
+                <l/>
+            </sprueche>
+        </inhalt>
+        <abbildungen>
+            <fotos>vorhanden / vollständig</fotos>
+            <kommentar>Kopie aus Publikation</kommentar>
+            <abbildung rechte="com">
+                <datei name="London_BM_9962_001.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_9962_002.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_9962_003.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_9962_004.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_9962_005.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="London_BM_9962_006.tif"/>
+            </abbildung>
+        </abbildungen>
+    </teilobjekt>
+</objekt>

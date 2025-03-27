@@ -1,0 +1,101 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134350" id="1165" v:revision="10178" v:key="153a8c597f027c2" v:path="/db/totenbuch/objects/tm134350.xml">
+          <admin wer="TB-Projekt" wann="2012-01-01"/>
+          <anmerkungen>PhD Thesis über Spr. 178 bei Soraya Luján in Vorbereitung 2010</anmerkungen>
+          <standort>
+                    <land>NL</land>
+                    <ort>Leiden</ort>
+                    <institution>Rijksmuseum van Oudheden</institution>
+          </standort>
+          <herkunft>
+                    <region>Theben</region>
+                    <anmerkungen>erschlossen</anmerkungen>
+          </herkunft>
+          <besitzer geschlecht="M">
+                    <name ranke="I, 196.21">Nfr- mnw</name>
+          </besitzer>
+          <datierung>
+                    <periode>Neues Reich</periode>
+                    <detail>19. Dynastie</detail>
+          </datierung>
+          <form>
+                    <objektgruppe>Papyrus</objektgruppe>
+                    <material>Papyrus</material>
+                    <schrift>Hieroglyphisch</schrift>
+                    <vignettenstil>farbig</vignettenstil>
+          </form>
+          <bibliografie>
+                    <bibl bibl-id="bibl-1233">
+                              <title>B. Lüscher, Die Verwandlungssprüche (Tb 76-88), TbT 2, Basel
+                                        2006</title>
+                              <pages>pLe4</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-1391">
+                              <title>C. Leemans, Description raisonnée des monuments égyptiens du
+                                        Musée d’Antiquités des Pays-Bas à Leide, Leiden 1840</title>
+                              <pages>242</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-2675">
+                              <title>M. Bellion</title>
+                              <pages>178</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-2331">
+                              <title>M. Coenen, in: OMRO 79, 1999</title>
+                              <pages>67-79</pages>
+                    </bibl>
+          </bibliografie>
+          <teilobjekt id="1165-1">
+                    <objektname>P. Leiden T 15</objektname>
+                    <inhalt>
+                              <sequenz>/// Tb 17 /// 145 /// 99/99B /// 125B+ V? /// 136/136A ///
+                                        100/129 /// 64 /// 53 /// 105 - 61 /// 178 /// 26 /// 80 ///
+                                        124 - 83 ///</sequenz>
+                              <sprueche>
+                                        <l/>
+                                        <s>17</s>
+                                        <l/>
+                                        <s>145</s>
+                                        <l/>
+                                        <s>99/99B</s>
+                                        <l/>
+                                        <s>125</s>
+                                        <s>V?</s>
+                                        <l/>
+                                        <s>136/136A</s>
+                                        <l/>
+                                        <s>100/129</s>
+                                        <l/>
+                                        <s>64</s>
+                                        <l/>
+                                        <s>53</s>
+                                        <l/>
+                                        <s>105</s>
+                                        <s>61</s>
+                                        <l/>
+                                        <s>178</s>
+                                        <l/>
+                                        <s>26</s>
+                                        <l/>
+                                        <s>80</s>
+                                        <l/>
+                                        <s>124</s>
+                                        <s>83</s>
+                                        <l/>
+                              </sprueche>
+                    </inhalt>
+                    <abbildungen>
+                              <fotos>vorhanden / vollständig</fotos>
+                              <abbildung rechte="com">
+                                        <datei name="Leiden_RO_T15_001.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Leiden_RO_T15_002.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Leiden_RO_T15_003.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Leiden_RO_T15_004.tif"/>
+                              </abbildung>
+                    </abbildungen>
+          </teilobjekt>
+</objekt>

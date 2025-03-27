@@ -1,0 +1,188 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="133562" id="150" v:revision="9474" v:key="153a8c4a33a2502" v:path="/db/totenbuch/objects/tm133562.xml">
+          <admin wer="TB-Projekt" wann="2012-01-01"/>
+          <herkunft>
+                    <region>Theben</region>
+                    <anmerkungen>erschlossen</anmerkungen>
+          </herkunft>
+          <besitzer geschlecht="M">
+                    <name ranke="I, 140.9">Ptḥ- ms</name>
+                    <titel>sš i͗m.i͗- rꜣ šnw.ti͗</titel>
+                    <verwandt rel="Mutter">
+                              <name>Ḥtpti͗</name>
+                              <titel>nb.t- pr </titel>
+                    </verwandt>
+          </besitzer>
+          <datierung>
+                    <periode>Neues Reich</periode>
+                    <detail>19. Dynastie</detail>
+          </datierung>
+          <form>
+                    <objektgruppe>Papyrus</objektgruppe>
+                    <material>Papyrus</material>
+                    <schrift>Hieroglyphisch</schrift>
+                    <vignettenstil>farbig</vignettenstil>
+          </form>
+          <bibliografie>
+                    <bibl bibl-id="bibl-1233">
+                              <title>B. Lüscher, Die Verwandlungssprüche (Tb 76-88), TbT 2, Basel
+                                        2006</title>
+                              <pages>pNY1</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-716">
+                              <title>St. Quirke, Owners</title>
+                              <pages>60, Nr. 214 sowie 83 Anm. 214</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-944">
+                              <title>Newberry, Amherst</title>
+                              <pages>50</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-2675">
+                              <title>M. Bellion</title>
+                              <pages>6</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-1036">
+                              <title>I. Munro, Untersuchungen zu den Totenbuch-Papyri der 18.
+                                        Dynastie, London 1987</title>
+                              <pages>306</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-374">
+                              <title>Auktionskatalog Sotheby’s NY, Dez. 2003 (Egyptian, Classical
+                                        &amp; Western Asiatic Antiquities)</title>
+                              <pages>Nr. 53 mit Abb</pages>
+                    </bibl>
+          </bibliografie>
+          <teilobjekt id="150-1">
+                    <objektname>P. London BM EA 9939</objektname>
+                    <standort>
+                              <land>GB</land>
+                              <ort>London</ort>
+                              <institution>British Museum</institution>
+                              <provenienz>Sammlung McAlpine</provenienz>
+                    </standort>
+                    <inhalt>
+                              <sequenz>/// Tb 125B V - 125C /// 149 [V] /// 83 - 84 /// 125D -
+                                        136/136A /// 94 V /// 55 - ? ///; erschlossene Abfolge: Tb
+                                        125B V - 125C V [-] 125D - 136/136A [-] 149 [V]</sequenz>
+                              <sprueche>
+                                        <l/>
+                                        <s>125V</s>
+                                        <s>125V</s>
+                                        <s>125</s>
+                                        <s>136/136A</s>
+                                        <s>149V</s>
+                                        <l/>
+                                        <s>83</s>
+                                        <s>84</s>
+                                        <l/>
+                                        <s>94V</s>
+                                        <l/>
+                                        <s>55</s>
+                                        <s>?</s>
+                                        <l/>
+                              </sprueche>
+                    </inhalt>
+                    <objektmasse>Fragm.</objektmasse>
+                    <abbildungen>
+                              <fotos>vorhanden / vollständig</fotos>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_9939_001.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="London_BM_9939_002.tif"/>
+                              </abbildung>
+                    </abbildungen>
+          </teilobjekt>
+          <teilobjekt id="150-2">
+                    <objektname>P. New York Amherst 18</objektname>
+                    <anmerkungen>auf vso Horizontalzeile, Höhe: 3, 81 cm</anmerkungen>
+                    <standort>
+                              <land>US</land>
+                              <ort>New York (NY)</ort>
+                              <institution>Pierpont Morgan Library</institution>
+                    </standort>
+                    <inhalt>
+                              <sequenz>/// V Tb 1 /// 124[V] - 83 /// 82V /// 79[V] /// 64 /// 110
+                                        /// [103V] - 104V - 76 - 10/48V - 51 /// 122[V] - 52V ///
+                                        108 /// 117 /// 118 /// 125B V - 125C /// 141/143 /// 149
+                                        ///</sequenz>
+                              <sprueche>
+                                        <l/>
+                                        <s>V1</s>
+                                        <l/>
+                                        <s>124V</s>
+                                        <s>83</s>
+                                        <l/>
+                                        <s>82V</s>
+                                        <l/>
+                                        <s>79V</s>
+                                        <l/>
+                                        <s>64</s>
+                                        <l/>
+                                        <s>110</s>
+                                        <l/>
+                                        <s>103V</s>
+                                        <s>104V</s>
+                                        <s>76</s>
+                                        <s>10/48V</s>
+                                        <s>51</s>
+                                        <l/>
+                                        <s>122V</s>
+                                        <s>52V</s>
+                                        <l/>
+                                        <s>108</s>
+                                        <l/>
+                                        <s>117</s>
+                                        <l/>
+                                        <s>118</s>
+                                        <l/>
+                                        <s>125V</s>
+                                        <s>125</s>
+                                        <l/>
+                                        <s>141 oder 143</s>
+                                        <l/>
+                                        <s>149</s>
+                                        <l/>
+                              </sprueche>
+                    </inhalt>
+                    <objektmasse>Fragm. L. 3 feet, 3 inches = 99,06</objektmasse>
+                    <abbildungen>
+                              <fotos>vorhanden / vollständig</fotos>
+                              <abbildung rechte="com">
+                                        <datei name="New_York_PML_Amherst_18_001.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="New_York_PML_Amherst_18_002.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="New_York_PML_Amherst_18_003.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="New_York_PML_Amherst_18_004.tif"/>
+                              </abbildung>
+                    </abbildungen>
+          </teilobjekt>
+          <teilobjekt id="150-3">
+                    <objektname>P. Standort unbekannt, ehemals McAlpine</objektname>
+                    <standort>
+                              <land>unbekannt</land>
+                              <ort>unbekannt</ort>
+                              <provenienz>Privatsammlung McAlpine</provenienz>
+                    </standort>
+                    <inhalt>
+                              <sequenz>/// Tb 146 V ///</sequenz>
+                              <sprueche>
+                                        <l/>
+                                        <s>146V</s>
+                                        <l/>
+                              </sprueche>
+                    </inhalt>
+                    <objektmasse>30,5 x 14 cm</objektmasse>
+                    <abbildungen>
+                              <fotos>vorhanden / vollständig</fotos>
+                              <kommentar>aus Katalog</kommentar>
+                              <abbildung rechte="guest">
+                                        <datei name="Standort_unbekannt_ehemals_McAlpine_001.tif"/>
+                              </abbildung>
+                    </abbildungen>
+          </teilobjekt>
+</objekt>

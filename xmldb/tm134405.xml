@@ -1,0 +1,203 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134405" id="1221" v:revision="10233" v:key="153a8c5aa4c27f9" v:path="/db/totenbuch/objects/tm134405.xml">
+    <admin wer="TB-Projekt" wann="2012-01-01"/>
+    <anmerkungen>Vater des Ga-j-jrwb-waeb (London BM 10064)! Sarg in Leiden (s. PM); Text 125 A vom
+        Ende kopiert, vgl. pJow-Bij</anmerkungen>
+    <standort>
+        <land>GB</land>
+        <ort>Cambridge</ort>
+        <institution>Fitzwilliam Museum</institution>
+    </standort>
+    <herkunft>
+        <region>Theben</region>
+        <anmerkungen>erschlossen</anmerkungen>
+    </herkunft>
+    <besitzer geschlecht="M">
+        <name ranke="I. 34.20">Ini͗- pḥ- f- nḫtw</name>
+        <titel>ḥr.i͗ nfw.w wi͗ꜣ n pr Imn- Rꜥ nsw.t nṯr.w</titel>
+        <verwandt rel="Sohn">
+            <name>Pꜣ-n-nsti͗-tꜣwi͗</name>
+        </verwandt>
+        <verwandt rel="Vater">
+            <name>ꜥšꜣ- i͗ḫwt</name>
+            <titel>ḥr.i͗ nfw.w wi͗ꜣ n pr Imn- Rꜥ nsw.t nṯr.w </titel>
+        </verwandt>
+    </besitzer>
+    <datierung>
+        <periode>3. Zwischenzeit</periode>
+        <detail>21. Dynastie</detail>
+        <jahr>Mitte - Ende 21. Dynastie</jahr>
+    </datierung>
+    <form>
+        <objektgruppe>Papyrus</objektgruppe>
+        <material>Papyrus</material>
+        <gesamtmasse>
+            <beschreibung>H. 38 cm, L. 1,76 m</beschreibung>
+        </gesamtmasse>
+        <schrift>Hieroglyphisch</schrift>
+        <vignettenstil>farbig</vignettenstil>
+    </form>
+    <bibliografie>
+        <bibl bibl-id="bibl-171">
+            <title>E. Vassilika, Egyptian Art (Mus.-Kat. Cambridge), Fitzwilliam Museum Handbooks,
+                Cambridge 1995</title>
+            <pages>88-89 (Nr. 40), mit Abb</pages>
+        </bibl>
+        <bibl bibl-id="bibl-306">
+            <title>H. Strudwick, in: B. Backes/M. Müller/S. Stöhr (Hgg.), Ausgestattet mit den
+                Schriften des Thot. Festschrift für Irmtraut Munro zu ihrem 65. Geburtstag, SAT 14,
+                Wiesbaden 2009</title>
+            <pages>202, Taf. 1A</pages>
+        </bibl>
+        <bibl bibl-id="bibl-926">
+            <title>A. Niwinski, Studies on the Illustrated Theban Funerary Papyri of the 11th and
+                10th Centuries B.C., OBO 86, Fribourg/Göttingen 1989</title>
+            <pages>303 (Cambridge)</pages>
+        </bibl>
+        <bibl bibl-id="bibl-768">
+            <title>PM I (2. Aufl.)</title>
+            <pages>638</pages>
+        </bibl>
+        <bibl bibl-id="bibl-1683">
+            <title>E. Hornung, Das Buch d. Anbetung d. Re im Westen, AH 3 Basel 1976</title>
+            <pages>102: Nr. 35, 37; 103: Nr. 39, 41</pages>
+        </bibl>
+    </bibliografie>
+    <teilobjekt id="1221-1">
+        <objektname>P. Cambridge E.92.1904</objektname>
+        <inhalt>
+            <sequenz>Tb 125A V - 125B V - V86 - V Sonnenlitanei - Hymnus an die untergehende Sonne -
+                V126 (?)</sequenz>
+            <sprueche>
+                <start/>
+                <s>125V</s>
+                <s>125V</s>
+                <s>V86</s>
+                <s>VSonnenlitanei</s>
+                <s>Hymnus</s>
+                <s>V126?</s>
+                <end/>
+            </sprueche>
+        </inhalt>
+        <abbildungen>
+            <fotos>vorhanden / vollständig</fotos>
+            <kommentar>auch auf CD</kommentar>
+            <abbildung rechte="com">
+                <datei name="Cambridge_E_92_1904.JPG"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Cambridge_E_92_1904_A.JPG"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Cambridge_E_92_1904_B.JPG"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Cambridge_E_92_1904_C.JPG"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Cambridge_E_92_1904_D.JPG"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Cambridge_E_92_1904_E.JPG"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Cambridge_E_92_1904_F.JPG"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Cambridge_E_92_1904_G.JPG"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Cambridge_E_92_1904_R.JPG"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Cambridge_E_92_1904_T.JPG"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Cambridge_E_92_1904_1.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Cambridge_E_92_1904_10.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Cambridge_E_92_1904_11.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Cambridge_E_92_1904_12.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Cambridge_E_92_1904_13.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Cambridge_E_92_1904_14.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Cambridge_E_92_1904_15.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Cambridge_E_92_1904_16.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Cambridge_E_92_1904_17.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Cambridge_E_92_1904_18.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Cambridge_E_92_1904_19.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Cambridge_E_92_1904_2.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Cambridge_E_92_1904_20.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Cambridge_E_92_1904_21.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Cambridge_E_92_1904_22.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Cambridge_E_92_1904_23.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Cambridge_E_92_1904_24.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Cambridge_E_92_1904_25.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Cambridge_E_92_1904_26.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Cambridge_E_92_1904_27.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Cambridge_E_92_1904_28.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Cambridge_E_92_1904_29.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Cambridge_E_92_1904_3.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Cambridge_E_92_1904_4.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Cambridge_E_92_1904_5.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Cambridge_E_92_1904_6.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Cambridge_E_92_1904_7.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Cambridge_E_92_1904_8.tif"/>
+            </abbildung>
+            <abbildung rechte="com">
+                <datei name="Cambridge_E_92_1904_9.tif"/>
+            </abbildung>
+        </abbildungen>
+    </teilobjekt>
+</objekt>
