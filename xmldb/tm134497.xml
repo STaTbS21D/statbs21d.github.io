@@ -1,0 +1,84 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134497" id="1313" v:revision="10325" v:key="153a8c5c9562855" v:path="/db/totenbuch/objects/tm134497.xml">
+  <admin wer="TB-Projekt" wann="2012-01-01"/>
+  <standort>
+    <land>NL</land>
+    <ort>Leiden</ort>
+    <institution>Rijksmuseum van Oudheden</institution>
+    <provenienz>aus d. Sammlung Anastasi, 1828</provenienz>
+  </standort>
+  <herkunft>
+    <region>unbekannt</region>
+  </herkunft>
+  <besitzer geschlecht="M">
+    <titel>i͗t- nṯr n Imn</titel>
+  </besitzer>
+  <datierung>
+    <periode>3. Zwischenzeit</periode>
+    <detail>21.-22. Dynastie</detail>
+    <jahr>Ende 21. Dynastie - Anfang 22. Dynastie</jahr>
+  </datierung>
+  <form>
+    <objektgruppe>Papyrus</objektgruppe>
+    <material>Papyrus</material>
+    <gesamtmasse>
+      <beschreibung>H. 25 cm, L. 1,22 m</beschreibung>
+    </gesamtmasse>
+    <schrift>Hieratisch</schrift>
+    <vignettenstil>farbig</vignettenstil>
+  </form>
+  <bibliografie>
+    <bibl bibl-id="bibl-926">
+      <title>A. Niwinski, Studies on the Illustrated Theban Funerary Papyri of the 11th and 10th
+        Centuries B.C., OBO 86, Fribourg/Göttingen 1989</title>
+      <pages>313 (Leiden 7), (mit weiterer Lit.)</pages>
+    </bibl>
+    <bibl bibl-id="bibl-2675">
+      <title>M. Bellion</title>
+      <pages>179</pages>
+    </bibl>
+  </bibliografie>
+  <teilobjekt id="1313-1">
+    <objektname>P. Leiden T 27 (AMS 48)</objektname>
+    <inhalt>
+      <sequenz>A.d.O. - Tb 23 - 24 - 25 - 26 - 28 - 27</sequenz>
+      <sprueche>
+        <start/>
+        <s>VA.d.O.</s>
+        <s>23</s>
+        <s>24</s>
+        <s>25</s>
+        <s>26</s>
+        <s>28</s>
+        <s>27</s>
+        <end/>
+      </sprueche>
+    </inhalt>
+    <abbildungen>
+      <fotos>vorhanden / vollständig</fotos>
+      <abbildung rechte="com">
+        <datei name="Leiden_T27_A.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Leiden_T27_B.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Leiden_T27_C.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Leiden_T27_D.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Leiden_T27_E.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Leiden_T27_F.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Leiden_T27_G.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Leiden_T27_H.tif"/>
+      </abbildung>
+    </abbildungen>
+  </teilobjekt>
+</objekt>

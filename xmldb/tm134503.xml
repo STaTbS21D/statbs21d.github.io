@@ -1,0 +1,101 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134503" id="1319" v:revision="10331" v:key="153a8c5cb63285b" v:path="/db/totenbuch/objects/tm134503.xml">
+          <admin wer="TB-Projekt" wann="2012-01-01"/>
+          <standort>
+                    <land>NL</land>
+                    <ort>Leiden</ort>
+                    <institution>Rijksmuseum van Oudheden</institution>
+                    <provenienz>Sammlung Anastasi, 1828</provenienz>
+          </standort>
+          <herkunft>
+                    <region>unbekannt</region>
+          </herkunft>
+          <besitzer geschlecht="F">
+                    <name ranke="I, 178.22">Nsi͗- Ḫnsw- pꜣ- ẖrd</name>
+                    <titel>šmꜥ.t n Imn</titel>
+                    <verwandt rel="Mutter">
+                              <name>Tꜣ- bꜣkt- n- Mwt</name>
+                    </verwandt>
+                    <verwandt rel="Vater">
+                              <name>Ns- sw- r- Imn</name>
+                              <titel>ḥm- nṯr n Imn- Rꜥ nsw.t nṯr.w sš ḥw.t- nṯr n pr Imn </titel>
+                    </verwandt>
+          </besitzer>
+          <datierung>
+                    <periode>3. Zwischenzeit</periode>
+                    <detail>21.-22. Dynastie</detail>
+                    <jahr>Ende 21. Dynastie - Anfang 22. Dynastie</jahr>
+          </datierung>
+          <form>
+                    <objektgruppe>Papyrus</objektgruppe>
+                    <material>Papyrus</material>
+                    <gesamtmasse>
+                              <beschreibung>H. 25 cm, L. 1,97 m</beschreibung>
+                    </gesamtmasse>
+                    <schrift>Hieratisch</schrift>
+                    <vignettenstil>Strichzeichnung</vignettenstil>
+                    <vignettenkommentar>schwarz</vignettenkommentar>
+          </form>
+          <bibliografie>
+                    <bibl bibl-id="bibl-2896">
+                              <title>M.-Z. Allam, Papyrus Berlin 3031</title>
+                              <pages>Taf. XIV-XVI</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-2675">
+                              <title>M. Bellion</title>
+                              <pages>179 (mit weiterer Lit.)</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-926">
+                              <title>A. Niwinski, Studies on the Illustrated Theban Funerary Papyri
+                                        of the 11th and 10th Centuries B.C., OBO 86,
+                                        Fribourg/Göttingen 1989</title>
+                              <pages>312 (Leiden 5)</pages>
+                    </bibl>
+                    <bibl bibl-id="bibl-1359">
+                              <title>G. Lenzo Marchese, in: BSEG 26, 2004</title>
+                              <pages>43-62</pages>
+                    </bibl>
+          </bibliografie>
+          <teilobjekt id="1319-1">
+                    <objektname>P. Leiden T 25 (AMS 43)</objektname>
+                    <inhalt>
+                              <sequenz>A.d. Re-Harachte-Atum - Tb 23 - 24 - 25 - 26 - 28 - 27 - 38B
+                                        - 30B - 11/49 - 94 - 162 - 166 (Pleyte)</sequenz>
+                              <sprueche>
+                                        <start/>
+                                        <s>A.d. Re-Harachte-Atum</s>
+                                        <s>23</s>
+                                        <s>24</s>
+                                        <s>25</s>
+                                        <s>26</s>
+                                        <s>28</s>
+                                        <s>27</s>
+                                        <s>38B</s>
+                                        <s>30B</s>
+                                        <s>11/49</s>
+                                        <s>94</s>
+                                        <s>162</s>
+                                        <s>166 (Pleyte)</s>
+                                        <end/>
+                              </sprueche>
+                    </inhalt>
+                    <abbildungen>
+                              <fotos>vorhanden / vollständig</fotos>
+                              <kommentar>CD Wüthrich</kommentar>
+                              <abbildung rechte="com">
+                                        <datei name="Leiden_T25.jpg"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Leiden_T25_001.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Leiden_T25_002.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Leiden_T25_003.tif"/>
+                              </abbildung>
+                              <abbildung rechte="com">
+                                        <datei name="Leiden_T25_004.tif"/>
+                              </abbildung>
+                    </abbildungen>
+          </teilobjekt>
+</objekt>

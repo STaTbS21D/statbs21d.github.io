@@ -1,0 +1,117 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134496" id="1312" v:revision="10324" v:key="153a8c5c9002854" v:path="/db/totenbuch/objects/tm134496.xml">
+  <admin wer="TB-Projekt" wann="2012-01-01"/>
+  <standort>
+    <land>NL</land>
+    <ort>Leiden</ort>
+    <institution>Rijksmuseum van Oudheden</institution>
+    <provenienz>Sammlung Anastasi, 1828</provenienz>
+  </standort>
+  <herkunft>
+    <region>unbekannt</region>
+  </herkunft>
+  <besitzer geschlecht="F">
+    <name>Tꜣ- nt- pꜣ- sw</name>
+    <titel>nb.t- pr šmꜥ.t n Imn</titel>
+  </besitzer>
+  <datierung>
+    <periode>3. Zwischenzeit</periode>
+    <detail>21.-22. Dynastie</detail>
+    <jahr>Ende 21. Dynastie - Anfang 22. Dynastie</jahr>
+  </datierung>
+  <form>
+    <objektgruppe>Papyrus</objektgruppe>
+    <material>Papyrus</material>
+    <gesamtmasse>
+      <beschreibung>H. 25 cm, L. 60 cm</beschreibung>
+    </gesamtmasse>
+    <schrift>Hieratisch</schrift>
+    <vignettenstil>farbig</vignettenstil>
+  </form>
+  <bibliografie>
+    <bibl bibl-id="bibl-1790">
+      <title>M. Heerma van Voss, Zwervers van gene zijde, Leiden 1970</title>
+      <pages>Taf. 2</pages>
+    </bibl>
+    <bibl bibl-id="bibl-1762">
+      <title>M. Heerma van Voss, in: BSFE 105, 1986</title>
+      <pages>Taf. 4</pages>
+    </bibl>
+    <bibl bibl-id="bibl-1769">
+      <title>M. Heerma van Voss, Ägypten. Die 21. Dyn., Iconogr. of Rel. XVI,9, Leiden 1982</title>
+      <pages>Abb. 8</pages>
+    </bibl>
+    <bibl bibl-id="bibl-2039">
+      <title>H. Kischkewitz/W. Forman, Egyptian Art, Drawings and Paintings, London 2. Aufl.
+        1989</title>
+      <pages>Nr. 48</pages>
+    </bibl>
+    <bibl bibl-id="bibl-2675">
+      <title>M. Bellion</title>
+      <pages>179</pages>
+    </bibl>
+    <bibl bibl-id="bibl-926">
+      <title>A. Niwinski, Studies on the Illustrated Theban Funerary Papyri of the 11th and 10th
+        Centuries B.C., OBO 86, Fribourg/Göttingen 1989</title>
+      <pages>312 - 313 (Leiden 6), (mit weiterer Lit.)</pages>
+    </bibl>
+    <bibl bibl-id="bibl-1628">
+      <title>K. Jansen-Winkeln, Text u. Sprache in der 3. Zwischenzeit, ÄAT 26, Wiesbaden
+        1994</title>
+      <pages>267</pages>
+    </bibl>
+    <bibl bibl-id="bibl-189">
+      <title>M. Heerma van Voss, Illustrations pour l'eternité, Brüssel 1966</title>
+      <pages>21 Nr. 15</pages>
+    </bibl>
+    <bibl bibl-id="bibl-1391">
+      <title>C. Leemans, Description raisonnée des monuments égyptiens du Musée d’Antiquités des
+        Pays-Bas à Leide, Leiden 1840</title>
+      <pages>249</pages>
+    </bibl>
+    <bibl bibl-id="bibl-1359">
+      <title>G. Lenzo Marchese, in: BSEG 26, 2004</title>
+      <pages>43-62</pages>
+    </bibl>
+    <bibl bibl-id="bibl-916">
+      <title>A. Niwinski, in: B. Backes/M. Müller/S. Stöhr (Hgg.), Ausgestattet mit den Schriften
+        des Thot. Festschrift für Irmtraut Munro zu ihrem 65. Geburtstag, SAT 14, Wiesbaden
+        2009</title>
+      <pages>138</pages>
+    </bibl>
+  </bibliografie>
+  <teilobjekt id="1312-1">
+    <objektname>P. Leiden T 26 (AMS 39)</objektname>
+    <inhalt>
+      <sequenz>A.d. Atum - Tb 23 - 24 - 25 - 26 - 28 ///</sequenz>
+      <sprueche>
+        <start/>
+        <s>A.d. Atum</s>
+        <s>23</s>
+        <s>24</s>
+        <s>25</s>
+        <s>26</s>
+        <s>28</s>
+        <l/>
+      </sprueche>
+    </inhalt>
+    <abbildungen>
+      <fotos>vorhanden / vollständig</fotos>
+      <kommentar>siehe Publikation; Kopie bei Großformaten Mappe 6</kommentar>
+      <abbildung rechte="com">
+        <datei name="Leiden_T26_A.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Leiden_T26_B.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Leiden_T26_C.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Leiden_T26_D.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Leiden_T26_E.tif"/>
+      </abbildung>
+    </abbildungen>
+  </teilobjekt>
+</objekt>
