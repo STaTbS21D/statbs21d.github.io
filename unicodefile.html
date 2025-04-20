@@ -369,11 +369,11 @@ const xmlUrl = "xmldb/tm" + TM + ".xml";
 			var sonTitle = $(this).find("besitzer verwandt[rel='Sohn'] titel").text();
 			sonTitle = sonTitle.replace(/-\s/g, '-'); sonTitle = sonTitle.replace(/-\)\s/g, ')-'); sonTitle = sonTitle.replace(/I/g, 'i͗');
 			
-			var daugther = $(this).find("besitzer verwandt[rel='Tochter'] name").text(); 
-			daugther = daugther.replace(/-\s/g, '-'); daugther = daugther.replace(/-\)\s/g, ')-');
-			daugther = daugther.replace(/I/g, 'i͗'); 
-			var daugtherTitle = $(this).find("besitzer verwandt[rel='Tochter'] titel").text();
-			daugtherTitle = daugtherTitle.replace(/-\s/g, '-'); daugtherTitle = daugtherTitle.replace(/-\)\s/g, ')-'); daugtherTitle = daugtherTitle.replace(/I/g, 'i͗');
+			var daughter = $(this).find("besitzer verwandt[rel='Tochter'] name").text(); 
+			daughter = daughter.replace(/-\s/g, '-'); daughter = daughter.replace(/-\)\s/g, ')-');
+			daughter = daughter.replace(/I/g, 'i͗'); 
+			var daughterTitle = $(this).find("besitzer verwandt[rel='Tochter'] titel").text();
+			daughterTitle = daughterTitle.replace(/-\s/g, '-'); daughterTitle = daughterTitle.replace(/-\)\s/g, ')-'); daughterTitle = daughterTitle.replace(/I/g, 'i͗');
 			
 			let spells = [];
 			let currentSpellList = "";
@@ -456,7 +456,7 @@ const xmlUrl = "xmldb/tm" + TM + ".xml";
 			var ftext = '';
 			if(name != '') ftext = `<i class='fa fa-user icon'></i> Owner (N): ${name.toLowerCase()}`;
 			if(nameTitle != '') ftext += `  Titles: ${nameTitle.toLowerCase()}`;
-			ftext += '<div style="padding-left:20px">'; if(wife != '' || father != '' || mother != '' || son != '' || daugther != '') {ftext += '<i class="fa fa-group icon"></i> Family: '; }
+			ftext += '<div style="padding-left:20px">'; if(wife != '' || father != '' || mother != '' || son != '' || daughter != '') {ftext += '<i class="fa fa-group icon"></i> Family: '; }
 			if(wife != '') ftext += `<br> Wife (W): ${wife.toLowerCase()}`; 
 			if(wifeTitle != '') ftext += `  Titles: ${wifeTitle.toLowerCase()}`;
 			if(father != '') ftext += `<br> Father (F): ${father.toLowerCase()}`;
@@ -465,8 +465,8 @@ const xmlUrl = "xmldb/tm" + TM + ".xml";
 			if(motherTitle != '') ftext += `  Titles: ${motherTitle.toLowerCase()}`;
 			if(son != '') ftext += `<br> Son (S): ${son.toLowerCase()}`;
 			if(sonTitle != '') ftext += `  Titles: ${sonTitle.toLowerCase()}`;
-			if(daugther != '') ftext += `<br> Daugther (D): ${daugther.toLowerCase()}`;
-			if(daugtherTitle != '') ftext += `  Titles: ${daugtherTitle.toLowerCase()}`;
+			if(daughter != '') ftext += `<br> Daughter (D): ${daughter.toLowerCase()}`;
+			if(daughterTitle != '') ftext += `  Titles: ${daughterTitle.toLowerCase()}`;
 			ftext += '</div>';
             const $paragraph = $("<p class='block-content'>");
             $paragraph.html(`<h4 class='unicode'><em>Totenbuch Projekt</em> Info for TM ${TM}</h4> ${ftext} <i class='fa fa-list icon'></i> Spell Sequence:  ${highlightedSequence} `);
