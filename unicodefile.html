@@ -381,9 +381,35 @@ const xmlUrl = "xmldb/tm" + TM + ".xml";
 
 			var sequence = $(this).find('teilobjekt inhalt sprueche > *').each(function() {  
 				const tagName = this.tagName;
+				const trSp = {
+				'A.d.O': 'Adoration of Osiris',
+				'VA.d.O.': 'V Adoration of Osiris', 
+				'A.d. Re-Harachte': 'Adoration of Ra-Heruakhety','VA.d. Re-Harachte': 'V Adoration of Ra-Heruakhety',
+				'Verklärung': 'Transfiguration',
+				'Ausserordentliches Textgut': 'Extraordinary texts',
+				'Adorationsszene': 'Adoration scene','VAdorationsszene': 'V Adoration scene',
+				'Sonnenlitanei': 'Sun litany',
+				'Mythologische Szenen': 'Mythologic scene','Mythologische SzenenV': 'Mythologic scene V',
+				'Hymnus': 'Hymn',
+				'Gebet': 'Prayer',
+				'TG': 'Tribunal of the dead',
+				'VTG': 'V Tribunal of the dead',
+				'A.d.Re-Harachte-Osiris': 'Adoration of Ra-Heruakhety-Osiris','VA.d.Re-Harachte-Osiris': 'V Adoration of Ra-Heruakhety-Osiris',
+				'A.d. Re-Harachte-Atum': 'Adoration of Ra-Heruakhety-Atum','VA.d. Re-Harachte-Atum': 'V Adoration of Ra-Heruakhety-Atum',
+				'A.d. Atum': 'Adoration of Atum',
+				'VA.d. Atum': 'V Adoration of Atum',
+				'A.d.?': 'Adoration?',
+				'VA.d.?': 'V Adoration?',
+				'Ritualtext': 'Ritual text',
+				'Schlussvermerk': 'Closing note'//,'': '','': '',
+				};
 
 				if (tagName === 's') {
-					const text = $(this).text();
+					var text = $(this).text();
+					if (trSp.hasOwnProperty(text))
+					{
+						text = trSp[text];
+					}
 					if (currentSpellList !== "") {
 						currentSpellList += " - "; 
 					}
@@ -394,7 +420,7 @@ const xmlUrl = "xmldb/tm" + TM + ".xml";
 						if(currentSpellList !== "") {
 							spells.push(currentSpellList);
 						}
-						currentSpellList = "[...]";
+						currentSpellList = "LC";
 						lastWasLineBreak = true;
 					}
 				}
@@ -405,11 +431,15 @@ const xmlUrl = "xmldb/tm" + TM + ".xml";
 			}
 
 			let joinedSpells = spells.join(' - ');
-			joinedSpells = joinedSpells.replace(/[...] -/g, '[...]'); 
-			joinedSpells = joinedSpells.replace(/ - [...]/g, ' - [...] - '); 
+			joinedSpells = joinedSpells.replace(/LC -/g, '///'); 
+			joinedSpells = joinedSpells.replace(/ - LC/g, ' - /// - '); 
 			joinedSpells = joinedSpells.trim();
 			if (joinedSpells.endsWith('-')) {
 				joinedSpells = joinedSpells.slice(0, joinedSpells.length - 1).trim();
+			}
+			if (joinedSpells.endsWith('- ///')) {
+				joinedSpells = joinedSpells.slice(0, joinedSpells.length - 5).trim();
+				joinedSpells += ' ///';
 			}
 
 			sequence = joinedSpells;
