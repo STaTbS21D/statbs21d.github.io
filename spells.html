@@ -427,25 +427,7 @@ $(document).ready(function() {
 </div></div>
 </div>
 
-</div>
-
-<div class="modal fade portfolio-modal" id="TbPModal" tabindex="-1" role="dialog">
-    <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="TbPmodalLabel">...</h5>
-            </div>
-            <div class="modal-body" id="TbPmodalBody">
-               <div align="center"><img src="assets/img/loading.gif"></div>
-            </div>
-            <div class="modal-footer">
-                <button class="btn btn-primary closeModal" type="button" data-bs-dismiss="modal"><i class="fa fa-times icon"></i><span>&nbsp;Close</span></button>
-            </div>
-        </div>
-    </div>
-</div>
-
-</section></main>
+</div></section></main>
 <script>
         $(document).ready(function() {
             var owner = 'STaTBS21D';
@@ -513,7 +495,7 @@ $(document).ready(function() {
 							  } 
 							  
 							  html += '<tr>';	
-							  html += '<td id="sp' + Spnumber + '">' + spell + ' <a class="tbp-link" href="https://totenbuch.awk.nrw.de/spruch/' + Spnumber + '" target="_blank">[TbP]</a> <a class="ref-link" href="references.html?p=tags&tag=' + spell + '" target="_blank" alt="Bibliography">[Ref]</a><br><a class="btn btn-sm toggler ref-link" alt="Info" href="#TbPModal" data-bs-toggle="modal"><i class="icon-info icon" style="font-size:20px"></i></a></td>';
+							  html += '<td id="sp' + Spnumber + '">' + spell + ' <a class="tbp-link" href="https://totenbuch.awk.nrw.de/spruch/' + Spnumber + '" target="_blank">[TbP]</a> <a class="ref-link" href="references.html?p=tags&tag=' + spell + '" target="_blank" alt="Bibliography">[Ref]</a></td>';
 							
 							
 							html += '<td><ul class="source">';		
@@ -677,31 +659,6 @@ $(document).ready(function() {
 	  $(this).addClass('chevron');
     });
   }
-  
-  
-  $(".closeModal").click(function() {
-		 $('#TbPmodalBody').empty().html('<div align="center"><img src="assets/img/loading.gif"></div>');;
-		 $('#TbPmodalLabel').text('');
-		 history.pushState("", document.title, window.location.pathname);
-	});
-	
-	$(document).on('click', '.toggler', function() {
-        // Encuentra la fila actual
-        var fila = $(this).closest("tr");
-		var idx = $(this).closest("tr").attr("id");
-		var ids = idx.split('-'); var tbid = ids[ids.length - 1];
-
-		$('#TbPmodalLabel').text('TM '+ tbid+ ' Info');
-        $('#TbPmodalBody').load('tbpdb.html'); 
-	
-		var currentUrl = window.location.href;
-		var url = new URL(currentUrl);
-		url.searchParams.set('tm', tbid);
-		history.pushState(null, '', url);
-			
-    }); 
-  
-  
 });
 
 </script>
