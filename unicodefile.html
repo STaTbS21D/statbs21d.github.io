@@ -197,13 +197,29 @@ $(document).ready(function() {
 				
 				} else {
 				  // Normal text line
-					if(line.startsWith('<br>') && line.endsWith('</hiero>')){
-						htmlContent += line.trim();
-					}
-					if((line.length > 4 && line.endsWith('<br>')) || (line.length > 12 && line.endsWith('<br></hiero>'))) { //4 is 12
+					// First check if this is a hiero block start
+					if (line.startsWith('<hiero>')) {
+					  // Start the hiero block and add first line number
+					  lineNumber = 1;
+					  htmlContent += '<hiero><span class="hiero"><sup>' + lineNumber + '</sup>| </span>' + line.trim().substring(7);
+					} 
+					// Check for lines inside hiero block (ending with <br>)
+					else if ((line.endsWith('<br>') || line.endsWith('<br></hiero>')) && lineNumber > 0) {
 					  lineNumber++;
-					  htmlContent += "<span class='hiero'><sup>" + lineNumber + "</sup>| </span>" + line.trim(); 
-					} else {
+					  // Remove </hiero> if present to handle it separately
+					  if (line.endsWith('</hiero>')) {
+						htmlContent += "<span class='hiero'><sup>" + lineNumber + "</sup>| </span>" + line.trim().replace('</hiero>', '');
+					  } else {
+						htmlContent += "<span class='hiero'><sup>" + lineNumber + "</sup>| </span>" + line.trim();
+					  }
+					} 
+					// Check for hiero block end
+					else if (line.trim() === '</hiero>') {
+					  htmlContent += '</hiero>';
+					  lineNumber = 0;
+					} 
+					// Regular line processing
+					else {
 					  htmlContent += stripURLs(line.trim());
 					}
 				  
