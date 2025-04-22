@@ -83,7 +83,8 @@
 				'18. Dynastie': '18<sup>th</sup> Dynasty',
 				'19. Dynastie': '19<sup>th</sup> Dynasty',
 				'20. Dynastie': '20<sup>th</sup> Dynasty',
-				'18.-19. Dynastie': '18-19 Dynasties'
+				'18.-19. Dynastie': '18-19 Dynasties',
+				'3. Zwischenzeit': 'Third Intermediate Period'
 				//Vignette(n) vorhanden: 'vignette(s) present',
 				};
 				
@@ -101,10 +102,20 @@
 			  return myg;			  
 			}).get().join(' / ');	
 			
-			const dating = $(this).find("datierung detail").map(function() {
-			  var mydate = translateScript($(this).text())
-			  return mydate;			  
+			const dating = $(this).find("datierung").map(function() {
+			// Try to find 'detail' first
+			const details = $(this).find("detail").map(function() {
+				var mydate = translateScript($(this).text());
+				return mydate;        
 			}).get().join(' / ');
+
+			// If 'details' is empty, get text from 'periode'
+			if (details.length === 0) {
+				return translateScript($(this).find("periode").text());
+			}
+
+			return details;
+		}).get().join(' / ');
 			
 			const script = $(this).find("form schrift").map(function() {
 			  var myscr = translateScript($(this).text())
