@@ -17,6 +17,87 @@
 <link  id="page-css" rel="stylesheet" href="assets/css/styles.min.css">
 <script src="assets/js/jquery-3.6.3.js?h=84e399b8f2181ccd73394fdeddff1638"></script>
 <script src="assets/js/crypto-js.min.js"></script>
+<style>
+	#block-content {
+    /* Asegúrate de que el contenido no se desborde */
+    overflow-wrap: break-word !important; /* Permite que las palabras largas se dividan */
+    word-wrap: break-word !important; /* Compatibilidad con navegadores más antiguos */
+    white-space: normal !important; /* Mantiene los espacios y saltos de línea */
+}
+
+hiero {
+    display: block !important; /* Asegura que cada línea se trate como un bloque separado */
+    margin: 0 !important; /* Elimina márgenes para evitar espacios adicionales */
+	overflow-wrap: break-word !important;
+}
+
+.hiero {
+    display: inline !important; /* Mantiene el encabezado y su contenido en línea */
+    white-space: nowrap !important; /* Evita que el contenido del encabezado se divida */
+}
+
+@font-face {
+  font-family: 'statbs21d';
+  src:  url('assets/fonts/statbs21d.eot?enjm2s');
+  src:  url('assets/fonts/statbs21d.eot?enjm2s#iefix') format('embedded-opentype'),
+    url('assets/fonts/statbs21d.ttf?enjm2s') format('truetype'),
+    url('assets/fonts/statbs21d.woff?enjm2s') format('woff'),
+    url('assets/fonts/statbs21d.svg?enjm2s#statbs21d') format('svg');
+  font-weight: bolder;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'statbs21d' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 25px;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Female:before {
+  content: "\e909";
+}
+.icon-Male:before {
+  content: "\e90a";
+}
+.icon-Owner:before {
+  content: "\e900";
+}
+.icon-Family:before {
+  content: "\e901";
+}
+.icon-Source:before {
+  content: "\e902";
+}
+.icon-Script:before {
+  content: "\e903";
+}
+.icon-Vignettes:before {
+  content: "\e904";
+}
+.icon-Sequence:before {
+  content: "\e905";
+}
+.icon-Origin:before {
+  content: "\e906";
+}
+.icon-Dating:before {
+  content: "\e907";
+}
+.icon-Location:before {
+  content: "\e908";
+}
+</style>
 </head>
 
 <body>
@@ -197,31 +278,31 @@ $(document).ready(function() {
 				
 				} else {
 				  // Normal text line
-					// First check if this is a hiero block start
-					if (line.startsWith('<hiero>')) {
-					  // Start the hiero block and add first line number
-					  lineNumber = 1;
-					  htmlContent += '<hiero><span class="hiero"><sup>' + lineNumber + '</sup>| </span>' + line.trim().substring(7);
-					} 
-					// Check for lines inside hiero block (ending with <br>)
-					else if ((line.endsWith('<br>') || line.endsWith('<br></hiero>')) && lineNumber > 0) {
-					  lineNumber++;
-					  // Remove </hiero> if present to handle it separately
-					  if (line.endsWith('</hiero>')) {
-						htmlContent += "<span class='hiero'><sup>" + lineNumber + "</sup>| </span>" + line.trim().replace('</hiero>', '');
-					  } else {
-						htmlContent += "<span class='hiero'><sup>" + lineNumber + "</sup>| </span>" + line.trim();
-					  }
-					} 
-					// Check for hiero block end
-					else if (line.trim() === '</hiero>') {
-					  htmlContent += '</hiero>';
-					  lineNumber = 0;
-					} 
-					// Regular line processing
-					else {
-					  htmlContent += stripURLs(line.trim());
-					}
+// First check if this is a hiero block start
+if (line.startsWith('<hiero>')) {
+  // Start the hiero block and add first line number
+  lineNumber = 1;
+  htmlContent += '<hiero><span class="hiero"><sup>' + lineNumber + '</sup>| </span>' + line.trim().substring(7);
+} 
+// Check for lines inside hiero block (ending with <br>)
+else if ((line.endsWith('<br>') || line.endsWith('<br></hiero>')) && lineNumber > 0) {
+  lineNumber++;
+  // Remove </hiero> if present to handle it separately
+  if (line.endsWith('</hiero>')) {
+    htmlContent += "<span class='hiero'><sup>" + lineNumber + "</sup>| </span>" + line.trim().replace('</hiero>', '');
+  } else {
+    htmlContent += "<span class='hiero'><sup>" + lineNumber + "</sup>| </span>" + line.trim();
+  }
+} 
+// Check for hiero block end
+else if (line.trim() === '</hiero>') {
+  htmlContent += '</hiero>';
+  lineNumber = 0;
+} 
+// Regular line processing
+else {
+  htmlContent += stripURLs(line.trim());
+}
 				  
 				}
 			  }
@@ -470,22 +551,22 @@ const xmlUrl = "xmldb/tm" + TM + ".xml";
 				});
 
 			var ftext = '';
-			if(name != '') ftext = `<i class='fa fa-user icon'></i> Owner (N): ${name.toLowerCase()}`;
+			if(name != '') ftext = `<i class="statbs21d icon-Owner icon"></i><!--i class='fa fa-user icon'></i--> Owner (N): ${name.toLowerCase()}`;
 			if(nameTitle != '') ftext += `  Titles: ${nameTitle.toLowerCase()}`;
-			ftext += '<div style="padding-left:20px">'; if(wife != '' || father != '' || mother != '' || son != '' || daughter != '') {ftext += '<i class="fa fa-group icon"></i> Family: '; }
-			if(wife != '') ftext += `<br> Wife (W): ${wife.toLowerCase()}`; 
+			ftext += '<div style="padding-left:20px">'; if(wife != '' || father != '' || mother != '' || son != '' || daughter != '') {ftext += '<i class="statbs21d icon-Family icon"></i><!--i class="fa fa-group icon"></i--> Family: '; }
+			if(wife != '') ftext += `<br> <i class="statbs21d icon-Female icon"></i> Wife (W): ${wife.toLowerCase()}`; 
 			if(wifeTitle != '') ftext += `  Titles: ${wifeTitle.toLowerCase()}`;
-			if(father != '') ftext += `<br> Father (F): ${father.toLowerCase()}`;
+			if(father != '') ftext += `<br> <i class="statbs21d icon-Male icon"></i> Father (F): ${father.toLowerCase()}`;
 			if(fatherTitle != '') ftext += `  Titles: ${fatherTitle.toLowerCase()}`;
-			if(mother != '') ftext += `<br> Mother (M): ${mother.toLowerCase()}`;
+			if(mother != '') ftext += `<br> <i class="statbs21d icon-Female icon"></i> Mother (M): ${mother.toLowerCase()}`;
 			if(motherTitle != '') ftext += `  Titles: ${motherTitle.toLowerCase()}`;
-			if(son != '') ftext += `<br> Son (S): ${son.toLowerCase()}`;
+			if(son != '') ftext += `<br> <i class="statbs21d icon-Male icon"></i> Son (S): ${son.toLowerCase()}`;
 			if(sonTitle != '') ftext += `  Titles: ${sonTitle.toLowerCase()}`;
-			if(daughter != '') ftext += `<br> Daughter (D): ${daughter.toLowerCase()}`;
+			if(daughter != '') ftext += `<br> <i class="statbs21d icon-Female icon"></i> Daughter (D): ${daughter.toLowerCase()}`;
 			if(daughterTitle != '') ftext += `  Titles: ${daughterTitle.toLowerCase()}`;
 			ftext += '</div>';
-            const $paragraph = $("<p class='block-content'>");
-            $paragraph.html(`<h4 class='unicode'><em>Totenbuch Projekt</em> Info for TM ${TM}</h4> ${ftext} <i class='fa fa-list icon'></i> Spell Sequence:  ${highlightedSequence} `);
+            const $paragraph = $("<div id='TMinfo'>"); //p class='block-content'
+            $paragraph.html(`<h4 class='unicode'><em>Totenbuch Projekt</em> Info for TM ${TM}</h4> ${ftext} <i class='statbs21d icon-Sequence icon'></i><!--i class='fa fa-list icon'></i--> Spell Sequence:  ${highlightedSequence} `);
             $("#TbPContent").append($paragraph); 			
 			});
         },

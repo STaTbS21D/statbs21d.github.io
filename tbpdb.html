@@ -236,22 +236,22 @@
 			
 			
 			var ftext = '';
-			if(name != '') ftext = `<i class='fa fa-user icon'></i> Owner (N): ${name.toLowerCase()}`;
+			if(name != '') ftext = `<i class='statbs21d icon-Owner icon'></i> Owner (N): ${name.toLowerCase()}`;
 			if(nameTitle != '') ftext += `  Titles: ${nameTitle.toLowerCase()}`;
-			ftext += '<div style="padding-left:20px">'; if(wife != '' || father != '' || mother != '' || son != '' || daughter != '') {ftext += '<i class="fa fa-group icon"></i> Family: '; }
-			if(wife != '') ftext += `<br> Wife (W): ${wife.toLowerCase()}`; 
+			ftext += '<div style="padding-left:20px">'; if(wife != '' || father != '' || mother != '' || son != '' || daughter != '') {ftext += '<i class="statbs21d icon-Family icon"></i> Family: '; }
+			if(wife != '') ftext += `<br> <i class="statbs21d icon-Female icon"></i> Wife (W): ${wife.toLowerCase()}`; 
 			if(wifeTitle != '') ftext += `  Titles: ${wifeTitle.toLowerCase()}`;
-			if(father != '') ftext += `<br> Father (F): ${father.toLowerCase()}`;
+			if(father != '') ftext += `<br> <i class="statbs21d icon-Male icon"></i> Father (F): ${father.toLowerCase()}`;
 			if(fatherTitle != '') ftext += `  Titles: ${fatherTitle.toLowerCase()}`;
-			if(mother != '') ftext += `<br> Mother (M): ${mother.toLowerCase()}`;
+			if(mother != '') ftext += `<br> <i class="statbs21d icon-Female icon"></i> Mother (M): ${mother.toLowerCase()}`;
 			if(motherTitle != '') ftext += `  Titles: ${motherTitle.toLowerCase()}`;
-			if(son != '') ftext += `<br> Son (S): ${son.toLowerCase()}`;
+			if(son != '') ftext += `<br> <i class="statbs21d icon-Male icon"></i> Son (S): ${son.toLowerCase()}`;
 			if(sonTitle != '') ftext += `  Titles: ${sonTitle.toLowerCase()}`;
-			if(daughter != '') ftext += `<br> Daughter (D): ${daughter.toLowerCase()}`;
+			if(daughter != '') ftext += `<br> <i class="statbs21d icon-Female icon"></i> Daughter (D): ${daughter.toLowerCase()}`;
 			if(daughterTitle != '') ftext += `  Titles: ${daughterTitle.toLowerCase()}`;
 			ftext += '</div>';
             const $paragraph = $("<p class='content'>");
-            $paragraph.html(`${ftext} <i class='icon-layers icon'></i> Source: ${group} <br> <div style="padding-left:20px"> <i class='fa fa-pencil icon'></i> Script: ${script} <br> <i class='fa fa-photo icon'></i> Vignettes: ${vignettes} <br> <i class='fa fa-list icon'></i> Spell Sequence:  ${sequence} </div> <i class='fa fa-map-marker icon'></i> Origin: ${origin} <br> <i class='fa fa-hourglass-o icon'></i> Dating: ${dating} <br> <i class='fa fa-institution'></i> Current Location: ${location}, ${city} (${country}) `);
+            $paragraph.html(`${ftext} <i class='statbs21d icon-Source icon'></i> Source: ${group} <br> <div style="padding-left:20px"> <i class='statbs21d icon-Script icon'></i> Script: ${script} <br> <i class='statbs21d icon-Vignette icon'></i> Vignettes: ${vignettes} <br> <i class='statbs21d icon-Sequence icon'></i> Spell Sequence:  ${sequence} </div> <i class='statbs21d icon-Origin icon'></i> Origin: ${origin} <br> <i class='statbs21d icon-Dating icon'></i> Dating: ${dating} <br> <i class='statbs21d icon-Location icon'></i> Current Location: ${location}, ${city} (${country}) `);
             $("#TbPmodalBody").append($paragraph);
 			$("#TbPmodalBody").append('<p style="text-align:center">Source: <a class="btn btn-sm btn-light" href="https://totenbuch.awk.nrw.de/" target="_blank"><em>Totenbuch Projekt</em></a></p>');
 			//return $paragraph;
