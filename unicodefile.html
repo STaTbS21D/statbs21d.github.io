@@ -517,6 +517,39 @@ $(document).ready(function() {
     // Initial content load
     loadContent();
   //});
+  
+  function downloadFile(obj) {
+		
+		var source = obj.getAttribute('data-link');
+
+      $.ajax({
+        url: source,
+        xhrFields: {
+          responseType: 'blob'
+        },
+        success: function(data) {
+          var blob = new Blob([data]);
+          var tempUrl = URL.createObjectURL(blob);
+          var link = document.createElement('a');
+          link.href = tempUrl;
+          link.download = getFileName(source);
+          link.click();
+        }
+      });
+    }
+	
+	function getFileName(filePath) {
+                var segments = filePath.split('/');
+                var index = segments.indexOf('main');
+
+                if (index !== -1 && segments.length > index + 1) {
+					return segments[index + 1] + '_' + segments[index + 2]  + '_' + segments[index + 3];
+                }
+
+                return null;
+            }
+			
+		
 </script>
 <footer id="footer" class="page-footer dark"></footer>
 
