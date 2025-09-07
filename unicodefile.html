@@ -228,7 +228,9 @@ input[type="radio"] {display: none;}
 	}
 	
 	.floating {
-    position: fixed;
+    position: fixed; top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
     top: 1em;
 	display: flex; flex-direction: row; align-items: center;
 	-webkit-justify-content: center;
@@ -236,7 +238,9 @@ input[type="radio"] {display: none;}
   -webkit-align-items: center;
   }
   .stopped {
-    position: absolute;
+    position: absolute; top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
 	display: flex; flex-direction: row; align-items: center;
 	-webkit-justify-content: center;
   justify-content: center;
@@ -595,9 +599,11 @@ $(document).ready(function() {
         handleRefData();
   
   const originalOffsetTop = sldr.offsetTop;
-  const floatingTopMargin = 16;
-  const originalTopMargin = 32;
-
+  const floatingTopMargin = 36; //16
+  const originalTopMargin = '2em'; //32
+  //const floatingDiv = document.querySelector('.stopped');
+  //const originalOffsetTop = floatingDiv.offsetTop;
+  
   window.addEventListener('scroll', () => {
     const scrollY = window.scrollY || window.pageYOffset;
 
@@ -614,17 +620,37 @@ $(document).ready(function() {
     } else if (floatingPosition + sldr.offsetHeight >= targetTop) {
       sldr.style.position = 'absolute';
       sldr.style.top = (targetTop - sldr.offsetHeight) + 'px';
-      sldr.style.left = sldr.offsetLeft + 'px';
+      sldr.style.left = /*sldr.offsetLeft + 'px'*/ '50%';
       sldr.classList.remove('floating');
       sldr.classList.add('stopped');
+    } else if(window.pageYOffset <= originalOffsetTop){
+      sldr.style.position = 'relative';
+	  sldr.style.display = 'flex';
+      sldr.style.top = '52px'; //originalOffsetTop + 'px'; // reset to original
+      sldr.style.left = '50%';
+      sldr.style.transform = 'translate(-50%, -50%)'; // or original transform
     } else {
       sldr.style.position = 'fixed';
       sldr.style.top = floatingTopMargin + 'px';
-      sldr.style.left = sldr.offsetLeft + 'px';
+      sldr.style.left = /*sldr.offsetLeft + 'px'*/ '50%';
       sldr.classList.add('floating');
       sldr.classList.remove('stopped');
     }
   });
+  /*
+  window.addEventListener('scroll', function() {
+    if (window.pageYOffset >= originalOffsetTop) {
+      sldr.style.position = 'fixed';
+      sldr.style.top = '0'; // floating at top
+      sldr.style.left = '50%';
+      sldr.style.transform = 'translateX(-50%)';
+    } else {
+      sldr.style.position = 'absolute';
+      sldr.style.top = originalOffsetTop + 'px'; // reset to original
+      sldr.style.left = '50%';
+      sldr.style.transform = 'translate(-50%, -50%)'; // or original transform
+    }
+  }); */
 </script>
 
 <script>
