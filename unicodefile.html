@@ -230,10 +230,17 @@ input[type="radio"] {display: none;}
 	.floating {
     position: fixed;
     top: 1em;
-    width: 200px;
+	display: flex; flex-direction: row; align-items: center;
+	-webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
   }
   .stopped {
     position: absolute;
+	display: flex; flex-direction: row; align-items: center;
+	-webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
   }
 </style>
 </head>
@@ -566,7 +573,27 @@ $(document).ready(function() {
 
 <script>
   const sldr = document.getElementById('sldr');
-  const refData = document.getElementById('ref-data');
+  let refData;
+
+        function handleRefData() {
+            refData = document.getElementById('ref-data');
+            if (refData) {
+                console.log('ref-data loaded:', refData);
+            }
+        }
+
+        const observer = new MutationObserver((mutationsList, observer) => {
+            for (const mutation of mutationsList) {
+                if (mutation.type === 'childList') {
+                    handleRefData();
+                }
+            }
+        });
+
+        observer.observe(document.body, { childList: true, subtree: true });
+
+        handleRefData();
+  
   const originalOffsetTop = sldr.offsetTop;
   const floatingTopMargin = 16;
   const originalTopMargin = 32;
