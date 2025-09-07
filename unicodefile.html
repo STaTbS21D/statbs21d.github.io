@@ -226,6 +226,15 @@ input[type="radio"] {display: none;}
   -webkit-align-items: center;
   top: 2em;
 	}
+	
+	.floating {
+    position: fixed;
+    top: 1em;
+    width: 200px;
+  }
+  .stopped {
+    position: absolute;
+  }
 </style>
 </head>
 
@@ -554,6 +563,42 @@ $(document).ready(function() {
 <footer id="footer" class="page-footer dark"></footer>
 
 </div>
+
+<script>
+  const sldr = document.getElementById('sldr');
+  const refData = document.getElementById('ref-data');
+  const originalOffsetTop = sldr.offsetTop;
+  const floatingTopMargin = 16;
+  const originalTopMargin = 32;
+
+  window.addEventListener('scroll', () => {
+    const scrollY = window.scrollY || window.pageYOffset;
+
+    const targetTop = refData.offsetTop;
+
+    const floatingPosition = scrollY + floatingTopMargin;
+
+    if (scrollY + originalTopMargin < originalOffsetTop) {
+      sldr.style.position = 'relative';
+      sldr.style.top = originalTopMargin + 'px';
+      sldr.classList.remove('floating', 'stopped');
+      sldr.style.left = '';
+      sldr.style.bottom = '';
+    } else if (floatingPosition + sldr.offsetHeight >= targetTop) {
+      sldr.style.position = 'absolute';
+      sldr.style.top = (targetTop - sldr.offsetHeight) + 'px';
+      sldr.style.left = sldr.offsetLeft + 'px';
+      sldr.classList.remove('floating');
+      sldr.classList.add('stopped');
+    } else {
+      sldr.style.position = 'fixed';
+      sldr.style.top = floatingTopMargin + 'px';
+      sldr.style.left = sldr.offsetLeft + 'px';
+      sldr.classList.add('floating');
+      sldr.classList.remove('stopped');
+    }
+  });
+</script>
 
 <script>
 const pag = '#nunicodefile';
