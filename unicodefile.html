@@ -482,7 +482,7 @@ $(document).ready(function() {
           else {
             // Reduce font size of notes, assuming notes contain class "note" or similar (example: use a span with smaller font size)
             if (line.toLowerCase().includes('note')) {
-              htmlContent += '<div style="font-size:0.85em;">' + stripURLs(line.trim()) + '</div>';
+              htmlContent += '<div style="font-size:0.45em;">' + stripURLs(line.trim()) + '</div>';
             } else {
               htmlContent += stripURLs(line.trim());
             }
