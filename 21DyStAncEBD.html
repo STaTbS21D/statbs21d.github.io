@@ -8,176 +8,11 @@
 <meta property="og:image:height" content="600">
 <meta property="og:description" content="Synoptic Edition of Book of the Dead Spell Sources from the 21st Dynasty (STaTbS21D) is a Digital Humanities project on Egyptology, provides edited and digitalized Book of the Dead spell sources from the end of the New Kingdom and the beginning of the Third Intermediate Period (particularly the 21st Dynasty) for the Egyptological community and the general public." />
 <link rel="prefetch" href="nav.html"><link rel="prefetch" href="footer.html">
+<script src="assets/gsap/gsap.min.js"></script>
 <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i&amp;display=swap"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.css">
 <link  id="page-css" rel="stylesheet" href="assets/css/styles.min.css"><script src="assets/js/jquery-3.6.3.js?h=84e399b8f2181ccd73394fdeddff1638"></script>
 </head>
-<style>
-/* Estado inicial: ocultos y preparados para animación */
-.animated [class^="dy-"] {
-  opacity: 0;
-  transform-origin: center center;
-  fill: #000;
-}
 
-/* Animación común de entrada: vuelo + zoom + fade-in */
-@keyframes flyZoomInSmall {
-  0% {
-    opacity: 0;
-    transform: translateY(-20px) scale(0.8);
-  }
-  70% {
-    opacity: 1;
-    transform: translateY(10px) scale(1.05);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0) scale(1);
-    fill: #000;
-  }
-}
-
-@keyframes flyZoomInMedium {
-  0% {
-    opacity: 0;
-    transform: translateY(-40px) scale(0.7);
-  }
-  70% {
-    opacity: 1;
-    transform: translateY(15px) scale(1.1);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0) scale(1);
-    fill: #000;
-  }
-}
-
-@keyframes flyZoomInLarge {
-  0% {
-    opacity: 0;
-    transform: translateY(-60px) scale(0.6);
-  }
-  70% {
-    opacity: 1;
-    transform: translateY(20px) scale(1.2);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0) scale(1);
-    fill: #000;
-  }
-}
-
-/* Asignación de animaciones y delays escalonados por grupo */
-
-/* Grupo 21 */
-/*.dy-21 {
-  animation: flyZoomInLarge 0.8s ease forwards;
-  animation-delay: 0s;
-}*/
-.dy-2 {
-  animation: flyZoomInMedium 0.8s ease forwards;
-  animation-delay: 0.4s;
-}
-/*.dy-1 {
-  animation: flyZoomInMedium 0.8s ease forwards;
-  animation-delay: 0.8s;
-}*/
-.dy-1a {  /* apóstrofe después del 1 */
-  animation: flyZoomInSmall 0.8s ease forwards;
-  animation-delay: 1.3s;
-}
-.dy-1b {
-  animation: flyZoomInSmall 0.8s ease forwards;
-  animation-delay: 1.1s;
-}
-
-/* Sílaba Dy */ /*
-.dy-Dy {
-  animation: flyZoomInLarge 0.8s ease forwards;
-  animation-delay: 1.7s;
-} */
-.dy-d {
-  animation: flyZoomInMedium 0.8s ease forwards;
-  animation-delay: 2.1s;
-}
-.dy-ytilde { /* apóstrofe después de Y */
-  animation: flyZoomInSmall 0.8s ease forwards;
-  animation-delay: 2.6s;
-}
-.dy-y {
-  animation: flyZoomInMedium 0.8s ease forwards;
-  animation-delay: 2.3s;
-}
-
-/* Sílaba St */
-/*.dy-St {
-  animation: flyZoomInLarge 0.8s ease forwards;
-  animation-delay: 3.0s;
-}*/
-.dy-s {
-  animation: flyZoomInMedium 0.8s ease forwards;
-  animation-delay: 3.3s;
-}
-.dy-t {
-  animation: flyZoomInSmall 0.8s ease forwards;
-  animation-delay: 3.6s;
-}
-
-/* Sílaba Anc */
-/*.dy-Anc {
-  animation: flyZoomInLarge 0.8s ease forwards;
-  animation-delay: 3.9s;
-}*/
-.dy-a {
-  animation: flyZoomInMedium 0.8s ease forwards;
-  animation-delay: 4.2s;
-}
-.dy-n {
-  animation: flyZoomInMedium 0.8s ease forwards;
-  animation-delay: 4.5s;
-}
-.dy-c {
-  animation: flyZoomInSmall 0.8s ease forwards;
-  animation-delay: 4.8s;
-}
-.dy-e {
-  animation: flyZoomInSmall 0.8s ease forwards;
-  animation-delay: 5.1s;
-}
-
-/* Dígrafo bd */
-  @keyframes spinIn {
-            0% {
-                transform: rotate(0deg) scale(0);
-                opacity: 0;
-            }
-            50% {
-                transform: rotate(180deg) scale(1);
-                opacity: 1;
-            }
-            100% {
-                transform: rotate(360deg) scale(1);
-                opacity: 1;
-            }
-        }
-
-        .dy-bd {
-            animation: spinIn 0.8s ease forwards;
-            animation-delay: 5.5s;
-            transform-origin: center; /* Establece el origen del giro en el centro */
-        }
-
-/* Animación final de resaltado intermitente para la BD */
-@keyframes pulseHighlight {
-  0%, 100% { filter: drop-shadow(0 0 0 gold); }
-  50% { filter: drop-shadow(0 0 10px gold); }
-}
-.dy-bd.pulse {
-  animation: pulseHighlight 2s ease-in-out 0s infinite;
-}
-
-</style>
 <body>
 
 <script>
@@ -197,39 +32,71 @@ $(document).ready(function() {
   }
 });
 
-document.addEventListener("DOMContentLoaded", () => {
-  const svg = document.querySelector("svg");
-  const bd = svg.querySelector(".dy-bd");
-  let repeat = 0;
-  const maxRepeats = 2;
 
-  function startAnimationCycle() {
-    // Elimina clase pulse para resetear
-    bd.classList.remove("pulse");
+window.addEventListener('DOMContentLoaded', () => {
+  const tl = gsap.timeline();
 
-    // Forzar reinicio de la animación removiendo y agregando clase .animated
-    svg.classList.remove("animated");
-    void svg.offsetWidth; // reflow
-    svg.classList.add("animated");
+  // 1. El "2" (pato/ave) entra volando y se posa
+  tl.from('.dy-2', {
+    x: -120, y: -160, rotation: -40, scale: 0.8, opacity: 0,
+    duration: 1, ease: 'power2.out'
+  })
+    .to('.dy-2', {x: 0, y: 0, rotation: 0, scale: 1, opacity: 1, duration: 0.5, ease: 'back.out(2)', delay: 0})
 
-    repeat++;
+  // 2. El "1" (palo donde se posa el ave): se extiende desde abajo
+  tl.from('.dy-1b', {
+    scaleY: 0.1, transformOrigin: 'bottom center', opacity: 0, duration: 0.6, ease: 'power1.out'
+  }, '-=0.6')
 
-    // Duración total aproximada para todas las animaciones = 7s
-    setTimeout(() => {
-      if (repeat < maxRepeats) {
-        startAnimationCycle();
-      } else {
-        // Despues de repeticiones, activa el pulso en bd y detiene animaciones de entrada
-        svg.classList.remove("animated");
-        bd.classList.add("pulse");
-      }
-    }, 7000);
-  }
+  // 3. El apóstrofe del "1" (otra ave): sale "volando" de arriba y se posa
+  tl.from('.dy-1a', {
+    x: 80, y: -60, rotation: 30, scale: 0.7, opacity: 0, duration: 0.5, ease: 'power2.out'
+  })
+    .to('.dy-1a', {
+      x: 0, y: 0, rotation: 0, scale: 1, opacity: 1, duration: 0.3, ease: 'back.out(2)'
+    }, '-=0.3')
 
-  // Añadir clase animated para iniciar
-  svg.classList.add("animated");
-  startAnimationCycle();
+  // 4. Grupo Dy (letra D aparece desde la izquierda, la y vuela en arco, el apóstrofe de la Y desde arriba)
+  tl.from('.dy-d', {
+    x: -100, opacity: 0, duration: 0.4, ease: 'power2.out'
+  })
+  tl.from('.dy-y', {
+    motionPath: {
+      path: [{x: -60, y: 40}, {x: 0, y: 0}],
+      curviness: 1
+    },
+    opacity: 0, duration: 0.7, ease: 'power1.out'
+  }, '-=0.3')
+  tl.from('.dy-ytilde', {
+    y: -80, scale: 0.5, opacity: 0, duration: 0.4, ease: 'power2.out'
+  }, '-=0.5')
+
+  // 5. Grupo St (las letras aparecen rotando desde lados opuestos)
+  tl.from('.dy-s', {
+    x: -60, rotation: -40, opacity: 0, duration: 0.4, ease: 'back.out(2)'
+  }, '-=0.4')
+  tl.from('.dy-t', {
+    x: 60, rotation: 40, opacity: 0, duration: 0.4, ease: 'back.out(2)'
+  }, '-=0.3')
+
+  // 6. Grupo Anc (las letras se ensamblan desde diferentes posiciones verticales)
+  tl.from('.dy-a', {y: -70, opacity: 0, duration: 0.3, ease: 'back.out(2)'})
+  tl.from('.dy-n', {y: 70, opacity: 0, duration: 0.3, ease: 'back.out(2)'}, '-=0.25')
+  tl.from('.dy-c', {x: -70, opacity: 0, duration: 0.3, ease: 'back.out(2)'}, '-=0.25')
+
+  // 7. Letra e: aparece saltando desde abajo
+  tl.from('.dy-e', {
+    y: 80, scale: 0.2, opacity: 0, duration: 0.5, ease: 'elastic.out(1, 0.7)'
+  })
+
+  // 8. Dígrafo BD: la B gira/entra desde la izquierda y la D desde la derecha, ensamblándose en el eje central
+  tl.from('.dy-bd', {
+    scale: 0.2, rotation: -90, x: -100, opacity: 0, duration: 0.7, ease: 'back.out(3)'
+  })
+
 });
+
+
 </script>
 
 <div id="loader" style="position: fixed;top: 50%;left: 0;width: 100%;height: 100%;background-color: #fff;z-index: 9999;"><img src="assets/img/loading.gif" alt="Loading..." style="display: block;margin: auto;">
