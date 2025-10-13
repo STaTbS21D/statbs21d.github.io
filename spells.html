@@ -675,6 +675,9 @@ $(document).ready(function() {
     var urlParams = new URLSearchParams(window.location.search);
     var hash = window.location.hash;
     
+    console.log('URL Parameters:', urlParams.toString());
+    console.log('Tool parameter:', urlParams.get('tool'));
+    
     // Handle ID from URL hash for blinking button
     if (hash && hash.length > 1) {
         var hashId = hash.substring(1);
@@ -691,13 +694,53 @@ $(document).ready(function() {
                     clearInterval(blinkInterval);
                     $(this).removeClass('blink').addClass('chevron');
                 });
+            } else {
+                console.warn('Button with ID "b' + hashId + '" not found');
             }
         }
     }
 
-    // Show ALL compare buttons if tool=sc parameter exists
+    // Use MutationObserver to watch for dynamically created buttons
+    function showCompareButtons() {
+        var compareButtons = $('.compare-src');
+        if (compareButtons.length > 0) {
+            console.log('Found', compareButtons.length, 'compare buttons - showing them');
+            compareButtons.removeClass('d-none').addClass('d-inline-block');
+            return true; // Buttons found and processed
+        }
+        return false; // Buttons not found yet
+    }
+
+    // Try immediately
     if (urlParams.get('tool') === 'sc') {
-        $('.compare-src').removeClass('d-none').addClass('d-inline-block');
+        if (!showCompareButtons()) {
+            // If buttons not found, set up observer
+            console.log('Buttons not found yet, setting up observer...');
+            
+            var observer = new MutationObserver(function(mutations) {
+                mutations.forEach(function(mutation) {
+                    if (mutation.addedNodes && mutation.addedNodes.length > 0) {
+                        if (showCompareButtons()) {
+                            console.log('Buttons found via observer, disconnecting...');
+                            observer.disconnect();
+                        }
+                    }
+                });
+            });
+
+            // Start observing
+            observer.observe(document.body, {
+                childList: true,
+                subtree: true
+            });
+
+            // Also try again after a delay as fallback
+            setTimeout(function() {
+                if (!showCompareButtons()) {
+                    console.log('Buttons still not found after timeout');
+                }
+            }, 2000);
+        }
     }
 });
 
