@@ -11,6 +11,36 @@
 <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i&amp;display=swap"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.css">
 <link  id="page-css" rel="stylesheet" href="assets/css/styles.min.css"><script src="assets/js/jquery-3.6.3.js?h=84e399b8f2181ccd73394fdeddff1638"></script>
 <script src="assets/js/crypto-js.min.js"></script>
+<style>
+.compare-src {
+        position: relative;
+        top: auto;
+        left: auto;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0;
+    }
+    
+    .compare-src::before {
+        content: "Compare";
+        font-size: 0;
+    }
+    
+    .compare-src::after {
+        content: "⇌"; /*⚡*/
+        font-size: 15px;
+		color: #3b99e0;
+    }
+    
+	.compare-src:hover {
+		color: #fff;
+	}
+</style>
 </head>
 
 <body>
@@ -495,7 +525,7 @@ $(document).ready(function() {
 							  } 
 							  
 							  html += '<tr>';	
-							  html += '<td id="sp' + Spnumber + '">' + spell + ' <a class="tbp-link" href="https://totenbuch.awk.nrw.de/spruch/' + Spnumber + '" target="_blank">[TbP]</a> <a class="ref-link" href="references.html?p=tags&tag=' + spell + '" target="_blank" alt="Bibliography">[Ref]</a></td>';
+							  html += '<td id="sp' + Spnumber + '">' + spell + ' <a class="tbp-link" href="https://totenbuch.awk.nrw.de/spruch/' + Spnumber + '" target="_blank">[TbP]</a> <a class="ref-link" href="references.html?p=tags&tag=' + spell + '" target="_blank" alt="Bibliography">[Ref]</a><a href="compare.html?sp=' + Spnumber + '" class="compare-src btn btn-outline-primary btn-sm d-none" target="_blank">⇌</a></td>';
 							
 							
 							html += '<td><ul class="source">';		
@@ -659,6 +689,13 @@ $(document).ready(function() {
 	  $(this).addClass('chevron');
     });
   }
+});
+
+$(document).ready(function() {
+    var urlParams = new URLSearchParams(window.location.search);
+    if (urlParams.get('tool') === 'sc') {
+        $('.compare-src').removeClass('d-none').addClass('d-inline-block');
+    }
 });
 
 </script>
