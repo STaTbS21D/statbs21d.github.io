@@ -33,7 +33,7 @@
     
     .compare-src::after {
         content: "⇌"; /*⚡*/
-        font-size: 15px;
+        font-size: 24px;
 		color: #3b99e0;
     }
     
@@ -525,7 +525,7 @@ $(document).ready(function() {
 							  } 
 							  
 							  html += '<tr>';	
-							  html += '<td id="sp' + Spnumber + '">' + spell + ' <a class="tbp-link" href="https://totenbuch.awk.nrw.de/spruch/' + Spnumber + '" target="_blank">[TbP]</a> <a class="ref-link" href="references.html?p=tags&tag=' + spell + '" target="_blank" alt="Bibliography">[Ref]</a><a href="compare.html?sp=' + Spnumber + '" class="compare-src btn btn-outline-primary btn-sm d-none" target="_blank">⇌</a></td>';
+							  html += '<td id="sp' + Spnumber + '">' + spell + ' <a class="tbp-link" href="https://totenbuch.awk.nrw.de/spruch/' + Spnumber + '" target="_blank">[TbP]</a> <a class="ref-link" href="references.html?p=tags&tag=' + spell + '" target="_blank" alt="Bibliography">[Ref]</a><br><a href="compare.html?sp=' + Spnumber + '" class="compare-src btn btn-outline-primary btn-sm d-none" target="_blank">⇌</a></td>';
 							
 							
 							html += '<td><ul class="source">';		
