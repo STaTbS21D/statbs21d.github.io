@@ -381,9 +381,14 @@ $(document).ready(function() {
     currentSpellNumber = spellNumber;
 
     if (spellNumber) {
-        getSpellFiles(spellNumber);
+        updateSpellTitle(spellNumber);
+		getSpellFiles(spellNumber);
     }
 
+	function updateSpellTitle(spellNumber) {
+        $('h2.text-info:contains("Spell Compare")').text('Spell ' + spellNumber + ' Compare');
+    }
+	
     function getSpellFiles(spellNumber) {
     var url = 'https://api.github.com/repos/' + owner + '/' + repo + '/git/trees/main?recursive=1';
 
