@@ -141,7 +141,7 @@ input[type="radio"] {display: none;}
     left: 5px; /* start on left */
   }
 
-//
+  
   label.option {
     flex: 1;
     text-align: center;
@@ -385,34 +385,43 @@ $(document).ready(function() {
     }
 
     function getSpellFiles(spellNumber) {
-        var url = 'https://api.github.com/repos/' + owner + '/' + repo + '/git/trees/main?recursive=1';
+    var url = 'https://api.github.com/repos/' + owner + '/' + repo + '/git/trees/main?recursive=1';
 
-        var headers = {
-            'Authorization': 'Bearer ' + token,
-            'X-GitHub-Api-Version': '2022-11-28'
-        };
+    var headers = {
+        'Authorization': 'Bearer ' + token,
+        'X-GitHub-Api-Version': '2022-11-28'
+    };
 
-        $.ajax({
-            url: url,
-            headers: headers,
-            success: function(response) {
-                var spellFiles = [];
-                var spellFolder = 'Spell ' + spellNumber;
-                
-                $.each(response.tree, function(index, item) {
-                    if (item.type === 'blob' && item.path.includes('Unicode/') && item.path.includes(spellFolder)) {
+    $.ajax({
+        url: url,
+        headers: headers,
+        success: function(response) {
+            var spellFiles = [];
+            var spellFolder = 'Spell ' + spellNumber;
+            
+            console.log('Looking for files in folder:', spellFolder);
+            
+            $.each(response.tree, function(index, item) {
+                if (item.type === 'blob') {
+                    // Check if path matches: "Spell X/Unicode/" pattern and is a .md file
+                    var expectedPathStart = spellFolder + '/Unicode/';
+                    if (item.path.startsWith(expectedPathStart) && item.path.endsWith('.md')) {
                         spellFiles.push(item.path);
                     }
-                });
+                }
+            });
 
-                displaySpellFiles(spellFiles, spellNumber);
-            },
-            error: function(xhr, status, error) {
-                console.error('Error fetching repository data:', error);
-                $('#markdownContent').html('<br><br><div align="center"><p class="text-bg-danger small" style="width:60%;border-radius: 18px;text-align: center">Error fetching files from GitHub repository. The spell is not available.</p></div>');
-            }
-        });
-    }
+            console.log('Found ' + spellFiles.length + ' files for ' + spellFolder);
+            console.log('Files:', spellFiles);
+            
+            displaySpellFiles(spellFiles, spellNumber);
+        },
+        error: function(xhr, status, error) {
+            console.error('Error fetching repository data:', error);
+            $('#markdownContent').html('<br><br><div align="center"><p class="text-bg-danger small" style="width:60%;border-radius: 18px;text-align: center">Error fetching files from GitHub repository. The spell is not available.</p></div>');
+        }
+    });
+}
 
     function displaySpellFiles(filePaths, spellNumber) {
         var $sourcesDiv = $('#markdownContent');
