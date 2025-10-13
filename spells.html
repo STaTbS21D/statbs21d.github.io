@@ -673,25 +673,32 @@ $('#btn-toggle').on('click', function(){
 $(document).ready(function() {
     // Get URL parameters and hash
     var urlParams = new URLSearchParams(window.location.search);
-    var hashId = window.location.hash.substring(1); // Remove the # symbol
-
+    var hash = window.location.hash;
+    
     // Handle ID from URL hash for blinking button
-    if (hashId) {
-        var blinkButton = $('#b' + hashId);
+    if (hash && hash.length > 1) { // Check if hash exists and has content after #
+        var hashId = hash.substring(1);
         
-        if (blinkButton.length) {
-            // Set interval to make button blink
-            var blinkInterval = setInterval(function() {
-                blinkButton.toggleClass('blink');
-            }, 500);
+        // Additional validation: only allow alphanumeric characters for IDs
+        if (/^[a-zA-Z0-9_-]+$/.test(hashId)) {
+            var blinkButton = $('#b' + hashId);
+            
+            if (blinkButton.length) {
+                // Set interval to make button blink
+                var blinkInterval = setInterval(function() {
+                    blinkButton.toggleClass('blink');
+                }, 500);
 
-            // Add click event listener to stop blinking
-            blinkButton.on('click', function() {
-                clearInterval(blinkInterval);
-                $(this).removeClass('blink').addClass('chevron');
-            });
+                // Add click event listener to stop blinking
+                blinkButton.on('click', function() {
+                    clearInterval(blinkInterval);
+                    $(this).removeClass('blink').addClass('chevron');
+                });
+            } else {
+                console.warn('Button with ID "b' + hashId + '" not found');
+            }
         } else {
-            console.warn('Button with ID "b' + hashId + '" not found');
+            console.warn('Invalid hash ID format: ' + hashId);
         }
     }
 
