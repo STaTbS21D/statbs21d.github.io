@@ -1,0 +1,57 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="57383" id="1628" v:revision="11759" v:key="153a8c7c3da2def" v:path="/db/totenbuch/objects/tm57383.xml">
+  <admin wer="TB-Projekt" wann="2012-01-01"/>
+  <anmerkungen>Datierung in 3. Zwischenzeit aufgrund der Sequenz</anmerkungen>
+  <standort>
+    <land>FR</land>
+    <ort>Paris</ort>
+    <institution>Bibliothèque Nationale</institution>
+  </standort>
+  <herkunft>
+    <region>unbekannt</region>
+  </herkunft>
+  <besitzer geschlecht="M">
+    <name ranke="I, 411.12; II, 401">Ḏd- Ḥr</name>
+  </besitzer>
+  <datierung>
+    <periode>3. Zwischenzeit</periode>
+  </datierung>
+  <form>
+    <objektgruppe>Papyrus</objektgruppe>
+    <material>Papyrus</material>
+    <gesamtmasse>
+      <beschreibung>Fragm.</beschreibung>
+    </gesamtmasse>
+    <schrift>Hieratisch</schrift>
+    <vignettenstil>nicht erhalten</vignettenstil>
+  </form>
+  <bibliografie>
+    <bibl bibl-id="bibl-2675">
+      <title>M. Bellion</title>
+      <pages>75</pages>
+    </bibl>
+  </bibliografie>
+  <teilobjekt id="1628-1">
+    <objektname>P. Paris BN 61</objektname>
+    <inhalt>
+      <sequenz>/// Tb 22 - 23 - 26 - 28 ///</sequenz>
+      <sprueche>
+        <l/>
+        <s>22</s>
+        <s>23</s>
+        <s>26</s>
+        <s>28</s>
+        <l/>
+      </sprueche>
+    </inhalt>
+    <abbildungen>
+      <fotos>vorhanden / vollständig</fotos>
+      <kommentar>Photos: Bibl. Nat.</kommentar>
+      <abbildung rechte="com">
+        <datei name="Paris_BN_61_001.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Paris_BN_61_003.tif"/>
+      </abbildung>
+    </abbildungen>
+  </teilobjekt>
+</objekt>
