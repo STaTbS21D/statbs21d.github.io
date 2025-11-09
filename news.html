@@ -1,472 +1,88 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title id="page-title">STaTbS21D - Live Updates</title>
-    <meta name="description" content="Synoptic Edition of Book of the Dead Spell Sources from the 21st Dynasty (STaTbS21D) is a Digital Humanities project on Egyptology">
-    
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        html, body {
-            height: 100%;
-            overflow: hidden;
-            font-family: sans-serif;
-        }
-        
-        #loader {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: #fff;
-            z-index: 9999;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        
-        #loader.hidden {
-            display: none;
-        }
-        
-        #content {
-            width: 100%;
-            height: 100%;
-            display: none;
-        }
-        
-        #content.visible {
-            display: block;
-        }
-        
-        #live-iframe {
-            width: 100%;
-            height: 100%;
-            border: none;
-        }
-        
-        .error-message {
-            display: none;
-            padding: 20px;
-            text-align: center;
-            color: #d32f2f;
-        }
-        
-    </style>
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"><title  id="page-title">STaTbS21D - News Feed</title><meta name="description" content="Synoptic Edition of Book of the Dead Spell Sources from the 21st Dynasty (STaTbS21D) is a Digital Humanities project on Egyptology, provides edited and digitalized Book of the Dead spell sources from the end of the New Kingdom and the beginning of the Third Intermediate Period (particularly the 21st Dynasty) for the Egyptological community and the general public.">
+
+<meta property="og:title" content="STaTbS21D - Synoptic Edition of Book of the Dead Spell Sources from the 21st Dynasty" />
+<meta property="og:type" content="website" />
+<meta property="og:icon" content="assets/img/statbs21d.svg" />
+<meta property="og:image" content="assets/img/site.jpg" />
+<meta property="og:image:width" content="1067">
+<meta property="og:image:height" content="600">
+<meta property="og:description" content="Synoptic Edition of Book of the Dead Spell Sources from the 21st Dynasty (STaTbS21D) is a Digital Humanities project on Egyptology, provides edited and digitalized Book of the Dead spell sources from the end of the New Kingdom and the beginning of the Third Intermediate Period (particularly the 21st Dynasty) for the Egyptological community and the general public." />
+<link rel="prefetch" href="nav.html"><link rel="prefetch" href="footer.html">
+<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i&amp;display=swap"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.css">
+<link  id="page-css" rel="stylesheet" href="assets/css/styles.min.css"><script src="assets/js/jquery-3.6.3.js?h=84e399b8f2181ccd73394fdeddff1638"></script>
 </head>
 
 <body>
-    <div id="loader">
-        <div style="text-align: center;">
-            <img src="assets/img/loading.gif" alt="Loading..." style="display: block;margin: auto;">
-            <p>Loading...</p>
-        </div>
-    </div>
 
-    <div class="error-message" id="error-message">
-        <h3>Connection Error</h3>
-        <p>Unable to load the content. Please check your connection and try again.</p>
-        <button onclick="retryLoad()">Retry</button>
-    </div>
+<script>
+window.onload = function() {
+document.getElementById("loader").style.display = "none";
+document.getElementById("content").style.display = "block";
+};
 
-    <div id="content">
-        <!-- Iframe will be placed here -->
-    </div>
-
-    <script>
-    let currentIframe = null;
-    const targetDomain = 'https://statbs21d.github.io';
-    const iframeDomain = 'https://mdc2unicode.x10.bz';
-    
-    function init() {
-        console.log('Initializing iframe...');
-        
-        const loader = document.getElementById('loader');
-        const content = document.getElementById('content');
-        const errorMessage = document.getElementById('error-message');
-        
-        currentIframe = document.createElement('iframe');
-        currentIframe.id = 'live-iframe';
-        currentIframe.src = 'https://mdc2unicode.x10.bz/statbs21d/public.php';
-        
-        currentIframe.onload = function() {
-            console.log('Iframe loaded successfully');
-            if (loader) loader.classList.add('hidden');
-            if (content) content.classList.add('visible');
-            if (errorMessage) errorMessage.style.display = 'none';
-            
-            setupCrossOriginLinkHandling();
-        };
-        
-        currentIframe.onerror = function() {
-            console.error('Iframe failed to load');
-            if (loader) loader.classList.add('hidden');
-            if (errorMessage) errorMessage.style.display = 'block';
-        };
-        
-        if (content) content.appendChild(currentIframe);
+$(document).ready(function() {
+  if(window.location.hash) {
+    var target = $(window.location.hash);
+    if(target.length) {
+      $('html, body').animate({
+        scrollTop: target.offset().top
+      }, 1000);
     }
-    
-    function setupCrossOriginLinkHandling() {
-        console.log('Cross-origin iframe loaded - relying on postMessage for navigation');
-        //addInfoOverlay();
-    }
-    
-    function handleNavigation(url) {
-        try {
-            const parsedUrl = new URL(url);
-            
-            if (parsedUrl.hostname === 'statbs21d.github.io' || 
-                url.startsWith('/') || 
-                (!url.includes('://') && !url.startsWith('mailto:') && !url.startsWith('tel:') && !url.startsWith('javascript:') && !url.startsWith('#'))) {
-                
-                let absoluteUrl = url;
-                
-                if (url.startsWith('/')) {
-                    absoluteUrl = targetDomain + url;
-                } else if (!url.includes('://')) {
-                    absoluteUrl = targetDomain + '/' + url;
-                }
-                
-                console.log('Navigating main window to:', absoluteUrl);
-                window.location.href = absoluteUrl;
-                return true;
-            }
-        } catch (error) {
-            console.log('Error parsing URL:', error);
-        }
-        return false;
-    }
-    
-    window.addEventListener('message', function(event) {
-        console.log('Message received from iframe:', event.data);
-        
-        switch (event.data.type) {
-            case 'STATBS21D_NAVIGATE':
-            case 'NAVIGATE':
-                if (event.data.url) {
-                    handleNavigation(event.data.url);
-                }
-                break;
-                
-            case 'RESIZE_IFRAME':
-                if (currentIframe && event.data.height) {
-                    currentIframe.style.height = event.data.height + 'px';
-                }
-                break;
-                
-            case 'SHOW_LOADER':
-                const loader = document.getElementById('loader');
-                if (loader) loader.classList.remove('hidden');
-                break;
-                
-            case 'HIDE_LOADER':
-                const loader2 = document.getElementById('loader');
-                if (loader2) loader2.classList.add('hidden');
-                break;
-                
-            case 'REPORT_ERROR':
-                console.error('Error reported from iframe:', event.data.message);
-                const errorMsg = document.getElementById('error-message');
-                if (errorMsg) errorMsg.style.display = 'block';
-                break;
-        }
-    });
-    
-    function retryLoad() {
-        const loader = document.getElementById('loader');
-        const errorMessage = document.getElementById('error-message');
-        const content = document.getElementById('content');
-        
-        if (errorMessage) errorMessage.style.display = 'none';
-        if (loader) loader.classList.remove('hidden');
-        if (content) content.classList.remove('visible');
-        
-        if (currentIframe && currentIframe.parentNode) {
-            currentIframe.parentNode.removeChild(currentIframe);
-            currentIframe = null;
-        }
-        
-        setTimeout(init, 500);
-    }
-    
-    document.addEventListener('visibilitychange', function() {
-        if (!document.hidden && currentIframe) {
-            currentIframe.style.height = '100%';
-        }
-    });
-    
-    window.addEventListener('resize', function() {
-        if (currentIframe) {
-            try {
-                currentIframe.contentWindow.postMessage({
-                    type: 'PARENT_RESIZED',
-                    width: window.innerWidth,
-                    height: window.innerHeight
-                }, iframeDomain);
-            } catch (error) {
-                // Cross-origin restriction
-            }
-        }
-    });
-    
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', init);
-    } else {
-        init();
-    }
-    
-    const style = document.createElement('style');
-    style.textContent = `
-        @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
-        }
-        
-        html, body {
-            margin: 0;
-            padding: 0;
-            height: 100%;
-            overflow: hidden;
-            font-family: sans-serif;
-        }
-        
-        #content { 
-            width: 100%; 
-            height: 100%; 
-        }
-        
-        #live-iframe { 
-            width: 100%; 
-            height: 100%; 
-            border: none; 
-        }
-        
-        #loader { 
-            position: fixed; 
-            top: 0; 
-            left: 0; 
-            width: 100%; 
-            height: 100%; 
-            background: white; 
-            z-index: 9999; 
-            display: flex; 
-            flex-direction: column; 
-            justify-content: center; 
-            align-items: center; 
-        }
-        
-        #loader.hidden { 
-            display: none; 
-        }
-        
-        .error-message { 
-            display: none; 
-            padding: 20px; 
-            text-align: center; 
-            color: #d32f2f; 
-            position: fixed;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            background: white;
-            border: 1px solid #d32f2f;
-            border-radius: 5px;
-            z-index: 10000;
-        }
-    `;
-    document.head.appendChild(style);
+  }
+});
 </script>
-       <div style="max-height: 400px; overflow-y: auto; padding: 16px;">
-                    <div style="text-align: center; color: #666;">
-                        <p>Facebook feed would appear here</p>
-                        <p><small>External widgets are loaded in parent window due to cross-origin restrictions</small></p>
-                    </div>
-                </div>
-            </div>
-        `;
-        document.body.appendChild(feedContainer);
-        
-        // Add toggle button
-        const toggleBtn = document.createElement('button');
-        toggleBtn.innerHTML = 'f';
-        toggleBtn.style.cssText = `
-            position: fixed; bottom: 20px; right: 20px; 
-            background: #1877f2; color: white; border: none; 
-            border-radius: 50%; width: 60px; height: 60px; 
-            cursor: pointer; z-index: 9999; box-shadow: 0 4px 12px rgba(0,0,0,0.3);
-            display: flex; align-items: center; justify-content: center; 
-            font-size: 24px; font-weight: bold;
-        `;
-        toggleBtn.onclick = function() {
-            const feed = document.getElementById('parent-facebook-feed').firstElementChild;
-            feed.style.display = feed.style.display === 'none' ? 'block' : 'none';
-        };
-        document.body.appendChild(toggleBtn);
-    }
-    
-    function loadElfsightPlatform() {
-        // Load Elfsight platform script in parent window
-        if (!document.querySelector('script[src*="elfsight"]')) {
-            const script = document.createElement('script');
-            script.src = 'https://static.elfsight.com/platform/platform.js';
-            script.async = true;
-            script.onload = function() {
-                console.log('Elfsight platform loaded in parent window');
-            };
-            document.head.appendChild(script);
-        }
-        
-        // Add Elfsight widget container to parent
-        if (!document.querySelector('.elfsight-app-b4e56e8c-d99d-4b4b-a65c-765264b4a35d')) {
-            const widgetContainer = document.createElement('div');
-            widgetContainer.className = 'elfsight-app-b4e56e8c-d99d-4b4b-a65c-765264b4a35d';
-            widgetContainer.setAttribute('data-elfsight-app-lazy', '');
-            widgetContainer.style.cssText = `
-                position: fixed !important;
-                bottom: 90px !important;
-                right: 20px !important;
-                z-index: 10000 !important;
-                max-width: 340px !important;
-            `;
-            document.body.appendChild(widgetContainer);
-        }
-    }
-    
-    function fixIframeTables() {
-        // Send postMessage to iframe to fix responsive tables
-        // This only works if the iframe has a listener for this message
-        try {
-            currentIframe.contentWindow.postMessage({
-                type: 'FIX_RESPONSIVE_TABLES',
-                css: `
-                    .table-responsive { 
-                        width: 100% !important; 
-                        max-width: 100% !important; 
-                        overflow-x: auto !important; 
-                    }
-                    .table-responsive table { 
-                        width: 100% !important; 
-                        max-width: 100% !important; 
-                        table-layout: auto !important; 
-                    }
-                    body { 
-                        overflow-x: hidden !important; 
-                        max-width: 100% !important; 
-                    }
-                `
-            }, iframeDomain);
-        } catch (error) {
-            console.log('Cannot send postMessage to iframe');
-        }
-    }
-    
-    // Consolidated message listener
-    window.addEventListener('message', function(event) {
-        // For security, verify origin if possible
-        // if (event.origin !== iframeDomain) return;
-        
-        switch (event.data.type) {
-            case 'STATBS21D_NAVIGATE':
-                console.log('StatBS21D navigation requested:', event.data.url);
-                window.location.href = event.data.url;
-                break;
-                
-            case 'NAVIGATE':
-                console.log('Navigation requested:', event.data.url);
-                window.location.href = event.data.url;
-                break;
-                
-            case 'RESIZE_IFRAME':
-                console.log('Resize requested:', event.data.height);
-                if (currentIframe && event.data.height) {
-                    currentIframe.style.height = event.data.height + 'px';
-                }
-                break;
-                
-            case 'SHOW_LOADER':
-                document.getElementById('loader').classList.remove('hidden');
-                break;
-                
-            case 'HIDE_LOADER':
-                document.getElementById('loader').classList.add('hidden');
-                break;
-        }
-    });
-    
-    function retryLoad() {
-        const loader = document.getElementById('loader');
-        const errorMessage = document.getElementById('error-message');
-        const content = document.getElementById('content');
-        
-        errorMessage.style.display = 'none';
-        loader.classList.remove('hidden');
-        content.classList.remove('visible');
-        
-        // Clean up existing widgets
-        const existingFeed = document.getElementById('parent-facebook-feed');
-        const existingToggle = document.querySelector('button[style*="position: fixed"][style*="bottom: 20px"]');
-        if (existingFeed) existingFeed.remove();
-        if (existingToggle) existingToggle.remove();
-        
-        if (currentIframe && currentIframe.parentNode) {
-            currentIframe.parentNode.removeChild(currentIframe);
-        }
-        
-        setTimeout(init, 500);
-    }
-    
-    // Handle browser back/forward buttons
-    window.addEventListener('popstate', function(event) {
-        if (event.state && event.state.iframeUrl) {
-            currentIframe.src = event.state.iframeUrl;
-        }
-    });
-    
-    // Initialize when DOM is ready
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', init);
-    } else {
-        init();
-    }
-    
-    // CSS for loader animation and general styles
-    const style = document.createElement('style');
-    style.textContent = `
-        @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
-        }
-        
-        /* Ensure iframe takes full space */
-        #content { width: 100%; height: 100%; }
-        #live-iframe { width: 100%; height: 100%; border: none; }
-        
-        /* Loader styles */
-        #loader { 
-            position: fixed; top: 0; left: 0; 
-            width: 100%; height: 100%; 
-            background: white; z-index: 9999; 
-            display: flex; flex-direction: column; 
-            justify-content: center; align-items: center; 
-        }
-        #loader.hidden { display: none; }
-        
-        /* Error message styles */
-        .error-message { 
-            display: none; padding: 20px; 
-            text-align: center; color: #d32f2f; 
-        }
-    `;
-    document.head.appendChild(style);
+
+<div id="loader" style="position: fixed;top: 50%;left: 0;width: 100%;height: 100%;background-color: #fff;z-index: 9999;"><img src="assets/img/loading.gif" alt="Loading..." style="display: block;margin: auto;">
+<p style="text-align: center;">Loading...</p></div>
+
+<div id="content" style="display:none;">
+
+<div id="fb-root"></div>
+<!--script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v17.0" nonce="ttCnbLCq"></script-->
+
+<nav id="nav-bar" class="navbar navbar-light navbar-expand-lg sticky-top bg-white clean-navbar" style="position: relative;overflow: visible;display: inline;"></nav>
+
+<main class="page testimonials">
+<section class="clean-block clean-testimonials dark">
+<div class="container">
+<div class="block-heading">
+<h2 class="text-info">News Feed</h2>
+</div>
+
+<div id="telegram-feed" class="row">
+	<!--div class="fb-page" align="center" data-href="https://www.facebook.com/STaTbS21D" data-tabs="timeline, events, messages" data-width="800" data-height="" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/STaTbS21D" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/STaTbS21D">Synoptic Edition of Book of the Dead spell sources from the 21st Dynasty</a></blockquote></div-->
+	
+	
+	<!--div class='sk-ww-facebook-page-posts' data-embed-id='177510'><div  class="block-content" align="center"><img src="assets/img/loading.gif" /></div></div><script src='https://widgets.sociablekit.com/facebook-page-posts/widget.js' async defer></script-->
+	<!--div class="powr-social-feed" id="f8109558_1691502475"><div align="center"><img src="assets/img/loading.gif" /></div></div><script src="https://www.powr.io/powr.js?platform=html"></script-->
+	<!--rssapp-feed id="WBsu5KhR1cbs6r1G"><div align="center"><img src="assets/img/loading.gif" /></div></rssapp-feed><script src="https://widget.rss.app/v1/feed.js" type="text/javascript" async></script-->
+</div>
+</div>
+<script src="https://static.elfsight.com/platform/platform.js" async></script>
+<div class="elfsight-app-b4e56e8c-d99d-4b4b-a65c-765264b4a35d" data-elfsight-app-lazy></div>
+<div style="background-color: #f6f6f6; width: 100%; height: 40px; transform: translateY(-40px);position: absolute;z-index: 999999;" align="center"></div>
+</section>
+</main>
+
+<footer id="footer" class="page-footer dark"></footer>
+
+</div>
+<script>
+$(document).ready(function() {
+    //$('a[href="https://elfsight.com/facebook-feed-widget/?utm_source=websites&utm_medium=clients&utm_content=facebook-feed&utm_term=statbs21d.github.io&utm_campaign=free-widget"]').hide();
+	
+	$('#telegram-feed').html('<div align="center"><img src="assets/img/loading.gif" /></div>');
+    $('#telegram-feed').load('https://mdc2unicode.x10.bz/telegram-channel.php');
+				
+});
 </script>
-</body>
-</html>
+<script>
+const pag = '#nnews';
+$(document).ready(function () {
+$('#nav-bar').load('nav.html');
+$('#footer').load('footer.html');
+});
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.js"></script><script src="assets/js/script.min.js"></script>
+</body></html>
