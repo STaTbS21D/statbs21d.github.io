@@ -82,114 +82,133 @@
     </div>
 
     <script>
-        // Pure JavaScript implementation
-        let currentIframe = null;
-        const targetDomain = 'https://statbs21d.github.io';
+    let currentIframe = null;
+    const targetDomain = 'https://statbs21d.github.io';
+    
+    function init() {
+        console.log('Initializing iframe...');
         
+        const loader = document.getElementById('loader');
+        const content = document.getElementById('content');
+        const errorMessage = document.getElementById('error-message');
         
-        function init() {
-            console.log('Initializing iframe...');
-            
-            // Hide loader and show content
-            const loader = document.getElementById('loader');
-            const content = document.getElementById('content');
-            const errorMessage = document.getElementById('error-message');
-            
-            // Create iframe
-            currentIframe = document.createElement('iframe');
-            currentIframe.id = 'live-iframe';
-            currentIframe.src = 'https://mdc2unicode.x10.bz/statbs21d/public.php';
-            
-            // Add sandbox permissions to allow more functionality but maintain security
-            currentIframe.sandbox = "allow-same-origin allow-scripts allow-forms allow-popups allow-popups-to-escape-sandbox";
-            
-            // Handle iframe load events
-            currentIframe.onload = function() {
-                console.log('Iframe loaded successfully');
-                loader.classList.add('hidden');
-                content.classList.add('visible');
-                errorMessage.style.display = 'none';
-                                
-                // Handle any external widgets in iframe
-                handleExternalWidgets();
-            };
-            
-            currentIframe.onerror = function() {
-                console.error('Iframe failed to load');
-                loader.classList.add('hidden');
-                errorMessage.style.display = 'block';
-            };
-            
-            content.appendChild(currentIframe);
-        }
-              
-        function handleExternalWidgets() {
-            try {
-                // Remove any problematic external widgets from iframe
-                setTimeout(() => {
-                    const iframeDoc = currentIframe.contentDocument || currentIframe.contentWindow.document;
-                    
-                    // Remove Elfsight widgets and scripts from iframe
-                    const elfSightScripts = iframeDoc.querySelectorAll('script[src*="elfsight"]');
-                    elfSightScripts.forEach(script => script.remove());
-                    
-                    const elfSightWidgets = iframeDoc.querySelectorAll('[class*="elfsight"], [data-elfsight-app]');
-                    elfSightWidgets.forEach(widget => {
-                        widget.innerHTML = '<div style="padding: 20px; text-align: center; color: #666;">Facebook feed available in the bottom-right corner</div>';
-                    });
-                    
-                    // Also clean up any Facebook iframes that might cause blocking
-                    const facebookIframes = iframeDoc.querySelectorAll('iframe[src*="facebook"]');
-                    facebookIframes.forEach(frame => {
-                        frame.style.display = 'none';
-                    });
-                    
-                }, 1000);
-            } catch (error) {
-                console.log('Cannot modify iframe content due to cross-origin restrictions');
-            }
-        }
+        currentIframe = document.createElement('iframe');
+        currentIframe.id = 'live-iframe';
+        currentIframe.src = 'https://mdc2unicode.x10.bz/statbs21d/public.php';
+        currentIframe.sandbox = "allow-same-origin allow-scripts allow-forms allow-popups allow-popups-to-escape-sandbox";
         
-        // Listen for messages from iframe
-        window.addEventListener('message', function(event) {
-            if (event.data.type === 'NAVIGATE') {
-                console.log('Navigation requested:', event.data.url);
-                window.location.href = event.data.url;
-            }
-        });
-        
-        function retryLoad() {
-            const loader = document.getElementById('loader');
-            const errorMessage = document.getElementById('error-message');
-            const content = document.getElementById('content');
-            
+        currentIframe.onload = function() {
+            console.log('Iframe loaded successfully');
+            loader.classList.add('hidden');
+            content.classList.add('visible');
             errorMessage.style.display = 'none';
-            loader.classList.remove('hidden');
-            content.classList.remove('visible');
-            
-            if (currentIframe && currentIframe.parentNode) {
-                currentIframe.parentNode.removeChild(currentIframe);
-            }
-            
-            setTimeout(init, 500);
+            injectDomainLinkHandler();
+            handleExternalWidgets();
+        };
+        
+        currentIframe.onerror = function() {
+            console.error('Iframe failed to load');
+            loader.classList.add('hidden');
+            errorMessage.style.display = 'block';
+        };
+        
+        content.appendChild(currentIframe);
+    }
+    
+    function injectDomainLinkHandler() {
+        try {
+            const iframeDoc = currentIframe.contentDocument || currentIframe.contentWindow.document;
+            const script = iframeDoc.createElement('script');
+            script.textContent = `
+                document.addEventListener('click', function(e) {
+                    let target = e.target;
+                    while (target && target.tagName !== 'A') {
+                        target = target.parentElement;
+                        if (!target) return;
+                    }
+                    if (target && target.href) {
+                        const href = target.href;
+                        if (href.includes('statbs21d.github.io') || 
+                            href.startsWith('/') || 
+                            (!href.startsWith('http') && !href.startsWith('//') && !href.startsWith('mailto:') && !href.startsWith('tel:') && !href.startsWith('javascript:') && !href.startsWith('#'))) {
+                            e.preventDefault();
+                            e.stopPropagation();
+                            let absoluteUrl = href;
+                            if (href.startsWith('/')) {
+                                absoluteUrl = '${targetDomain}' + href;
+                            } else if (!href.startsWith('http')) {
+                                absoluteUrl = '${targetDomain}/' + href;
+                            }
+                            window.parent.postMessage({
+                                type: 'STATBS21D_NAVIGATE',
+                                url: absoluteUrl
+                            }, '*');
+                        }
+                    }
+                });
+            `;
+            iframeDoc.head.appendChild(script);
+            console.log('Domain-specific link handler injected');
+        } catch (error) {
+            console.log('Cannot inject link handler (cross-origin):', error);
+        }
+    }
+    
+    function handleExternalWidgets() {
+        try {
+            setTimeout(() => {
+                const iframeDoc = currentIframe.contentDocument || currentIframe.contentWindow.document;
+                const elfSightScripts = iframeDoc.querySelectorAll('script[src*="elfsight"]');
+                elfSightScripts.forEach(script => script.remove());
+                
+                const elfSightWidgets = iframeDoc.querySelectorAll('[class*="elfsight"], [data-elfsight-app]');
+                elfSightWidgets.forEach(widget => {
+                    widget.innerHTML = '<div style="padding: 20px; text-align: center; color: #666;">Facebook feed available in the bottom-right corner</div>';
+                });
+                
+                const facebookIframes = iframeDoc.querySelectorAll('iframe[src*="facebook"]');
+                facebookIframes.forEach(frame => frame.style.display = 'none');
+            }, 1000);
+        } catch (error) {
+            console.log('Cannot modify iframe content due to cross-origin restrictions');
+        }
+    }
+    
+    window.addEventListener('message', function(event) {
+        if (event.data.type === 'STATBS21D_NAVIGATE') {
+            console.log('StatBS21D navigation requested:', event.data.url);
+            window.location.href = event.data.url;
+        } else if (event.data.type === 'NAVIGATE') {
+            console.log('Navigation requested:', event.data.url);
+            window.location.href = event.data.url;
+        }
+    });
+    
+    function retryLoad() {
+        const loader = document.getElementById('loader');
+        const errorMessage = document.getElementById('error-message');
+        const content = document.getElementById('content');
+        
+        errorMessage.style.display = 'none';
+        loader.classList.remove('hidden');
+        content.classList.remove('visible');
+        
+        if (currentIframe && currentIframe.parentNode) {
+            currentIframe.parentNode.removeChild(currentIframe);
         }
         
-        // Start initialization when DOM is ready
-        if (document.readyState === 'loading') {
-            document.addEventListener('DOMContentLoaded', init);
-        } else {
-            init();
-        }
-        
-        // CSS animation for loader
-        const style = document.createElement('style');
-        style.textContent = `
-            @keyframes spin {
-                0% { transform: rotate(0deg); }
-                100% { transform: rotate(360deg); }
-            }
-        `;
-        document.head.appendChild(style);
-    </script>
+        setTimeout(init, 500);
+    }
+    
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', init);
+    } else {
+        init();
+    }
+    
+    const style = document.createElement('style');
+    style.textContent = `@keyframes spin{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}`;
+    document.head.appendChild(style);
+</script>
 </body>
 </html>
