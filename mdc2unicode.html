@@ -185,6 +185,45 @@ function getCookie(name) {
   return null;
 }
 
+$(document).ready(function() {
+    setTimeout(function() {
+        $('#m2u-iframe').on('load', function() {
+            const hash = window.location.hash;
+            if (hash) {
+                try {
+                    const iframe = document.getElementById('m2u-iframe');
+                    const iframeWindow = iframe.contentWindow;
+                    iframeWindow.location.hash = hash;
+                } catch (e) {
+                    console.log('CORS blocked, using postMessage');
+                    $('#m2u-iframe')[0].contentWindow.postMessage({
+                        type: 'navigateToHash',
+                        hash: hash
+                    }, '*');
+                }
+            }
+        });
+        
+        $(window).on('hashchange', function() {
+            const iframe = $('#m2u-iframe')[0];
+            if (!iframe) return;
+            
+            try {
+                iframe.contentWindow.location.hash = window.location.hash;
+            } catch (e) {
+                iframe.contentWindow.postMessage({
+                    type: 'navigateToHash',
+                    hash: window.location.hash
+                }, '*');
+            }
+        });
+        
+        if (window.location.hash) {
+            $('#m2u-iframe').trigger('load');
+        }
+    }, 100); 
+});
+
 </script>
 <script src="assets/js/aos.js"></script>
 <script src="assets/js/script.min.js"></script>
