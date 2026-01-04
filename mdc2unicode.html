@@ -77,13 +77,40 @@ $('#m2u-iframe').css({
 });
 
 
-$('#m2u-iframe').attr('src', page);
-
-$('#m2u-iframe').on('load', function() {
-  $('#m2u-iframe').show();
-  $('#statbs21d-nav').css('transition', 'transform 1s ease-out');
-  $('#statbs21d-nav').delay(5000).css('transform', 'translateY(0)');
-});
+// Configurar evento load del iframe
+    $('#m2u-iframe').on('load', function() {
+        $('#m2u-iframe').show();
+        $('#statbs21d-nav').css('transition', 'transform 1s ease-out');
+        $('#statbs21d-nav').delay(5000).css('transform', 'translateY(0)');
+        
+        // Si hay hash en la URL principal, pasarlo al iframe
+        if (window.location.hash) {
+            console.log('Hash inicial detectado:', window.location.hash);
+            navigateToHashInIframe(window.location.hash);
+        }
+    });
+    
+    // Establecer src del iframe DESPUÉS de configurar el evento load
+    $('#m2u-iframe').attr('src', page);
+    
+	// Manejar cambios de hash en la URL principal
+    $(window).on('hashchange', function() {
+        console.log('Hash cambiado en página principal:', window.location.hash);
+        navigateToHashInIframe(window.location.hash);
+    });
+    
+    // También escuchar mensajes desde el iframe (para sincronización bidireccional)
+    window.addEventListener('message', function(event) {
+        // Verificar que el mensaje es de la página del iframe
+        if (event.origin !== new URL(page).origin) return;
+        
+        if (event.data.type === 'hashChanged') {
+            // Sincronizar hash de la página principal con el del iframe
+            if (event.data.hash !== window.location.hash) {
+                window.history.pushState(null, null, event.data.hash);
+            }
+        }
+    });
 
 
 $('html').on('reload', function(){
@@ -184,45 +211,6 @@ function getCookie(name) {
   }
   return null;
 }
-
-$(document).ready(function() {
-    setTimeout(function() {
-        $('#m2u-iframe').on('load', function() {
-            const hash = window.location.hash;
-            if (hash) {
-                try {
-                    const iframe = document.getElementById('m2u-iframe');
-                    const iframeWindow = iframe.contentWindow;
-                    iframeWindow.location.hash = hash;
-                } catch (e) {
-                    console.log('CORS blocked, using postMessage');
-                    $('#m2u-iframe')[0].contentWindow.postMessage({
-                        type: 'navigateToHash',
-                        hash: hash
-                    }, '*');
-                }
-            }
-        });
-        
-        $(window).on('hashchange', function() {
-            const iframe = $('#m2u-iframe')[0];
-            if (!iframe) return;
-            
-            try {
-                iframe.contentWindow.location.hash = window.location.hash;
-            } catch (e) {
-                iframe.contentWindow.postMessage({
-                    type: 'navigateToHash',
-                    hash: window.location.hash
-                }, '*');
-            }
-        });
-        
-        if (window.location.hash) {
-            $('#m2u-iframe').trigger('load');
-        }
-    }, 100); 
-});
 
 </script>
 <script src="assets/js/aos.js"></script>
