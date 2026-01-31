@@ -1,0 +1,39 @@
+name: Weekly Zotero Telegram Notifier
+
+on:
+  schedule:
+    # Run every Monday at 9:00 AM UTC
+    - cron: '0 9 * * 1'
+  # Allow manual trigger from GitHub UI
+  workflow_dispatch:
+
+jobs:
+  call-php-script:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Call Zotero Telegram Notifier
+        run: |
+          echo "Calling Zotero Telegram Notifier..."
+          # Make the HTTP request to your PHP script
+          RESPONSE=$(curl -s -w "\n%{http_code}" \
+            -X POST \
+            -H "User-Agent: GitHub-Actions-Cron/1.0" \
+            -H "X-GitHub-Event: weekly-cron" \
+            -H "Authorization: Bearer ${{ secrets.API_TOKEN }}" \
+            "https://mdc2unicode.x10.bz/statbs21d/zotero-telegram-notifier.php")
+          
+          # Extract HTTP status code
+          HTTP_CODE=$(echo "$RESPONSE" | tail -n1)
+          # Extract response body
+          BODY=$(echo "$RESPONSE" | sed '$d')
+          
+          echo "Response Code: $HTTP_CODE"
+          echo "Response Body: $BODY"
+          
+          # Fail if HTTP status is not 2xx
+          if [[ $HTTP_CODE -lt 200 || $HTTP_CODE -ge 300 ]]; then
+            echo "Error: Request failed with status $HTTP_CODE"
+            exit 1
+          fi
+          
+          echo "Success! Zotero Telegram Notifier executed."
