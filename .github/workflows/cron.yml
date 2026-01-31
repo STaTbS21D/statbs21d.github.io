@@ -11,7 +11,7 @@ jobs:
   call-php-script:
     runs-on: ubuntu-latest
     steps:
-     - name: Call Zotero Telegram Notifier
+      - name: Call Zotero Telegram Notifier
         run: |
           echo "Calling Zotero Telegram Notifier..."
           # Make the HTTP request to your PHP script
@@ -19,11 +19,8 @@ jobs:
             -X POST \
             -H "User-Agent: GitHub-Actions-Cron/1.0" \
             -H "X-GitHub-Event: weekly-cron" \
-            -H "X-Skip-Telegram: true" \
             -H "Authorization: Bearer ${{ secrets.API_TOKEN }}" \
-            -H "Content-Type: application/x-www-form-urlencoded" \
-            --data "skip_telegram=1&source=github_actions&cron_job=true" \
-            "https://mdc2unicode.x10.bz/statbs21d/zotero-telegram-notifier.php?skip_telegram=1")
+            "https://mdc2unicode.x10.bz/statbs21d/zotero-telegram-notifier.php")
           
           # Extract HTTP status code
           HTTP_CODE=$(echo "$RESPONSE" | tail -n1)
