@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrusel de Fondo Automático</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            overflow-x: hidden;
+            color: #333;
+        }
+        
+        .hero-section {
+            position: relative;
+            height: 100vh;
+            overflow: hidden;
+        }
+        
+        .background-slides {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+        }
+        
+        .background-slide {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+            opacity: 0;
+            transition: opacity 1.5s ease-in-out;
+        }
+        
+        .background-slide.active {
+            opacity: 1;
+        }
+        
+        .content-overlay {
+            position: relative;
+            z-index: 2;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.4);
+        }
+        
+        .content-slides {
+            width: 100%;
+            padding: 0 15px;
+        }
+        
+        .content-slide {
+            text-align: center;
+           /* padding: 30px; */
+            opacity: 0;
+            /*transform: translateY(30px);*/
+            transition: all 0.8s ease;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .content-slide.active {
+            opacity: 1;
+            transform: translateY(120px);
+        }
+        
+        .content-slide h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        
+        .content-slide p {
+            font-size: 1.3rem;
+            margin-bottom: 2rem;
+            line-height: 1.6;
+        }
+        
+        .btn-slide {
+            padding: 12px 35px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            border-radius: 50px;
+            transition: all 0.3s ease;
+        }
+        
+        .indicators-container {
+            position: absolute;
+            bottom: 30px;
+            left: 0;
+            width: 100%;
+            z-index: 3;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .indicators {
+            display: flex;
+            gap: 15px;
+        }
+        
+        .indicator {
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+            background-color: rgba(255, 255, 255, 0.5);
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .indicator.active {
+            background-color: white;
+            transform: scale(1.2);
+        }
+        
+        .timer-bar {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            height: 4px;
+            background-color: rgba(255, 255, 255, 0.8);
+            width: 100%;
+            transform-origin: left;
+            animation: timer 10s linear infinite;
+        }
+        
+        @keyframes timer {
+            0% {
+                transform: scaleX(0);
+            }
+            100% {
+                transform: scaleX(1);
+            }
+        }
+        
+        .pause-btn {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            z-index: 4;
+            background-color: rgba(0, 0, 0, 0.5);
+            border: none;
+            color: white;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+            transition: all 0.3s ease;
+        }
+        
+        .pause-btn:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+            transform: scale(1.1);
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .content-slide h1 {
+                font-size: 2.2rem;
+            }
+            
+            .content-slide p {
+                font-size: 1.1rem;
+            }
+            
+            .btn-slide {
+                padding: 10px 25px;
+                font-size: 1rem;
+            }
+        }
+        
+        @media (max-width: 576px) {
+            .content-slide h1 {
+                font-size: 1.8rem;
+            }
+            
+            .content-slide p {
+                font-size: 1rem;
+            }
+            
+            .content-slide {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="hero-section">
+        
+		<div class="background-slides">
+            <div class="background-slide active" style="background-image: url(&quot;assets/img/statbs21d-main.jpg&quot;);border-color: rgba(255,193,7,0.86);color: rgba(98,78,10,0.37);"></div>
+            <div class="background-slide" style="background-image: url('https://images.unsplash.com/photo-1518837695005-2083093ee35b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');"></div>
+            <div class="background-slide" style="background-image: url('https://images.unsplash.com/photo-1439066615861-d1af74d74000?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80');"></div>
+            <div class="background-slide" style="background-image: url('https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');"></div>
+        </div>
+		
+		<div class="content-overlay">
+            <div class="container content-slides">
+                <div class="content-slide active">
+                    <!--div class="text"--><h2 style="font-weight: bold;font-size: 43.112px;color: var(--bs-white);transform: perspective(1250px);text-shadow: 3px 3px 2px var(--bs-black);" data-aos="zoom-in" data-aos-duration="1500">STaTbS21D Project</h2><p style="font-size: 27px;color: var(--bs-white);font-weight: bold;text-shadow: 3px 3px 4px var(--bs-black);" data-aos="zoom-in" data-aos-delay="1000">Synoptic Edition of Book of the Dead Spell Sources from the 21<sup>st</sup> Dynasty</p><a class="btn btn-outline-light btn-lg" role="button" data-aos="zoom-in-down" data-aos-once="true" data-aos-duration="1500" data-aos-delay="1500" href="https://github.com/STaTbS21D/Book_of_the_Dead_Sources" src="https://github.com/STaTbS21D/Book_of_the_Dead_Sources" style="font-weight: bold;" target="_blank">Open Repository <svg xmlns="http://www.w3.org/2000/svg" viewBox="-8 0 512 512" width="1em" height="1em" fill="currentColor">
+    <path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path>
+</svg></a><!--/div-->
+                </div>
+                <div class="content-slide">
+                    <h1>Aventuras en la Montaña</h1>
+                    <p>Siente la adrenalina de explorar senderos escarpados y disfruta de vistas panorámicas que quitarán el aliento.</p>
+                    <a href="#" class="btn btn-success btn-slide">Ver Rutas</a>
+                </div>
+                <div class="content-slide">
+                    <h1>Naturaleza en Estado Puro</h1>
+                    <p>Sumérgete en bosques milenarios y descubre la biodiversidad de ecosistemas únicos en el planeta.</p>
+                    <a href="#" class="btn btn-primary btn-slide">Explorar Bosques</a>
+                </div>
+                <div class="content-slide">
+                    <h1>Atardeceres Inolvidables</h1>
+                    <p>Vive la experiencia de contemplar los crepúsculos más espectaculares desde los mejores miradores naturales.</p>
+                    <a href="#" class="btn btn-danger btn-slide">Ver Miradores</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Botón de pausa -->
+        <button class="pause-btn" id="pauseBtn">
+            <i class="fas fa-pause"></i>
+        </button>
+        
+        <!-- Indicadores -->
+        <div class="indicators-container">
+            <div class="indicators">
+                <div class="indicator active" data-index="0"></div>
+                <div class="indicator" data-index="1"></div>
+                <div class="indicator" data-index="2"></div>
+                <div class="indicator" data-index="3"></div>
+            </div>
+        </div>
+        
+        <!-- Barra de tiempo -->
+        <div class="timer-bar" id="timerBar"></div>
+    </section>
+
+    <!-- Bootstrap JS y Popper.js -->
+    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- FontAwesome para iconos -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Elementos del DOM
+            const backgroundSlides = document.querySelectorAll('.background-slide');
+            const contentSlides = document.querySelectorAll('.content-slide');
+            const indicators = document.querySelectorAll('.indicator');
+            const pauseBtn = document.getElementById('pauseBtn');
+            const timerBar = document.getElementById('timerBar');
+            
+            let currentSlide = 0;
+            let totalSlides = backgroundSlides.length;
+            let autoSlideInterval;
+            let isPaused = false;
+            let timerAnimation;
+            
+            // Inicializar el carrusel
+            function initCarousel() {
+                startAutoSlide();
+                updateTimerBar();
+            }
+            
+            // Cambiar a un slide específico
+            function goToSlide(index) {
+                // Remover clases activas
+                backgroundSlides.forEach(slide => slide.classList.remove('active'));
+                contentSlides.forEach(slide => slide.classList.remove('active'));
+                indicators.forEach(indicator => indicator.classList.remove('active'));
+                
+                // Añadir clases activas al slide seleccionado
+                backgroundSlides[index].classList.add('active');
+                contentSlides[index].classList.add('active');
+                indicators[index].classList.add('active');
+                
+                currentSlide = index;
+                
+                // Reiniciar la animación de la barra de tiempo
+                resetTimerBar();
+            }
+            
+            // Ir al siguiente slide
+            function nextSlide() {
+                let nextIndex = (currentSlide + 1) % totalSlides;
+                goToSlide(nextIndex);
+            }
+            
+            // Iniciar el cambio automático de slides
+            function startAutoSlide() {
+                // Limpiar cualquier intervalo existente
+                if (autoSlideInterval) {
+                    clearInterval(autoSlideInterval);
+                }
+                
+                // Establecer nuevo intervalo (cada 10 segundos)
+                autoSlideInterval = setInterval(nextSlide, 10000);
+                
+                // Actualizar icono del botón de pausa
+                pauseBtn.innerHTML = '<i class="fas fa-pause"></i>';
+                isPaused = false;
+            }
+            
+            // Pausar/reanudar el carrusel
+            function togglePause() {
+                if (isPaused) {
+                    // Reanudar
+                    startAutoSlide();
+                    resumeTimerBar();
+                } else {
+                    // Pausar
+                    clearInterval(autoSlideInterval);
+                    autoSlideInterval = null;
+                    pauseBtn.innerHTML = '<i class="fas fa-play"></i>';
+                    isPaused = true;
+                    pauseTimerBar();
+                }
+            }
+            
+            // Actualizar la barra de tiempo
+            function updateTimerBar() {
+                // Reiniciar la animación CSS
+                timerBar.style.animation = 'none';
+                void timerBar.offsetWidth; // Trigger reflow
+                timerBar.style.animation = 'timer 10s linear infinite';
+            }
+            
+            // Reiniciar la barra de tiempo
+            function resetTimerBar() {
+                if (!isPaused) {
+                    updateTimerBar();
+                }
+            }
+            
+            // Pausar la barra de tiempo
+            function pauseTimerBar() {
+                timerBar.style.animationPlayState = 'paused';
+            }
+            
+            // Reanudar la barra de tiempo
+            function resumeTimerBar() {
+                timerBar.style.animationPlayState = 'running';
+            }
+            
+            // Event Listeners
+            pauseBtn.addEventListener('click', togglePause);
+            
+            // Agregar event listeners a los indicadores
+            indicators.forEach(indicator => {
+                indicator.addEventListener('click', function() {
+                    let slideIndex = parseInt(this.getAttribute('data-index'));
+                    goToSlide(slideIndex);
+                    
+                    // Reiniciar el temporizador automático
+                    if (!isPaused) {
+                        startAutoSlide();
+                    }
+                });
+            });
+            
+            // Inicializar el carrusel al cargar la página
+            initCarousel();
+            
+            // Para pausar/reanudar con la tecla Espacio
+            document.addEventListener('keydown', function(event) {
+                if (event.code === 'Space') {
+                    event.preventDefault();
+                    togglePause();
+                }
+            });
+        });
+    </script>
+</body>
+</html>
