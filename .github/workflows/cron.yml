@@ -19,8 +19,9 @@ jobs:
             -X POST \
             -H "User-Agent: GitHub-Actions-Cron/1.0" \
             -H "X-GitHub-Event: weekly-cron" \
+            -H "X-Skip-Telegram: true" \
             -H "Authorization: Bearer ${{ secrets.API_TOKEN }}" \
-            "https://mdc2unicode.x10.bz/statbs21d/zotero-telegram-notifier.php")
+            "https://mdc2unicode.x10.bz/statbs21d/zotero-telegram-notifier.php?skip_telegram=1")
           
           # Extract HTTP status code
           HTTP_CODE=$(echo "$RESPONSE" | tail -n1)
@@ -30,6 +31,11 @@ jobs:
           echo "Response Code: $HTTP_CODE"
           echo "Response Body: $BODY"
           
+          # Check for the skipped response in the body
+          if echo "$BODY" | grep -q '"skipped":true'; then
+            echo "✓ Telegram notifications were skipped (as intended)"
+          fi
+          
           # Fail if HTTP status is not 2xx
           if [[ $HTTP_CODE -lt 200 || $HTTP_CODE -ge 300 ]]; then
             echo "Error: Request failed with status $HTTP_CODE"
@@ -37,3 +43,16 @@ jobs:
           fi
           
           echo "Success! Zotero Telegram Notifier executed."
+
+      # Optional: Add a step to verify the logs
+      - name: Verify execution
+        if: always()
+        run: |
+          echo "--- Execution Summary ---"
+          echo "GitHub Actions workflow completed successfully."
+          echo "The Zotero script should have run without sending Telegram notifications."
+          echo ""
+          echo "Check the server logs at:"
+          echo "  - /logs/skipped_notifications.log"
+          echo "  - /logs/telegram.log"
+          echo "  - /logs/github_actions.log"
