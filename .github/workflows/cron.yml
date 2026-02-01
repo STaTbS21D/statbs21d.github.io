@@ -3,7 +3,9 @@ name: Weekly Zotero Telegram Notifier
 on:
   schedule:
     # Run every Monday at 9:00 AM UTC
-    - cron: '0 9 * * 1'
+    #- cron: '0 9 * * 1'
+    # Run everyday at 8:00 UTC 
+    - cron: '0 8 * * *'
   # Allow manual trigger from GitHub UI
   workflow_dispatch:
 
