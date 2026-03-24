@@ -1,0 +1,91 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134403" id="1219" v:revision="10231" v:key="153a8c5a9a127f7" v:path="/db/totenbuch/objects/tm134403.xml">
+  <admin wer="TB-Projekt" wann="2012-01-01"/>
+  <standort>
+    <land>IT</land>
+    <ort>Bologna</ort>
+    <institution>Museo Civico</institution>
+    <provenienz>Sammlung Palagi, 1832</provenienz>
+  </standort>
+  <herkunft>
+    <region>Theben</region>
+    <anmerkungen>erschlossen</anmerkungen>
+  </herkunft>
+  <besitzer geschlecht="M">
+    <name ranke="I, 12.19">Iꜥḥ- ms</name>
+    <titel>i͗t- nṯr n Imn </titel>
+  </besitzer>
+  <datierung>
+    <periode>3. Zwischenzeit</periode>
+    <detail>21.-22. Dynastie</detail>
+    <jahr>Ende 21. Dynastie - Anfang 22. Dynastie</jahr>
+  </datierung>
+  <form>
+    <objektgruppe>Papyrus</objektgruppe>
+    <material>Papyrus</material>
+    <gesamtmasse>
+      <hoehe>21</hoehe>
+    </gesamtmasse>
+    <schrift>Hieratisch</schrift>
+    <vignettenstil>Strichzeichnung</vignettenstil>
+  </form>
+  <bibliografie>
+    <bibl bibl-id="bibl-1525">
+      <title>G. Kminek-Szedlo, Catalogo di antichità egizie, Turin 1895</title>
+      <pages>354, n. 316</pages>
+    </bibl>
+    <bibl bibl-id="bibl-2302">
+      <title>S. Curto, L’Egitto Antico nelle collezioni dell’Italia settentrionale, Bologna
+        1961</title>
+      <pages>104, n. 134</pages>
+    </bibl>
+    <bibl bibl-id="bibl-852">
+      <title>S. Pernigotti, I papiri egiziani del Museo Civico di Bologna, in: Il Carrobbio VII,
+        1981</title>
+      <pages>343-344, Nr. 5, Tav. II auf S. 343</pages>
+    </bibl>
+    <bibl bibl-id="bibl-2742">
+      <title>Backes, in: SAT 14, 2009</title>
+      <pages>20</pages>
+    </bibl>
+    <bibl bibl-id="bibl-926">
+      <title>A. Niwinski, Studies on the Illustrated Theban Funerary Papyri of the 11th and 10th
+        Centuries B.C., OBO 86, Fribourg/Göttingen 1989</title>
+      <pages>253 (Bologna 2)</pages>
+    </bibl>
+    <bibl bibl-id="bibl-2675">
+      <title>M. Bellion</title>
+      <pages>82 (mit weiterer Lit.)</pages>
+    </bibl>
+  </bibliografie>
+  <teilobjekt id="1219-1">
+    <objektname>P. Bologna KS 3164</objektname>
+    <inhalt>
+      <sequenz>A.d.O. + Isis - Tb 17</sequenz>
+      <sprueche>
+        <start/>
+        <s>VA.d.O.</s>
+        <s>17</s>
+        <l/>
+      </sprueche>
+    </inhalt>
+    <objektmasse>Länge: 75 cm</objektmasse>
+    <abbildungen>
+      <fotos>vorhanden / vollständig</fotos>
+      <abbildung rechte="com">
+        <datei name="Bologna_KS3164_A.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Bologna_KS3164_B.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Bologna_KS3164_C.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Bologna_KS3164_D.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Bologna_KS3164_F.tif"/>
+      </abbildung>
+    </abbildungen>
+  </teilobjekt>
+</objekt>

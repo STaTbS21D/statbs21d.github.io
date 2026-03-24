@@ -1,0 +1,81 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="134602" id="1420" v:revision="10429" v:key="153a8c5ee3b28bd" v:path="/db/totenbuch/objects/tm134602.xml">
+  <admin wer="TB-Projekt" wann="2012-01-01"/>
+  <standort>
+    <land>IT</land>
+    <ort>Turin</ort>
+    <institution>Museo Egizio</institution>
+    <provenienz>Sammlung Drovetti</provenienz>
+  </standort>
+  <herkunft>
+    <region>Theben</region>
+    <anmerkungen>erschlossen</anmerkungen>
+  </herkunft>
+  <besitzer geschlecht="M">
+    <name ranke="I, 173.19">Ns- Imn</name>
+    <verwandt rel="Mutter">
+      <name>Ꜣst</name>
+    </verwandt>
+    <verwandt rel="Vater">
+      <name>Pꜣ- di͗- Imn</name>
+    </verwandt>
+  </besitzer>
+  <datierung>
+    <periode>3. Zwischenzeit</periode>
+    <detail>21.-22. Dynastie</detail>
+    <jahr>Ende 21. Dynastie - Anfang 22. Dynastie</jahr>
+  </datierung>
+  <form>
+    <objektgruppe>Papyrus</objektgruppe>
+    <material>Papyrus</material>
+    <gesamtmasse>
+      <laenge>70</laenge>
+      <hoehe>24</hoehe>
+    </gesamtmasse>
+    <schrift>Hieratisch</schrift>
+    <vignettenstil>angelegt</vignettenstil>
+    <vignettenkommentar>Umrißzeichnung angelegt</vignettenkommentar>
+  </form>
+  <bibliografie>
+    <bibl bibl-id="bibl-1355">
+      <title>G. Lenzo Marchese, CSEG 8</title>
+      <pages>59-62, Taf. 27-28a</pages>
+    </bibl>
+    <bibl bibl-id="bibl-2675">
+      <title>M. Bellion</title>
+      <pages>281</pages>
+    </bibl>
+    <bibl bibl-id="bibl-2080">
+      <title>A. Fabretti/F. Rossi/R. Lanzone, Catalogo Generale</title>
+      <pages>233</pages>
+    </bibl>
+    <bibl bibl-id="bibl-1361">
+      <title>G. Lenzo, in: BIFAO 102, 2002</title>
+      <pages>267-283</pages>
+    </bibl>
+    <bibl bibl-id="bibl-1359">
+      <title>G. Lenzo Marchese, in: BSEG 26, 2004</title>
+      <pages>43-62</pages>
+    </bibl>
+  </bibliografie>
+  <teilobjekt id="1420-1">
+    <objektname>P. Turin CGT 53005 (ehemals Nr. 1856)</objektname>
+    <inhalt>
+      <sequenz>A. d. O. - Tb 17 </sequenz>
+      <sprueche>
+        <start/>
+        <s>VA.d.O.</s>
+        <s>17</s>
+        <end/>
+      </sprueche>
+    </inhalt>
+    <abbildungen>
+      <fotos>vorhanden / vollständig</fotos>
+      <abbildung rechte="com">
+        <datei name="Turin_1856_001.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Turin_1856_002.tif"/>
+      </abbildung>
+    </abbildungen>
+  </teilobjekt>
+</objekt>
