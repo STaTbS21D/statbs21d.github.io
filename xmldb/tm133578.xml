@@ -1,0 +1,148 @@
+<objekt xmlns:v="http://exist-db.org/versioning" tm="133578" id="166" v:revision="9490" v:key="153a8c4a93f2512" v:path="/db/totenbuch/objects/tm133578.xml">
+  <admin wer="TB-Projekt" wann="2012-01-01"/>
+  <herkunft>
+    <region>unbekannt</region>
+  </herkunft>
+  <besitzer geschlecht="F">
+    <name ranke="I, 410.16 / I, 410.14">Ḏd- Mwt- i͗w- s- ꜥnḫ</name>
+    <kurzname>Ḏd- Mwt</kurzname>
+    <titel>nb.t- pr; šmꜥ.t n Imn </titel>
+    <verwandt rel="Mutter">
+      <name>Mwt- m- i͗p / Mwt- ḥtpt</name>
+    </verwandt>
+  </besitzer>
+  <datierung>
+    <periode>3. Zwischenzeit</periode>
+  </datierung>
+  <form>
+    <objektgruppe>Papyrus</objektgruppe>
+    <material>Papyrus</material>
+    <gesamtmasse>
+      <beschreibung>H. 9,3 cm, L. 78 cm</beschreibung>
+    </gesamtmasse>
+    <schrift>Hieratisch</schrift>
+    <vignettenstil>farbig</vignettenstil>
+  </form>
+  <bibliografie>
+    <bibl bibl-id="bibl-1359">
+      <title>G. Lenzo Marchese, in: BSEG 26, 2004</title>
+      <pages>43-62</pages>
+    </bibl>
+    <bibl bibl-id="bibl-2675">
+      <title>M. Bellion</title>
+      <pages>235</pages>
+    </bibl>
+    <bibl bibl-id="bibl-2452">
+      <title>Burkard/Fischer-Elfert, Äg. Handschriften IV, Stuttgart 1994</title>
+      <pages>Nr. 257 (ÄS 30) + 260 (ÄS 719)</pages>
+    </bibl>
+    <bibl bibl-id="bibl-1866">
+      <title>A. Grimm / S. Schoske, Im Zeichen des Mondes. Ägypten zu Beginn des Neuen Reiches (Kat.
+        München), München 1999</title>
+      <pages>Kat. 19</pages>
+    </bibl>
+  </bibliografie>
+  <teilobjekt id="166-1">
+    <objektname>P. Ann Arbor 3524</objektname>
+    <standort>
+      <land>US</land>
+      <ort>Ann Arbor (MI)</ort>
+      <institution>University Library, University of Michigan</institution>
+    </standort>
+    <inhalt>
+      <sequenz>A.d. Re-Harachte-Atum - Tb 23 - 24 /// 26 /// 28 - 162; Gesamt-Sequenz von pAnn Arbor
+        3524 + pMünchen ÄS 30 + 719: A.d. Re-Harachte-Atum- Tb 23 - 24 - 25 - 26 - 28</sequenz>
+      <sprueche>
+        <start/>
+        <s>A.d. Re-Harachte-Atum</s>
+        <s>23</s>
+        <s>24</s>
+        <s>25</s>
+        <s>26</s>
+        <s>28</s>
+        <l/>
+      </sprueche>
+    </inhalt>
+    <abbildungen>
+      <fotos>vorhanden / vollständig</fotos>
+      <abbildung rechte="com">
+        <datei name="Ann_Arbor_Mich_3524_A.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Ann_Arbor_Mich_3524_B.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Ann_Arbor_Mich_3524_C.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Ann_Arbor_Mich_3524_D.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Ann_Arbor_Mich_3524_E.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="pMich_3524_pMuenchen_AeS_30_(1).JPG"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="pMich_3524_pMuenchen_AeS_30_(2).JPG"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="pMich_3524_pMuenchen_AeS_719.JPG"/>
+      </abbildung>
+    </abbildungen>
+  </teilobjekt>
+  <teilobjekt id="166-2">
+    <objektname>P. München ÄS 30 + 719</objektname>
+    <anmerkungen>gehört zu: pAnn Arbor KM 3524 (obere Partie des Textzeugen; direkter
+      Textanschluß)</anmerkungen>
+    <standort>
+      <land>DE</land>
+      <ort>München</ort>
+      <institution>Staatliches Museum Ägyptischer Kunst</institution>
+    </standort>
+    <inhalt>
+      <sequenz>/// Tb 24 - 25 - 26 /// 28</sequenz>
+      <sprueche> </sprueche>
+    </inhalt>
+    <abbildungen>
+      <fotos>vorhanden / vollständig</fotos>
+      <kommentar>gescannt CBS 04. 01</kommentar>
+      <abbildung rechte="com">
+        <datei name="Muenchen_AeS_30_719_010.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Muenchen_AeS_30_719_011.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Muenchen_AeS_30_719_012.tif"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Muenchen_AeS_30_719_1.JPG"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Muenchen_AeS_30_719_2.JPG"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Muenchen_AeS_30_719_3.JPG"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Muenchen_AeS_30_719_4.JPG"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Muenchen_AeS_30_719_5.JPG"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Muenchen_AeS_30_719_6.JPG"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Muenchen_AeS_30_719_7.JPG"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Muenchen_AeS_30_719_8.JPG"/>
+      </abbildung>
+      <abbildung rechte="com">
+        <datei name="Muenchen_AeS_30_719_9.JPG"/>
+      </abbildung>
+    </abbildungen>
+  </teilobjekt>
+</objekt>
