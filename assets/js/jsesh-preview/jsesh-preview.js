@@ -144,7 +144,7 @@ const CSS = `
 .jsp-btn:disabled{opacity:.45;cursor:default}
 .jsp-btn.secondary{border-color:rgba(128,128,128,.6);color:inherit}
 .jsp-btn.secondary:hover:not(:disabled){background:rgba(128,128,128,.2);color:inherit}
-html.jsp-open{overflow:hidden}
+html.jsp-open{overflow:hidden}.jsp-loader-gif{vertical-align:middle;}
 `;
 
 const view = { root: null, token: 0, hover: null, opener: null, data: null };
@@ -242,6 +242,28 @@ function showMessage(text, isError = false) {
   setButtons(false);
 }
 
+const LOADER_SRC = "assets/img/loading.gif"; // ajusta si tu HTML no está en la raíz
+
+function showLoader() {
+  view.hover?.destroy();
+  view.hover = null;
+
+  const wrapper = el("div", { className: "jsp-msg" });
+  const img = el("img", {
+    src: LOADER_SRC,
+    alt: "Cargando…",
+    className: "jsp-loader-gif",
+  });
+  const label = el("span", { textContent: " Loading JSesh…" });
+
+  wrapper.append(img, label);
+  wrapper.setAttribute("role", "status");
+  wrapper.setAttribute("aria-live", "polite");
+
+  ui.bodyView.replaceChildren(wrapper);
+  setButtons(false);
+}
+
 function close_() {
   if (!ui?.root.isConnected) return;
   view.token++; // discard any load in progress
@@ -279,8 +301,8 @@ function openModal(subtitle) {
 
 async function show(source, label, subtitle) {
   const token = ++view.token;
-  openModal(subtitle);
-  showMessage("Loading JSesh…");
+  openModal(subtitle);  showLoader();
+  //showMessage("Loading JSesh…");
   try {
     const text = typeof source === "string" ? await fetchText(source) : source.text;
     if (token !== view.token) return;
