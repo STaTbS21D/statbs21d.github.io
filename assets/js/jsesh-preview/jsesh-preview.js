@@ -254,7 +254,7 @@ function showLoader() {
     alt: "Cargando…",
     className: "jsp-loader-gif",
   });
-  const label = el("span", { textContent: " Loading JSesh…" });
+  const label = el("span", { textContent: "<br> Loading JSesh…" });
 
   wrapper.append(img, label);
   wrapper.setAttribute("role", "status");
