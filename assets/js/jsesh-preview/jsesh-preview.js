@@ -144,7 +144,7 @@ const CSS = `
 .jsp-btn:disabled{opacity:.45;cursor:default}
 .jsp-btn.secondary{border-color:rgba(128,128,128,.6);color:inherit}
 .jsp-btn.secondary:hover:not(:disabled){background:rgba(128,128,128,.2);color:inherit}
-html.jsp-open{overflow:hidden}.jsp-loader-gif{vertical-align:middle;}
+html.jsp-open{overflow:hidden}.jsp-loader-gif{vertical-align:middle;margin-bottom:4px;}
 `;
 
 const view = { root: null, token: 0, hover: null, opener: null, data: null };
@@ -251,12 +251,12 @@ function showLoader() {
   const wrapper = el("div", { className: "jsp-msg" });
   const img = el("img", {
     src: LOADER_SRC,
-    alt: "Cargando…",
+    alt: "",
     className: "jsp-loader-gif",
   });
-  const label = el("span", { textContent: "<br> Loading JSesh…" });
+  const label = el("span", { textContent: " Loading JSesh…" });
 
-  wrapper.append(img, label);
+  wrapper.append(img, el("br"), el("span", { textContent: "Loading JSesh…" }));
   wrapper.setAttribute("role", "status");
   wrapper.setAttribute("aria-live", "polite");
 
