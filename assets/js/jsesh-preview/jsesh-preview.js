@@ -5,7 +5,7 @@
 //
 //   - Reads the parameters in the .gly header (++JSesh_page_direction, ++JSesh_page_orientation,
 //     ++JSesh_small_sign_centered, ++JSesh_line_skip, ...) and applies them when drawing.
-//   - Skips the Latin header and footer lines (those starting with +b or +i).
+//   - Skips the Latin header and footer lines (those starting with +b or +i or +l).
 //   - Downloads the JSesh-js library ONLY when the preview is opened, from `jseshBase`.
 //
 // Usage in the page (after loading this module):
@@ -28,7 +28,7 @@ const config = {
   creditText: "JSesh-web 0.2.0",
   creditUrl: "https://files.qenherkhopeshef.org/jsesh-web/0.2.0/",
   // .gly lines starting with these prefixes (Latin header/footer text) are not drawn.
-  skipPrefixes: ["+b", "+i"],
+  skipPrefixes: ["+b", "+i", "+l"],
 };
 
 export function configure(options = {}) {
@@ -45,8 +45,8 @@ export function configure(options = {}) {
 /**
  * Splits a .gly file into:
  *   properties : header parameters (++JSesh_xxx value +s)
- *   lines/mdc  : hieroglyphic text lines (without header or +b/+i lines)
- *   skipped    : omitted lines (+b/+i)
+ *   lines/mdc  : hieroglyphic text lines (without header or +b/+i/+l lines)
+ *   skipped    : omitted lines (+b/+i/+l)
  *   settings   : { direction: "rtl"|"ltr", orientation: "horizontal"|"vertical", centered: bool }
  */
 export function parseGly(text, skipPrefixes = config.skipPrefixes) {
