@@ -131,13 +131,13 @@ const CSS = `
 .jsp-x:hover{opacity:1}
 .jsp-body{flex:1;min-height:120px;overflow:auto;padding:16px 18px;background:#fffdf8}
 .jsp-view svg{display:block;max-width:100%;height:auto;margin:0 auto;color:#000}
-.jsp-msg{padding:28px 8px;text-align:center;color:#4a4339;white-space:pre-wrap}
+.jsp-msg{padding:28px 8px;text-align:center;color:#3d8bfd;white-space:pre-wrap}
 .jsp-msg.err{color:#a3261c}
 .jsp-info{padding:8px 18px;font-size:.82rem;opacity:.75;border-top:1px solid rgba(128,128,128,.25);min-height:2.4em}
 .jsp-foot{display:flex;flex-wrap:wrap;gap:8px;padding:12px 18px;border-top:1px solid rgba(128,128,128,.25)}
 .jsp-foot .jsp-spacer{flex:1}
 .jsp-credit{margin:0;padding:6px 18px 10px;font-size:.75rem;text-align:right;opacity:.65}
-.jsp-credit a{color:inherit;text-decoration:underline}
+.jsp-credit a{color:inherit;text-decoration:none}
 .jsp-btn{font:inherit;cursor:pointer;padding:6px 14px;border-radius:6px;border:1px solid var(--bs-primary,#0d6efd);
   background:transparent;color:var(--bs-primary,#0d6efd)}
 .jsp-btn:hover:not(:disabled){background:var(--bs-primary,#0d6efd);color:#fff}
